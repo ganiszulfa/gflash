@@ -1,0 +1,104 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Description" content="Simple Games To Improve Your Vocabulary" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>G Flash Cards</title>
+	<link rel="stylesheet" href="main.css">
+	<script type="text/javascript">var runFancy = true;</script>
+
+	<!--[if IE]>
+	<script type="text/javascript">
+	    runFancy = false;
+	</script>
+	<![endif]-->
+	<script type="text/javascript">
+	    if (!runFancy) {
+	      alert('Oh noo...!! You are using Internet Explorer. Errors may occur...!! Please use Google Chrome, Apple Safari or Mozilla Firefox.');
+	    }
+	</script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="main.js"></script>
+	<script>
+		$(document).ready(function() {
+			// Load map.json and populate groupName dropdown
+			$.getJSON('map.json', function(data) {
+				const groupSelect = $('#groupName');
+				groupSelect.empty();
+				groupSelect.append('<option value="">Select a group</option>');
+				
+				data.forEach(function(group) {
+					groupSelect.append(`<option value="${group.groupName}">${group.groupName}</option>`);
+				});
+			});
+
+			// Handle group selection change
+			$('#groupName').change(function() {
+				const selectedGroup = $(this).val();
+				const datasetSelect = $('#dataset');
+				
+				// Clear dataset dropdown
+				datasetSelect.empty();
+				datasetSelect.append('<option value="">Select a dataset</option>');
+				
+				if (selectedGroup) {
+					// Load map.json again to get datasets for selected group
+					$.getJSON('map.json', function(data) {
+						const group = data.find(g => g.groupName === selectedGroup);
+						if (group && group.datasets) {
+							group.datasets.forEach(function(dataset) {
+								datasetSelect.append(`<option value="${dataset.file}">${dataset.name}</option>`);
+							});
+						}
+					});
+				}
+			});
+
+			// Handle dataset selection change
+			$('#dataset').change(function() {
+				const selectedDataset = $(this).val();
+				const playLink = $('#play');
+				
+				if (selectedDataset) {
+					playLink.attr('href', `./play.html?dataset=${encodeURIComponent(selectedDataset)}`);
+				} else {
+					playLink.attr('href', './play.html?dataset=NOTFOUND');
+				}
+			});
+		});
+	</script>
+	</head>
+<body>
+
+
+<div></div>
+
+<div id="container">
+	<h1>GFlash Cards</h1>
+	<div id="body">
+		<div>
+			<select id="groupName">
+				<option value="">Select a group</option>
+			</select>
+			<br/>
+			<br/>
+			<select id="dataset">
+				<option value="">Select a dataset</option>
+			</select>
+			<br/>
+			<br/>
+			<a href="./play.html" id="play">
+			Play
+			</a>
+			<br/>
+		</div>
+		
+	</div>
+	<div><br/></div>
+</div>
+</body></html>

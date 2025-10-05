@@ -1,0 +1,33 @@
+{
+    "name": "Italian 1",
+    "source_name": "English",
+    "target_name": "Italian",
+    "packs": [
+        {
+            "name": "Pack 1 - 50",
+            "words": [
+                {
+                    "source": "Hello",
+                    "target": "Ciao"
+                },
+                {
+                    "source": "Goodbye",
+                    "target": "Arrivederci"
+                }
+            ]
+        },
+        {
+            "name": "Pack 51 - 100",
+            "words": [
+                {
+                    "meaning": "Thank you",
+                    "target": "Grazie"
+                },
+                {
+                    "source": "You're welcome",
+                    "target": "Prego"
+                }
+            ]
+        }
+    ]
+}

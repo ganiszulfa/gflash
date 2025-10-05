@@ -1,0 +1,20 @@
+[
+    {
+        "groupName": "Korean",
+        "datasets": [
+            {
+                "name": "Set 1",
+                "file": "dataset/dataset_korean_1.json"
+            }
+        ]
+    },
+    {
+        "groupName": "Italian",
+        "datasets": [
+            {
+                "name": "Set 1",
+                "file": "dataset/dataset_italian_1.json"
+            }
+        ]
+    }
+]
