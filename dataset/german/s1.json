@@ -1,0 +1,177 @@
+{
+    "name": "German Basic Sentences",
+    "source_name": "English",
+    "target_name": "German",
+    "packs": [
+        {
+            "name": "Pack 1 - Essential Phrases",
+            "words": [
+                {
+                    "source": "Where do you come from?",
+                    "target": "Woher kommst du?"
+                },
+                {
+                    "source": "Where's the toilet?",
+                    "target": "Wo ist die Toilette?"
+                },
+                {
+                    "source": "How old are you?",
+                    "target": "Wie alt bist du?"
+                },
+                {
+                    "source": "What time is it?",
+                    "target": "Wie spät ist es?"
+                },
+                {
+                    "source": "How much does it cost?",
+                    "target": "Wie viel kostet das?"
+                },
+                {
+                    "source": "Can you help me?",
+                    "target": "Können Sie mir helfen?"
+                },
+                {
+                    "source": "I don't speak German",
+                    "target": "Ich spreche kein Deutsch"
+                },
+                {
+                    "source": "Do you speak English?",
+                    "target": "Sprechen Sie Englisch?"
+                },
+                {
+                    "source": "Where is the train station?",
+                    "target": "Wo ist der Bahnhof?"
+                },
+                {
+                    "source": "I would like a coffee",
+                    "target": "Ich hätte gern einen Kaffee"
+                },
+                {
+                    "source": "Can I have the bill?",
+                    "target": "Kann ich die Rechnung haben?"
+                },
+                {
+                    "source": "What is your name?",
+                    "target": "Wie heißt du?"
+                },
+                {
+                    "source": "Where do you live?",
+                    "target": "Wo wohnst du?"
+                },
+                {
+                    "source": "I'm lost",
+                    "target": "Ich habe mich verlaufen"
+                },
+                {
+                    "source": "Can you repeat that?",
+                    "target": "Können Sie das wiederholen?"
+                },
+                {
+                    "source": "I need help",
+                    "target": "Ich brauche Hilfe"
+                },
+                {
+                    "source": "Where can I find a pharmacy?",
+                    "target": "Wo finde ich eine Apotheke?"
+                },
+                {
+                    "source": "What do you recommend?",
+                    "target": "Was empfehlen Sie?"
+                },
+                {
+                    "source": "I'm allergic to...",
+                    "target": "Ich bin allergisch gegen..."
+                },
+                {
+                    "source": "How do I get to...?",
+                    "target": "Wie komme ich zu...?"
+                }
+            ]
+        },
+        {
+            "name": "Pack 2 - Everyday Conversations",
+            "words": [
+                {
+                    "source": "What do you do for work?",
+                    "target": "Was machst du beruflich?"
+                },
+                {
+                    "source": "I'm a student",
+                    "target": "Ich bin Student"
+                },
+                {
+                    "source": "Do you have any brothers or sisters?",
+                    "target": "Hast du Geschwister?"
+                },
+                {
+                    "source": "What are your hobbies?",
+                    "target": "Was sind deine Hobbys?"
+                },
+                {
+                    "source": "I like to travel",
+                    "target": "Ich reise gern"
+                },
+                {
+                    "source": "What's the weather like?",
+                    "target": "Wie ist das Wetter?"
+                },
+                {
+                    "source": "It's very hot today",
+                    "target": "Heute ist es sehr heiß"
+                },
+                {
+                    "source": "Can I try this on?",
+                    "target": "Kann ich das anprobieren?"
+                },
+                {
+                    "source": "Do you have this in another size?",
+                    "target": "Haben Sie das in einer anderen Größe?"
+                },
+                {
+                    "source": "I'm looking for...",
+                    "target": "Ich suche..."
+                },
+                {
+                    "source": "What time does it open?",
+                    "target": "Wann öffnet es?"
+                },
+                {
+                    "source": "What time does it close?",
+                    "target": "Wann schließt es?"
+                },
+                {
+                    "source": "Can I pay by card?",
+                    "target": "Kann ich mit Karte zahlen?"
+                },
+                {
+                    "source": "Is there WiFi here?",
+                    "target": "Gibt es hier WLAN?"
+                },
+                {
+                    "source": "What's your phone number?",
+                    "target": "Wie ist deine Telefonnummer?"
+                },
+                {
+                    "source": "See you later",
+                    "target": "Bis später"
+                },
+                {
+                    "source": "See you tomorrow",
+                    "target": "Bis morgen"
+                },
+                {
+                    "source": "Have a good day",
+                    "target": "Schönen Tag noch"
+                },
+                {
+                    "source": "Enjoy your meal",
+                    "target": "Guten Appetit"
+                },
+                {
+                    "source": "I had a great time",
+                    "target": "Ich hatte eine tolle Zeit"
+                }
+            ]
+        }
+    ]
+}

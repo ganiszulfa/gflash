@@ -1,0 +1,177 @@
+{
+    "name": "Spanish Basic Sentences",
+    "source_name": "English",
+    "target_name": "Spanish",
+    "packs": [
+        {
+            "name": "Pack 1 - Essential Phrases",
+            "words": [
+                {
+                    "source": "Where do you come from?",
+                    "target": "¿De dónde eres?"
+                },
+                {
+                    "source": "Where's the toilet?",
+                    "target": "¿Dónde está el baño?"
+                },
+                {
+                    "source": "How old are you?",
+                    "target": "¿Cuántos años tienes?"
+                },
+                {
+                    "source": "What time is it?",
+                    "target": "¿Qué hora es?"
+                },
+                {
+                    "source": "How much does it cost?",
+                    "target": "¿Cuánto cuesta?"
+                },
+                {
+                    "source": "Can you help me?",
+                    "target": "¿Puedes ayudarme?"
+                },
+                {
+                    "source": "I don't speak Spanish",
+                    "target": "No hablo español"
+                },
+                {
+                    "source": "Do you speak English?",
+                    "target": "¿Hablas inglés?"
+                },
+                {
+                    "source": "Where is the train station?",
+                    "target": "¿Dónde está la estación de tren?"
+                },
+                {
+                    "source": "I would like a coffee",
+                    "target": "Quisiera un café"
+                },
+                {
+                    "source": "Can I have the bill?",
+                    "target": "¿Puedo tener la cuenta?"
+                },
+                {
+                    "source": "What is your name?",
+                    "target": "¿Cómo te llamas?"
+                },
+                {
+                    "source": "Where do you live?",
+                    "target": "¿Dónde vives?"
+                },
+                {
+                    "source": "I'm lost",
+                    "target": "Estoy perdido"
+                },
+                {
+                    "source": "Can you repeat that?",
+                    "target": "¿Puedes repetir?"
+                },
+                {
+                    "source": "I need help",
+                    "target": "Necesito ayuda"
+                },
+                {
+                    "source": "Where can I find a pharmacy?",
+                    "target": "¿Dónde puedo encontrar una farmacia?"
+                },
+                {
+                    "source": "What do you recommend?",
+                    "target": "¿Qué me recomiendas?"
+                },
+                {
+                    "source": "I'm allergic to...",
+                    "target": "Soy alérgico a..."
+                },
+                {
+                    "source": "How do I get to...?",
+                    "target": "¿Cómo llego a...?"
+                }
+            ]
+        },
+        {
+            "name": "Pack 2 - Everyday Conversations",
+            "words": [
+                {
+                    "source": "What do you do for work?",
+                    "target": "¿A qué te dedicas?"
+                },
+                {
+                    "source": "I'm a student",
+                    "target": "Soy estudiante"
+                },
+                {
+                    "source": "Do you have any brothers or sisters?",
+                    "target": "¿Tienes hermanos?"
+                },
+                {
+                    "source": "What are your hobbies?",
+                    "target": "¿Cuáles son tus pasatiempos?"
+                },
+                {
+                    "source": "I like to travel",
+                    "target": "Me gusta viajar"
+                },
+                {
+                    "source": "What's the weather like?",
+                    "target": "¿Qué tiempo hace?"
+                },
+                {
+                    "source": "It's very hot today",
+                    "target": "Hoy hace mucho calor"
+                },
+                {
+                    "source": "Can I try this on?",
+                    "target": "¿Puedo probarme esto?"
+                },
+                {
+                    "source": "Do you have this in another size?",
+                    "target": "¿Tienen esto en otra talla?"
+                },
+                {
+                    "source": "I'm looking for...",
+                    "target": "Estoy buscando..."
+                },
+                {
+                    "source": "What time does it open?",
+                    "target": "¿A qué hora abre?"
+                },
+                {
+                    "source": "What time does it close?",
+                    "target": "¿A qué hora cierra?"
+                },
+                {
+                    "source": "Can I pay by card?",
+                    "target": "¿Puedo pagar con tarjeta?"
+                },
+                {
+                    "source": "Is there WiFi here?",
+                    "target": "¿Hay WiFi aquí?"
+                },
+                {
+                    "source": "What's your phone number?",
+                    "target": "¿Cuál es tu número de teléfono?"
+                },
+                {
+                    "source": "See you later",
+                    "target": "Hasta luego"
+                },
+                {
+                    "source": "See you tomorrow",
+                    "target": "Hasta mañana"
+                },
+                {
+                    "source": "Have a good day",
+                    "target": "Que tengas buen día"
+                },
+                {
+                    "source": "Enjoy your meal",
+                    "target": "Buen provecho"
+                },
+                {
+                    "source": "I had a great time",
+                    "target": "Me lo pasé muy bien"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,177 @@
+{
+    "name": "Italian Basic Sentences",
+    "source_name": "English",
+    "target_name": "Italian",
+    "packs": [
+        {
+            "name": "Pack 1 - Essential Phrases",
+            "words": [
+                {
+                    "source": "Where do you come from?",
+                    "target": "Da dove vieni?"
+                },
+                {
+                    "source": "Where's the toilet?",
+                    "target": "Dov'è il bagno?"
+                },
+                {
+                    "source": "How old are you?",
+                    "target": "Quanti anni hai?"
+                },
+                {
+                    "source": "What time is it?",
+                    "target": "Che ore sono?"
+                },
+                {
+                    "source": "How much does it cost?",
+                    "target": "Quanto costa?"
+                },
+                {
+                    "source": "Can you help me?",
+                    "target": "Puoi aiutarmi?"
+                },
+                {
+                    "source": "I don't speak Italian",
+                    "target": "Non parlo italiano"
+                },
+                {
+                    "source": "Do you speak English?",
+                    "target": "Parli inglese?"
+                },
+                {
+                    "source": "Where is the train station?",
+                    "target": "Dov'è la stazione?"
+                },
+                {
+                    "source": "I would like a coffee",
+                    "target": "Vorrei un caffè"
+                },
+                {
+                    "source": "Can I have the bill?",
+                    "target": "Posso avere il conto?"
+                },
+                {
+                    "source": "What is your name?",
+                    "target": "Come ti chiami?"
+                },
+                {
+                    "source": "Where do you live?",
+                    "target": "Dove abiti?"
+                },
+                {
+                    "source": "I'm lost",
+                    "target": "Mi sono perso"
+                },
+                {
+                    "source": "Can you repeat that?",
+                    "target": "Puoi ripetere?"
+                },
+                {
+                    "source": "I need help",
+                    "target": "Ho bisogno di aiuto"
+                },
+                {
+                    "source": "Where can I find a pharmacy?",
+                    "target": "Dove posso trovare una farmacia?"
+                },
+                {
+                    "source": "What do you recommend?",
+                    "target": "Cosa mi consigli?"
+                },
+                {
+                    "source": "I'm allergic to...",
+                    "target": "Sono allergico a..."
+                },
+                {
+                    "source": "How do I get to...?",
+                    "target": "Come arrivo a...?"
+                }
+            ]
+        },
+        {
+            "name": "Pack 2 - Everyday Conversations",
+            "words": [
+                {
+                    "source": "What do you do for work?",
+                    "target": "Che lavoro fai?"
+                },
+                {
+                    "source": "I'm a student",
+                    "target": "Sono uno studente"
+                },
+                {
+                    "source": "Do you have any brothers or sisters?",
+                    "target": "Hai fratelli o sorelle?"
+                },
+                {
+                    "source": "What are your hobbies?",
+                    "target": "Quali sono i tuoi hobby?"
+                },
+                {
+                    "source": "I like to travel",
+                    "target": "Mi piace viaggiare"
+                },
+                {
+                    "source": "What's the weather like?",
+                    "target": "Che tempo fa?"
+                },
+                {
+                    "source": "It's very hot today",
+                    "target": "Oggi fa molto caldo"
+                },
+                {
+                    "source": "Can I try this on?",
+                    "target": "Posso provarlo?"
+                },
+                {
+                    "source": "Do you have this in another size?",
+                    "target": "Ce l'avete in un'altra taglia?"
+                },
+                {
+                    "source": "I'm looking for...",
+                    "target": "Sto cercando..."
+                },
+                {
+                    "source": "What time does it open?",
+                    "target": "A che ora apre?"
+                },
+                {
+                    "source": "What time does it close?",
+                    "target": "A che ora chiude?"
+                },
+                {
+                    "source": "Can I pay by card?",
+                    "target": "Posso pagare con carta?"
+                },
+                {
+                    "source": "Is there WiFi here?",
+                    "target": "C'è il WiFi qui?"
+                },
+                {
+                    "source": "What's your phone number?",
+                    "target": "Qual è il tuo numero di telefono?"
+                },
+                {
+                    "source": "See you later",
+                    "target": "A dopo"
+                },
+                {
+                    "source": "See you tomorrow",
+                    "target": "A domani"
+                },
+                {
+                    "source": "Have a good day",
+                    "target": "Buona giornata"
+                },
+                {
+                    "source": "Enjoy your meal",
+                    "target": "Buon appetito"
+                },
+                {
+                    "source": "I had a great time",
+                    "target": "Mi sono divertito molto"
+                }
+            ]
+        }
+    ]
+}

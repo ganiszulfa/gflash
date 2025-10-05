@@ -45,8 +45,12 @@
         "groupName": "Italian",
         "datasets": [
             {
-                "name": "Set 1",
+                "name": "Words Set 1",
                 "file": "dataset/italian/1.json"
+            },
+            {
+                "name": "Sentences Set 1",
+                "file": "dataset/italian/s1.json"
             }
         ]
     },
@@ -54,8 +58,12 @@
         "groupName": "German",
         "datasets": [
             {
-                "name": "Set 1",
+                "name": "Words Set 1",
                 "file": "dataset/german/1.json"
+            },
+            {
+                "name": "Sentences Set 1",
+                "file": "dataset/german/s1.json"
             }
         ]
     },
@@ -63,8 +71,12 @@
         "groupName": "Spanish",
         "datasets": [
             {
-                "name": "Set 1",
+                "name": "Words Set 1",
                 "file": "dataset/spanish/1.json"
+            },
+            {
+                "name": "Sentences Set 1",
+                "file": "dataset/spanish/s1.json"
             }
         ]
     }
