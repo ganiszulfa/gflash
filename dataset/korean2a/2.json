@@ -1,0 +1,331 @@
+{
+    "name": "Korean 2A Sogang",
+    "source_name": "English",
+    "target_name": "Korean",
+    "packs": [
+        {
+            "name": "문법 - part A",
+            "words": [
+                {
+                    "source": "(i) close the door (polite)",
+                    "target": "문을 닫으세요"
+                },
+                {
+                    "source": "(i) received the phone call (polite)",
+                    "target": "전화를 받으셨요"
+                },
+                {
+                    "source": "(i) will go to the market (polite)",
+                    "target": "시장에 가실 거예요"
+                },
+                {
+                    "source": "(i) listen to the music (polite)",
+                    "target": "음악을 들으세요"
+                },
+                {
+                    "source": "(i) live in dormitory (polite)",
+                    "target": "기숙사에서 사세요"
+                },
+                {
+                    "source": "to be exist (polite)",
+                    "target": "계시다"
+                },
+                {
+                    "source": "to sleep (polite)",
+                    "target": "주무시다"
+                },
+                {
+                    "source": "(i) will buy for you (polite)",
+                    "target": "사 드릴게요"
+                },
+                {
+                    "source": "(i) will teach for you (polite)",
+                    "target": "가르쳐 드릴게요"
+                },
+                {
+                    "source": "(i) will write for you (polite)",
+                    "target": "써 드릴게요"
+                },
+                {
+                    "source": "(it is) a book",
+                    "target": "책이에요"
+                },
+                {
+                    "source": "(i am) not an american",
+                    "target": "미국 사람 아니에요"
+                },
+                {
+                    "source": "(i am) watching a movie",
+                    "target": "영화를 보고있어요"
+                },
+                {
+                    "source": "(i am) listening to a lecture",
+                    "target": "강의를 듣고 있어요"
+                },
+                {
+                    "source": "(i) take a shower after (i) exercise",
+                    "target": "운동을 한 다음에 사워를 해요"
+                },
+                {
+                    "source": "(i) ate after (i) woke up",
+                    "target": "일어난 다음에 먹었어요"
+                },
+                {
+                    "source": "(i) will sleep after (i) dance",
+                    "target": "춤준 다음에 잘 거예요"
+                },
+                {
+                    "source": "(i) buy a cake for a gift",
+                    "target": "선물하려고 케이크를 사요"
+                },
+                {
+                    "source": "(i) went to school in order to study",
+                    "target": "공부하려고 학교에 갔어요"
+                },
+                {
+                    "source": "(i) bought the CD in order to listen to a song",
+                    "target": "노래를 들으려고 CD를 샀어요"
+                }
+            ]
+        },
+        {
+            "name": "문법 - part B",
+            "words": [
+                {
+                    "source": "When I lived in China I traveled alot",
+                    "target": "중국에서 살 때 여행을 많이 했어요"
+                },
+                {
+                    "source": "When I listen to the music my feeling is happy",
+                    "target": "음악을 들을 때 기분이 좋아요"
+                },
+                {
+                    "source": "when the weather is cold don't go outside",
+                    "target": "날씨가 추울 때 박에 나가지 마세요"
+                },
+                {
+                    "source": "what do you want to eat at dinner time?",
+                    "target": "저녁 때 뭐 먹어요?"
+                },
+                {
+                    "source": "before (i) eat (i) clean (my) hands",
+                    "target": "먹기 전에 손을 씻어요"
+                },
+                {
+                    "source": "before (i) go (i) finished the homework",
+                    "target": "가기 전에 숙제를 끝냈어요"
+                },
+                {
+                    "source": "before (i) go (i) will finish the homework",
+                    "target": "가기 전에 숙제를 끝낼 거예요"
+                },
+                {
+                    "source": "(i) meet friend and so (we) take lunch together",
+                    "target": "친구를 만나서 같이 점심 먹어요"
+                },
+                {
+                    "source": "(i) met friend and so (we) took lunch together",
+                    "target": "친구를 만나서 같이 점심 먹었어요"
+                },
+                {
+                    "source": "(i) will meet friend and so (we) will take lunch together",
+                    "target": "친구를 만나서 같이 점심 먹을 거예요"
+                },
+                {
+                    "source": "if (i) read a book (my) eyes hurt",
+                    "target": "책을 읽으면 눈이 아파요"
+                },
+                {
+                    "source": "if (it is) expensive (i) won't buy (it)",
+                    "target": "비싸면 사지 않을 거예요"
+                },
+                {
+                    "source": "if (it is) cold close the door ((polite)",
+                    "target": "추우면 문을 닫으세요"
+                },
+                {
+                    "source": "if (i) attended the company (i) would had met many people",
+                    "target": "회사에 다닐 때 많은 사람들을 만났어요"
+                },
+                {
+                    "source": "where if (i) buy (it) will be cheap?",
+                    "target": "어디에서 사면 쌀까요?"
+                },
+                {
+                    "source": "do (you) think it will close?",
+                    "target": "닫을까요?"
+                },
+                {
+                    "source": "how do (you) think the weather will be?",
+                    "target": "날씨가 어떨까요?"
+                },
+                {
+                    "source": "(i) will not listen to the radio",
+                    "target": "라디오를 안 들을 거예요"
+                },
+                {
+                    "source": "the test will be difficult",
+                    "target": "시험이 어려울거예요"
+                },
+                {
+                    "source": "after (i) watched a movie (i) started studying",
+                    "target": "영화를 보다가 공부헸어요"
+                },
+                {
+                    "source": "after (i) watched a movie (i) will study",
+                    "target": "영화를 보다가 공부할 거예요"
+                }
+            ]
+        },
+        {
+            "name": "문법 - part C",
+            "words": [
+                {
+                    "source": "finding a good homestay is difficult",
+                    "target": "좋은 하숙집을 찾는 게 어려워요"
+                },
+                {
+                    "source": "(i) really like kids playing outside",
+                    "target": "아이들은 밖에서 노는 거 아주 좋아해요"
+                },
+                {
+                    "source": "(i) promise to play with (my) friends",
+                    "target": "친구들하고 놀기로 했어요"
+                },
+                {
+                    "source": "(i) promise to watch football match with (my) dad",
+                    "target": "아빠랑  축구 경기를 보기로 했어요"
+                },
+                {
+                    "source": "since (i'm) busy today; how about meeting at weekend?",
+                    "target": "오늘은 바쁘니까 주말에 만나는 게 어때요?"
+                },
+                {
+                    "source": "since the traffic is bad now; take the subway",
+                    "target": "길이 막하니까 지하철을 타세요"
+                },
+                {
+                    "source": "since It's cold outside; wear thick clothes",
+                    "target": "밖이 추우니까 두꺼운 옷을 입으세요"
+                },
+                {
+                    "source": "since it's hot; let's open the door (polite)",
+                    "target": "더우니까 문을 엽시다"
+                },
+                {
+                    "source": "Let's meet in front of library (polite)",
+                    "target": "도서관 앞에서 만납시다"
+                },
+                {
+                    "source": "how about eating lunch together?",
+                    "target": "점심 먹는 게 어때요?"
+                },
+                {
+                    "source": "(you) can go out early",
+                    "target": "일찍 나가도 돼요"
+                },
+                {
+                    "source": "can (i) listen to the advertisement?",
+                    "target": "광고를 들어도 돼요?"
+                },
+                {
+                    "source": "can (i) use the chopsticks?",
+                    "target": "젓가락 써도 돼요?"
+                },
+                {
+                    "source": "(you) can't sit here",
+                    "target": "여기에서 앉으면 안 돼요"
+                },
+                {
+                    "source": "since (i) have a test tomorrow; (i) can't play",
+                    "target": "내일 시험이니까 오늘 놀면 안 돼요"
+                },
+                {
+                    "source": "(you) can't listen to the music",
+                    "target": "음악을 들으면 안 돼요"
+                },
+                {
+                    "source": "but it's small",
+                    "target": "작은데요"
+                },
+                {
+                    "source": "but (i'm) little bit busy",
+                    "target": "좀 바쁜데요"
+                },
+                {
+                    "source": "but now is raining",
+                    "target": "지금 비가 오는대요"
+                },
+                {
+                    "source": "but (i) have another appointment",
+                    "target": "다른 약속이 있는데요"
+                },
+                {
+                    "source": "but it is meeting time",
+                    "target": "회의 시간인데요"
+                },
+                {
+                    "source": "but (i) was busy",
+                    "target": "바빴는데요"
+                },
+                {
+                    "source": "but it is my friend",
+                    "target": "제 친군데요"
+                }
+            ]
+        },
+        {
+            "name": "문법 - part D",
+            "words": [
+                {
+                    "source": "Can I take your bag?",
+                    "target": "가방을 들어 드릴까요?"
+                },
+                {
+                    "source": "How can i help you?",
+                    "target": "뭐 도와 드릴까요?"
+                },
+                {
+                    "source": "Can I open the door for you?",
+                    "target": "문 열어 드릴까요"
+                },
+                {
+                    "source": "Could you close the door for me?",
+                    "target": "문 좀 닫아 주시겠어요?"
+                },
+                {
+                    "source": "Could you teach me German?",
+                    "target": "독일어 좀 가르쳐 주시겠어요?"
+                },
+                {
+                    "source": "Could I borrow your pen?",
+                    "target": "펜 좀 빌려 주시겠어요?"
+                },
+                {
+                    "source": "Minhye said that her feeling is good",
+                    "target": "민혜 씨가 기분이 좋다고 했어요"
+                },
+                {
+                    "source": "Jeny say that lately she is not busy",
+                    "target": "제니 씨가 요즘 바쁘지 않다고 했어요"
+                },
+                {
+                    "source": "Kim Yura said she is healthy",
+                    "target": "김치가 건강에 좋다고 해요"
+                },
+                {
+                    "source": "Andy said he read the book",
+                    "target": "앤디 씨가 책을 읽는다고 했어요"
+                },
+                {
+                    "source": "Sora said that right now is raining",
+                    "target": "소라 씨가 지금 비가 온다고 했어요"
+                },
+                {
+                    "source": "Irina said that lately she has not been eating well.",
+                    "target": "이리나 씨가 요즘 밥을 잘 먹지 않는다고 했어요"
+                }
+            ]
+        }
+    ]
+}

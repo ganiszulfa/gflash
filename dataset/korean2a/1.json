@@ -1,0 +1,667 @@
+{
+    "name": "Korean 2A Sogang",
+    "source_name": "English",
+    "target_name": "Korean",
+    "packs": [
+        {
+            "name": "단어 1과 - a",
+            "words": [
+                {
+                    "source": "to attend",
+                    "target": "(에) 다니다"
+                },
+                {
+                    "source": "to inform",
+                    "target": "알리다"
+                },
+                {
+                    "source": "contact information",
+                    "target": "연락처"
+                },
+                {
+                    "source": "e-mail address",
+                    "target": "이메일 주소"
+                },
+                {
+                    "source": "What is your name?",
+                    "target": "이름이 어떻게 되세요?"
+                },
+                {
+                    "source": "Where are you from?",
+                    "target": "어느 나라에서 오셨어요"
+                },
+                {
+                    "source": "Just a moment",
+                    "target": "잠깐만요"
+                },
+                {
+                    "source": "How do you do?",
+                    "target": "처음 뵙겠습니다"
+                },
+                {
+                    "source": "What do you do for a living?",
+                    "target": "무슨 일 하세요"
+                },
+                {
+                    "source": "to play basketball",
+                    "target": "농구하다"
+                },
+                {
+                    "source": "to get to know과 - person)",
+                    "target": "사귀다"
+                },
+                {
+                    "source": "to major in, to specialize in",
+                    "target": "전공하다"
+                },
+                {
+                    "source": "to be beautiful",
+                    "target": "아름답다"
+                },
+                {
+                    "source": "to be kind",
+                    "target": "친절하다"
+                },
+                {
+                    "source": "to be convinient, to be comfortable",
+                    "target": "편하다"
+                },
+                {
+                    "source": "hometown",
+                    "target": "고향"
+                },
+                {
+                    "source": "city",
+                    "target": "도시"
+                },
+                {
+                    "source": "all, every",
+                    "target": "모두"
+                },
+                {
+                    "source": "culture",
+                    "target": "문화"
+                },
+                {
+                    "source": "now",
+                    "target": "이제"
+                }
+            ]
+        },
+        {
+            "name": "단어 1과 - b",
+            "words": [
+                {
+                    "source": "hobby",
+                    "target": "취미"
+                },
+                {
+                    "source": "again",
+                    "target": "다시"
+                },
+                {
+                    "source": "the most",
+                    "target": "제일"
+                },
+                {
+                    "source": "also",
+                    "target": "또"
+                },
+                {
+                    "source": "but",
+                    "target": "하지만"
+                },
+                {
+                    "source": "I can't do과 - it) well yet",
+                    "target": "아직 잘 못해요"
+                },
+                {
+                    "source": "Its really good",
+                    "target": "참 좋아요"
+                },
+                {
+                    "source": "to look around",
+                    "target": "구경하다"
+                },
+                {
+                    "source": "five months",
+                    "target": "5개월"
+                },
+                {
+                    "source": "one month",
+                    "target": "한 달"
+                },
+                {
+                    "source": "one week",
+                    "target": "1주일"
+                },
+                {
+                    "source": "relative",
+                    "target": "친척"
+                },
+                {
+                    "source": "here and there",
+                    "target": "여기저기"
+                },
+                {
+                    "source": "come in please",
+                    "target": "들어오세요"
+                },
+                {
+                    "source": "Good Job!",
+                    "target": "수고하셨습니다"
+                },
+                {
+                    "source": "Please sit here",
+                    "target": "여기 앉으세요"
+                },
+                {
+                    "source": "I'm sorry",
+                    "target": "죄송합니다"
+                }
+            ]
+        },
+        {
+            "name": "단어 2과 - a",
+            "words": [
+                {
+                    "source": "to review",
+                    "target": "복습하다"
+                },
+                {
+                    "source": "to preview",
+                    "target": "예습하다"
+                },
+                {
+                    "source": "to jog",
+                    "target": "조깅하다"
+                },
+                {
+                    "source": "to prepare",
+                    "target": "준비하다"
+                },
+                {
+                    "source": "to talk on the phone",
+                    "target": "통화하다"
+                },
+                {
+                    "source": "to have a meeting",
+                    "target": "회의하다"
+                },
+                {
+                    "source": "graduate school",
+                    "target": "대학원"
+                },
+                {
+                    "source": "interpretation",
+                    "target": "통역"
+                },
+                {
+                    "source": "later",
+                    "target": "이따가"
+                },
+                {
+                    "source": "to memorize words",
+                    "target": "단어를 외우다"
+                },
+                {
+                    "source": "to run a restaurant",
+                    "target": "식당을 하다"
+                },
+                {
+                    "source": "to check mail",
+                    "target": "이메일을 확인하다"
+                },
+                {
+                    "source": "to finish all work",
+                    "target": "일을 다 하다"
+                },
+                {
+                    "source": "to apply for a job",
+                    "target": "회사에 들어가다"
+                },
+                {
+                    "source": "I see",
+                    "target": "알겠어요"
+                },
+                {
+                    "source": "What brings you here?",
+                    "target": "웬일이세요?"
+                },
+                {
+                    "source": "to quit a job",
+                    "target": "그만두다"
+                },
+                {
+                    "source": "to be surprised",
+                    "target": "놀라다"
+                },
+                {
+                    "source": "to look into",
+                    "target": "알아보다"
+                },
+                {
+                    "source": "to be sleepy",
+                    "target": "졸리다"
+                }
+            ]
+        },
+        {
+            "name": "단어 2과 - b",
+            "words": [
+                {
+                    "source": "to be late",
+                    "target": "지각하다"
+                },
+                {
+                    "source": "to be angry",
+                    "target": "화가 나다"
+                },
+                {
+                    "source": "office",
+                    "target": "사무실"
+                },
+                {
+                    "source": "the president of a company",
+                    "target": "사장님"
+                },
+                {
+                    "source": "29 years old",
+                    "target": "스물 아홉 살"
+                },
+                {
+                    "source": "alarm sound",
+                    "target": "알람 소리"
+                },
+                {
+                    "source": "finally",
+                    "target": "드디어"
+                },
+                {
+                    "source": "to be startled",
+                    "target": "깜짝 놀라다"
+                },
+                {
+                    "source": "to open eyes",
+                    "target": "눈을 뜨다"
+                },
+                {
+                    "source": "to get off the bus",
+                    "target": "버스에서 내리다"
+                },
+                {
+                    "source": "to set an alarm clock",
+                    "target": "알라시계를 맞추다"
+                },
+                {
+                    "source": "to register",
+                    "target": "등록하다"
+                },
+                {
+                    "source": "speaking",
+                    "target": "말하다"
+                },
+                {
+                    "source": "every day",
+                    "target": "매일"
+                },
+                {
+                    "source": "child",
+                    "target": "어른"
+                },
+                {
+                    "source": "adult",
+                    "target": "어른"
+                },
+                {
+                    "source": "this year",
+                    "target": "올해"
+                },
+                {
+                    "source": "weekdays",
+                    "target": "주중"
+                },
+                {
+                    "source": "academy",
+                    "target": "학원"
+                },
+                {
+                    "source": "both",
+                    "target": "둘 다"
+                },
+                {
+                    "source": "to take a class",
+                    "target": "수업을 듣다"
+                },
+                {
+                    "source": "off course",
+                    "target": "그럼요"
+                }
+            ]
+        },
+        {
+            "name": "단어 8과 - a",
+            "words": [
+                {
+                    "source": "to taste bland",
+                    "target": "싱겁다"
+                },
+                {
+                    "source": "to be young",
+                    "target": "젊다"
+                },
+                {
+                    "source": "beef rib stew",
+                    "target": "갈비찜"
+                },
+                {
+                    "source": "hot chicken soup with ginseng",
+                    "target": "삼계탕"
+                },
+                {
+                    "source": "japanese food",
+                    "target": "일식"
+                },
+                {
+                    "source": "mixed vegetables and noodles",
+                    "target": "잡재"
+                },
+                {
+                    "source": "spring onion pancake",
+                    "target": "파전"
+                },
+                {
+                    "source": "spring onion pancake recipe",
+                    "target": "파전 만드는 법"
+                },
+                {
+                    "source": "korean food",
+                    "target": "한식"
+                },
+                {
+                    "source": "to be greasy",
+                    "target": "기름기가 많다"
+                },
+                {
+                    "source": "what will you have?",
+                    "target": "뭐 드시겠어요"
+                },
+                {
+                    "source": "the atmosphere is nice",
+                    "target": "분위기가 좋아요"
+                },
+                {
+                    "source": "the service is good",
+                    "target": "서비스가 좋아요"
+                },
+                {
+                    "source": "i will go and check it out",
+                    "target": "한번 가 볼게요"
+                },
+                {
+                    "source": "to take out of a bag/pocket",
+                    "target": "꺼내다"
+                },
+                {
+                    "source": "to put in",
+                    "target": "넣다"
+                },
+                {
+                    "source": "to stir-fry",
+                    "target": "볶다"
+                },
+                {
+                    "source": "to mix",
+                    "target": "섞다"
+                },
+                {
+                    "source": "to chop",
+                    "target": "썰다"
+                },
+                {
+                    "source": "to season",
+                    "target": "양념하다"
+                }
+            ]
+        },
+        {
+            "name": "단어 8과 - b",
+            "words": [
+                {
+                    "source": "to be cooked",
+                    "target": "익다"
+                },
+                {
+                    "source": "noodles made from potatoes",
+                    "target": "당면"
+                },
+                {
+                    "source": "method",
+                    "target": "방법"
+                },
+                {
+                    "source": "mushroom",
+                    "target": "버섯"
+                },
+                {
+                    "source": "flame",
+                    "target": "불"
+                },
+                {
+                    "source": "cooking oil",
+                    "target": "식용유"
+                },
+                {
+                    "source": "onion",
+                    "target": "양파"
+                },
+                {
+                    "source": "ingredients",
+                    "target": "재료"
+                },
+                {
+                    "source": "bell pepper",
+                    "target": "피망"
+                },
+                {
+                    "source": "to boil water",
+                    "target": "물을 끓이다"
+                },
+                {
+                    "source": "to put out the flame",
+                    "target": "불을 끄다"
+                },
+                {
+                    "source": "to bring",
+                    "target": "가져오다"
+                },
+                {
+                    "source": "to start a business",
+                    "target": "개업하다"
+                },
+                {
+                    "source": "to cut",
+                    "target": "자르다"
+                },
+                {
+                    "source": "neighborhood",
+                    "target": "이웃집"
+                },
+                {
+                    "source": "seat",
+                    "target": "자리"
+                },
+                {
+                    "source": "flower pot",
+                    "target": "화분"
+                },
+                {
+                    "source": "to give out rice cake",
+                    "target": "떡을 돌리다"
+                },
+                {
+                    "source": "please give me that one",
+                    "target": "그걸로 주세요"
+                },
+                {
+                    "source": "enjoy your meal",
+                    "target": "맛있게 드세요"
+                },
+                {
+                    "source": "Naengmyeon is refreshing",
+                    "target": "냉면이 시원해요"
+                },
+                {
+                    "source": "Here's your Mullaengmyeon",
+                    "target": "여기 물냉면 나왔어요"
+                },
+                {
+                    "source": "Congratulation",
+                    "target": "축하 드립니다"
+                }
+            ]
+        },
+        {
+            "name": "단어 9과 - a",
+            "words": [
+                {
+                    "source": "to be late",
+                    "target": "늦다"
+                },
+                {
+                    "source": "to pass on",
+                    "target": "전하다"
+                },
+                {
+                    "source": "to get a job",
+                    "target": "취직하다"
+                },
+                {
+                    "source": "right away",
+                    "target": "곧"
+                },
+                {
+                    "source": "in a moment",
+                    "target": "금방"
+                },
+                {
+                    "source": "to come to school",
+                    "target": "학교에 나오다"
+                },
+                {
+                    "source": "to take a semester off",
+                    "target": "한 학기를 쉬다"
+                },
+                {
+                    "source": "there is a traffic accident",
+                    "target": "교통사고가 났어요"
+                },
+                {
+                    "source": "the salary is low",
+                    "target": "월급이 적어요"
+                },
+                {
+                    "source": "to continue",
+                    "target": "계속하다"
+                },
+                {
+                    "source": "to be on sale",
+                    "target": "세일하다"
+                },
+                {
+                    "source": "to be bored",
+                    "target": "심심하다"
+                },
+                {
+                    "source": "express bus",
+                    "target": "고속바스"
+                },
+                {
+                    "source": "bus driver",
+                    "target": "버스 기사"
+                },
+                {
+                    "source": "milk",
+                    "target": "우유"
+                },
+                {
+                    "source": "chocolate",
+                    "target": "초콜릿"
+                }
+            ]
+        },
+        {
+            "name": "단어 9과 - b",
+            "words": [
+                {
+                    "source": "bus terminal",
+                    "target": "터미날"
+                },
+                {
+                    "source": "right at that moment",
+                    "target": "바로 그 때"
+                },
+                {
+                    "source": "to talk to someone",
+                    "target": "(-한테) 말을 걸다"
+                },
+                {
+                    "source": "to hang up the phone",
+                    "target": "전화를 끄다"
+                },
+                {
+                    "source": "finally he/she hung up the phone",
+                    "target": "드디어 전화를 끊었습니다"
+                },
+                {
+                    "source": "could not say anything",
+                    "target": "한 마디도 못 했습니다"
+                },
+                {
+                    "source": "to be delayed",
+                    "target": "연기되다"
+                },
+                {
+                    "source": "news",
+                    "target": "뉴스"
+                },
+                {
+                    "source": "yes please speak",
+                    "target": "네 말씀하세요"
+                },
+                {
+                    "source": "pass to him/her a message please",
+                    "target": "메모 좀 전해 주시겠어요"
+                },
+                {
+                    "source": "what number did you dial?",
+                    "target": "몇 번에 거셨어요?"
+                },
+                {
+                    "source": "Isn't this Youngho cell phone?",
+                    "target": "영호 씨 핸드폰 아니에요?"
+                },
+                {
+                    "source": "It is been a long time",
+                    "target": "오랜만이에요"
+                },
+                {
+                    "source": "went out for a little while",
+                    "target": "잠깐 나갔는데요"
+                },
+                {
+                    "source": "You have got the wrong number",
+                    "target": "전화 잘못 거셨어요"
+                },
+                {
+                    "source": "to make a phone call",
+                    "target": "전화를 걸다"
+                },
+                {
+                    "source": "to get a call on your cell phone",
+                    "target": "핸드폰 받다"
+                }
+            ]
+        }
+    ]
+}
