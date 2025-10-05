@@ -412,6 +412,416 @@
                     "target": "Meno"
                 }
             ]
+        },
+        {
+            "name": "Pack 101 - 150",
+            "words": [
+                {
+                    "source": "To give",
+                    "target": "Dare"
+                },
+                {
+                    "source": "To take",
+                    "target": "Prendere"
+                },
+                {
+                    "source": "To put",
+                    "target": "Mettere"
+                },
+                {
+                    "source": "To say",
+                    "target": "Dire"
+                },
+                {
+                    "source": "To tell",
+                    "target": "Raccontare"
+                },
+                {
+                    "source": "To leave",
+                    "target": "Partire"
+                },
+                {
+                    "source": "To arrive",
+                    "target": "Arrivare"
+                },
+                {
+                    "source": "To open",
+                    "target": "Aprire"
+                },
+                {
+                    "source": "To close",
+                    "target": "Chiudere"
+                },
+                {
+                    "source": "To read",
+                    "target": "Leggere"
+                },
+                {
+                    "source": "To write",
+                    "target": "Scrivere"
+                },
+                {
+                    "source": "To work",
+                    "target": "Lavorare"
+                },
+                {
+                    "source": "To study",
+                    "target": "Studiare"
+                },
+                {
+                    "source": "To learn",
+                    "target": "Imparare"
+                },
+                {
+                    "source": "To teach",
+                    "target": "Insegnare"
+                },
+                {
+                    "source": "To buy",
+                    "target": "Comprare"
+                },
+                {
+                    "source": "To sell",
+                    "target": "Vendere"
+                },
+                {
+                    "source": "To pay",
+                    "target": "Pagare"
+                },
+                {
+                    "source": "To live",
+                    "target": "Vivere"
+                },
+                {
+                    "source": "To sleep",
+                    "target": "Dormire"
+                },
+                {
+                    "source": "Book",
+                    "target": "Libro"
+                },
+                {
+                    "source": "Car",
+                    "target": "Macchina"
+                },
+                {
+                    "source": "Train",
+                    "target": "Treno"
+                },
+                {
+                    "source": "Airplane",
+                    "target": "Aereo"
+                },
+                {
+                    "source": "School",
+                    "target": "Scuola"
+                },
+                {
+                    "source": "Work",
+                    "target": "Lavoro"
+                },
+                {
+                    "source": "Office",
+                    "target": "Ufficio"
+                },
+                {
+                    "source": "Store",
+                    "target": "Negozio"
+                },
+                {
+                    "source": "Market",
+                    "target": "Mercato"
+                },
+                {
+                    "source": "Bank",
+                    "target": "Banca"
+                },
+                {
+                    "source": "Hospital",
+                    "target": "Ospedale"
+                },
+                {
+                    "source": "Doctor",
+                    "target": "Dottore"
+                },
+                {
+                    "source": "Teacher",
+                    "target": "Insegnante"
+                },
+                {
+                    "source": "Student",
+                    "target": "Studente"
+                },
+                {
+                    "source": "Mother",
+                    "target": "Madre"
+                },
+                {
+                    "source": "Father",
+                    "target": "Padre"
+                },
+                {
+                    "source": "Brother",
+                    "target": "Fratello"
+                },
+                {
+                    "source": "Sister",
+                    "target": "Sorella"
+                },
+                {
+                    "source": "Son",
+                    "target": "Figlio"
+                },
+                {
+                    "source": "Daughter",
+                    "target": "Figlia"
+                },
+                {
+                    "source": "Fast",
+                    "target": "Veloce"
+                },
+                {
+                    "source": "Slow",
+                    "target": "Lento"
+                },
+                {
+                    "source": "Easy",
+                    "target": "Facile"
+                },
+                {
+                    "source": "Difficult",
+                    "target": "Difficile"
+                },
+                {
+                    "source": "Happy",
+                    "target": "Felice"
+                },
+                {
+                    "source": "Sad",
+                    "target": "Triste"
+                },
+                {
+                    "source": "Tired",
+                    "target": "Stanco"
+                },
+                {
+                    "source": "Hungry",
+                    "target": "Affamato"
+                },
+                {
+                    "source": "With",
+                    "target": "Con"
+                },
+                {
+                    "source": "Without",
+                    "target": "Senza"
+                }
+            ]
+        },
+        {
+            "name": "Pack 151 - 200",
+            "words": [
+                {
+                    "source": "To think",
+                    "target": "Pensare"
+                },
+                {
+                    "source": "To feel",
+                    "target": "Sentire"
+                },
+                {
+                    "source": "To hear",
+                    "target": "Udire"
+                },
+                {
+                    "source": "To listen",
+                    "target": "Ascoltare"
+                },
+                {
+                    "source": "To look",
+                    "target": "Guardare"
+                },
+                {
+                    "source": "To find",
+                    "target": "Trovare"
+                },
+                {
+                    "source": "To lose",
+                    "target": "Perdere"
+                },
+                {
+                    "source": "To walk",
+                    "target": "Camminare"
+                },
+                {
+                    "source": "To run",
+                    "target": "Correre"
+                },
+                {
+                    "source": "To stop",
+                    "target": "Fermare"
+                },
+                {
+                    "source": "To wait",
+                    "target": "Aspettare"
+                },
+                {
+                    "source": "To ask",
+                    "target": "Chiedere"
+                },
+                {
+                    "source": "To answer",
+                    "target": "Rispondere"
+                },
+                {
+                    "source": "To help",
+                    "target": "Aiutare"
+                },
+                {
+                    "source": "To try",
+                    "target": "Provare"
+                },
+                {
+                    "source": "Morning",
+                    "target": "Mattina"
+                },
+                {
+                    "source": "Afternoon",
+                    "target": "Pomeriggio"
+                },
+                {
+                    "source": "Evening",
+                    "target": "Sera"
+                },
+                {
+                    "source": "Week",
+                    "target": "Settimana"
+                },
+                {
+                    "source": "Month",
+                    "target": "Mese"
+                },
+                {
+                    "source": "Year",
+                    "target": "Anno"
+                },
+                {
+                    "source": "Monday",
+                    "target": "Lunedì"
+                },
+                {
+                    "source": "Tuesday",
+                    "target": "Martedì"
+                },
+                {
+                    "source": "Wednesday",
+                    "target": "Mercoledì"
+                },
+                {
+                    "source": "Thursday",
+                    "target": "Giovedì"
+                },
+                {
+                    "source": "Friday",
+                    "target": "Venerdì"
+                },
+                {
+                    "source": "Saturday",
+                    "target": "Sabato"
+                },
+                {
+                    "source": "Sunday",
+                    "target": "Domenica"
+                },
+                {
+                    "source": "Spring",
+                    "target": "Primavera"
+                },
+                {
+                    "source": "Summer",
+                    "target": "Estate"
+                },
+                {
+                    "source": "Autumn",
+                    "target": "Autunno"
+                },
+                {
+                    "source": "Winter",
+                    "target": "Inverno"
+                },
+                {
+                    "source": "Room",
+                    "target": "Stanza"
+                },
+                {
+                    "source": "Door",
+                    "target": "Porta"
+                },
+                {
+                    "source": "Window",
+                    "target": "Finestra"
+                },
+                {
+                    "source": "Table",
+                    "target": "Tavolo"
+                },
+                {
+                    "source": "Chair",
+                    "target": "Sedia"
+                },
+                {
+                    "source": "Bed",
+                    "target": "Letto"
+                },
+                {
+                    "source": "Phone",
+                    "target": "Telefono"
+                },
+                {
+                    "source": "Computer",
+                    "target": "Computer"
+                },
+                {
+                    "source": "Television",
+                    "target": "Televisione"
+                },
+                {
+                    "source": "Music",
+                    "target": "Musica"
+                },
+                {
+                    "source": "Movie",
+                    "target": "Film"
+                },
+                {
+                    "source": "Newspaper",
+                    "target": "Giornale"
+                },
+                {
+                    "source": "Letter",
+                    "target": "Lettera"
+                },
+                {
+                    "source": "Question",
+                    "target": "Domanda"
+                },
+                {
+                    "source": "Answer",
+                    "target": "Risposta"
+                },
+                {
+                    "source": "Problem",
+                    "target": "Problema"
+                },
+                {
+                    "source": "Idea",
+                    "target": "Idea"
+                },
+                {
+                    "source": "Thing",
+                    "target": "Cosa"
+                }
+            ]
         }
     ]
 }
