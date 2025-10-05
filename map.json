@@ -1,10 +1,43 @@
 [
     {
-        "groupName": "Korean",
+        "groupName": "Korean 6000 words",
         "datasets": [
             {
                 "name": "Set 1",
-                "file": "dataset/dataset_korean_1.json"
+                "file": "dataset/korean6000/1.json"
+            },
+            {
+                "name": "Set 2",
+                "file": "dataset/korean6000/2.json"
+            },
+            {
+                "name": "Set 3",
+                "file": "dataset/korean6000/3.json"
+            },
+            {
+                "name": "Set 4",
+                "file": "dataset/korean6000/4.json"
+            },
+            {
+                "name": "Set 5",
+                "file": "dataset/korean6000/5.json"
+            },
+            {
+                "name": "Set 6",
+                "file": "dataset/korean6000/6.json"
+            }
+        ]
+    },
+    {
+        "groupName": "Korean 2A Sogang",
+        "datasets": [
+            {
+                "name": "Set 1",
+                "file": "dataset/korean2a/1.json"
+            },
+            {
+                "name": "Set 2",
+                "file": "dataset/korean2a/2.json"
             }
         ]
     },
@@ -13,7 +46,25 @@
         "datasets": [
             {
                 "name": "Set 1",
-                "file": "dataset/dataset_italian_1.json"
+                "file": "dataset/italian/1.json"
+            }
+        ]
+    },
+    {
+        "groupName": "German",
+        "datasets": [
+            {
+                "name": "Set 1",
+                "file": "dataset/german/1.json"
+            }
+        ]
+    },
+    {
+        "groupName": "Spanish",
+        "datasets": [
+            {
+                "name": "Set 1",
+                "file": "dataset/spanish/1.json"
             }
         ]
     }
