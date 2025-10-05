@@ -91,7 +91,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 
 
 		<div id="cont_mul_cho" style="display:none">
-			<p>You can also use your 1,2,3 keyboard to select the option. Hover on the answer options to see the hint.
+			<p>You can also use your 1,2,3 keyboard to select the option. 
 			</p>
 		</div>
 		<div id="cont_about" style="display:none">
@@ -383,13 +383,29 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 
 			// Keyboard shortcuts for multiple choice
 			$(document).keydown(function(e) {
+				console.log('Key pressed:', e.which, e.keyCode, e.key);
 				if ($('input[name="answer_type"]:checked').val() === 'option') {
-					if (e.key === '1') {
+					if (e.which === 49 || e.keyCode === 49) { // Key '1'
+						console.log('Key 1 pressed');
 						$('input[name="answer_choice"][value="0"]').prop('checked', true);
-					} else if (e.key === '2') {
+						// Trigger answer checking after selection
+						setTimeout(function() {
+							checkUserAnswer();
+						}, 100);
+					} else if (e.which === 50 || e.keyCode === 50) { // Key '2'
+						console.log('Key 2 pressed');
 						$('input[name="answer_choice"][value="1"]').prop('checked', true);
-					} else if (e.key === '3') {
+						// Trigger answer checking after selection
+						setTimeout(function() {
+							checkUserAnswer();
+						}, 100);
+					} else if (e.which === 51 || e.keyCode === 51) { // Key '3'
+						console.log('Key 3 pressed');
 						$('input[name="answer_choice"][value="2"]').prop('checked', true);
+						// Trigger answer checking after selection
+						setTimeout(function() {
+							checkUserAnswer();
+						}, 100);
 					}
 				}
 			});
@@ -422,6 +438,17 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				// Auto-hide about after 5 seconds
 				setTimeout(function() {
 					$('#cont_about').hide();
+				}, 5000);
+			});
+
+			// Handle multiple choice help link click
+			$('#write_mul_cho').click(function(e) {
+				e.preventDefault();
+				$('#cont_mul_cho').show();
+				
+				// Auto-hide multiple choice help after 5 seconds
+				setTimeout(function() {
+					$('#cont_mul_cho').hide();
 				}, 5000);
 			});
 
