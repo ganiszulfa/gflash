@@ -207,9 +207,11 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				// Set question and answer based on direction
 				if (isSource2Target) {
 					$('#question').text(word.source);
+					currentQuestion = word.source;
 					correctAnswer = word.target;
 				} else {
 					$('#question').text(word.target);
+					currentQuestion = word.target;
 					correctAnswer = word.source;
 				}
 
@@ -337,11 +339,14 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				highlightCorrectAnswer(isCorrect, userAnswer);
 
 				// Show result
-				if (isCorrect) {
-					$('#answer').text('Correct! ' + correctAnswer);
-				} else {
-					$('#answer').text('Incorrect. The correct answer is: ' + correctAnswer);
+				var resetAnswerTimer = 2000;
+				if (!isCorrect) {
+					resetAnswerTimer = 5000;
 				}
+				$('#answer').text(currentQuestion + ' = ' + correctAnswer);
+				setTimeout(function() {
+					$('#answer').text('');
+				}, resetAnswerTimer);
 
 				console.log('checkUserAnswer called, auto-advance to next question after 2 seconds');
 				// Auto-advance to next question after 2 seconds
@@ -406,6 +411,17 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				// Auto-hide statistics after 5 seconds
 				setTimeout(function() {
 					$('#cont_stat').hide();
+				}, 5000);
+			});
+
+			// Handle about link click
+			$('#write_about').click(function(e) {
+				e.preventDefault();
+				$('#cont_about').show();
+				
+				// Auto-hide about after 5 seconds
+				setTimeout(function() {
+					$('#cont_about').hide();
 				}, 5000);
 			});
 
