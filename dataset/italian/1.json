@@ -1,0 +1,417 @@
+{
+    "name": "Italian Basic",
+    "source_name": "English",
+    "target_name": "Italian",
+    "packs": [
+        {
+            "name": "Pack 1 - 50",
+            "words": [
+                {
+                    "source": "Hello",
+                    "target": "Ciao"
+                },
+                {
+                    "source": "Goodbye",
+                    "target": "Arrivederci"
+                },
+                {
+                    "source": "Yes",
+                    "target": "Sì"
+                },
+                {
+                    "source": "No",
+                    "target": "No"
+                },
+                {
+                    "source": "Thank you",
+                    "target": "Grazie"
+                },
+                {
+                    "source": "Please",
+                    "target": "Per favore"
+                },
+                {
+                    "source": "Excuse me",
+                    "target": "Scusa"
+                },
+                {
+                    "source": "Sorry",
+                    "target": "Mi dispiace"
+                },
+                {
+                    "source": "Good morning",
+                    "target": "Buongiorno"
+                },
+                {
+                    "source": "Good evening",
+                    "target": "Buonasera"
+                },
+                {
+                    "source": "Good night",
+                    "target": "Buonanotte"
+                },
+                {
+                    "source": "How are you?",
+                    "target": "Come stai?"
+                },
+                {
+                    "source": "I'm fine",
+                    "target": "Sto bene"
+                },
+                {
+                    "source": "What's your name?",
+                    "target": "Come ti chiami?"
+                },
+                {
+                    "source": "My name is",
+                    "target": "Mi chiamo"
+                },
+                {
+                    "source": "Nice to meet you",
+                    "target": "Piacere"
+                },
+                {
+                    "source": "I",
+                    "target": "Io"
+                },
+                {
+                    "source": "You",
+                    "target": "Tu"
+                },
+                {
+                    "source": "He",
+                    "target": "Lui"
+                },
+                {
+                    "source": "She",
+                    "target": "Lei"
+                },
+                {
+                    "source": "We",
+                    "target": "Noi"
+                },
+                {
+                    "source": "They",
+                    "target": "Loro"
+                },
+                {
+                    "source": "To be",
+                    "target": "Essere"
+                },
+                {
+                    "source": "To have",
+                    "target": "Avere"
+                },
+                {
+                    "source": "To do/make",
+                    "target": "Fare"
+                },
+                {
+                    "source": "To go",
+                    "target": "Andare"
+                },
+                {
+                    "source": "To come",
+                    "target": "Venire"
+                },
+                {
+                    "source": "To see",
+                    "target": "Vedere"
+                },
+                {
+                    "source": "To eat",
+                    "target": "Mangiare"
+                },
+                {
+                    "source": "To drink",
+                    "target": "Bere"
+                },
+                {
+                    "source": "Water",
+                    "target": "Acqua"
+                },
+                {
+                    "source": "Bread",
+                    "target": "Pane"
+                },
+                {
+                    "source": "Coffee",
+                    "target": "Caffè"
+                },
+                {
+                    "source": "Wine",
+                    "target": "Vino"
+                },
+                {
+                    "source": "Food",
+                    "target": "Cibo"
+                },
+                {
+                    "source": "House",
+                    "target": "Casa"
+                },
+                {
+                    "source": "Family",
+                    "target": "Famiglia"
+                },
+                {
+                    "source": "Friend",
+                    "target": "Amico"
+                },
+                {
+                    "source": "Man",
+                    "target": "Uomo"
+                },
+                {
+                    "source": "Woman",
+                    "target": "Donna"
+                },
+                {
+                    "source": "Child",
+                    "target": "Bambino"
+                },
+                {
+                    "source": "Day",
+                    "target": "Giorno"
+                },
+                {
+                    "source": "Night",
+                    "target": "Notte"
+                },
+                {
+                    "source": "Time",
+                    "target": "Tempo"
+                },
+                {
+                    "source": "Today",
+                    "target": "Oggi"
+                },
+                {
+                    "source": "Tomorrow",
+                    "target": "Domani"
+                },
+                {
+                    "source": "Yesterday",
+                    "target": "Ieri"
+                },
+                {
+                    "source": "Now",
+                    "target": "Adesso"
+                },
+                {
+                    "source": "Here",
+                    "target": "Qui"
+                },
+                {
+                    "source": "There",
+                    "target": "Là"
+                }
+            ]
+        },
+        {
+            "name": "Pack 51 - 100",
+            "words": [
+                {
+                    "source": "You're welcome",
+                    "target": "Prego"
+                },
+                {
+                    "source": "How much?",
+                    "target": "Quanto?"
+                },
+                {
+                    "source": "Where?",
+                    "target": "Dove?"
+                },
+                {
+                    "source": "When?",
+                    "target": "Quando?"
+                },
+                {
+                    "source": "Why?",
+                    "target": "Perché?"
+                },
+                {
+                    "source": "Who?",
+                    "target": "Chi?"
+                },
+                {
+                    "source": "What?",
+                    "target": "Cosa?"
+                },
+                {
+                    "source": "How?",
+                    "target": "Come?"
+                },
+                {
+                    "source": "To speak",
+                    "target": "Parlare"
+                },
+                {
+                    "source": "To understand",
+                    "target": "Capire"
+                },
+                {
+                    "source": "To know",
+                    "target": "Sapere"
+                },
+                {
+                    "source": "To want",
+                    "target": "Volere"
+                },
+                {
+                    "source": "To need",
+                    "target": "Avere bisogno di"
+                },
+                {
+                    "source": "To like",
+                    "target": "Piacere"
+                },
+                {
+                    "source": "To love",
+                    "target": "Amare"
+                },
+                {
+                    "source": "I don't understand",
+                    "target": "Non capisco"
+                },
+                {
+                    "source": "Do you speak English?",
+                    "target": "Parli inglese?"
+                },
+                {
+                    "source": "Help!",
+                    "target": "Aiuto!"
+                },
+                {
+                    "source": "Where is?",
+                    "target": "Dov'è?"
+                },
+                {
+                    "source": "Bathroom",
+                    "target": "Bagno"
+                },
+                {
+                    "source": "Restaurant",
+                    "target": "Ristorante"
+                },
+                {
+                    "source": "Hotel",
+                    "target": "Albergo"
+                },
+                {
+                    "source": "Street",
+                    "target": "Strada"
+                },
+                {
+                    "source": "City",
+                    "target": "Città"
+                },
+                {
+                    "source": "Country",
+                    "target": "Paese"
+                },
+                {
+                    "source": "Money",
+                    "target": "Soldi"
+                },
+                {
+                    "source": "Price",
+                    "target": "Prezzo"
+                },
+                {
+                    "source": "Big",
+                    "target": "Grande"
+                },
+                {
+                    "source": "Small",
+                    "target": "Piccolo"
+                },
+                {
+                    "source": "Good",
+                    "target": "Buono"
+                },
+                {
+                    "source": "Bad",
+                    "target": "Cattivo"
+                },
+                {
+                    "source": "Beautiful",
+                    "target": "Bello"
+                },
+                {
+                    "source": "Ugly",
+                    "target": "Brutto"
+                },
+                {
+                    "source": "Hot",
+                    "target": "Caldo"
+                },
+                {
+                    "source": "Cold",
+                    "target": "Freddo"
+                },
+                {
+                    "source": "New",
+                    "target": "Nuovo"
+                },
+                {
+                    "source": "Old",
+                    "target": "Vecchio"
+                },
+                {
+                    "source": "Young",
+                    "target": "Giovane"
+                },
+                {
+                    "source": "One",
+                    "target": "Uno"
+                },
+                {
+                    "source": "Two",
+                    "target": "Due"
+                },
+                {
+                    "source": "Three",
+                    "target": "Tre"
+                },
+                {
+                    "source": "Four",
+                    "target": "Quattro"
+                },
+                {
+                    "source": "Five",
+                    "target": "Cinque"
+                },
+                {
+                    "source": "Six",
+                    "target": "Sei"
+                },
+                {
+                    "source": "Seven",
+                    "target": "Sette"
+                },
+                {
+                    "source": "Eight",
+                    "target": "Otto"
+                },
+                {
+                    "source": "Nine",
+                    "target": "Nove"
+                },
+                {
+                    "source": "Ten",
+                    "target": "Dieci"
+                },
+                {
+                    "source": "More",
+                    "target": "Più"
+                },
+                {
+                    "source": "Less",
+                    "target": "Meno"
+                }
+            ]
+        }
+    ]
+}
