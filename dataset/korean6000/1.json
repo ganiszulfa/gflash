@@ -1,0 +1,4107 @@
+{
+    "name": "Korean 6000 words",
+    "source_name": "English",
+    "target_name": "Korean",
+    "packs": [
+        {
+            "name": "Pack 1 - 50",
+            "words": [
+                {
+                    "source": "A thing or  an object",
+                    "target": "것"
+                },
+                {
+                    "source": "To do",
+                    "target": "하다"
+                },
+                {
+                    "source": "To be",
+                    "target": "있다"
+                },
+                {
+                    "source": "way, method, Number",
+                    "target": "수"
+                },
+                {
+                    "source": "To do",
+                    "target": "하다"
+                },
+                {
+                    "source": "I",
+                    "target": "나"
+                },
+                {
+                    "source": "Do not exist, absent",
+                    "target": "없다"
+                },
+                {
+                    "source": "To not do",
+                    "target": "않다"
+                },
+                {
+                    "source": "Person",
+                    "target": "사람"
+                },
+                {
+                    "source": "we, our",
+                    "target": "우리"
+                },
+                {
+                    "source": "He, That",
+                    "target": "그"
+                },
+                {
+                    "source": "To not be",
+                    "target": "아니다"
+                },
+                {
+                    "source": "To try",
+                    "target": "보다"
+                },
+                {
+                    "source": "thing",
+                    "target": "거"
+                },
+                {
+                    "source": "To see",
+                    "target": "보다"
+                },
+                {
+                    "source": "To be similar",
+                    "target": "같다"
+                },
+                {
+                    "source": "To give, to do for a person",
+                    "target": "주다"
+                },
+                {
+                    "source": "Face, confront",
+                    "target": "대하다"
+                },
+                {
+                    "source": "To go",
+                    "target": "가다"
+                },
+                {
+                    "source": "Year",
+                    "target": "년"
+                },
+                {
+                    "source": "One, a single",
+                    "target": "한"
+                },
+                {
+                    "source": "words,speaking",
+                    "target": "말"
+                },
+                {
+                    "source": "Work",
+                    "target": "일"
+                },
+                {
+                    "source": "A person, a man/woman",
+                    "target": "이"
+                },
+                {
+                    "source": "Speak",
+                    "target": "말하다"
+                },
+                {
+                    "source": "To do for the sake of",
+                    "target": "위하다"
+                },
+                {
+                    "source": "However or  but still",
+                    "target": "그러나"
+                },
+                {
+                    "source": "To come",
+                    "target": "오다"
+                },
+                {
+                    "source": "To know",
+                    "target": "알다"
+                },
+                {
+                    "source": "~ Mr.",
+                    "target": "씨"
+                },
+                {
+                    "source": "That is right or  yes.",
+                    "target": "그렇다"
+                },
+                {
+                    "source": "To be big, large",
+                    "target": "크다"
+                },
+                {
+                    "source": "One day",
+                    "target": "일"
+                },
+                {
+                    "source": "culture,society",
+                    "target": "사회"
+                },
+                {
+                    "source": "many, much",
+                    "target": "많다"
+                },
+                {
+                    "source": "~ not ~ + VERB",
+                    "target": "안"
+                },
+                {
+                    "source": "To be good",
+                    "target": "좋다"
+                },
+                {
+                    "source": "More",
+                    "target": "더"
+                },
+                {
+                    "source": "Receive",
+                    "target": "받다"
+                },
+                {
+                    "source": "That thing",
+                    "target": "그것"
+                },
+                {
+                    "source": "House",
+                    "target": "집"
+                },
+                {
+                    "source": "Come out",
+                    "target": "나오다"
+                },
+                {
+                    "source": "And or  and then",
+                    "target": "그리고"
+                },
+                {
+                    "source": "question,problem",
+                    "target": "문제"
+                },
+                {
+                    "source": "Such a",
+                    "target": "그런"
+                },
+                {
+                    "source": "To live",
+                    "target": "살다"
+                },
+                {
+                    "source": "That",
+                    "target": "저"
+                },
+                {
+                    "source": "Be impossible",
+                    "target": "못하다"
+                },
+                {
+                    "source": "To think",
+                    "target": "생각하다"
+                },
+                {
+                    "source": "To not know",
+                    "target": "모르다"
+                }
+            ]
+        },
+        {
+            "name": "Pack 51 - 100",
+            "words": [
+                {
+                    "source": "The inside",
+                    "target": "속"
+                },
+                {
+                    "source": "To make",
+                    "target": "만들다"
+                },
+                {
+                    "source": "Place, point, instance",
+                    "target": "데"
+                },
+                {
+                    "source": "In front of, before",
+                    "target": "앞"
+                },
+                {
+                    "source": "A case or  an instance",
+                    "target": "경우"
+                },
+                {
+                    "source": "The center, the middle",
+                    "target": "중"
+                },
+                {
+                    "source": "What kind of, what sort of",
+                    "target": "어떤"
+                },
+                {
+                    "source": "Well",
+                    "target": "잘"
+                },
+                {
+                    "source": "She",
+                    "target": "그녀"
+                },
+                {
+                    "source": "Eat, chow down on",
+                    "target": "먹다"
+                },
+                {
+                    "source": "one’s own self, one\\’s own body",
+                    "target": "자신"
+                },
+                {
+                    "source": "culture",
+                    "target": "문화"
+                },
+                {
+                    "source": "A unit of south korean  money, KRW",
+                    "target": "원"
+                },
+                {
+                    "source": "Thought",
+                    "target": "생각"
+                },
+                {
+                    "source": "how,what.. do you think of",
+                    "target": "어떻다"
+                },
+                {
+                    "source": "Person counter",
+                    "target": "명"
+                },
+                {
+                    "source": "Run, lead; flow; go through",
+                    "target": "통하다"
+                },
+                {
+                    "source": "and so, and then, well",
+                    "target": "그러다"
+                },
+                {
+                    "source": "and so, and then, well",
+                    "target": "그러다"
+                },
+                {
+                    "source": "A sound,noise",
+                    "target": "소리"
+                },
+                {
+                    "source": "Again",
+                    "target": "다시"
+                },
+                {
+                    "source": "Different",
+                    "target": "다른"
+                },
+                {
+                    "source": "Such, like this",
+                    "target": "이런"
+                },
+                {
+                    "source": "woman,female",
+                    "target": "여자"
+                },
+                {
+                    "source": "Unit or  piece",
+                    "target": "개"
+                },
+                {
+                    "source": "grade,degree",
+                    "target": "정도"
+                },
+                {
+                    "source": "All, everything",
+                    "target": "다"
+                },
+                {
+                    "source": "A little",
+                    "target": "좀"
+                },
+                {
+                    "source": "want,hope",
+                    "target": "싶다"
+                },
+                {
+                    "source": "see,catch sight of",
+                    "target": "보이다"
+                },
+                {
+                    "source": "To have or  take or  hold",
+                    "target": "가지다"
+                },
+                {
+                    "source": "Together, with",
+                    "target": "함께"
+                },
+                {
+                    "source": "Child",
+                    "target": "아이"
+                },
+                {
+                    "source": "pass,elapse,go on",
+                    "target": "지나다"
+                },
+                {
+                    "source": "A lot",
+                    "target": "많이"
+                },
+                {
+                    "source": "Time",
+                    "target": "시간"
+                },
+                {
+                    "source": "You",
+                    "target": "너"
+                },
+                {
+                    "source": "A person, a human being",
+                    "target": "인간"
+                },
+                {
+                    "source": "The truth, a fact",
+                    "target": "사실"
+                },
+                {
+                    "source": "To be born",
+                    "target": "나다"
+                },
+                {
+                    "source": "Like this",
+                    "target": "이렇다"
+                },
+                {
+                    "source": "Mom",
+                    "target": "어머니"
+                },
+                {
+                    "source": "Eyes",
+                    "target": "눈"
+                },
+                {
+                    "source": "Huh? (2) something",
+                    "target": "뭐"
+                },
+                {
+                    "source": "Store",
+                    "target": "점"
+                },
+                {
+                    "source": "To be due to, owing to",
+                    "target": "의하다"
+                },
+                {
+                    "source": "An age,period",
+                    "target": "시대"
+                },
+                {
+                    "source": "Next",
+                    "target": "다음"
+                },
+                {
+                    "source": "Be this way, be like follows",
+                    "target": "이러하다"
+                },
+                {
+                    "source": "Who",
+                    "target": "누구"
+                }
+            ]
+        },
+        {
+            "name": "Pack 101 - 150",
+            "words": [
+                {
+                    "source": "Place",
+                    "target": "곳"
+                },
+                {
+                    "source": "many,various",
+                    "target": "여러"
+                },
+                {
+                    "source": "Inside",
+                    "target": "안"
+                },
+                {
+                    "source": "One",
+                    "target": "하나"
+                },
+                {
+                    "source": "World",
+                    "target": "세계"
+                },
+                {
+                    "source": "(following a verb) the verb\\’s action is over, perhaps in a sad way",
+                    "target": "버리다"
+                },
+                {
+                    "source": "The upper part, above",
+                    "target": "위"
+                },
+                {
+                    "source": "Motion, movement",
+                    "target": "운동"
+                },
+                {
+                    "source": "Percent",
+                    "target": "퍼센트"
+                },
+                {
+                    "source": "School",
+                    "target": "학교"
+                },
+                {
+                    "source": "Oneself, number one, numerouno, self",
+                    "target": "자기"
+                },
+                {
+                    "source": "Most",
+                    "target": "가장"
+                },
+                {
+                    "source": "The president",
+                    "target": "대통령"
+                },
+                {
+                    "source": "One of the kind or  a sort",
+                    "target": "가지"
+                },
+                {
+                    "source": "To start,begin",
+                    "target": "시작하다"
+                },
+                {
+                    "source": "Right, correctly",
+                    "target": "바로"
+                },
+                {
+                    "source": "Some, a certain",
+                    "target": "어느"
+                },
+                {
+                    "source": "And so accordingly",
+                    "target": "그래서"
+                },
+                {
+                    "source": "That thing,whatever",
+                    "target": "무엇"
+                },
+                {
+                    "source": "Government",
+                    "target": "정부"
+                },
+                {
+                    "source": "Every one",
+                    "target": "모든"
+                },
+                {
+                    "source": "Number, how many times",
+                    "target": "번"
+                },
+                {
+                    "source": "That thing",
+                    "target": "그거"
+                },
+                {
+                    "source": "Money",
+                    "target": "돈"
+                },
+                {
+                    "source": "A state or  a nation",
+                    "target": "국가"
+                },
+                {
+                    "source": "But or  however",
+                    "target": "그런데"
+                },
+                {
+                    "source": "Day",
+                    "target": "날"
+                },
+                {
+                    "source": "A hobby",
+                    "target": "여기"
+                },
+                {
+                    "source": "Everybody",
+                    "target": "모두"
+                },
+                {
+                    "source": "Female",
+                    "target": "여성"
+                },
+                {
+                    "source": "A friend",
+                    "target": "친구"
+                },
+                {
+                    "source": "Heart",
+                    "target": "마음"
+                },
+                {
+                    "source": "After",
+                    "target": "후"
+                },
+                {
+                    "source": "Put, place",
+                    "target": "놓다"
+                },
+                {
+                    "source": "Connection or  relation",
+                    "target": "관계"
+                },
+                {
+                    "source": "Father",
+                    "target": "아버지"
+                },
+                {
+                    "source": "Boy",
+                    "target": "남자"
+                },
+                {
+                    "source": "Where?",
+                    "target": "어디"
+                },
+                {
+                    "source": "body,physique",
+                    "target": "몸"
+                },
+                {
+                    "source": "Face",
+                    "target": "얼굴"
+                },
+                {
+                    "source": "Why?",
+                    "target": "왜"
+                },
+                {
+                    "source": "Come out, appear",
+                    "target": "나타나다"
+                },
+                {
+                    "source": "An area, region",
+                    "target": "지역"
+                },
+                {
+                    "source": "Be different",
+                    "target": "다르다"
+                },
+                {
+                    "source": "shape,body",
+                    "target": "모습"
+                },
+                {
+                    "source": "Water",
+                    "target": "물"
+                },
+                {
+                    "source": "Meet",
+                    "target": "만나다"
+                },
+                {
+                    "source": "produce something",
+                    "target": "내다"
+                },
+                {
+                    "source": "show,let see",
+                    "target": "보이다"
+                },
+                {
+                    "source": "To write",
+                    "target": "쓰다"
+                }
+            ]
+        },
+        {
+            "name": "Pack 151 - 200",
+            "words": [
+                {
+                    "source": "This thing",
+                    "target": "이것"
+                },
+                {
+                    "source": "Without",
+                    "target": "없이"
+                },
+                {
+                    "source": "This time",
+                    "target": "이번"
+                },
+                {
+                    "source": "Road",
+                    "target": "길"
+                },
+                {
+                    "source": "lifestyle,livelihood",
+                    "target": "생활"
+                },
+                {
+                    "source": "Take (medicine)",
+                    "target": "쓰다"
+                },
+                {
+                    "source": "only,alone,merely",
+                    "target": "뿐"
+                },
+                {
+                    "source": "space between 2 points; the relationship between 2 people",
+                    "target": "사이"
+                },
+                {
+                    "source": "Way, method",
+                    "target": "방법"
+                },
+                {
+                    "source": "To be new,novel",
+                    "target": "새롭다"
+                },
+                {
+                    "source": "to see through, to make it through sth",
+                    "target": "내다"
+                },
+                {
+                    "source": "To sit down",
+                    "target": "앉다"
+                },
+                {
+                    "source": "First",
+                    "target": "처음"
+                },
+                {
+                    "source": "The hand",
+                    "target": "손"
+                },
+                {
+                    "source": "A few",
+                    "target": "몇"
+                },
+                {
+                    "source": "Then or  at that time",
+                    "target": "그때"
+                },
+                {
+                    "source": "Process or  course",
+                    "target": "과정"
+                },
+                {
+                    "source": "Life",
+                    "target": "삶"
+                },
+                {
+                    "source": "To hold",
+                    "target": "갖다"
+                },
+                {
+                    "source": "seek,look for",
+                    "target": "찾다"
+                },
+                {
+                    "source": "Especially",
+                    "target": "특히"
+                },
+                {
+                    "source": "Time",
+                    "target": "시"
+                },
+                {
+                    "source": "More than, above",
+                    "target": "이상"
+                },
+                {
+                    "source": "Now",
+                    "target": "지금"
+                },
+                {
+                    "source": "To go out",
+                    "target": "나가다"
+                },
+                {
+                    "source": "Conversation, talk",
+                    "target": "이야기"
+                },
+                {
+                    "source": "Education",
+                    "target": "교육"
+                },
+                {
+                    "source": "To buy, purchase",
+                    "target": "사다"
+                },
+                {
+                    "source": "Economy",
+                    "target": "경제"
+                },
+                {
+                    "source": "Still",
+                    "target": "아직"
+                },
+                {
+                    "source": "seize,catch",
+                    "target": "잡다"
+                },
+                {
+                    "source": "Together",
+                    "target": "같이"
+                },
+                {
+                    "source": "Teacher",
+                    "target": "선생님"
+                },
+                {
+                    "source": "Art, an art",
+                    "target": "예술"
+                },
+                {
+                    "source": "To stand",
+                    "target": "서다"
+                },
+                {
+                    "source": "Cannot",
+                    "target": "못"
+                },
+                {
+                    "source": "History",
+                    "target": "역사"
+                },
+                {
+                    "source": "To read",
+                    "target": "읽다"
+                },
+                {
+                    "source": "Result",
+                    "target": "결과"
+                },
+                {
+                    "source": "Contents",
+                    "target": "내용"
+                },
+                {
+                    "source": "Of course",
+                    "target": "물론"
+                },
+                {
+                    "source": "A book",
+                    "target": "책"
+                },
+                {
+                    "source": "To rise, get up",
+                    "target": "일어나다"
+                },
+                {
+                    "source": "Formal you",
+                    "target": "당신"
+                },
+                {
+                    "source": "market,fair",
+                    "target": "시장"
+                },
+                {
+                    "source": "Put in, set in",
+                    "target": "넣다"
+                },
+                {
+                    "source": "To be important,weighty",
+                    "target": "중요하다"
+                },
+                {
+                    "source": "What, what kind of",
+                    "target": "무슨"
+                },
+                {
+                    "source": "To feel",
+                    "target": "느끼다"
+                },
+                {
+                    "source": "To be hard, difficult",
+                    "target": "어렵다"
+                }
+            ]
+        },
+        {
+            "name": "Pack 201 - 250",
+            "words": [
+                {
+                    "source": "Power",
+                    "target": "힘"
+                },
+                {
+                    "source": "Too much",
+                    "target": "너무"
+                },
+                {
+                    "source": "A country",
+                    "target": "나라"
+                },
+                {
+                    "source": "To call",
+                    "target": "부르다"
+                },
+                {
+                    "source": "A meaning, a sense",
+                    "target": "의미"
+                },
+                {
+                    "source": "seat,spot",
+                    "target": "자리"
+                },
+                {
+                    "source": "To light up",
+                    "target": "밝히다"
+                },
+                {
+                    "source": "die,pass away",
+                    "target": "죽다"
+                },
+                {
+                    "source": "Already",
+                    "target": "이미"
+                },
+                {
+                    "source": "Way, direction",
+                    "target": "쪽"
+                },
+                {
+                    "source": "Politics",
+                    "target": "정치"
+                },
+                {
+                    "source": "The people or  a nationality",
+                    "target": "국민"
+                },
+                {
+                    "source": "Life",
+                    "target": "생명"
+                },
+                {
+                    "source": "Story",
+                    "target": "얘기"
+                },
+                {
+                    "source": "Student",
+                    "target": "학생"
+                },
+                {
+                    "source": "Research",
+                    "target": "연구"
+                },
+                {
+                    "source": "Mamma",
+                    "target": "엄마"
+                },
+                {
+                    "source": "Name",
+                    "target": "이름"
+                },
+                {
+                    "source": "One",
+                    "target": "하나"
+                },
+                {
+                    "source": "Descend",
+                    "target": "내리다"
+                },
+                {
+                    "source": "An event,incident",
+                    "target": "사건"
+                },
+                {
+                    "source": "As well as",
+                    "target": "및"
+                },
+                {
+                    "source": "To be easy",
+                    "target": "쉽다"
+                },
+                {
+                    "source": "To make, build ; to form a line (a group)",
+                    "target": "짓다"
+                },
+                {
+                    "source": "Reason",
+                    "target": "이유"
+                },
+                {
+                    "source": "To need",
+                    "target": "필요하다"
+                },
+                {
+                    "source": "words, a verse",
+                    "target": "글"
+                },
+                {
+                    "source": "arise,occur,happen",
+                    "target": "생기다"
+                },
+                {
+                    "source": "To use",
+                    "target": "사용하다"
+                },
+                {
+                    "source": "Husband",
+                    "target": "남편"
+                },
+                {
+                    "source": "The outside",
+                    "target": "밖"
+                },
+                {
+                    "source": "The world,society",
+                    "target": "세상"
+                },
+                {
+                    "source": "Small",
+                    "target": "작다"
+                },
+                {
+                    "source": "Ride (bus)",
+                    "target": "타다"
+                },
+                {
+                    "source": "University",
+                    "target": "대학"
+                },
+                {
+                    "source": "A work of art",
+                    "target": "작품"
+                },
+                {
+                    "source": "State of things",
+                    "target": "상황"
+                },
+                {
+                    "source": "In the middle",
+                    "target": "가운데"
+                },
+                {
+                    "source": "Send",
+                    "target": "보내다"
+                },
+                {
+                    "source": "namely,that is to say",
+                    "target": "즉"
+                },
+                {
+                    "source": "condition,state",
+                    "target": "상태"
+                },
+                {
+                    "source": "After that",
+                    "target": "이후"
+                },
+                {
+                    "source": "At that time",
+                    "target": "당시"
+                },
+                {
+                    "source": "Literature",
+                    "target": "문학"
+                },
+                {
+                    "source": "More and more",
+                    "target": "더욱"
+                },
+                {
+                    "source": "Extremely",
+                    "target": "아주"
+                },
+                {
+                    "source": "A locality, district",
+                    "target": "지방"
+                },
+                {
+                    "source": "Night",
+                    "target": "밤"
+                },
+                {
+                    "source": "High",
+                    "target": "높다"
+                },
+                {
+                    "source": "Recently",
+                    "target": "최근"
+                }
+            ]
+        },
+        {
+            "name": "Pack 251 - 300",
+            "words": [
+                {
+                    "source": "As it is, no change",
+                    "target": "채"
+                },
+                {
+                    "source": "Actuality, reality",
+                    "target": "현실"
+                },
+                {
+                    "source": "Environment",
+                    "target": "환경"
+                },
+                {
+                    "source": "Computer",
+                    "target": "컴퓨터"
+                },
+                {
+                    "source": "First",
+                    "target": "먼저"
+                },
+                {
+                    "source": "Go to and from a aplace",
+                    "target": "다니다"
+                },
+                {
+                    "source": "How many, how much",
+                    "target": "얼마나"
+                },
+                {
+                    "source": "one’s own body",
+                    "target": "자체"
+                },
+                {
+                    "source": "Open",
+                    "target": "열다"
+                },
+                {
+                    "source": "Head",
+                    "target": "머리"
+                },
+                {
+                    "source": "to Ask",
+                    "target": "묻다"
+                },
+                {
+                    "source": "Remain, be left over",
+                    "target": "남다"
+                },
+                {
+                    "source": "part,portion",
+                    "target": "부분"
+                },
+                {
+                    "source": "An enterprise or business",
+                    "target": "기업"
+                },
+                {
+                    "source": "Change, transformation",
+                    "target": "변화"
+                },
+                {
+                    "source": "son,baby",
+                    "target": "아들"
+                },
+                {
+                    "source": "Oh dear",
+                    "target": "아"
+                },
+                {
+                    "source": "An election",
+                    "target": "선거"
+                },
+                {
+                    "source": "Refer to or  be about",
+                    "target": "관하다"
+                },
+                {
+                    "source": "Minutes",
+                    "target": "분"
+                },
+                {
+                    "source": "Just because or  in that condition",
+                    "target": "그냥"
+                },
+                {
+                    "source": "To divide",
+                    "target": "나누다"
+                },
+                {
+                    "source": "To use, make use of",
+                    "target": "이용하다"
+                },
+                {
+                    "source": "Almost or  nearly",
+                    "target": "거의"
+                },
+                {
+                    "source": "Soon",
+                    "target": "곧"
+                },
+                {
+                    "source": "The nucleus, the focus, the heart",
+                    "target": "중심"
+                },
+                {
+                    "source": "Activity",
+                    "target": "활동"
+                },
+                {
+                    "source": "Today",
+                    "target": "오늘"
+                },
+                {
+                    "source": "mutually,one another",
+                    "target": "서로"
+                },
+                {
+                    "source": "Concern or  interest",
+                    "target": "관심"
+                },
+                {
+                    "source": "As expected, likewise",
+                    "target": "역시"
+                },
+                {
+                    "source": "This thing",
+                    "target": "이거"
+                },
+                {
+                    "source": "A baby, or a slightly derogative word for person",
+                    "target": "애"
+                },
+                {
+                    "source": "Advertisement",
+                    "target": "광고"
+                },
+                {
+                    "source": "To come out, grow, spring up",
+                    "target": "나다"
+                },
+                {
+                    "source": "A room",
+                    "target": "방"
+                },
+                {
+                    "source": "mind,spirit",
+                    "target": "정신"
+                },
+                {
+                    "source": "To reach, arrive, get at",
+                    "target": "이르다"
+                },
+                {
+                    "source": "Accomplish, complete",
+                    "target": "이루다"
+                },
+                {
+                    "source": "Morning",
+                    "target": "아침"
+                },
+                {
+                    "source": "To laugh, smile",
+                    "target": "웃다"
+                },
+                {
+                    "source": "The present situation, state",
+                    "target": "현상"
+                },
+                {
+                    "source": "Art or  technique or  ability",
+                    "target": "기술"
+                },
+                {
+                    "source": "The whole, the entire section",
+                    "target": "전체"
+                },
+                {
+                    "source": "So or  yes or  that’s right",
+                    "target": "그래"
+                },
+                {
+                    "source": "Get, obtain",
+                    "target": "얻다"
+                },
+                {
+                    "source": "To be beautiful",
+                    "target": "아름답다"
+                },
+                {
+                    "source": "The end",
+                    "target": "끝"
+                },
+                {
+                    "source": "race,nation,people",
+                    "target": "민족"
+                },
+                {
+                    "source": "The interval between",
+                    "target": "간"
+                }
+            ]
+        },
+        {
+            "name": "Pack 301 - 350",
+            "words": [
+                {
+                    "source": "investigation,inquiry",
+                    "target": "조사"
+                },
+                {
+                    "source": "To be like something",
+                    "target": "듯"
+                },
+                {
+                    "source": "Mouth",
+                    "target": "입"
+                },
+                {
+                    "source": "Huh? (2) something",
+                    "target": "뭐"
+                },
+                {
+                    "source": "Like that",
+                    "target": "그대로"
+                },
+                {
+                    "source": "A movie",
+                    "target": "영화"
+                },
+                {
+                    "source": "Need, requirement,necessity",
+                    "target": "필요"
+                },
+                {
+                    "source": "way,method",
+                    "target": "줄"
+                },
+                {
+                    "source": "The sky",
+                    "target": "하늘"
+                },
+                {
+                    "source": "Year",
+                    "target": "년대"
+                },
+                {
+                    "source": "Science",
+                    "target": "과학"
+                },
+                {
+                    "source": "Nature",
+                    "target": "자연"
+                },
+                {
+                    "source": "Really",
+                    "target": "정말"
+                },
+                {
+                    "source": "Construction or  structure",
+                    "target": "구조"
+                },
+                {
+                    "source": "After all or  in the end",
+                    "target": "결국"
+                },
+                {
+                    "source": "Rice, a meal",
+                    "target": "밥"
+                },
+                {
+                    "source": "To wear",
+                    "target": "입다"
+                },
+                {
+                    "source": "Rather,preferably",
+                    "target": "오히려"
+                },
+                {
+                    "source": "Program",
+                    "target": "프로그램"
+                },
+                {
+                    "source": "Yes",
+                    "target": "네"
+                },
+                {
+                    "source": "Get accomplished, achieved",
+                    "target": "이루어지다"
+                },
+                {
+                    "source": "Others, other people",
+                    "target": "남"
+                },
+                {
+                    "source": "A day",
+                    "target": "하루"
+                },
+                {
+                    "source": "A picture",
+                    "target": "그림"
+                },
+                {
+                    "source": "The time,the occasion,when",
+                    "target": "적"
+                },
+                {
+                    "source": "one’s status, one’s lot",
+                    "target": "터"
+                },
+                {
+                    "source": "To drink",
+                    "target": "마시다"
+                },
+                {
+                    "source": "to attack, assault",
+                    "target": "치다"
+                },
+                {
+                    "source": "Alone",
+                    "target": "혼자"
+                },
+                {
+                    "source": "To advance, proceed, go forward",
+                    "target": "나가다"
+                },
+                {
+                    "source": "Now",
+                    "target": "이제"
+                },
+                {
+                    "source": "Teaching or  instruction",
+                    "target": "교수"
+                },
+                {
+                    "source": "Alcohol",
+                    "target": "술"
+                },
+                {
+                    "source": "Love",
+                    "target": "사랑"
+                },
+                {
+                    "source": "Telephone",
+                    "target": "전화"
+                },
+                {
+                    "source": "To draw to a close or  to end",
+                    "target": "끝나다"
+                },
+                {
+                    "source": "Be right, correct; to match, be fitting for",
+                    "target": "맞다"
+                },
+                {
+                    "source": "Dad",
+                    "target": "아빠"
+                },
+                {
+                    "source": "To be hung up or  suspended",
+                    "target": "걸리다"
+                },
+                {
+                    "source": "Protect, maintain",
+                    "target": "지키다"
+                },
+                {
+                    "source": "Once",
+                    "target": "한번"
+                },
+                {
+                    "source": "Coffee",
+                    "target": "커피"
+                },
+                {
+                    "source": "Chest",
+                    "target": "가슴"
+                },
+                {
+                    "source": "To be long",
+                    "target": "길다"
+                },
+                {
+                    "source": "Look at, watch ; to look forward to, hope for",
+                    "target": "바라보다"
+                },
+                {
+                    "source": "To investigate, examine, search",
+                    "target": "알아보다"
+                },
+                {
+                    "source": "Flavor",
+                    "target": "맛"
+                },
+                {
+                    "source": "Most",
+                    "target": "대부분"
+                },
+                {
+                    "source": "Industry",
+                    "target": "산업"
+                },
+                {
+                    "source": "Very",
+                    "target": "매우"
+                }
+            ]
+        },
+        {
+            "name": "Pack 351 - 400",
+            "words": [
+                {
+                    "source": "Go up, climb, ascend",
+                    "target": "오르다"
+                },
+                {
+                    "source": "Food",
+                    "target": "음식"
+                },
+                {
+                    "source": "Facial expression, look",
+                    "target": "표정"
+                },
+                {
+                    "source": "For sure",
+                    "target": "꼭"
+                },
+                {
+                    "source": "A part, a portion",
+                    "target": "일부"
+                },
+                {
+                    "source": "Recently, nowadays",
+                    "target": "요즘"
+                },
+                {
+                    "source": "A plan or  a project",
+                    "target": "계획"
+                },
+                {
+                    "source": "Touch, feel",
+                    "target": "느낌"
+                },
+                {
+                    "source": "How many, how much",
+                    "target": "얼마"
+                },
+                {
+                    "source": "The nape of the neck",
+                    "target": "고개"
+                },
+                {
+                    "source": "Personality ; character, nature",
+                    "target": "성격"
+                },
+                {
+                    "source": "Continuously",
+                    "target": "계속"
+                },
+                {
+                    "source": "Century",
+                    "target": "세기"
+                },
+                {
+                    "source": "Stand up, erect",
+                    "target": "세우다"
+                },
+                {
+                    "source": "Wife",
+                    "target": "아내"
+                },
+                {
+                    "source": "Family",
+                    "target": "가족"
+                },
+                {
+                    "source": "The present time, now, at present",
+                    "target": "현재"
+                },
+                {
+                    "source": "Three",
+                    "target": "세"
+                },
+                {
+                    "source": "Development",
+                    "target": "발전"
+                },
+                {
+                    "source": "A vehicle, train/auto car",
+                    "target": "차"
+                },
+                {
+                    "source": "Play, amuse oneself",
+                    "target": "놀다"
+                },
+                {
+                    "source": "To face, look out on",
+                    "target": "향하다"
+                },
+                {
+                    "source": "Relation or  connection or  reference",
+                    "target": "관련"
+                },
+                {
+                    "source": "Form, shape",
+                    "target": "형태"
+                },
+                {
+                    "source": "Each or  every",
+                    "target": "각"
+                },
+                {
+                    "source": "City",
+                    "target": "도시"
+                },
+                {
+                    "source": "Work",
+                    "target": "작업"
+                },
+                {
+                    "source": "atmosphere,surroundings",
+                    "target": "분위기"
+                },
+                {
+                    "source": "To be so or  right",
+                    "target": "그러하다"
+                },
+                {
+                    "source": "Age",
+                    "target": "나이"
+                },
+                {
+                    "source": "First of all, before everything",
+                    "target": "우선"
+                },
+                {
+                    "source": "Believe",
+                    "target": "믿다"
+                },
+                {
+                    "source": "change,exchange",
+                    "target": "바꾸다"
+                },
+                {
+                    "source": "To give birth",
+                    "target": "낳다"
+                },
+                {
+                    "source": "A thing, what",
+                    "target": "바"
+                },
+                {
+                    "source": "information,intelligence",
+                    "target": "정보"
+                },
+                {
+                    "source": "Open, be opened, be unlocked",
+                    "target": "열리다"
+                },
+                {
+                    "source": "To like, be fond of",
+                    "target": "좋아하다"
+                },
+                {
+                    "source": "Picture or  draw a picture",
+                    "target": "그리다"
+                },
+                {
+                    "source": "Of that amount",
+                    "target": "만큼"
+                },
+                {
+                    "source": "To learn",
+                    "target": "배우다"
+                },
+                {
+                    "source": "Poetry, lines of verse",
+                    "target": "시"
+                },
+                {
+                    "source": "A part, a role",
+                    "target": "역할"
+                },
+                {
+                    "source": "Next to",
+                    "target": "옆"
+                },
+                {
+                    "source": "Action, behavior",
+                    "target": "행동"
+                },
+                {
+                    "source": "Oh, well, why",
+                    "target": "어"
+                },
+                {
+                    "source": "Inside the country",
+                    "target": "국내"
+                },
+                {
+                    "source": "Compare to",
+                    "target": "비하다"
+                },
+                {
+                    "source": "An engine or  a machine",
+                    "target": "기관"
+                },
+                {
+                    "source": "A position, situation",
+                    "target": "입장"
+                }
+            ]
+        },
+        {
+            "name": "Pack 401 - 450",
+            "words": [
+                {
+                    "source": "Be of the extent of",
+                    "target": "만하다"
+                },
+                {
+                    "source": "Example",
+                    "target": "예"
+                },
+                {
+                    "source": "The bottom, the lower part",
+                    "target": "아래"
+                },
+                {
+                    "source": "A form, method, process",
+                    "target": "방식"
+                },
+                {
+                    "source": "Influence, consequences",
+                    "target": "영향"
+                },
+                {
+                    "source": "Certainly or  of course.",
+                    "target": "그럼"
+                },
+                {
+                    "source": "Come out, come forth",
+                    "target": "나서다"
+                },
+                {
+                    "source": "Flow, stream",
+                    "target": "흐르다"
+                },
+                {
+                    "source": "Uh, well,  …",
+                    "target": "저"
+                },
+                {
+                    "source": "Deep",
+                    "target": "깊다"
+                },
+                {
+                    "source": "A boat (boating)",
+                    "target": "배"
+                },
+                {
+                    "source": "Inside",
+                    "target": "내"
+                },
+                {
+                    "source": "A shape, form",
+                    "target": "모양"
+                },
+                {
+                    "source": "A mountain",
+                    "target": "산"
+                },
+                {
+                    "source": "New",
+                    "target": "새"
+                },
+                {
+                    "source": "But, nevertheless",
+                    "target": "하지만"
+                },
+                {
+                    "source": "condition,stipulation",
+                    "target": "조건"
+                },
+                {
+                    "source": "Door",
+                    "target": "문"
+                },
+                {
+                    "source": "Flower",
+                    "target": "꽃"
+                },
+                {
+                    "source": "A step, phase",
+                    "target": "단계"
+                },
+                {
+                    "source": "Raise, lift up",
+                    "target": "올리다"
+                },
+                {
+                    "source": "During that time",
+                    "target": "그동안"
+                },
+                {
+                    "source": "Instructor",
+                    "target": "교사"
+                },
+                {
+                    "source": "Suddenly",
+                    "target": "갑자기"
+                },
+                {
+                    "source": "Cross or go across",
+                    "target": "넘다"
+                },
+                {
+                    "source": "Carry with, hold, possess",
+                    "target": "지니다"
+                },
+                {
+                    "source": "Wind",
+                    "target": "바람"
+                },
+                {
+                    "source": "To do well",
+                    "target": "잘하다"
+                },
+                {
+                    "source": "Town",
+                    "target": "마을"
+                },
+                {
+                    "source": "To be very young, juvenile",
+                    "target": "어리다"
+                },
+                {
+                    "source": "Representative",
+                    "target": "대표"
+                },
+                {
+                    "source": "Possibility",
+                    "target": "가능성"
+                },
+                {
+                    "source": "Direction",
+                    "target": "방향"
+                },
+                {
+                    "source": "A great meeting",
+                    "target": "대회"
+                },
+                {
+                    "source": "Voice",
+                    "target": "목소리"
+                },
+                {
+                    "source": "Song",
+                    "target": "노래"
+                },
+                {
+                    "source": "Sea",
+                    "target": "바다"
+                },
+                {
+                    "source": "To be hard, difficult",
+                    "target": "힘들다"
+                },
+                {
+                    "source": "Study",
+                    "target": "공부"
+                },
+                {
+                    "source": "To move, stir",
+                    "target": "움직이다"
+                },
+                {
+                    "source": "A member",
+                    "target": "의원"
+                },
+                {
+                    "source": "Effort",
+                    "target": "노력"
+                },
+                {
+                    "source": "entirely,utterly,completely",
+                    "target": "전혀"
+                },
+                {
+                    "source": "Older sister",
+                    "target": "언니"
+                },
+                {
+                    "source": "A corps, a group",
+                    "target": "단체"
+                },
+                {
+                    "source": "One part",
+                    "target": "분"
+                },
+                {
+                    "source": "To become known",
+                    "target": "알려지다"
+                },
+                {
+                    "source": "To be possible",
+                    "target": "가능하다"
+                },
+                {
+                    "source": "Ability, capability, how much and how well",
+                    "target": "능력"
+                },
+                {
+                    "source": "To assert,maintain",
+                    "target": "주장하다"
+                }
+            ]
+        },
+        {
+            "name": "Pack 451 - 500",
+            "words": [
+                {
+                    "source": "one’s children",
+                    "target": "자식"
+                },
+                {
+                    "source": "Fire",
+                    "target": "불"
+                },
+                {
+                    "source": "inhabitants,dwellers",
+                    "target": "주민"
+                },
+                {
+                    "source": "gather,get together",
+                    "target": "모으다"
+                },
+                {
+                    "source": "materials,data",
+                    "target": "자료"
+                },
+                {
+                    "source": "Existence",
+                    "target": "존재"
+                },
+                {
+                    "source": "A school year",
+                    "target": "학년"
+                },
+                {
+                    "source": "A newspaper",
+                    "target": "신문"
+                },
+                {
+                    "source": "Entertain or  hold or  have",
+                    "target": "가지다"
+                },
+                {
+                    "source": "To understand",
+                    "target": "이해하다"
+                },
+                {
+                    "source": "Manufactured goods",
+                    "target": "제품"
+                },
+                {
+                    "source": "Field",
+                    "target": "분야"
+                },
+                {
+                    "source": "Teacher",
+                    "target": "선생"
+                },
+                {
+                    "source": "Business",
+                    "target": "사업"
+                },
+                {
+                    "source": "An act, deed, behavior",
+                    "target": "행위"
+                },
+                {
+                    "source": "Level",
+                    "target": "수준"
+                },
+                {
+                    "source": "Last year",
+                    "target": "지난해"
+                },
+                {
+                    "source": "Verbal expression, representation, manifestation",
+                    "target": "표현"
+                },
+                {
+                    "source": "Mood",
+                    "target": "기분"
+                },
+                {
+                    "source": "Era, period",
+                    "target": "대"
+                },
+                {
+                    "source": "To be young,youthful",
+                    "target": "젊다"
+                },
+                {
+                    "source": "Clothes",
+                    "target": "옷"
+                },
+                {
+                    "source": "Function or  functionality",
+                    "target": "기능"
+                },
+                {
+                    "source": "A moment,a second",
+                    "target": "순간"
+                },
+                {
+                    "source": "War",
+                    "target": "전쟁"
+                },
+                {
+                    "source": "Before",
+                    "target": "전"
+                },
+                {
+                    "source": "A Dream",
+                    "target": "꿈"
+                },
+                {
+                    "source": "Grandmother",
+                    "target": "할머니"
+                },
+                {
+                    "source": "A meeting, a conference",
+                    "target": "회의"
+                },
+                {
+                    "source": "Broadcast",
+                    "target": "방송"
+                },
+                {
+                    "source": "To talk",
+                    "target": "이야기하다"
+                },
+                {
+                    "source": "Tree",
+                    "target": "나무"
+                },
+                {
+                    "source": "To sleep",
+                    "target": "자다"
+                },
+                {
+                    "source": "drama,a play",
+                    "target": "연극"
+                },
+                {
+                    "source": "The same",
+                    "target": "마찬가지"
+                },
+                {
+                    "source": "To walk",
+                    "target": "걷다"
+                },
+                {
+                    "source": "Labor, work",
+                    "target": "노동"
+                },
+                {
+                    "source": "At this time, moment",
+                    "target": "이때"
+                },
+                {
+                    "source": "The past",
+                    "target": "과거"
+                },
+                {
+                    "source": "Price",
+                    "target": "가치"
+                },
+                {
+                    "source": "a Length of time (한시간 동안)",
+                    "target": "시간"
+                },
+                {
+                    "source": "A group, a collective body",
+                    "target": "집단"
+                },
+                {
+                    "source": "The present age, times",
+                    "target": "현대"
+                },
+                {
+                    "source": "Watch closely",
+                    "target": "살펴보다"
+                },
+                {
+                    "source": "A government cabinet minister",
+                    "target": "장관"
+                },
+                {
+                    "source": "difference,disparity",
+                    "target": "차이"
+                },
+                {
+                    "source": "Untie, loosen ; to melt into",
+                    "target": "풀다"
+                },
+                {
+                    "source": "season,time,occasion",
+                    "target": "시절"
+                },
+                {
+                    "source": "A thing",
+                    "target": "물건"
+                },
+                {
+                    "source": "Directly",
+                    "target": "직접"
+                }
+            ]
+        },
+        {
+            "name": "Pack 501 - 550",
+            "words": [
+                {
+                    "source": "Private or  individual",
+                    "target": "개인"
+                },
+                {
+                    "source": "But or  however",
+                    "target": "근데"
+                },
+                {
+                    "source": "Foot",
+                    "target": "발"
+                },
+                {
+                    "source": "writer,author",
+                    "target": "작가"
+                },
+                {
+                    "source": "Effect, effectiveness",
+                    "target": "효과"
+                },
+                {
+                    "source": "Buddhism",
+                    "target": "불교"
+                },
+                {
+                    "source": "Pull",
+                    "target": "끌다"
+                },
+                {
+                    "source": "Like, according to",
+                    "target": "대로"
+                },
+                {
+                    "source": "Quickly",
+                    "target": "빨리"
+                },
+                {
+                    "source": "To begin,start",
+                    "target": "시작되다"
+                },
+                {
+                    "source": "Cease",
+                    "target": "말다"
+                },
+                {
+                    "source": "To explain",
+                    "target": "설명하다"
+                },
+                {
+                    "source": "The universe",
+                    "target": "우주"
+                },
+                {
+                    "source": "An opportunity,chance",
+                    "target": "시기"
+                },
+                {
+                    "source": "As though, as if",
+                    "target": "마치"
+                },
+                {
+                    "source": "Years old",
+                    "target": "살"
+                },
+                {
+                    "source": "1) production 2)birth",
+                    "target": "생산"
+                },
+                {
+                    "source": "Wish, hope",
+                    "target": "바라다"
+                },
+                {
+                    "source": "To be strong or  powerful",
+                    "target": "강하다"
+                },
+                {
+                    "source": "Experience or  undergo or  suffer",
+                    "target": "경험"
+                },
+                {
+                    "source": "Music",
+                    "target": "음악"
+                },
+                {
+                    "source": "The best",
+                    "target": "최고"
+                },
+                {
+                    "source": "Show, display",
+                    "target": "나타내다"
+                },
+                {
+                    "source": "To hurt",
+                    "target": "아프다"
+                },
+                {
+                    "source": "To be small, few in number",
+                    "target": "적다"
+                },
+                {
+                    "source": "Rain",
+                    "target": "비"
+                },
+                {
+                    "source": "Hometown",
+                    "target": "고향"
+                },
+                {
+                    "source": "Be surprised",
+                    "target": "놀라다"
+                },
+                {
+                    "source": "To be various, diverse",
+                    "target": "다양하다"
+                },
+                {
+                    "source": "To cry, weep",
+                    "target": "울다"
+                },
+                {
+                    "source": "A farmer",
+                    "target": "농민"
+                },
+                {
+                    "source": "A bank",
+                    "target": "은행"
+                },
+                {
+                    "source": "To pass, spend time",
+                    "target": "지내다"
+                },
+                {
+                    "source": "Marriage",
+                    "target": "결혼"
+                },
+                {
+                    "source": "A law, the law",
+                    "target": "법"
+                },
+                {
+                    "source": "A novel, fiction story",
+                    "target": "소설"
+                },
+                {
+                    "source": "Yes, certainly, right",
+                    "target": "예"
+                },
+                {
+                    "source": "The afternoon",
+                    "target": "오후"
+                },
+                {
+                    "source": "Order, system",
+                    "target": "질서"
+                },
+                {
+                    "source": "Put in a bottle",
+                    "target": "담다"
+                },
+                {
+                    "source": "Meet, assemble",
+                    "target": "모이다"
+                },
+                {
+                    "source": "Residents of a city",
+                    "target": "시민"
+                },
+                {
+                    "source": "Chariman, the president",
+                    "target": "회장"
+                },
+                {
+                    "source": "Be fast, quick",
+                    "target": "빠르다"
+                },
+                {
+                    "source": "On its own, of its own free will",
+                    "target": "스스로"
+                },
+                {
+                    "source": "baby,infant",
+                    "target": "아기"
+                },
+                {
+                    "source": "Sir, calling an unknown male",
+                    "target": "아저씨"
+                },
+                {
+                    "source": "Ancient times, antiquity",
+                    "target": "옛날"
+                },
+                {
+                    "source": "Today, this day",
+                    "target": "이날"
+                },
+                {
+                    "source": "As properly is suitable",
+                    "target": "제대로"
+                }
+            ]
+        },
+        {
+            "name": "Pack 551 - 600",
+            "words": [
+                {
+                    "source": "The moon",
+                    "target": "달"
+                },
+                {
+                    "source": "To throw",
+                    "target": "던지다"
+                },
+                {
+                    "source": "really,truly",
+                    "target": "참"
+                },
+                {
+                    "source": "Space or  room",
+                    "target": "공간"
+                },
+                {
+                    "source": "This place, here",
+                    "target": "이곳"
+                },
+                {
+                    "source": "Last, final",
+                    "target": "마지막"
+                },
+                {
+                    "source": "(1) to plan to start a job/project (2) to play a table game",
+                    "target": "벌이다"
+                },
+                {
+                    "source": "Hospital",
+                    "target": "병원"
+                },
+                {
+                    "source": "Position, posture",
+                    "target": "자세"
+                },
+                {
+                    "source": "Place empasis upon",
+                    "target": "강조하다"
+                },
+                {
+                    "source": "The police",
+                    "target": "경찰"
+                },
+                {
+                    "source": "Take charge of",
+                    "target": "맡다"
+                },
+                {
+                    "source": "Evening",
+                    "target": "저녁"
+                },
+                {
+                    "source": "One side, one way",
+                    "target": "한편"
+                },
+                {
+                    "source": "If so or  if that is the case",
+                    "target": "그러면"
+                },
+                {
+                    "source": "A journalist",
+                    "target": "기자"
+                },
+                {
+                    "source": "Broad",
+                    "target": "넓다"
+                },
+                {
+                    "source": "A test",
+                    "target": "시험"
+                },
+                {
+                    "source": "Sleep",
+                    "target": "잠"
+                },
+                {
+                    "source": "principally,mainly",
+                    "target": "주로"
+                },
+                {
+                    "source": "By far, very much so",
+                    "target": "훨씬"
+                },
+                {
+                    "source": "Side",
+                    "target": "면"
+                },
+                {
+                    "source": "Unification",
+                    "target": "통일"
+                },
+                {
+                    "source": "Health",
+                    "target": "건강"
+                },
+                {
+                    "source": "Close",
+                    "target": "가깝다"
+                },
+                {
+                    "source": "Building",
+                    "target": "건물"
+                },
+                {
+                    "source": "establishment,institution",
+                    "target": "시설"
+                },
+                {
+                    "source": "A foreign country",
+                    "target": "외국"
+                },
+                {
+                    "source": "The bottom",
+                    "target": "밑"
+                },
+                {
+                    "source": "A man, an adult",
+                    "target": "어른"
+                },
+                {
+                    "source": "A circumference",
+                    "target": "주변"
+                },
+                {
+                    "source": "Instead of",
+                    "target": "대신"
+                },
+                {
+                    "source": "A cause,a factor",
+                    "target": "원인"
+                },
+                {
+                    "source": "To sell",
+                    "target": "팔다"
+                },
+                {
+                    "source": "(1) order,precedence  (2) one time, one round",
+                    "target": "차례"
+                },
+                {
+                    "source": "An army",
+                    "target": "군"
+                },
+                {
+                    "source": "Enthusiastically,with zeal",
+                    "target": "열심히"
+                },
+                {
+                    "source": "To work, labor",
+                    "target": "일하다"
+                },
+                {
+                    "source": "property,fortune, assets, possessions",
+                    "target": "재산"
+                },
+                {
+                    "source": "Team",
+                    "target": "팀"
+                },
+                {
+                    "source": "Parents",
+                    "target": "부모"
+                },
+                {
+                    "source": "Somewhat",
+                    "target": "약간"
+                },
+                {
+                    "source": "language,speech",
+                    "target": "언어"
+                },
+                {
+                    "source": "To demand,claim,request",
+                    "target": "요구하다"
+                },
+                {
+                    "source": "To go up, ascend",
+                    "target": "올라가다"
+                },
+                {
+                    "source": "First",
+                    "target": "첫"
+                },
+                {
+                    "source": "The director",
+                    "target": "감독"
+                },
+                {
+                    "source": "That day or  that same day",
+                    "target": "그날"
+                },
+                {
+                    "source": "Actually, really",
+                    "target": "사실"
+                },
+                {
+                    "source": "Always, constantly",
+                    "target": "자주"
+                }
+            ]
+        },
+        {
+            "name": "Pack 601 - 650",
+            "words": [
+                {
+                    "source": "Have, encounter",
+                    "target": "당하다"
+                },
+                {
+                    "source": "Make a thing of",
+                    "target": "삼다"
+                },
+                {
+                    "source": "About, approximately",
+                    "target": "약"
+                },
+                {
+                    "source": "A period or  a time or",
+                    "target": "기간"
+                },
+                {
+                    "source": "Tobacco",
+                    "target": "담배"
+                },
+                {
+                    "source": "Riase, get up; start, commence",
+                    "target": "일으키다"
+                },
+                {
+                    "source": "Temporarily",
+                    "target": "일단"
+                },
+                {
+                    "source": "Grandfather",
+                    "target": "할아버지"
+                },
+                {
+                    "source": "Organization (composition, structure)",
+                    "target": "조직"
+                },
+                {
+                    "source": "To be born, see the light of day",
+                    "target": "태어나다"
+                },
+                {
+                    "source": "Construction site",
+                    "target": "공장"
+                },
+                {
+                    "source": "Already",
+                    "target": "벌써"
+                },
+                {
+                    "source": "Enjoy oneself,take pleasure,delight",
+                    "target": "즐기다"
+                },
+                {
+                    "source": "since,from",
+                    "target": "지"
+                },
+                {
+                    "source": "A patient",
+                    "target": "환자"
+                },
+                {
+                    "source": "Change",
+                    "target": "변하다"
+                },
+                {
+                    "source": "An accident",
+                    "target": "사고"
+                },
+                {
+                    "source": "All the same",
+                    "target": "그래도"
+                },
+                {
+                    "source": "However much",
+                    "target": "아무리"
+                },
+                {
+                    "source": "Adjust, adapt",
+                    "target": "맞추다"
+                },
+                {
+                    "source": "Uncooked rice",
+                    "target": "쌀"
+                },
+                {
+                    "source": "universal,common,usual",
+                    "target": "일반"
+                },
+                {
+                    "source": "interesting,fun",
+                    "target": "재미있다"
+                },
+                {
+                    "source": "To teach",
+                    "target": "가르치다"
+                },
+                {
+                    "source": "Conversation",
+                    "target": "대화"
+                },
+                {
+                    "source": "Stop, obstruct",
+                    "target": "막다"
+                },
+                {
+                    "source": "This year",
+                    "target": "올해"
+                },
+                {
+                    "source": "An elder brother",
+                    "target": "형"
+                },
+                {
+                    "source": "Differently",
+                    "target": "달리"
+                },
+                {
+                    "source": "Throw away",
+                    "target": "버리다"
+                },
+                {
+                    "source": "affix,put on",
+                    "target": "붙이다"
+                },
+                {
+                    "source": "A man, a person",
+                    "target": "인물"
+                },
+                {
+                    "source": "Always",
+                    "target": "늘"
+                },
+                {
+                    "source": "everything",
+                    "target": "모두"
+                },
+                {
+                    "source": "The whole country",
+                    "target": "전국"
+                },
+                {
+                    "source": "Finish, complete",
+                    "target": "마치다"
+                },
+                {
+                    "source": "all,every",
+                    "target": "전"
+                },
+                {
+                    "source": "Only, merely",
+                    "target": "다만"
+                },
+                {
+                    "source": "Help",
+                    "target": "도움"
+                },
+                {
+                    "source": "Famly",
+                    "target": "가정"
+                },
+                {
+                    "source": "Hang up or  suspend",
+                    "target": "걸다"
+                },
+                {
+                    "source": "To fall into",
+                    "target": "빠지다"
+                },
+                {
+                    "source": "To be far",
+                    "target": "멀다"
+                },
+                {
+                    "source": "Bus",
+                    "target": "버스"
+                },
+                {
+                    "source": "These days, nowadays",
+                    "target": "오늘날"
+                },
+                {
+                    "source": "For a little while",
+                    "target": "잠시"
+                },
+                {
+                    "source": "Agriculture",
+                    "target": "농업"
+                },
+                {
+                    "source": "Put, place up to",
+                    "target": "대다"
+                },
+                {
+                    "source": "form,style",
+                    "target": "식"
+                },
+                {
+                    "source": "An opinion,a suggestion",
+                    "target": "의견"
+                }
+            ]
+        },
+        {
+            "name": "Pack 651 - 700",
+            "words": [
+                {
+                    "source": "Stage",
+                    "target": "무대"
+                },
+                {
+                    "source": "Picture",
+                    "target": "사진"
+                },
+                {
+                    "source": "assertion,insistance",
+                    "target": "주장"
+                },
+                {
+                    "source": "To express, make known by saying",
+                    "target": "표현하다"
+                },
+                {
+                    "source": "To be due to, caused by",
+                    "target": "인하다"
+                },
+                {
+                    "source": "To be strange,queer",
+                    "target": "이상하다"
+                },
+                {
+                    "source": "The first",
+                    "target": "제일"
+                },
+                {
+                    "source": "Stick, adhere to",
+                    "target": "붙다"
+                },
+                {
+                    "source": "Probably",
+                    "target": "아마"
+                },
+                {
+                    "source": "To tell a story",
+                    "target": "얘기하다"
+                },
+                {
+                    "source": "Join, connect",
+                    "target": "잇다"
+                },
+                {
+                    "source": "A little",
+                    "target": "조금"
+                },
+                {
+                    "source": "Race or  match or  contest",
+                    "target": "경기"
+                },
+                {
+                    "source": "goal,purpose",
+                    "target": "목적"
+                },
+                {
+                    "source": "attitude,comportment",
+                    "target": "태도"
+                },
+                {
+                    "source": "Male",
+                    "target": "남성"
+                },
+                {
+                    "source": "The circumference,the girth",
+                    "target": "주위"
+                },
+                {
+                    "source": "Countermeasure",
+                    "target": "대책"
+                },
+                {
+                    "source": "That much or  a little amount",
+                    "target": "그만"
+                },
+                {
+                    "source": "Originate, come from",
+                    "target": "발생하다"
+                },
+                {
+                    "source": "Leg",
+                    "target": "다리"
+                },
+                {
+                    "source": "anybody,everybody",
+                    "target": "아무"
+                },
+                {
+                    "source": "By chance, accident",
+                    "target": "어쩌다"
+                },
+                {
+                    "source": "stuff,material",
+                    "target": "재료"
+                },
+                {
+                    "source": "Each and every",
+                    "target": "각각"
+                },
+                {
+                    "source": "Never or  by no means",
+                    "target": "결코"
+                },
+                {
+                    "source": "Move, transfer (2)(sickness) communicate, transfer to",
+                    "target": "옮기다"
+                },
+                {
+                    "source": "Always",
+                    "target": "항상"
+                },
+                {
+                    "source": "A year",
+                    "target": "해"
+                },
+                {
+                    "source": "To lose, to miss, to be deprived",
+                    "target": "잃다"
+                },
+                {
+                    "source": "Freedom",
+                    "target": "자유"
+                },
+                {
+                    "source": "Responsibility",
+                    "target": "책임"
+                },
+                {
+                    "source": "Be changed",
+                    "target": "바뀌다"
+                },
+                {
+                    "source": "To resemble",
+                    "target": "비슷하다"
+                },
+                {
+                    "source": "To be extreme,intense",
+                    "target": "심하다"
+                },
+                {
+                    "source": "Competition or  rivalry",
+                    "target": "경쟁"
+                },
+                {
+                    "source": "To love",
+                    "target": "사랑하다"
+                },
+                {
+                    "source": "No!",
+                    "target": "아니"
+                },
+                {
+                    "source": "summer,summertime",
+                    "target": "여름"
+                },
+                {
+                    "source": "To grow up",
+                    "target": "자라다"
+                },
+                {
+                    "source": "A time, an inning, a round in a game",
+                    "target": "회"
+                },
+                {
+                    "source": "Concretely",
+                    "target": "구체적"
+                },
+                {
+                    "source": "An opportunity",
+                    "target": "기회"
+                },
+                {
+                    "source": "To enforce,put into effect",
+                    "target": "실시하다"
+                },
+                {
+                    "source": "The earth",
+                    "target": "지구"
+                },
+                {
+                    "source": "How many times",
+                    "target": "번째"
+                },
+                {
+                    "source": "A consumer",
+                    "target": "소비자"
+                },
+                {
+                    "source": "To not like, to hate",
+                    "target": "싫다"
+                },
+                {
+                    "source": "Scale or  scope or  structure",
+                    "target": "규모"
+                },
+                {
+                    "source": "A standard or basis",
+                    "target": "기준"
+                }
+            ]
+        },
+        {
+            "name": "Pack 701 - 750",
+            "words": [
+                {
+                    "source": "End",
+                    "target": "말"
+                },
+                {
+                    "source": "Most certainly",
+                    "target": "반드시"
+                },
+                {
+                    "source": "An intention,design,purpose",
+                    "target": "셈"
+                },
+                {
+                    "source": "Make or  get ready or  prepare",
+                    "target": "갖추다"
+                },
+                {
+                    "source": "And so it is that",
+                    "target": "그러니까"
+                },
+                {
+                    "source": "Accept",
+                    "target": "받아들이다"
+                },
+                {
+                    "source": "Price",
+                    "target": "값"
+                },
+                {
+                    "source": "on site, on location, at the site in question",
+                    "target": "현장"
+                },
+                {
+                    "source": "Construction",
+                    "target": "건설"
+                },
+                {
+                    "source": "To get out or  draw out",
+                    "target": "꺼내다"
+                },
+                {
+                    "source": "Laborer, worker",
+                    "target": "노동자"
+                },
+                {
+                    "source": "everytime,always",
+                    "target": "언제나"
+                },
+                {
+                    "source": "completely,perfectly",
+                    "target": "완전히"
+                },
+                {
+                    "source": "Car",
+                    "target": "자동차"
+                },
+                {
+                    "source": "To transmit,convey",
+                    "target": "전하다"
+                },
+                {
+                    "source": "To exist",
+                    "target": "존재하다"
+                },
+                {
+                    "source": "Each and every month",
+                    "target": "개월"
+                },
+                {
+                    "source": "receive,welcome (note, usually this is 맞히다)",
+                    "target": "맞다"
+                },
+                {
+                    "source": "Especially, particularly",
+                    "target": "별로"
+                },
+                {
+                    "source": "A youngster, a child",
+                    "target": "어린이"
+                },
+                {
+                    "source": "To set,determine",
+                    "target": "정하다"
+                },
+                {
+                    "source": "One word",
+                    "target": "한마디"
+                },
+                {
+                    "source": "To preserve, maintain",
+                    "target": "유지하다"
+                },
+                {
+                    "source": "Ideology",
+                    "target": "이데올로기"
+                },
+                {
+                    "source": "To study",
+                    "target": "공부하다"
+                },
+                {
+                    "source": "The masses",
+                    "target": "대중"
+                },
+                {
+                    "source": "Grow longer",
+                    "target": "늘어나다"
+                },
+                {
+                    "source": "Wipe clean, polish",
+                    "target": "닦다"
+                },
+                {
+                    "source": "As many as, full, complete",
+                    "target": "만"
+                },
+                {
+                    "source": "Speech",
+                    "target": "말씀"
+                },
+                {
+                    "source": "To be okay",
+                    "target": "괜찮다"
+                },
+                {
+                    "source": "A tear",
+                    "target": "눈물"
+                },
+                {
+                    "source": "All sorts or  varieties",
+                    "target": "각종"
+                },
+                {
+                    "source": "Light",
+                    "target": "빛"
+                },
+                {
+                    "source": "Not",
+                    "target": "아니"
+                },
+                {
+                    "source": "avoid,keep away",
+                    "target": "피하다"
+                },
+                {
+                    "source": "Pass or  go through",
+                    "target": "거치다"
+                },
+                {
+                    "source": "Advance, go forward",
+                    "target": "나아가다"
+                },
+                {
+                    "source": "(Word to get somebody’s attention) Hey!! (2) impolite speech for 이다, to be",
+                    "target": "야"
+                },
+                {
+                    "source": "Knowledge, information",
+                    "target": "지식"
+                },
+                {
+                    "source": "As it used to be, as before ; still, persistently, even still",
+                    "target": "여전히"
+                },
+                {
+                    "source": "The head of a family,the owner",
+                    "target": "주인"
+                },
+                {
+                    "source": "To discover",
+                    "target": "발견하다"
+                },
+                {
+                    "source": "A line, a route",
+                    "target": "선"
+                },
+                {
+                    "source": "The human race",
+                    "target": "인류"
+                },
+                {
+                    "source": "A special feature, a distinguishing feature",
+                    "target": "특징"
+                },
+                {
+                    "source": "An athlete",
+                    "target": "선수"
+                },
+                {
+                    "source": "A form, formality, mold",
+                    "target": "형식"
+                },
+                {
+                    "source": "To plan, arrange",
+                    "target": "마련하다"
+                },
+                {
+                    "source": "Half",
+                    "target": "반"
+                }
+            ]
+        },
+        {
+            "name": "Pack 751 - 800",
+            "words": [
+                {
+                    "source": "To announce",
+                    "target": "발표하다"
+                },
+                {
+                    "source": "Subject, theme, topic",
+                    "target": "주제"
+                },
+                {
+                    "source": "1) put a thing over or across 2) to range from A to B",
+                    "target": "걸치다"
+                },
+                {
+                    "source": "Experience or  undergo or  suffer",
+                    "target": "겪다"
+                },
+                {
+                    "source": "A point of view or a standpoint/outlook",
+                    "target": "관점"
+                },
+                {
+                    "source": "Ear",
+                    "target": "귀"
+                },
+                {
+                    "source": "A foundation",
+                    "target": "기본"
+                },
+                {
+                    "source": "Meter",
+                    "target": "미터"
+                },
+                {
+                    "source": "To disappear",
+                    "target": "사라지다"
+                },
+                {
+                    "source": "To be how",
+                    "target": "어떠하다"
+                },
+                {
+                    "source": "Feelings",
+                    "target": "감정"
+                },
+                {
+                    "source": "A memory",
+                    "target": "기억"
+                },
+                {
+                    "source": "A fellow",
+                    "target": "놈"
+                },
+                {
+                    "source": "Popularity",
+                    "target": "인기"
+                },
+                {
+                    "source": "Abdomen",
+                    "target": "배"
+                },
+                {
+                    "source": "Apartment",
+                    "target": "아파트"
+                },
+                {
+                    "source": "Sometimes",
+                    "target": "가끔"
+                },
+                {
+                    "source": "Organization or  constitution , the framework of something",
+                    "target": "구성"
+                },
+                {
+                    "source": "Spoonful",
+                    "target": "술"
+                },
+                {
+                    "source": "In reality",
+                    "target": "실제로"
+                },
+                {
+                    "source": "Short, brief",
+                    "target": "짧다"
+                },
+                {
+                    "source": "To thank",
+                    "target": "고맙다"
+                },
+                {
+                    "source": "Management or  administration",
+                    "target": "관리"
+                },
+                {
+                    "source": "That place",
+                    "target": "그곳"
+                },
+                {
+                    "source": "More than, greater than ….",
+                    "target": "보다"
+                },
+                {
+                    "source": "begin,start",
+                    "target": "비롯하다"
+                },
+                {
+                    "source": "Just as one thought",
+                    "target": "과연"
+                },
+                {
+                    "source": "run, make do fast",
+                    "target": "달리다"
+                },
+                {
+                    "source": "Busy",
+                    "target": "바쁘다"
+                },
+                {
+                    "source": "Former days/times",
+                    "target": "이전"
+                },
+                {
+                    "source": "To acknowledge,authorize",
+                    "target": "인정하다"
+                },
+                {
+                    "source": "A person",
+                    "target": "자"
+                },
+                {
+                    "source": "The middle and the heart",
+                    "target": "중앙"
+                },
+                {
+                    "source": "To be bad",
+                    "target": "나쁘다"
+                },
+                {
+                    "source": "Deformity, malformation",
+                    "target": "불구하다"
+                },
+                {
+                    "source": "To make",
+                    "target": "시키다"
+                },
+                {
+                    "source": "Game",
+                    "target": "게임"
+                },
+                {
+                    "source": "International",
+                    "target": "국제"
+                },
+                {
+                    "source": "Group",
+                    "target": "그룹"
+                },
+                {
+                    "source": "Life",
+                    "target": "인생"
+                },
+                {
+                    "source": "tradition,convention",
+                    "target": "전통"
+                },
+                {
+                    "source": "Educate or  train or  cultivate",
+                    "target": "기르다"
+                },
+                {
+                    "source": "A cup, wine glass",
+                    "target": "잔"
+                },
+                {
+                    "source": "To examine,investigate",
+                    "target": "조사하다"
+                },
+                {
+                    "source": "To be very big/large",
+                    "target": "커다랗다"
+                },
+                {
+                    "source": "To be",
+                    "target": "있다"
+                },
+                {
+                    "source": "A poet",
+                    "target": "시인"
+                },
+                {
+                    "source": "when,at what time",
+                    "target": "언제"
+                },
+                {
+                    "source": "Except, save for",
+                    "target": "외"
+                },
+                {
+                    "source": "Evaluation, appraisal",
+                    "target": "평가"
+                }
+            ]
+        },
+        {
+            "name": "Pack 801 - 850",
+            "words": [
+                {
+                    "source": "Come down",
+                    "target": "내려오다"
+                },
+                {
+                    "source": "A position, a location",
+                    "target": "위치"
+                },
+                {
+                    "source": "reduce,decrease",
+                    "target": "줄이다"
+                },
+                {
+                    "source": "Price",
+                    "target": "가격"
+                },
+                {
+                    "source": "To change, vary",
+                    "target": "달라지다"
+                },
+                {
+                    "source": "To be empty, vacant",
+                    "target": "비다"
+                },
+                {
+                    "source": "Three countries",
+                    "target": "삼국"
+                },
+                {
+                    "source": "Customer",
+                    "target": "손님"
+                },
+                {
+                    "source": "To want",
+                    "target": "원하다"
+                },
+                {
+                    "source": "communications,correspondance",
+                    "target": "통신"
+                },
+                {
+                    "source": "To confirm,corroborate",
+                    "target": "확인하다"
+                },
+                {
+                    "source": "A group, a party",
+                    "target": "모임"
+                },
+                {
+                    "source": "The number of sth",
+                    "target": "수"
+                },
+                {
+                    "source": "Laughter, a smile",
+                    "target": "웃음"
+                },
+                {
+                    "source": "An instrument or  a machine",
+                    "target": "기계"
+                },
+                {
+                    "source": "signs,indications",
+                    "target": "모양"
+                },
+                {
+                    "source": "matter,material",
+                    "target": "물질"
+                },
+                {
+                    "source": "Announcer",
+                    "target": "아나운서"
+                },
+                {
+                    "source": "News",
+                    "target": "뉴스"
+                },
+                {
+                    "source": "Lead a life, get along",
+                    "target": "살아가다"
+                },
+                {
+                    "source": "Spread out, unfold",
+                    "target": "펴다"
+                },
+                {
+                    "source": "Times, x-fold",
+                    "target": "배"
+                },
+                {
+                    "source": "school,teaching",
+                    "target": "수업"
+                },
+                {
+                    "source": "Winter",
+                    "target": "겨울"
+                },
+                {
+                    "source": "religion,a faith",
+                    "target": "종교"
+                },
+                {
+                    "source": "floor,grade,class",
+                    "target": "층"
+                },
+                {
+                    "source": "To be natural",
+                    "target": "자연스럽다"
+                },
+                {
+                    "source": "One piece of sth flat",
+                    "target": "장"
+                },
+                {
+                    "source": "A meal",
+                    "target": "식사"
+                },
+                {
+                    "source": "To hold, embrace",
+                    "target": "안다"
+                },
+                {
+                    "source": "Understanding",
+                    "target": "이해"
+                },
+                {
+                    "source": "To forget",
+                    "target": "잊다"
+                },
+                {
+                    "source": "To present",
+                    "target": "제시하다"
+                },
+                {
+                    "source": "Group, company, party",
+                    "target": "반"
+                },
+                {
+                    "source": "Nothing more than",
+                    "target": "불과하다"
+                },
+                {
+                    "source": "If that’s not the case",
+                    "target": "혹은"
+                },
+                {
+                    "source": "To be absurd,wild,terribly large",
+                    "target": "엄청나다"
+                },
+                {
+                    "source": "Direction, way (the wind is blowing that ~)",
+                    "target": "편"
+                },
+                {
+                    "source": "Television",
+                    "target": "텔레비전"
+                },
+                {
+                    "source": "Grasp, seize, understand",
+                    "target": "파악하다"
+                },
+                {
+                    "source": "Compilation, editing",
+                    "target": "편"
+                },
+                {
+                    "source": "Practice",
+                    "target": "실천"
+                },
+                {
+                    "source": "To try hard, strive",
+                    "target": "노력하다"
+                },
+                {
+                    "source": "protection,shelter",
+                    "target": "보호"
+                },
+                {
+                    "source": "To wash,cleanse",
+                    "target": "씻다"
+                },
+                {
+                    "source": "To be late (time)",
+                    "target": "늦다"
+                },
+                {
+                    "source": "The neighborhood",
+                    "target": "이웃"
+                },
+                {
+                    "source": "Letter",
+                    "target": "편지"
+                },
+                {
+                    "source": "Association or  union or  collaboration",
+                    "target": "공동"
+                },
+                {
+                    "source": "Reason",
+                    "target": "까닭"
+                }
+            ]
+        },
+        {
+            "name": "Pack 851 - 900",
+            "words": [
+                {
+                    "source": "A plan, scheme",
+                    "target": "방안"
+                },
+                {
+                    "source": "Centimeter",
+                    "target": "센티미터"
+                },
+                {
+                    "source": "An arm",
+                    "target": "팔"
+                },
+                {
+                    "source": "To be clear/obvious",
+                    "target": "분명하다"
+                },
+                {
+                    "source": "Analysis",
+                    "target": "분석"
+                },
+                {
+                    "source": "A young girl",
+                    "target": "소녀"
+                },
+                {
+                    "source": "To pass, elapse",
+                    "target": "지나가다"
+                },
+                {
+                    "source": "order,sequence,degree",
+                    "target": "차"
+                },
+                {
+                    "source": "Product",
+                    "target": "상품"
+                },
+                {
+                    "source": "Explanation",
+                    "target": "설명"
+                },
+                {
+                    "source": "To be excellent",
+                    "target": "훌륭하다"
+                },
+                {
+                    "source": "The interested or affected parties",
+                    "target": "관계자"
+                },
+                {
+                    "source": "newly,anew",
+                    "target": "새로"
+                },
+                {
+                    "source": "Age in years",
+                    "target": "세"
+                },
+                {
+                    "source": "Get joined, be connected",
+                    "target": "이어지다"
+                },
+                {
+                    "source": "TV",
+                    "target": "티브이"
+                },
+                {
+                    "source": "Spring",
+                    "target": "봄"
+                },
+                {
+                    "source": "kind,sort,species",
+                    "target": "종류"
+                },
+                {
+                    "source": "Be low",
+                    "target": "낮다"
+                },
+                {
+                    "source": "Shoulder",
+                    "target": "어깨"
+                },
+                {
+                    "source": "Man and wife",
+                    "target": "부부"
+                },
+                {
+                    "source": "Long, for a long time",
+                    "target": "오래"
+                },
+                {
+                    "source": "A demand, claim, request",
+                    "target": "요구"
+                },
+                {
+                    "source": "To raise, bring up, rear",
+                    "target": "키우다"
+                },
+                {
+                    "source": "Lie down",
+                    "target": "눕다"
+                },
+                {
+                    "source": "To develop, grow",
+                    "target": "발전하다"
+                },
+                {
+                    "source": "Trip",
+                    "target": "여행"
+                },
+                {
+                    "source": "Death",
+                    "target": "죽음"
+                },
+                {
+                    "source": "Suffering or  agony",
+                    "target": "고통"
+                },
+                {
+                    "source": "Ball",
+                    "target": "공"
+                },
+                {
+                    "source": "To be becoming, suiting",
+                    "target": "어울리다"
+                },
+                {
+                    "source": "May",
+                    "target": "오월"
+                },
+                {
+                    "source": "to relax, take a break",
+                    "target": "쉬다"
+                },
+                {
+                    "source": "To inform, tell a person",
+                    "target": "알리다"
+                },
+                {
+                    "source": "To be full, to be filled with (PASSIVE)",
+                    "target": "차다"
+                },
+                {
+                    "source": "A lesson or  a section or  a department",
+                    "target": "과"
+                },
+                {
+                    "source": "Far away",
+                    "target": "멀리"
+                },
+                {
+                    "source": "Pull out, extract",
+                    "target": "빼다"
+                },
+                {
+                    "source": "A program, schedule",
+                    "target": "예정"
+                },
+                {
+                    "source": "Older brother",
+                    "target": "오빠"
+                },
+                {
+                    "source": "Be pleasant,agreeable",
+                    "target": "즐겁다"
+                },
+                {
+                    "source": "Boundary, limits",
+                    "target": "한계"
+                },
+                {
+                    "source": "Generally, commonly ; often",
+                    "target": "흔히"
+                },
+                {
+                    "source": "Natural disposition ; to go all out in a fight, 아주 크게 싸우다 ; the background",
+                    "target": "바탕"
+                },
+                {
+                    "source": "April",
+                    "target": "사월"
+                },
+                {
+                    "source": "To fight",
+                    "target": "싸우다"
+                },
+                {
+                    "source": "Pretty, lovely",
+                    "target": "예쁘다"
+                },
+                {
+                    "source": "Conflict or  troubles",
+                    "target": "갈등"
+                },
+                {
+                    "source": "Feel",
+                    "target": "느껴지다"
+                },
+                {
+                    "source": "will,volition",
+                    "target": "의지"
+                }
+            ]
+        },
+        {
+            "name": "Pack 901 - 950",
+            "words": [
+                {
+                    "source": "A specialty",
+                    "target": "전문"
+                },
+                {
+                    "source": "To be exact",
+                    "target": "정확하다"
+                },
+                {
+                    "source": "The early days, the initial period",
+                    "target": "초기"
+                },
+                {
+                    "source": "The last, the latter part",
+                    "target": "나중"
+                },
+                {
+                    "source": "Delicious",
+                    "target": "맛있다"
+                },
+                {
+                    "source": "How many days",
+                    "target": "며칠"
+                },
+                {
+                    "source": "see 6000",
+                    "target": "쓴 맛"
+                },
+                {
+                    "source": "To go meet somebody, to go get sth",
+                    "target": "찾아오다"
+                },
+                {
+                    "source": "beauty,grace",
+                    "target": "미"
+                },
+                {
+                    "source": "use,emply",
+                    "target": "사용"
+                },
+                {
+                    "source": "one’s line of vision",
+                    "target": "시선"
+                },
+                {
+                    "source": "No sort of",
+                    "target": "아무런"
+                },
+                {
+                    "source": "A speech, discussion",
+                    "target": "언론"
+                },
+                {
+                    "source": "Investment",
+                    "target": "투자"
+                },
+                {
+                    "source": "helping, supporting, aiding",
+                    "target": "지원"
+                },
+                {
+                    "source": "To decide",
+                    "target": "결정하다"
+                },
+                {
+                    "source": "Management or  administration",
+                    "target": "경영"
+                },
+                {
+                    "source": "goal,object",
+                    "target": "목표"
+                },
+                {
+                    "source": "Growth",
+                    "target": "성장"
+                },
+                {
+                    "source": "Forest",
+                    "target": "숲"
+                },
+                {
+                    "source": "To lose, get lost",
+                    "target": "없어지다"
+                },
+                {
+                    "source": "Last year",
+                    "target": "작년"
+                },
+                {
+                    "source": "To go down",
+                    "target": "내려가다"
+                },
+                {
+                    "source": "To reach",
+                    "target": "미치다"
+                },
+                {
+                    "source": "dawn,daybreak",
+                    "target": "새벽"
+                },
+                {
+                    "source": "Garbage",
+                    "target": "쓰레기"
+                },
+                {
+                    "source": "Fast, quickly, rapidly",
+                    "target": "얼른"
+                },
+                {
+                    "source": "Wages, pay",
+                    "target": "임금"
+                },
+                {
+                    "source": "Damage",
+                    "target": "피해"
+                },
+                {
+                    "source": "A limit",
+                    "target": "한"
+                },
+                {
+                    "source": "fearful,dreadful",
+                    "target": "무섭다"
+                },
+                {
+                    "source": "one’s work place",
+                    "target": "직장"
+                },
+                {
+                    "source": "Bear, endure",
+                    "target": "참다"
+                },
+                {
+                    "source": "Size, dimensions",
+                    "target": "크기"
+                },
+                {
+                    "source": "Meat",
+                    "target": "고기"
+                },
+                {
+                    "source": "To leave behind",
+                    "target": "남기다"
+                },
+                {
+                    "source": "The Western countries",
+                    "target": "서양"
+                },
+                {
+                    "source": "The major, the chief thing",
+                    "target": "주요"
+                },
+                {
+                    "source": "To bring or  get",
+                    "target": "가져오다"
+                },
+                {
+                    "source": "Smell",
+                    "target": "냄새"
+                },
+                {
+                    "source": "soft,tender",
+                    "target": "부드럽다"
+                },
+                {
+                    "source": "Think, consider as",
+                    "target": "여기다"
+                },
+                {
+                    "source": "this,this thing",
+                    "target": "이"
+                },
+                {
+                    "source": "A public performance",
+                    "target": "공연"
+                },
+                {
+                    "source": "Man and woman",
+                    "target": "남녀"
+                },
+                {
+                    "source": "Put out, take out",
+                    "target": "내놓다"
+                },
+                {
+                    "source": "Make, create",
+                    "target": "만들어지다"
+                },
+                {
+                    "source": "Speed",
+                    "target": "속도"
+                },
+                {
+                    "source": "seriousness,gravity",
+                    "target": "심각하다"
+                },
+                {
+                    "source": "Preparation",
+                    "target": "준비"
+                }
+            ]
+        },
+        {
+            "name": "Pack 951 - 1000",
+            "words": [
+                {
+                    "source": "To continue",
+                    "target": "계속되다"
+                },
+                {
+                    "source": "September",
+                    "target": "구월"
+                },
+                {
+                    "source": "clean,pure",
+                    "target": "맑다"
+                },
+                {
+                    "source": "A boy",
+                    "target": "소년"
+                },
+                {
+                    "source": "News, information",
+                    "target": "소식"
+                },
+                {
+                    "source": "June",
+                    "target": "유월"
+                },
+                {
+                    "source": "Application",
+                    "target": "작용"
+                },
+                {
+                    "source": "The waist, the small of the back",
+                    "target": "허리"
+                },
+                {
+                    "source": "Goal",
+                    "target": "골"
+                },
+                {
+                    "source": "The industry or  manufacturing industry",
+                    "target": "공업"
+                },
+                {
+                    "source": "Among the rest of them",
+                    "target": "그중"
+                },
+                {
+                    "source": "Old person",
+                    "target": "노인"
+                },
+                {
+                    "source": "To earn (money) ; (2) to invite, to bring onto oneself",
+                    "target": "벌다"
+                },
+                {
+                    "source": "1) revive, bring around, restore to life  2) save,spare,rescue",
+                    "target": "살리다"
+                },
+                {
+                    "source": "A bird",
+                    "target": "새"
+                },
+                {
+                    "source": "The english language",
+                    "target": "영어"
+                },
+                {
+                    "source": "A native, place one is from",
+                    "target": "출신"
+                },
+                {
+                    "source": "A decision or  determination",
+                    "target": "결정"
+                },
+                {
+                    "source": "Tendency or  trend",
+                    "target": "경향"
+                },
+                {
+                    "source": "A record or  a document",
+                    "target": "기록"
+                },
+                {
+                    "source": "Depending on",
+                    "target": "나름"
+                },
+                {
+                    "source": "To answer, reply",
+                    "target": "대답하다"
+                },
+                {
+                    "source": "One side",
+                    "target": "반면"
+                },
+                {
+                    "source": "Chip, mince,dice",
+                    "target": "썰다"
+                },
+                {
+                    "source": "movement,motion,activity",
+                    "target": "움직임"
+                },
+                {
+                    "source": "Image",
+                    "target": "이미지"
+                },
+                {
+                    "source": "Break, be torn, get away from",
+                    "target": "터지다"
+                },
+                {
+                    "source": "A special/unique characteristic (individuality making, peculiarity)",
+                    "target": "특성"
+                },
+                {
+                    "source": "Principal",
+                    "target": "교장"
+                },
+                {
+                    "source": "Take off, remove",
+                    "target": "벗다"
+                },
+                {
+                    "source": "Buisness, duty",
+                    "target": "업무"
+                },
+                {
+                    "source": "An entrance examination",
+                    "target": "입시"
+                },
+                {
+                    "source": "To prepare",
+                    "target": "준비하다"
+                },
+                {
+                    "source": "Young boys and girls, teenagers",
+                    "target": "청소년"
+                },
+                {
+                    "source": "Yes, i see!",
+                    "target": "응"
+                },
+                {
+                    "source": "To win",
+                    "target": "이기다"
+                },
+                {
+                    "source": "To go meet somebody",
+                    "target": "찾아보다"
+                },
+                {
+                    "source": "To adopt, assume, take",
+                    "target": "취하다"
+                },
+                {
+                    "source": "Treat, deal with",
+                    "target": "다루다"
+                },
+                {
+                    "source": "The moon",
+                    "target": "달"
+                },
+                {
+                    "source": "Company boss",
+                    "target": "사장"
+                },
+                {
+                    "source": "March",
+                    "target": "삼월"
+                },
+                {
+                    "source": "But or  however",
+                    "target": "그렇지만"
+                },
+                {
+                    "source": "one’s senior",
+                    "target": "선배"
+                },
+                {
+                    "source": "A business enterprise",
+                    "target": "업체"
+                },
+                {
+                    "source": "stature,height",
+                    "target": "키"
+                },
+                {
+                    "source": "1) To buy or  purchase or  2) look for or  seek or  want",
+                    "target": "구하다"
+                },
+                {
+                    "source": "The National Assembly",
+                    "target": "국회"
+                },
+                {
+                    "source": "So or  hence or  therefore",
+                    "target": "그러므로"
+                },
+                {
+                    "source": "To include,contain",
+                    "target": "포함하다"
+                }
+            ]
+        }
+    ]
+}
