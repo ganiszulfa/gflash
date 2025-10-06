@@ -237,15 +237,6 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 					// Regenerate the shuffle indexes when we have reached the end of the shuffle indexes
 					shuffleIndexes = generateShuffledRange(currentWords.length);
 				}
-				if (currentQuestionIndex % shuffleIndexes.length == 5) {
-					updateStatisticsDisplay();
-					$('#cont_stat').show();
-					
-					// Auto-hide statistics after 5 seconds
-					setTimeout(function() {
-						$('#cont_stat').hide();
-					}, 5000);
-				}
 				currentQuestionIndex = currentQuestionIndex % shuffleIndexes.length;
 				const word = currentWords[randomIndex];
 				console.log('Selected word:', word);
@@ -404,6 +395,16 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				setTimeout(function() {
 					loadQuestion();
 				}, 2000);
+
+				if (currentQuestionIndex % 5 == 0) {
+					updateStatisticsDisplay();
+					$('#cont_stat').show();
+					
+					// Auto-hide statistics after 5 seconds
+					setTimeout(function() {
+						$('#cont_stat').hide();
+					}, 5000);
+				}
 			}
 
 			// Function to highlight the correct answer
