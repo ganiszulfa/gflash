@@ -135,30 +135,30 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			}
 
 			function generateShuffledRange(n) {
-  // 1. Generate an array containing numbers from 0 to n-1
-  // This satisfies steps 1 and 2 implicitly by creating the initial ordered array.
-  if (typeof n !== 'number' || n <= 0 || !Number.isInteger(n)) {
-    console.error("Input 'n' must be a positive integer.");
-    return [];
-  }
-  
-  let result = Array.from({ length: n }, (_, i) => i);
+				// 1. Generate an array containing numbers from 0 to n-1
+				// This satisfies steps 1 and 2 implicitly by creating the initial ordered array.
+				if (typeof n !== 'number' || n <= 0 || !Number.isInteger(n)) {
+					console.error("Input 'n' must be a positive integer.");
+					return [];
+				}
 
-  // 3. Put the number in step 1 to step 2 in random order (Shuffling the array)
-  // This uses the Fisher-Yates (or Knuth) shuffle algorithm for efficient and uniform randomness.
-  for (let i = result.length - 1; i > 0; i--) {
-    // Generate a random index j from 0 to i (inclusive)
-    const j = Math.floor(Math.random() * (i + 1));
-    
-    // Swap elements at i and j
-    // [result[i], result[j]] = [result[j], result[i]]; // Modern destructuring swap
-    let temp = result[i];
-    result[i] = result[j];
-    result[j] = temp;
-  }
+				let result = Array.from({ length: n }, (_, i) => i);
 
-  // 4. The function returns the var in step 3
-  return result;
+				// 3. Put the number in step 1 to step 2 in random order (Shuffling the array)
+				// This uses the Fisher-Yates (or Knuth) shuffle algorithm for efficient and uniform randomness.
+				for (let i = result.length - 1; i > 0; i--) {
+					// Generate a random index j from 0 to i (inclusive)
+					const j = Math.floor(Math.random() * (i + 1));
+
+					// Swap elements at i and j
+					// [result[i], result[j]] = [result[j], result[i]]; // Modern destructuring swap
+					let temp = result[i];
+					result[i] = result[j];
+					result[j] = temp;
+				}
+
+				// 4. The function returns the var in step 3
+				return result;
 			}
 
 			// Load dataset and initialize the game
@@ -207,7 +207,8 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 					console.log('Current pack:', currentPack);
 					console.log('Current words:', currentWords);
 					currentQuestionIndex = 0;
-		shuffleIndexes = generateShuffledRange(currentWords.length);
+					shuffleIndexes = generateShuffledRange(currentWords.length);
+					console.log('Shuffle indexes:', shuffleIndexes);
 					loadQuestion();
 				}
 			});
@@ -232,6 +233,10 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				// const randomIndex = Math.floor(Math.random() * currentWords.length);
 				const randomIndex = shuffleIndexes[currentQuestionIndex];
 				currentQuestionIndex += 1;
+				if (currentQuestionIndex >= shuffleIndexes.length) {
+					// Regenerate the shuffle indexes when we have reached the end of the shuffle indexes
+					shuffleIndexes = generateShuffledRange(currentWords.length);
+				}
 				currentQuestionIndex = currentQuestionIndex % shuffleIndexes.length;
 				const word = currentWords[randomIndex];
 				console.log('Selected word:', word);
