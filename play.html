@@ -236,6 +236,13 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				if (currentQuestionIndex >= shuffleIndexes.length) {
 					// Regenerate the shuffle indexes when we have reached the end of the shuffle indexes
 					shuffleIndexes = generateShuffledRange(currentWords.length);
+					updateStatisticsDisplay();
+					$('#cont_stat').show();
+					
+					// Auto-hide statistics after 5 seconds
+					setTimeout(function() {
+						$('#cont_stat').hide();
+					}, 5000);
 				}
 				currentQuestionIndex = currentQuestionIndex % shuffleIndexes.length;
 				const word = currentWords[randomIndex];
@@ -273,7 +280,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				// Add wrong answers - try to get up to 3 total options
 				const maxOptions = Math.min(3, currentWords.length);
 				let attempts = 0;
-				const maxAttempts = 50; // Prevent infinite loop
+				const maxAttempts = 20; // Prevent infinite loop
 				
 				while (options.length < maxOptions && attempts < maxAttempts) {
 					const randomWord = currentWords[Math.floor(Math.random() * currentWords.length)];
@@ -292,10 +299,15 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				// Shuffle options
 				options.sort(() => Math.random() - 0.5);
 
-				// Update choice elements
-				$('#choice_a').text(options[0]).attr('title', options[0]);
-				$('#choice_b').text(options[1]).attr('title', options[1]);
-				$('#choice_c').text(options[2]).attr('title', options[2]);
+				$('#choice_a').text(options[0]).attr('title', '');
+				$('#choice_b').text(options[1]).attr('title', '');
+				$('#choice_c').text(options[2]).attr('title', '']);
+				
+				setTimeout(function() {
+					$('#choice_a').text(options[0]).attr('title', options[0]);
+					$('#choice_b').text(options[1]).attr('title', options[1]);
+					$('#choice_c').text(options[2]).attr('title', options[2]);
+				}, 1500);
 
 				// Clear previous selection
 				$('input[name="answer_choice"]').prop('checked', false);
