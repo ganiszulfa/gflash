@@ -299,9 +299,9 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				// Shuffle options
 				options.sort(() => Math.random() - 0.5);
 
-				$('#choice_a').text(options[0]).attr('title', '');
-				$('#choice_b').text(options[1]).attr('title', '');
-				$('#choice_c').text(options[2]).attr('title', '');
+				$('#choice_a').text('').attr('title', '');
+				$('#choice_b').text('').attr('title', '');
+				$('#choice_c').text('').attr('title', '');
 				
 				setTimeout(function() {
 					$('#choice_a').text(options[0]).attr('title', options[0]);
