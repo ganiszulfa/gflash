@@ -236,6 +236,8 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				if (currentQuestionIndex >= shuffleIndexes.length) {
 					// Regenerate the shuffle indexes when we have reached the end of the shuffle indexes
 					shuffleIndexes = generateShuffledRange(currentWords.length);
+				}
+				if (currentQuestionIndex % shuffleIndexes.length == 5) {
 					updateStatisticsDisplay();
 					$('#cont_stat').show();
 					
