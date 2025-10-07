@@ -36,7 +36,7 @@
                 },
                 {
                     "source": "I'm around 40 years old.",
-                    "target": "Ho circa 40 anni."
+                    "target": "Ho circa quaranta anni."
                 },
                 {
                     "source": "I like Italian culture.",
@@ -121,15 +121,15 @@
                 },
                 {
                     "source": "Your home is 5 minutes away.",
-                    "target": "La tua casa è a 5 minuti."
+                    "target": "La tua casa è a cinque minuti."
                 },
                 {
                     "source": "His home is 1 hour away.",
-                    "target": "La sua casa è a 1 ora."
+                    "target": "La sua casa è a un'ora."
                 },
                 {
                     "source": "Let's walk for 10 minutes.",
-                    "target": "Camminiamo per 10 minuti."
+                    "target": "Camminiamo per dieci minuti."
                 }
             ]
         }
