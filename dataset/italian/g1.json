@@ -1,0 +1,137 @@
+{
+    "name": "Italian Custom Sentences - Ganis",
+    "source_name": "English",
+    "target_name": "Italian",
+    "packs": [
+        {
+            "name": "Pack 1 - Personal Introduction",
+            "words": [
+                {
+                    "source": "Hello, how are you?",
+                    "target": "Ciao, come stai?"
+                },
+                {
+                    "source": "I'm fine, thank you.",
+                    "target": "Sto bene, grazie."
+                },
+                {
+                    "source": "What's your name?",
+                    "target": "Come ti chiami?"
+                },
+                {
+                    "source": "My name is Ganis.",
+                    "target": "Mi chiamo Ganis."
+                },
+                {
+                    "source": "I'm learning Italian.",
+                    "target": "Sto imparando l'italiano."
+                },
+                {
+                    "source": "Please speak slowly.",
+                    "target": "Per favore parla lentamente."
+                },
+                {
+                    "source": "How old are you?",
+                    "target": "Quanti anni hai?"
+                },
+                {
+                    "source": "I'm around 40 years old.",
+                    "target": "Ho circa 40 anni."
+                },
+                {
+                    "source": "I like Italian culture.",
+                    "target": "Mi piace la cultura italiana."
+                },
+                {
+                    "source": "I want to go to Italy again.",
+                    "target": "Voglio andare in Italia di nuovo."
+                },
+                {
+                    "source": "I like to eat pasta.",
+                    "target": "Mi piace mangiare la pasta."
+                },
+                {
+                    "source": "Pizza is my favorite food.",
+                    "target": "La pizza è il mio cibo preferito."
+                },
+                {
+                    "source": "I want to visit Rome.",
+                    "target": "Voglio visitare Roma."
+                },
+                {
+                    "source": "Venice is my favorite place.",
+                    "target": "Venezia è il mio posto preferito."
+                },
+                {
+                    "source": "I'm from Indonesia.",
+                    "target": "Sono dell'Indonesia."
+                }
+            ]
+        },
+        {
+            "name": "Pack 2 - Daily Life & Directions",
+            "words": [
+                {
+                    "source": "What's your job?",
+                    "target": "Qual è il tuo lavoro?"
+                },
+                {
+                    "source": "I'm a software engineer.",
+                    "target": "Sono un ingegnere informatico."
+                },
+                {
+                    "source": "I have a wife and a daughter.",
+                    "target": "Ho una moglie e una figlia."
+                },
+                {
+                    "source": "I want to watch a football match.",
+                    "target": "Voglio guardare una partita di calcio."
+                },
+                {
+                    "source": "Let's go home now.",
+                    "target": "Andiamo a casa ora."
+                },
+                {
+                    "source": "Where is the train station?",
+                    "target": "Dov'è la stazione ferroviaria?"
+                },
+                {
+                    "source": "Let's ride the car.",
+                    "target": "Prendiamo la macchina."
+                },
+                {
+                    "source": "Where is the toilet?",
+                    "target": "Dov'è il bagno?"
+                },
+                {
+                    "source": "I'm in the airport now.",
+                    "target": "Sono all'aeroporto adesso."
+                },
+                {
+                    "source": "The hospital is that way.",
+                    "target": "L'ospedale è da quella parte."
+                },
+                {
+                    "source": "The market is near.",
+                    "target": "Il mercato è vicino."
+                },
+                {
+                    "source": "My office is far.",
+                    "target": "Il mio ufficio è lontano."
+                },
+                {
+                    "source": "Your home is 5 minutes away.",
+                    "target": "La tua casa è a 5 minuti."
+                },
+                {
+                    "source": "His home is 1 hour away.",
+                    "target": "La sua casa è a 1 ora."
+                },
+                {
+                    "source": "Let's walk for 10 minutes.",
+                    "target": "Camminiamo per 10 minuti."
+                }
+            ]
+        }
+    ]
+}
