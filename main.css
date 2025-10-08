@@ -103,3 +103,19 @@
 		padding: 2px 4px;
 		border-radius: 3px;
 	}
+
+	#words_list {
+		text-align: left;
+		font-size: 1.2em;
+	}
+
+	#words_list li {
+		list-style-type: none;
+		padding: 8px;
+		margin-left: -35px;
+		margin-right: 5px;
+	}
+
+	#words_list li:nth-child(even) {
+		background-color: #f0f0f0;
+	}

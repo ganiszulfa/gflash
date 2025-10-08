@@ -56,7 +56,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			Pack:
 			<select name="word_set" class="word_set" id="list">
 				<!--- todo 2: Load the packs from the dataset and replace [Dataset Packs] -->
-			</select>
+			</select> <a href="#" id="show_words">Show</a> <!-- show the words in the selected pack -->
 
 			</p>
 
@@ -87,6 +87,10 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				<a href="#" id="show_answer">Show Answer</a>
 				<a href="#" id="check_answer">Check Answer</a>
 			</p>
+		</div>
+		<div id="cont_words" style="display:none">
+			<p>Words in the selected pack:</p>
+			<ul id="words_list"></ul>
 		</div>
 
 
@@ -219,6 +223,11 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 					currentQuestionIndex = 0;
 					shuffleIndexes = generateShuffledRange(currentWords.length);
 					console.log('Shuffle indexes:', shuffleIndexes);
+					
+					// Reset show/hide words button and hide words list when pack changes
+					$('#show_words').text('Show');
+					$('#cont_words').hide();
+					
 					loadQuestion();
 				}
 			});
@@ -480,6 +489,20 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				$('#form2').text(percentage);
 			}
 
+			// Populate the words list
+			function populateWordsList() {
+				const wordsList = $('#words_list');
+				wordsList.empty();
+				
+				if (currentWords && currentWords.length > 0) {
+					currentWords.forEach(function(word) {
+						const listItem = $('<li></li>');
+						listItem.text(word.source + ' = ' + word.target);
+						wordsList.append(listItem);
+					});
+				}
+			}
+
 			// Handle statistics link click
 			$('#write_stat').click(function(e) {
 				e.preventDefault();
@@ -501,6 +524,28 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				setTimeout(function() {
 					$('#cont_about').hide();
 				}, 5000);
+			});
+
+			// Handle show/hide words link click
+			$('#show_words').click(function(e) {
+				e.preventDefault();
+				const wordsContainer = $('#cont_words');
+				const showWordsLink = $('#show_words');
+				
+				if (wordsContainer.is(':visible')) {
+					// Hide the words list
+					wordsContainer.hide();
+					showWordsLink.text('Show');
+				} else {
+					// Show the words list
+					if (currentWords && currentWords.length > 0) {
+						populateWordsList();
+						wordsContainer.show();
+						showWordsLink.text('Hide ' + currentWords.length + ' words');
+					} else {
+						alert('Please select a pack first.');
+					}
+				}
 			});
 
 			// Handle multiple choice help link click
