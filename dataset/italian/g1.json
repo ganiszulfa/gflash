@@ -132,6 +132,136 @@
                     "target": "Camminiamo per dieci minuti."
                 }
             ]
+        },
+        {
+            "name": "Pack 3 - Conversations & Compliments",
+            "words": [
+                {
+                    "source": "My Italian is still not good",
+                    "target": "Il mio italiano non è ancora buono"
+                },
+                {
+                    "source": "Can you say it differently?",
+                    "target": "Puoi dirlo in un altro modo?"
+                },
+                {
+                    "source": "I'm really sorry.",
+                    "target": "Mi dispiace davvero."
+                },
+                {
+                    "source": "You are my friend",
+                    "target": "Sei il mio amico"
+                },
+                {
+                    "source": "What colors do you like?",
+                    "target": "Quali colori ti piacciono?"
+                },
+                {
+                    "source": "I am wearing a black t-shirt.",
+                    "target": "Indosso una maglietta nera."
+                },
+                {
+                    "source": "You are wearing blue pants.",
+                    "target": "Indossi dei pantaloni blu."
+                },
+                {
+                    "source": "That's a nice jacket.",
+                    "target": "È una bella giacca."
+                },
+                {
+                    "source": "How much is the price?",
+                    "target": "Qual è il prezzo?"
+                },
+                {
+                    "source": "It's an expensive bicycle.",
+                    "target": "È una bicicletta costosa."
+                },
+                {
+                    "source": "See you again.",
+                    "target": "Ci vediamo ancora."
+                },
+                {
+                    "source": "Nice talking to you.",
+                    "target": "È stato bello parlare con te."
+                },
+                {
+                    "source": "Sleep well my baby.",
+                    "target": "Dormi bene tesoro mio."
+                },
+                {
+                    "source": "Have a nice dream.",
+                    "target": "Fai bei sogni."
+                },
+                {
+                    "source": "Study well at school!",
+                    "target": "Studia bene a scuola!"
+                }
+            ]
+        },
+        {
+            "name": "Pack 4 - Daily Activities & Descriptions",
+            "words": [
+                {
+                    "source": "It's a good day.",
+                    "target": "È una bella giornata."
+                },
+                {
+                    "source": "Today I will go to a bank.",
+                    "target": "Oggi andrò in banca."
+                },
+                {
+                    "source": "Can I borrow three euros?",
+                    "target": "Posso prendere in prestito tre euro?"
+                },
+                {
+                    "source": "The price is four euros.",
+                    "target": "Il prezzo è quattro euro."
+                },
+                {
+                    "source": "I have five euros.",
+                    "target": "Ho cinque euro."
+                },
+                {
+                    "source": "Banana is my favorite fruit.",
+                    "target": "La banana è il mio frutto preferito."
+                },
+                {
+                    "source": "This is a big apple.",
+                    "target": "Questa è una mela grande."
+                },
+                {
+                    "source": "I'm drinking a glass of milk.",
+                    "target": "Sto bevendo un bicchiere di latte."
+                },
+                {
+                    "source": "I'm eating grapes.",
+                    "target": "Sto mangiando dell'uva."
+                },
+                {
+                    "source": "Italy is an amazing country.",
+                    "target": "L'Italia è un paese meraviglioso."
+                },
+                {
+                    "source": "Milan is a great city.",
+                    "target": "Milano è una grande città."
+                },
+                {
+                    "source": "This is a famous restaurant.",
+                    "target": "Questo è un ristorante famoso."
+                },
+                {
+                    "source": "Hi, I'm here!",
+                    "target": "Ciao, sono qui!"
+                },
+                {
+                    "source": "It's a cheap hat.",
+                    "target": "È un cappello economico."
+                },
+                {
+                    "source": "It's a yellow umbrella.",
+                    "target": "È un ombrello giallo."
+                }
+            ]
         }
     ]
 }
