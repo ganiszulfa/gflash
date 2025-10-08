@@ -187,6 +187,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 					const packSelect = $('#list');
 					packSelect.empty();
 					packSelect.append('<option value="">Select a pack</option>');
+					packSelect.append('<option value="ALL">ALL</option>');
 					
 					data.packs.forEach(function(pack, index) {
 						packSelect.append(`<option value="${index}">${pack.name}</option>`);
@@ -202,8 +203,17 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				const packIndex = $(this).val();
 				console.log('Pack selected:', packIndex);
 				if (packIndex !== '') {
-					currentPack = currentDataset.packs[packIndex];
-					currentWords = currentPack.words;
+					if (packIndex === 'ALL') {
+						// Combine all words from all packs
+						currentWords = [];
+						currentDataset.packs.forEach(function(pack) {
+							currentWords = currentWords.concat(pack.words);
+						});
+						currentPack = { name: 'ALL', words: currentWords };
+					} else {
+						currentPack = currentDataset.packs[packIndex];
+						currentWords = currentPack.words;
+					}
 					console.log('Current pack:', currentPack);
 					console.log('Current words:', currentWords);
 					currentQuestionIndex = 0;
