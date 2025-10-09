@@ -68,17 +68,25 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				<input id="user_answer" type="text" name="user_answer" />
 			</div>
 			<div id="answer_choice">
+				<table>
+					<tr style="height: 45px;">
+						<td style="min-width: 60px;"><input class="answer_choice choice_a" type="radio" name="answer_choice" value="0" />(1)</td>
+						<td><a target="_blank" id="choice_a" title=""></a></td>
+						<td><input class="answer_choice choice_a" type="radio" name="answer_choice" value="0" /></td>
+					</tr>
+					<tr style="height: 45px;">
+						<td><input class="answer_choice choice_b" type="radio" name="answer_choice" value="1" />(2)</td>
+						<td><a target="_blank" id="choice_b" title=""></a></td>
+						<td><input class="answer_choice choice_b" type="radio" name="answer_choice" value="1" /></td>
+					</tr>
+					<tr style="height: 45px;">
+						<td><input class="answer_choice choice_c" type="radio" name="answer_choice" value="2" />(3)</td>
+						<td><a target="_blank" id="choice_c" title=""></a></td>
+						<td><input class="answer_choice choice_c" type="radio" name="answer_choice" value="2" /></td>
+					</tr>
 
-				<p style="text-align:left;padding-left:5px;margin-top:-10px;margin-bottom:-20px"> <input
-						class="answer_choice choice_a" type="radio" name="answer_choice" value="0" />(1)<a
-						target="_blank" id="choice_a" title=""></a>
-				</p>
-				<p style="text-align:left;padding-left:45px;margin-bottom:-20px"><input class="answer_choice choice_b"
-						type="radio" name="answer_choice" value="1" />(2)<a target="_blank" style="text-align:right"
-						id="choice_b" title=""></a></p>
-				<p style="text-align:left;padding-left:85px;margin-bottom:0px"><input class="answer_choice choice_c"
-						type="radio" name="answer_choice" value="2" />(3)<a target="_blank" id="choice_c" title=""></a>
-				</p>
+				</table>
+
 
 			</div>
 			<code id="answer"></code>
@@ -319,6 +327,10 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 					$('#choice_a').text(options[0]).attr('title', options[0]);
 					$('#choice_b').text(options[1]).attr('title', options[1]);
 					$('#choice_c').text(options[2]).attr('title', options[2]);
+
+					$('.answer_choice.choice_a').val(options[0]);
+					$('.answer_choice.choice_b').val(options[1]);
+					$('.answer_choice.choice_c').val(options[2]);
 				}, 1500);
 
 				// Clear previous selection
@@ -370,8 +382,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				} else {
 					const selectedChoice = $('input[name="answer_choice"]:checked');
 					if (selectedChoice.length > 0) {
-						const choiceIndex = parseInt(selectedChoice.val());
-						const choiceText = selectedChoice.next('a').text();
+						const choiceText = selectedChoice.val();
 						userAnswer = choiceText;
 					}
 				}
