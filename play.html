@@ -469,21 +469,21 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				if ($('input[name="answer_type"]:checked').val() === 'option') {
 					if (e.which === 49 || e.keyCode === 49) { // Key '1'
 						console.log('Key 1 pressed');
-						$('input[name="answer_choice"][value="0"]').prop('checked', true);
+						$('input.answer_choice.choice_a').prop('checked', true);
 						// Trigger answer checking after selection
 						setTimeout(function() {
 							checkUserAnswer();
 						}, 100);
 					} else if (e.which === 50 || e.keyCode === 50) { // Key '2'
 						console.log('Key 2 pressed');
-						$('input[name="answer_choice"][value="1"]').prop('checked', true);
+						$('input.answer_choice.choice_b').prop('checked', true);
 						// Trigger answer checking after selection
 						setTimeout(function() {
 							checkUserAnswer();
 						}, 100);
 					} else if (e.which === 51 || e.keyCode === 51) { // Key '3'
 						console.log('Key 3 pressed');
-						$('input[name="answer_choice"][value="2"]').prop('checked', true);
+						$('input.answer_choice.choice_c').prop('checked', true);
 						// Trigger answer checking after selection
 						setTimeout(function() {
 							checkUserAnswer();
