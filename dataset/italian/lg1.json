@@ -1,0 +1,65 @@
+{
+    "name": "Italian Long Sentences Set",
+    "source_name": "English",
+    "target_name": "Italian",
+    "packs": [
+        {
+            "name": "Pack 1 - Personal Stories & Preferences",
+            "words": [
+                {
+                    "source": "I'm learning Italian because I like the culture and the people.",
+                    "target": "Sto imparando l'italiano perché mi piace la cultura e la gente."
+                },
+                {
+                    "source": "In year two thousand fifteen, I visited Venice with my wife and it was fantastic.",
+                    "target": "Nel duemila quindici, ho visitato Venezia con mia moglie ed è stato fantastico."
+                },
+                {
+                    "source": "I have also visited Rome, Pisa, and Genoa for business purposes.",
+                    "target": "Ho anche visitato Roma, Pisa e Genova per motivi di lavoro."
+                },
+                {
+                    "source": "I'm planning to go to Italy because I want to explore famous museums.",
+                    "target": "Sto pianificando di andare in Italia perché voglio esplorare musei famosi."
+                },
+                {
+                    "source": "I like the winter season because I can snowboarding, but I don't like the cold.",
+                    "target": "Mi piace la stagione invernale perché posso fare snowboard, ma non mi piace il freddo."
+                },
+                {
+                    "source": "I like pizza and pasta because they are so delicious but I might get fat.",
+                    "target": "Mi piace la pizza e la pasta perché sono così deliziose ma potrei ingrassare."
+                }
+            ]
+        },
+        {
+            "name": "Pack 2 - Parenting & Affection",
+            "words": [
+                {
+                    "source": "Study well in school and listen to your teachers.",
+                    "target": "Studia bene a scuola e ascolta i tuoi insegnanti."
+                },
+                {
+                    "source": "Sleep well and see you in the morning, my baby.",
+                    "target": "Dormi bene e ci vediamo domattina, tesoro mio."
+                },
+                {
+                    "source": "Good morning, did you sleep well, my little bear?",
+                    "target": "Buongiorno, hai dormito bene, orsetto mio?"
+                },
+                {
+                    "source": "Don't cry my little bear, tell me what you want?",
+                    "target": "Non piangere orsetto mio, dimmi cosa vuoi?"
+                },
+                {
+                    "source": "Father is right here with you so don't be afraid.",
+                    "target": "Papà è qui con te quindi non aver paura."
+                },
+                {
+                    "source": "Father will protect you, but you have to be strong and smart.",
+                    "target": "Papà ti proteggerà, ma devi essere forte e intelligente."
+                }
+            ]
+        }
+    ]
+}
