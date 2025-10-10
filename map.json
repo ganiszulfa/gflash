@@ -53,6 +53,10 @@
                 "file": "dataset/italian/g1.json"
             },
             {
+                "name": "Personal Long Sentences Set 1",
+                "file": "dataset/italian/lg1.json"
+            },
+            {
                 "name": "Sentences Set 1",
                 "file": "dataset/italian/s1.json"
             }
