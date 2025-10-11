@@ -60,6 +60,122 @@
                     "target": "Papà ti proteggerà, ma devi essere forte e intelligente."
                 }
             ]
+        },
+        {
+            "name": "Pack 3 - Family Introductions",
+            "words": [
+                {
+                    "source": "This is my lovely wife, her name is Wina.",
+                    "target": "Questa è mia moglie adorabile, si chiama Wina."
+                },
+                {
+                    "source": "This is my cute daughter, her name is Callista.",
+                    "target": "Questa è mia figlia carina, si chiama Callista."
+                },
+                {
+                    "source": "I met my beautiful wife in South Korea.",
+                    "target": "Ho conosciuto la mia bellissima moglie in Corea del Sud."
+                },
+                {
+                    "source": "My wife's hobbies are writing stories and reading.",
+                    "target": "Gli hobby di mia moglie sono scrivere storie e leggere."
+                },
+                {
+                    "source": "My angelic daughter is 9 years old.",
+                    "target": "La mia figlia angelica ha nove anni."
+                },
+                {
+                    "source": "My daughter's hobbies are dancing and singing.",
+                    "target": "Gli hobby di mia figlia sono ballare e cantare."
+                }
+            ]
+        },
+        {
+            "name": "Pack 4 - Polite Greetings & Farewells",
+            "words": [
+                {
+                    "source": "Good evening, do you need any help?",
+                    "target": "Buonasera, ha bisogno di aiuto?"
+                },
+                {
+                    "source": "Good morning, how may I help you?",
+                    "target": "Buongiorno, come posso aiutarla?"
+                },
+                {
+                    "source": "Nice to meet you and good bye.",
+                    "target": "Piacere di conoscerti e arrivederci."
+                },
+                {
+                    "source": "Please be safe and be careful.",
+                    "target": "Per favore stai al sicuro e fai attenzione."
+                },
+                {
+                    "source": "Good luck with your trip.",
+                    "target": "Buona fortuna con il tuo viaggio."
+                },
+                {
+                    "source": "I hope you have a wonderful time.",
+                    "target": "Spero che tu passi un momento meraviglioso."
+                }
+            ]
+        },
+        {
+            "name": "Pack 5 - Past, Present, Future Tenses",
+            "words": [
+                {
+                    "source": "I will go to the train station tomorrow.",
+                    "target": "Andrò alla stazione ferroviaria domani."
+                },
+                {
+                    "source": "I went to the train station yesterday.",
+                    "target": "Sono andato alla stazione ferroviaria ieri."
+                },
+                {
+                    "source": "I'm going to the train station now.",
+                    "target": "Sto andando alla stazione ferroviaria adesso."
+                },
+                {
+                    "source": "I will eat the apples next week.",
+                    "target": "Mangerò le mele la prossima settimana."
+                },
+                {
+                    "source": "I ate the apples last week.",
+                    "target": "Ho mangiato le mele la settimana scorsa."
+                },
+                {
+                    "source": "I'm eating the apples now.",
+                    "target": "Sto mangiando le mele adesso."
+                }
+            ]
+        },
+        {
+            "name": "Pack 6 - Negative Past, Present, Future",
+            "words": [
+                {
+                    "source": "I will not buy the black t-shirt next month.",
+                    "target": "Non comprerò la maglietta nera il mese prossimo."
+                },
+                {
+                    "source": "I did not buy the black t-shirt last month.",
+                    "target": "Non ho comprato la maglietta nera il mese scorso."
+                },
+                {
+                    "source": "I'm not buying the red t-shirt now.",
+                    "target": "Non sto comprando la maglietta rossa adesso."
+                },
+                {
+                    "source": "I will not read the red book next year.",
+                    "target": "Non leggerò il libro rosso l'anno prossimo."
+                },
+                {
+                    "source": "I did not read the white book last year.",
+                    "target": "Non ho letto il libro bianco l'anno scorso."
+                },
+                {
+                    "source": "I'm not reading the white book now.",
+                    "target": "Non sto leggendo il libro bianco adesso."
+                }
+            ]
         }
     ]
 }
