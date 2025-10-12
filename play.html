@@ -297,20 +297,9 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				$('#choice_a, #choice_b, #choice_c').removeClass('correct-answer wrong-answer');
 
 				// Get random word
-				// const randomIndex = Math.floor(Math.random() * currentWords.length);
+				currentQuestionIndex = currentQuestionIndex % shuffleIndexes.length;
 				const randomIndex = shuffleIndexes[currentQuestionIndex];
 				currentQuestionIndex += 1;
-				if (currentQuestionIndex >= shuffleIndexes.length) {
-					// Regenerate the shuffle indexes when we have reached the end of the shuffle indexes
-					shuffleIndexes = generateShuffledRange(currentWords.length);
-					$('#cont_announcement').show();
-					$('#cont_announcement').text('All items have been shown. We are shuffling again.');
-					setTimeout(function() {
-						$('#cont_announcement').hide();
-					}, 3000);
-
-				}
-				currentQuestionIndex = currentQuestionIndex % shuffleIndexes.length;
 				const word = currentWords[randomIndex];
 				console.log('Selected word:', word);
 				
@@ -471,6 +460,17 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				setTimeout(function() {
 					loadQuestion();
 				}, 2000);
+
+				if (currentQuestionIndex >= shuffleIndexes.length) {
+					// Regenerate the shuffle indexes when we have reached the end of the shuffle indexes
+					shuffleIndexes = generateShuffledRange(currentWords.length);
+					$('#cont_announcement').show();
+					$('#cont_announcement').text('All items have been shown. We are shuffling again.');
+					setTimeout(function() {
+						$('#cont_announcement').hide();
+					}, 3000);
+
+				}
 
 				if (totalQuestions % 5 == 0) {
 					updateStatisticsDisplay();
