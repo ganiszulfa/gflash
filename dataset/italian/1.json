@@ -4,7 +4,7 @@
     "target_name": "Italian",
     "packs": [
         {
-            "name": "Pack 1 - 50",
+            "name": "Pack 1 - 25",
             "words": [
                 {
                     "source": "Hello",
@@ -105,7 +105,12 @@
                 {
                     "source": "To do/make",
                     "target": "Fare"
-                },
+                }
+            ]
+        },
+        {
+            "name": "Pack 26 - 50",
+            "words": [
                 {
                     "source": "To go",
                     "target": "Andare"
@@ -209,7 +214,7 @@
             ]
         },
         {
-            "name": "Pack 51 - 100",
+            "name": "Pack 51 - 75",
             "words": [
                 {
                     "source": "You're welcome",
@@ -310,7 +315,12 @@
                 {
                     "source": "Country",
                     "target": "Paese"
-                },
+                }
+            ]
+        },
+        {
+            "name": "Pack 76 - 100",
+            "words": [
                 {
                     "source": "Money",
                     "target": "Soldi"
@@ -414,7 +424,7 @@
             ]
         },
         {
-            "name": "Pack 101 - 150",
+            "name": "Pack 101 - 125",
             "words": [
                 {
                     "source": "To give",
@@ -515,7 +525,12 @@
                 {
                     "source": "School",
                     "target": "Scuola"
-                },
+                }
+            ]
+        },
+        {
+            "name": "Pack 126 - 150",
+            "words": [
                 {
                     "source": "Work",
                     "target": "Lavoro"
@@ -619,7 +634,7 @@
             ]
         },
         {
-            "name": "Pack 151 - 200",
+            "name": "Pack 151 - 175",
             "words": [
                 {
                     "source": "To think",
@@ -720,7 +735,12 @@
                 {
                     "source": "Thursday",
                     "target": "Giovedì"
-                },
+                }
+            ]
+        },
+        {
+            "name": "Pack 176 - 200",
+            "words": [
                 {
                     "source": "Friday",
                     "target": "Venerdì"
