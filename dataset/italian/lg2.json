@@ -1,0 +1,152 @@
+{
+    "name": "Italian Long Sentences Set 2",
+    "source_name": "English",
+    "target_name": "Italian",
+    "packs": [
+        {
+            "name": "Pack 1 - Positive Statements (Past, Present, Future)",
+            "words": [
+                {
+                    "source": "I will go to the train station tomorrow.",
+                    "target": "Andrò alla stazione ferroviaria domani."
+                },
+                {
+                    "source": "I went to the train station yesterday.",
+                    "target": "Sono andato alla stazione ferroviaria ieri."
+                },
+                {
+                    "source": "I'm going to the train station now.",
+                    "target": "Sto andando alla stazione ferroviaria adesso."
+                },
+                {
+                    "source": "I will eat the apples next week.",
+                    "target": "Mangerò le mele la prossima settimana."
+                },
+                {
+                    "source": "I ate the apples last week.",
+                    "target": "Ho mangiato le mele la settimana scorsa."
+                },
+                {
+                    "source": "I'm eating the apples now.",
+                    "target": "Sto mangiando le mele adesso."
+                }
+            ]
+        },
+        {
+            "name": "Pack 2 - Negative Statements (Past, Present, Future)",
+            "words": [
+                {
+                    "source": "I will not buy the black t-shirt next month.",
+                    "target": "Non comprerò la maglietta nera il mese prossimo."
+                },
+                {
+                    "source": "I did not buy the black t-shirt last month.",
+                    "target": "Non ho comprato la maglietta nera il mese scorso."
+                },
+                {
+                    "source": "I'm not buying the red t-shirt now.",
+                    "target": "Non sto comprando la maglietta rossa adesso."
+                },
+                {
+                    "source": "I will not read the red book next year.",
+                    "target": "Non leggerò il libro rosso l'anno prossimo."
+                },
+                {
+                    "source": "I did not read the white book last year.",
+                    "target": "Non ho letto il libro bianco l'anno scorso."
+                },
+                {
+                    "source": "I'm reading the white book now.",
+                    "target": "Sto leggendo il libro bianco adesso."
+                }
+            ]
+        },
+        {
+            "name": "Pack 3 - Days of the Week & Timing",
+            "words": [
+                {
+                    "source": "I will arrive in the hotel next monday.",
+                    "target": "Arriverò in hotel lunedì prossimo."
+                },
+                {
+                    "source": "I arrived in the hotel last monday.",
+                    "target": "Sono arrivato in hotel lunedì scorso."
+                },
+                {
+                    "source": "I will leave the hospital on next tuesday.",
+                    "target": "Lascerò l'ospedale martedì prossimo."
+                },
+                {
+                    "source": "I left the hospital on last tuesday.",
+                    "target": "Ho lasciato l'ospedale martedì scorso."
+                },
+                {
+                    "source": "I will write a letter for my father on next wednesday.",
+                    "target": "Scriverò una lettera per mio padre mercoledì prossimo."
+                },
+                {
+                    "source": "I wrote a letter for my mother last wednesday.",
+                    "target": "Ho scritto una lettera per mia madre mercoledì scorso."
+                }
+            ]
+        },
+        {
+            "name": "Pack 4 - Give, Take & Actions",
+            "words": [
+                {
+                    "source": "I will give the key to my brother when we meet.",
+                    "target": "Darò la chiave a mio fratello quando ci incontriamo."
+                },
+                {
+                    "source": "I gave the key to my sister when we met.",
+                    "target": "Ho dato la chiave a mia sorella quando ci siamo incontrati."
+                },
+                {
+                    "source": "I'm giving you my backpack now but please return it.",
+                    "target": "Ti sto dando il mio zaino adesso ma per favore restituiscilo."
+                },
+                {
+                    "source": "I will take the backpack when I need it.",
+                    "target": "Prenderò lo zaino quando ne avrò bisogno."
+                },
+                {
+                    "source": "I took the chair because I need it.",
+                    "target": "Ho preso la sedia perché ne ho bisogno."
+                },
+                {
+                    "source": "I'm taking the chair now but I will return it.",
+                    "target": "Sto prendendo la sedia adesso ma la restituirò."
+                }
+            ]
+        },
+        {
+            "name": "Pack 5 - All Pronouns with Seasons",
+            "words": [
+                {
+                    "source": "I will go to the beach in summer with my family.",
+                    "target": "Andrò in spiaggia in estate con la mia famiglia."
+                },
+                {
+                    "source": "He will go to the beach in summer with his family.",
+                    "target": "Lui andrà in spiaggia in estate con la sua famiglia."
+                },
+                {
+                    "source": "She will go to the mountain in winter with her friends.",
+                    "target": "Lei andrà in montagna in inverno con i suoi amici."
+                },
+                {
+                    "source": "They will go to the mountain in winter with their friends.",
+                    "target": "Loro andranno in montagna in inverno con i loro amici."
+                },
+                {
+                    "source": "We will go to the park in spring with our colleagues.",
+                    "target": "Noi andremo al parco in primavera con i nostri colleghi."
+                },
+                {
+                    "source": "You will go to the park in spring with your colleagues.",
+                    "target": "Tu andrai al parco in primavera con i tuoi colleghi."
+                }
+            ]
+        }
+    ]
+}
