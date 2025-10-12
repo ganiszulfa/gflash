@@ -262,6 +262,71 @@
                     "target": "È un ombrello giallo."
                 }
             ]
+        },
+        {
+            "name": "Pack 5 - Common Questions",
+            "words": [
+                {
+                    "source": "What's your hobby?",
+                    "target": "Qual è il tuo hobby?"
+                },
+                {
+                    "source": "What's your nationality?",
+                    "target": "Qual è la tua nazionalità?"
+                },
+                {
+                    "source": "What's your job?",
+                    "target": "Qual è il tuo lavoro?"
+                },
+                {
+                    "source": "What's your address?",
+                    "target": "Qual è il tuo indirizzo?"
+                },
+                {
+                    "source": "What will you do?",
+                    "target": "Cosa farai?"
+                },
+                {
+                    "source": "Where will you go?",
+                    "target": "Dove andrai?"
+                },
+                {
+                    "source": "Where's your hotel?",
+                    "target": "Dov'è il tuo hotel?"
+                },
+                {
+                    "source": "Where's your family?",
+                    "target": "Dov'è la tua famiglia?"
+                },
+                {
+                    "source": "How's the weather?",
+                    "target": "Com'è il tempo?"
+                },
+                {
+                    "source": "How's the food?",
+                    "target": "Com'è il cibo?"
+                },
+                {
+                    "source": "How's the experience?",
+                    "target": "Com'è l'esperienza?"
+                },
+                {
+                    "source": "Why you come to Italy?",
+                    "target": "Perché vieni in Italia?"
+                },
+                {
+                    "source": "Why you go to Roma?",
+                    "target": "Perché vai a Roma?"
+                },
+                {
+                    "source": "Who is that person?",
+                    "target": "Chi è quella persona?"
+                },
+                {
+                    "source": "Who are you?",
+                    "target": "Chi sei?"
+                }
+            ]
         }
     ]
 }
