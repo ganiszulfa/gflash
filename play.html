@@ -9,6 +9,19 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>G Flash Cards</title>
 	<link rel="stylesheet" href="main.css">
+	<style>
+		#list option {
+			padding: 5px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+		#list {
+			width: 100%;
+
+		}
+
+
+	</style>
 	<script type="text/javascript">var runFancy = true;</script>
 
 	<!--[if IE]>
@@ -54,9 +67,12 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			<hr />
 
 			Pack:
-			<select name="word_set" class="word_set" id="list">
+			<br/>
+			<select name="word_set" class="word_set" id="list" multiple size="4">
 				<!--- todo 2: Load the packs from the dataset and replace [Dataset Packs] -->
-			</select> <a href="#" id="show_words">Show</a> <!-- show the words in the selected pack -->
+			</select> 
+			<br/>
+			<a href="#" id="show_words">Show</a> <!-- show the words in the selected pack -->
 
 			</p>
 
@@ -198,7 +214,6 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 					// Load packs into dropdown
 					const packSelect = $('#list');
 					packSelect.empty();
-					packSelect.append('<option value="">Select a pack</option>');
 					packSelect.append('<option value="ALL">ALL</option>');
 					
 					data.packs.forEach(function(pack, index) {
@@ -212,20 +227,35 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 
 			// Handle pack selection
 			$('#list').change(function() {
-				const packIndex = $(this).val();
-				console.log('Pack selected:', packIndex);
-				if (packIndex !== '') {
-					if (packIndex === 'ALL') {
+				const selectedValues = $(this).val();
+				console.log('Packs selected:', selectedValues);
+				
+				if (selectedValues && selectedValues.length > 0) {
+					currentWords = [];
+					let packNames = [];
+					
+					// Check if ALL is selected
+					if (selectedValues.includes('ALL')) {
 						// Combine all words from all packs
-						currentWords = [];
 						currentDataset.packs.forEach(function(pack) {
 							currentWords = currentWords.concat(pack.words);
+							packNames.push(pack.name);
 						});
 						currentPack = { name: 'ALL', words: currentWords };
 					} else {
-						currentPack = currentDataset.packs[packIndex];
-						currentWords = currentPack.words;
+						// Combine words from selected packs
+						selectedValues.forEach(function(packIndex) {
+							if (packIndex !== 'ALL') {
+								const pack = currentDataset.packs[packIndex];
+								if (pack) {
+									currentWords = currentWords.concat(pack.words);
+									packNames.push(pack.name);
+								}
+							}
+						});
+						currentPack = { name: packNames.join(', '), words: currentWords };
 					}
+					
 					console.log('Current pack:', currentPack);
 					console.log('Current words:', currentWords);
 					currentQuestionIndex = 0;
@@ -237,6 +267,14 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 					$('#cont_words').hide();
 					
 					loadQuestion();
+				} else {
+					// No packs selected, clear current data
+					currentWords = [];
+					currentPack = null;
+					$('#question').text('');
+					$('#answer').text('');
+					$('#show_words').text('Show');
+					$('#cont_words').hide();
 				}
 			});
 
