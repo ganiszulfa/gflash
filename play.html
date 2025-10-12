@@ -118,6 +118,8 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 		</div>
 
 
+		<div id="cont_announcement" style="display:none;font-size: 18px;font-weight: bold;color: red;">
+		</div>
 		<div id="cont_mul_cho" style="display:none">
 			<p>You can also use your 1,2,3 keyboard to select the option. 
 			</p>
@@ -301,6 +303,12 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				if (currentQuestionIndex >= shuffleIndexes.length) {
 					// Regenerate the shuffle indexes when we have reached the end of the shuffle indexes
 					shuffleIndexes = generateShuffledRange(currentWords.length);
+					$('#cont_announcement').show();
+					$('#cont_announcement').text('All items have been shown. We are shuffling again.');
+					setTimeout(function() {
+						$('#cont_announcement').hide();
+					}, 3000);
+
 				}
 				currentQuestionIndex = currentQuestionIndex % shuffleIndexes.length;
 				const word = currentWords[randomIndex];
