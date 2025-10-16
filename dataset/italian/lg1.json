@@ -176,6 +176,35 @@
                     "target": "Non sto leggendo il libro bianco adesso."
                 }
             ]
+        },
+        {
+            "name": "Pack 7 - Language Learning & Cultural Exchange",
+            "words": [
+                {
+                    "source": "Are you Italian? Welcome to Indonesia! Welcome!",
+                    "target": "Sei italiano? Benvenuto in Indonesia! Benvenuto!"
+                },
+                {
+                    "source": "Can I say a few words to you to practice my Italian?",
+                    "target": "Posso dirti qualche parola per praticare il mio italiano?"
+                },
+                {
+                    "source": "Can you teach me interesting words in Italian that I should know?",
+                    "target": "Puoi insegnarmi parole interessanti in italiano che dovrei sapere?"
+                },
+                {
+                    "source": "I'm trying to improve my Italian pronunciation, can you help me?",
+                    "target": "Sto cercando di migliorare la mia pronuncia italiana, puoi aiutarmi?"
+                },
+                {
+                    "source": "What Italian phrases do you use most often in daily life?",
+                    "target": "Quali frasi italiane usi più spesso nella vita quotidiana?"
+                },
+                {
+                    "source": "I would love to learn more about Italian customs and traditions.",
+                    "target": "Mi piacerebbe imparare di più sulle usanze e tradizioni italiane."
+                }
+            ]
         }
     ]
 }
