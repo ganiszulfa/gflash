@@ -201,8 +201,8 @@
                     "target": "Quali frasi italiane usi più spesso nella vita quotidiana?"
                 },
                 {
-                    "source": "I would love to learn more about Italian customs and traditions.",
-                    "target": "Mi piacerebbe imparare di più sulle usanze e tradizioni italiane."
+                    "source": "Are you a tourist or are you living here?",
+                    "target": "Sei un turista o vivi qui?"
                 }
             ]
         }
