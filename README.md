@@ -22,3 +22,8 @@ Why make another flash cards?
 ## Advanced Use
 
 If you want to use your own dataset, currently there's no easy way. You can either clone this and add the datasets by yourself or make a PR to this repo. You can run this in local easily, it's just a simple HTML and javascript. If there are requests for this, then I will make this easier.
+
+
+## History
+
+It was based on this https://github.com/ganiszulfa/eohwi that I created a long time ago.
