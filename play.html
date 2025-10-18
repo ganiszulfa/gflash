@@ -661,6 +661,117 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				}, 5000);
 			});
 
+			// Handle clipboard copy for choice_a
+			$('#choice_a').click(function(e) {
+				e.preventDefault();
+				const textToCopy = $(this).text();
+				
+				if (textToCopy && textToCopy.trim() !== '') {
+					// Create a temporary textarea element to copy text
+					const tempTextarea = document.createElement('textarea');
+					tempTextarea.value = textToCopy;
+					document.body.appendChild(tempTextarea);
+					tempTextarea.select();
+					
+					try {
+						// Copy the text to clipboard
+						document.execCommand('copy');
+						
+						// Provide visual feedback
+						const originalText = $(this).text();
+						$(this).text('Copied!');
+						$(this).css('color', '#28a745');
+						
+						// Reset after 1 second
+						setTimeout(function() {
+							$('#choice_a').text(originalText);
+							$('#choice_a').css('color', '');
+						}, 1000);
+						
+					} catch (err) {
+						console.error('Failed to copy text: ', err);
+						alert('Failed to copy text to clipboard');
+					}
+					
+					// Remove the temporary element
+					document.body.removeChild(tempTextarea);
+				}
+			});
+
+			// Handle clipboard copy for choice_b
+			$('#choice_b').click(function(e) {
+				e.preventDefault();
+				const textToCopy = $(this).text();
+				
+				if (textToCopy && textToCopy.trim() !== '') {
+					// Create a temporary textarea element to copy text
+					const tempTextarea = document.createElement('textarea');
+					tempTextarea.value = textToCopy;
+					document.body.appendChild(tempTextarea);
+					tempTextarea.select();
+					
+					try {
+						// Copy the text to clipboard
+						document.execCommand('copy');
+						
+						// Provide visual feedback
+						const originalText = $(this).text();
+						$(this).text('Copied!');
+						$(this).css('color', '#28a745');
+						
+						// Reset after 1 second
+						setTimeout(function() {
+							$('#choice_b').text(originalText);
+							$('#choice_b').css('color', '');
+						}, 1000);
+						
+					} catch (err) {
+						console.error('Failed to copy text: ', err);
+						alert('Failed to copy text to clipboard');
+					}
+					
+					// Remove the temporary element
+					document.body.removeChild(tempTextarea);
+				}
+			});
+
+			// Handle clipboard copy for choice_c
+			$('#choice_c').click(function(e) {
+				e.preventDefault();
+				const textToCopy = $(this).text();
+				
+				if (textToCopy && textToCopy.trim() !== '') {
+					// Create a temporary textarea element to copy text
+					const tempTextarea = document.createElement('textarea');
+					tempTextarea.value = textToCopy;
+					document.body.appendChild(tempTextarea);
+					tempTextarea.select();
+					
+					try {
+						// Copy the text to clipboard
+						document.execCommand('copy');
+						
+						// Provide visual feedback
+						const originalText = $(this).text();
+						$(this).text('Copied!');
+						$(this).css('color', '#28a745');
+						
+						// Reset after 1 second
+						setTimeout(function() {
+							$('#choice_c').text(originalText);
+							$('#choice_c').css('color', '');
+						}, 1000);
+						
+					} catch (err) {
+						console.error('Failed to copy text: ', err);
+						alert('Failed to copy text to clipboard');
+					}
+					
+					// Remove the temporary element
+					document.body.removeChild(tempTextarea);
+				}
+			});
+
 			// Initialize the game
 			loadDataset();
 		});
