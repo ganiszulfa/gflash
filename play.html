@@ -164,6 +164,28 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				return urlParams.get(name);
 			}
 
+			function jaccardStringSimilarity(str1, str2) {
+				// Tokenize the strings into words
+				const words1 = str1.toLowerCase().split(/\s+/); // Split by whitespace, convert to lowercase
+				const words2 = str2.toLowerCase().split(/\s+/);
+
+				// Create sets of unique words
+				const set1 = new Set(words1);
+				const set2 = new Set(words2);
+
+				// Calculate the intersection
+				const intersection = new Set([...set1].filter(word => set2.has(word)));
+
+				// Calculate the union
+				const union = new Set([...set1, ...set2]);
+
+				// Calculate Jaccard similarity
+				if (union.size === 0) {
+					return 0; // Handle case where both strings are empty
+				}
+				return intersection.size / union.size;
+			}
+
 			function generateShuffledRange(n) {
 				// 1. Generate an array containing numbers from 0 to n-1
 				// This satisfies steps 1 and 2 implicitly by creating the initial ordered array.
@@ -332,18 +354,41 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			function generateMultipleChoice() {
 				const options = [correctAnswer];
 				
-				// Add wrong answers - try to get up to 3 total options
-				const maxOptions = Math.min(3, currentWords.length);
-				let attempts = 0;
-				const maxAttempts = 20; // Prevent infinite loop
-				
-				while (options.length < maxOptions && attempts < maxAttempts) {
-					const randomWord = currentWords[Math.floor(Math.random() * currentWords.length)];
-					const wrongAnswer = isSource2Target ? randomWord.target : randomWord.source;
-					if (!options.includes(wrongAnswer)) {
-						options.push(wrongAnswer);
+				// Get all possible wrong answers
+				const allWrongAnswers = [];
+				const maxAllWrongAnswers = Math.min(20, currentWords.length); // to speed up the process, no need to add all wrong answers
+				for (let i = 0; i < maxAllWrongAnswers; i++) {
+					const word = currentWords[(currentQuestionIndex + i + 1) % currentWords.length];
+					const wrongAnswer = isSource2Target ? word.target : word.source;
+					if (wrongAnswer !== correctAnswer && !allWrongAnswers.includes(wrongAnswer)) {
+						allWrongAnswers.push(wrongAnswer);
 					}
-					attempts++;
+				}
+
+				// Calculate similarity scores for all wrong answers
+				const wrongAnswersWithSimilarity = allWrongAnswers.map(function(wrongAnswer) {
+					return {
+						answer: wrongAnswer,
+						similarity: jaccardStringSimilarity(correctAnswer, wrongAnswer),
+						lengthDifference: Math.abs(correctAnswer.length - wrongAnswer.length)
+					};
+				});
+
+				// Sort by similarity, if equal, sort by length difference
+				wrongAnswersWithSimilarity.sort(function(a, b) {
+					if (b.similarity !== a.similarity) {
+						return b.similarity - a.similarity;
+					} else {
+						return a.lengthDifference - b.lengthDifference;
+					}
+				});
+
+				console.log('wrongAnswersWithSimilarity:', wrongAnswersWithSimilarity);
+
+				// Add the most similar wrong answers (up to 2 more to make 3 total options)
+				const maxWrongAnswers = Math.min(2, wrongAnswersWithSimilarity.length);
+				for (let i = 0; i < maxWrongAnswers; i++) {
+					options.push(wrongAnswersWithSimilarity[i].answer);
 				}
 
 				// If we still don't have enough options, add generic wrong answers
