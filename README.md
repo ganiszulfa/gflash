@@ -9,7 +9,7 @@ Why make another flash cards?
 
 ## The Design
 
-![G Flash Cards](./assets/play.png "G Flash Cards")
+![G Flash Cards](./assets/play2.png "G Flash Cards")
 
 ## How to use
 
