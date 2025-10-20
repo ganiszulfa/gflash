@@ -63,6 +63,10 @@
             {
                 "name": "Sentences Set 1",
                 "file": "dataset/italian/s1.json"
+            },
+            {
+                "name": "Sentences Set 2",
+                "file": "dataset/italian/s2.json"
             }
         ]
     },
