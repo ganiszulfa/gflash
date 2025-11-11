@@ -1,0 +1,501 @@
+{
+    "name": "Japanese Basic Sentences 1",
+    "source_name": "English",
+    "target_name": "Japanese",
+    "packs": [
+        {
+            "name": "Pack 1st - Greetings",
+            "words": [
+                {
+                    "source": "Good morning",
+                    "target": "おはようございます (Ohayou gozaimasu)"
+                },
+                {
+                    "source": "Good afternoon",
+                    "target": "こんにちは (Konnichiwa)"
+                },
+                {
+                    "source": "Good evening",
+                    "target": "こんばんは (Konbanwa)"
+                },
+                {
+                    "source": "Good night",
+                    "target": "おやすみなさい (Oyasuminasai)"
+                },
+                {
+                    "source": "Thank you",
+                    "target": "ありがとうございます (Arigatou gozaimasu)"
+                },
+                {
+                    "source": "You're welcome",
+                    "target": "どういたしまして (Dō itashimashite)"
+                },
+                {
+                    "source": "Excuse me",
+                    "target": "すみません (Sumimasen)"
+                },
+                {
+                    "source": "Sorry",
+                    "target": "ごめんなさい (Gomennasai)"
+                },
+                {
+                    "source": "How are you?",
+                    "target": "お元気ですか？ (O-genki desu ka?)"
+                },
+                {
+                    "source": "I'm fine, thank you",
+                    "target": "元気です (O-genki desu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 2nd - Introductions",
+            "words": [
+                {
+                    "source": "What's your name?",
+                    "target": "あなたの名前は何ですか？ (Anata no namae wa nani desu ka?)"
+                },
+                {
+                    "source": "My name is",
+                    "target": "私の名前は (Watashi no namae wa)"
+                },
+                {
+                    "source": "Nice to meet you",
+                    "target": "はじめまして (Hajimemashite)"
+                },
+                {
+                    "source": "How old are you?",
+                    "target": "あなたは何歳ですか？ (Anata wa nan-sai desu ka?)"
+                },
+                {
+                    "source": "I'm thirty nine years old",
+                    "target": "私は三十九歳です (Watashi wa san-ku-sai desu)"
+                },
+                {
+                    "source": "I'm forty years old",
+                    "target": "私は四十歳です (Watashi wa yon-sai desu)"
+                },
+                {
+                    "source": "what is your job?",
+                    "target": "あなたの仕事は何ですか？ (Anata no shigoto wa nani desu ka?)"
+                },
+                {
+                    "source": "I'm a software engineer",
+                    "target": "私はソフトウェアエンジニアです (Watashi wa software engineer desu)"
+                },
+                {
+                    "source": "Where are you from?",
+                    "target": "あなたはどこから来ましたか？ (Anata wa doko kara kimashita ka?)"
+                },
+                {
+                    "source": "I'm from Indonesia",
+                    "target": "私はインドネシアから来ました (Watashi wa Indonesia kara kimashita)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 3rd - Language Learning",
+            "words": [
+                {
+                    "source": "Do you speak English?",
+                    "target": "英語を話せますか？ (Eigo o hanasemasu ka?)"
+                },
+                {
+                    "source": "Do you speak Japanese?",
+                    "target": "日本語を話せますか？ (Nihongo o hanasemasu ka?)"
+                },
+                {
+                    "source": "I don't understand",
+                    "target": "わかりません (Wakari masen)"
+                },
+                {
+                    "source": "Can you help me?",
+                    "target": "助けてください！ (Tasukete kudasai!)"
+                },
+                {
+                    "source": "I don't speak Japanese",
+                    "target": "日本語を話せません (Nihongo o hanasemasen)"
+                },
+                {
+                    "source": "I'm learning Japanese",
+                    "target": "日本語を勉強しています (Nihongo o benkyō shiteimasu)"
+                },
+                {
+                    "source": "Please speak slowly",
+                    "target": "ゆっくり話してください (Yukkuri hanashite kudasai)"
+                },
+                {
+                    "source": "Please speak in simple words ",
+                    "target": "シンプルな言葉で話してください (Shimpuru na kotoba de hanashite kudasai)"
+                },
+                {
+                    "source": "My Japanese is not good at all",
+                    "target": "日本語が上手ではありません (Nihongo ga jōsu desu wa arimasen)"
+                },
+                {
+                    "source": "I like learning Japanese",
+                    "target": "日本語を勉強したいです (Nihongo o benkyō shitaide desu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 4th - Family",
+            "words": [
+                {
+                    "source": "Are you married?",
+                    "target": "結婚していますか？ (Kei-kon shiteimasu ka?)"
+                },
+                {
+                    "source": "I'm married",
+                    "target": "私は結婚しています (Watashi wa kei-kon shiteimasu)"
+                },
+                {
+                    "source": "I'm not married",
+                    "target": "私は結婚していません (Watashi wa kei-kon shiteimasen)"
+                },
+                {
+                    "source": "I have a wife",
+                    "target": "私は妻がいます (Watashi wa tsuma ga imasu)"
+                },
+                {
+                    "source": "I have a husband",
+                    "target": "私は夫がいます (Watashi wa otto ga imasu)"
+                },
+                {
+                    "source": "I have a child",
+                    "target": "私は子供がいます (Watashi wa kodomo ga imasu)"
+                },
+                {
+                    "source": "I have a son",
+                    "target": "私は息子がいます (Watashi wa musuko ga imasu)"
+                },
+                {
+                    "source": "I have a daughter",
+                    "target": "私は娘がいます (Watashi wa imoto ga imasu)"
+                },
+                {
+                    "source": "I have a brother",
+                    "target": "私は兄弟がいます (Watashi wa kyodai ga imasu)"
+                },
+                {
+                    "source": "I have a sister",
+                    "target": "私は姉妹がいます (Watashi wa ima ga imasu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 5th - Jobs",
+            "words": [
+                {
+                    "source": "What is your job?",
+                    "target": "あなたの仕事は何ですか？ (Anata no shigoto wa nani desu ka?)"
+                },
+                {
+                    "source": "I'm a student",
+                    "target": "私は学生です (Watashi wa gakusei desu)"
+                },
+                {
+                    "source": "I'm a teacher",
+                    "target": "私は先生です (Watashi wa sensei desu)"
+                },
+                {
+                    "source": "I'm a software engineer",
+                    "target": "私はソフトウェアエンジニアです (Watashi wa sōfuto-wēa enjinia desu)"
+                },
+                {
+                    "source": "I'm a doctor",
+                    "target": "私は医者です (Watashi wa inshika desu)"
+                },
+                {
+                    "source": "I'm a nurse",
+                    "target": "私は看護師です (Watashi wa kanshi desu)"
+                },
+                {
+                    "source": "I'm a police officer",
+                    "target": "私は警察官です (Watashi wa keisatsū desu)"
+                },
+                {
+                    "source": "I'm a firefighter",
+                    "target": "私は消防士です (Watashi wa hogei shi desu)"
+                },
+                {
+                    "source": "I'm a soldier",
+                    "target": "私は兵士です (Watashi wa heishi desu)"
+                },
+                {
+                    "source": "I'm a company employee",
+                    "target": "私は会社員です (Watashi wa kaisha-in desu)"
+                },
+                {
+                    "source": "I'm a self-employed",
+                    "target": "私は自営業です (Watashi wa jiyōgyō desu)"
+                },
+                {
+                    "source": "I'm a freelancer",
+                    "target": "私はフリーランスです (Watashi wa furi-ransu desu)"
+                },
+                {
+                    "source": "I'm a businessman",
+                    "target": "私は商人です (Watashi wa shōnin desu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 6th - Travel Questions",
+            "words": [
+                {
+                    "source": "Where are you going?",
+                    "target": "あなたはどこに行きますか？ (Anata wa doko ni ikimasu ka?)"
+                },
+                {
+                    "source": "I'm going to Tokyo",
+                    "target": "私は東京に行きます (Watashi wa Tokyo ni ikimasu)"
+                },
+                {
+                    "source": "I'm going to the Airport",
+                    "target": "私は空港に行きます (Watashi wa kūkō ni ikimasu)"
+                },
+                {
+                    "source": "I'm going to the Train Station",
+                    "target": "私は駅に行きます (Watashi wa eki ni ikimasu)"
+                },
+                {
+                    "source": "I'm going to the Bus Stop",
+                    "target": "私はバス停に行きます (Watashi wa bus-tei ni ikimasu)"
+                },
+                {
+                    "source": "How do I get to the Hospital?",
+                    "target": "病院にどうやって行きますか？ (Byōin ni dōyatte ikimasu ka?)"
+                },
+                {
+                    "source": "How do I get to the Restaurant?",
+                    "target": "レストランにどうやって行きますか？ (Resutoran ni dōyatte ikimasu ka?)"
+                },
+                {
+                    "source": "How do I get to the Museum?",
+                    "target": "博物館にどうやって行きますか？ (Hobutsukan ni dōyatte ikimasu ka?)"
+                },
+                {
+                    "source": "How far is the Hotel?",
+                    "target": "ホテルはどれくらい離れていますか？ (Hōteru wa dorekuraide iru desu ka?)"
+                },
+                {
+                    "source": "How far is the Police Station?",
+                    "target": "警察署はどれくらい離れていますか？ (Keisatsū wa dorekuraide iru desu ka?)"
+                },
+                {
+                    "source": "How far is the Park?",
+                    "target": "公園はどれくらい離れていますか？ (Kōen wa dorekuraide iru desu ka?)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 7th - Travel Answers",
+            "words": [
+                {
+                    "source": "You can take the train",
+                    "target": "電車で行きます (Den-sha de ikimasu)"
+                },
+                {
+                    "source": "You can take a subway",
+                    "target": "地下鉄で行きます (Chikatetsu de ikimasu)"
+                },
+                {
+                    "source": "It's near",
+                    "target": "近いです (Chikai desu)"
+                },
+                {
+                    "source": "It's very near",
+                    "target": "非常に近いです (Hijō ni chikai desu)"
+                },
+                {
+                    "source": "It's far",
+                    "target": "遠いです (Tooi desu)"
+                },
+                {
+                    "source": "It's very far",
+                    "target": "非常に遠いです (Hijō ni tooi desu)"
+                },
+                {
+                    "source": "The park is near the train station",
+                    "target": "公園は電車駅の近くにあります (Kōen wa den-sha eki no chikaku ni arimasu)"
+                },
+                {
+                    "source": "The hotel is near the shopping center",
+                    "target": "ホテルはショッピングセンターの近くにあります (Hōteru wa shōpingu-sentā no chikaku ni arimasu)"
+                },
+                {
+                    "source": "The museum is near the station",
+                    "target": "博物館は駅の近くにあります (Hobutsukan wa eki no chikaku ni arimasu)"
+                },
+                {
+                    "source": "It takes 10 minutes to get to the station",
+                    "target": "駅には十分で行きます (Eki ni wa jū-byō-byō de ikimasu)"
+                },
+                {
+                    "source": "It takes 1 hour to get to the airport",
+                    "target": "空港には二十で行きます (Kūkō ni wa ni-jū-byō-byō de ikimasu)"
+                },
+                {
+                    "source": "It takes 1 hour and 30 minutes to get to the museum",
+                    "target": "博物館には一時間三十で行きます (Hobutsukan ni wa ichijō-byō-byō san-jū-byō-byō de ikimasu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 8th - Foods 1",
+            "words": [
+                {
+                    "source": "What's your favorite food?",
+                    "target": "あなたの好きな食べ物は何ですか？ (Anata no suki na tabemono wa nani desu ka?)"
+                },
+                {
+                    "source": "My favorite food is sushi",
+                    "target": "私の好きな食べ物は寿司です (Watashi no suki na tabemono wa sushi desu)"
+                },
+                {
+                    "source": "My favorite food is ramen",
+                    "target": "私の好きな食べ物はラーメンです (Watashi no suki na tabemono wa ramen desu)"
+                },
+                {
+                    "source": "I like Japanese food",
+                    "target": "私は日本の食べ物が好きです (Watashi wa nihon no tabemono ga suki desu)"
+                },
+                {
+                    "source": "I like Korean food",
+                    "target": "私は韓国の食べ物が好きです (Watashi wa korea no tabemono ga suki desu)"
+                },
+                {
+                    "source": "I like sweet food",
+                    "target": "私は甘い食べ物が好きです (Watashi wa amai tabemono ga suki desu)"
+                },
+                {
+                    "source": "I like spicy food",
+                    "target": "私は辛い食べ物が好きです (Watashi wa takai tabemono ga suki desu)"
+                },
+                {
+                    "source": "Did you have breakfast?",
+                    "target": "朝食を食べましたか？ (Asa-tabemono o tabemashita ka?)"
+                },
+                {
+                    "source": "Did you have lunch?",
+                    "target": "昼食を食べましたか？ (Chū-tabemono o tabemashita ka?)"
+                },
+                {
+                    "source": "Did you have dinner?",
+                    "target": "夕食を食べましたか？ (Yūshoku o tabemashita ka?)"
+                },
+                {
+                    "source": "I had breakfast",
+                    "target": "私は朝食を食べました (Watashi wa asa-tabemono o tabemashita)"
+                },
+                {
+                    "source": "I had lunch",
+                    "target": "私は昼食を食べました (Watashi wa chū-tabemono o tabemashita)"
+                },
+                {
+                    "source": "I had dinner",
+                    "target": "私は夕食を食べました (Watashi wa yūshoku o tabemashita)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 9th - Foods 2",
+            "words": [
+                {
+                    "source": "What do you want to eat?",
+                    "target": "何を食べたいですか？ (Nani o tabetai desu ka?)"
+                },
+                {
+                    "source": "I want to eat sushi",
+                    "target": "私は寿司を食べたいです (Watashi wa sushi o tabetai desu)"
+                },
+                {
+                    "source": "I want to eat Japanese food",
+                    "target": "私は日本の食べ物を食べたいです (Watashi wa nihon no tabemono o tabetai desu)"
+                },
+                {
+                    "source": "I want to eat Beef",
+                    "target": "私は牛肉を食べたいです (Watashi wa gyū-nō o tabetai desu)"
+                },
+                {
+                    "source": "I want to eat Pork",
+                    "target": "私は豚肉を食べたいです (Watashi wa buta-niku o tabetai desu)"
+                },
+                {
+                    "source": "I want to eat Beef",
+                    "target": "私は牛肉を食べたいです (Watashi wa gyū-nō o tabetai desu)"
+                },
+                {
+                    "source": "I want to eat salty food",
+                    "target": "私は塩辛い食べ物を食べたいです (Watashi wa shio-takai tabemono o tabetai desu)"
+                },
+                {
+                    "source": "What do you want to drink?",
+                    "target": "何を飲みたいですか？ (Nani o nomimashita ka?)"
+                },
+                {
+                    "source": "I want to drink water",
+                    "target": "私は水を飲みたいです (Watashi wa mizu o nomimashita)"
+                },
+                {
+                    "source": "I want to drink tea",
+                    "target": "私は茶を飲みたいです (Watashi wa ocha o nomimashita)"
+                },
+                {
+                    "source": "I want to drink coffee",
+                    "target": "私はコーヒーを飲みたいです (Watashi wa kōhī o nomimashita)"
+                },
+                {
+                    "source": "I want to drink beer",
+                    "target": "私はビールを飲みたいです (Watashi wa bīru o nomimashita)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 10th - Farewell",
+            "words": [
+                {
+                    "source": "Goodbye",
+                    "target": "さようなら (Sayōnara)"
+                },
+                {
+                    "source": "See you later",
+                    "target": "またあとで (Mata ato de)"
+                },
+                {
+                    "source": "See you tomorrow",
+                    "target": "また明日 (Mata ashita)"
+                },
+                {
+                    "source": "See you next week",
+                    "target": "また来週 (Mata kōchū)"
+                },
+                {
+                    "source": "See you next month",
+                    "target": "また来月 (Mata kōtsuki)"
+                },
+                {
+                    "source": "See you next time",
+                    "target": "またあとで (Mata ato de)"
+                },
+                {
+                    "source": "Have a good trip",
+                    "target": "旅行がんばってください (Ryokō ga-n-batte kudasai)"
+                },
+                {
+                    "source": "Please return home safely",
+                    "target": "安全に帰ってください (Anzen ni kaeru kudasai)"
+                },
+                {
+                    "source": "Please be careful on your way home",
+                    "target": "帰り道に注意してください (Kaerī-michi ni chū-i shite kudasai)"
+                },
+                {
+                    "source": "Please be careful on your way to the airport",
+                    "target": "空港に向かう道に注意してください (Kūkō ni muka-u michi ni chū-i shite kudasai)"
+                }
+            ]
+        }
+    ]
+}
