@@ -44,7 +44,7 @@
                 },
                 {
                     "source": "I'm fine, thank you",
-                    "target": "元気です (O-genki desu)"
+                    "target": "元気です、ありがとうございます (Genki desu, arigatou gozaimasu)"
                 }
             ]
         },
@@ -69,19 +69,19 @@
                 },
                 {
                     "source": "I'm thirty nine years old",
-                    "target": "私は三十九歳です (Watashi wa san-ku-sai desu)"
+                    "target": "私は三十九歳です (Watashi wa sanjū-kyū-sai desu)"
                 },
                 {
                     "source": "I'm forty years old",
-                    "target": "私は四十歳です (Watashi wa yon-sai desu)"
+                    "target": "私は四十歳です (Watashi wa yonjū-sai desu)"
                 },
                 {
-                    "source": "what is your job?",
+                    "source": "What is your job?",
                     "target": "あなたの仕事は何ですか？ (Anata no shigoto wa nani desu ka?)"
                 },
                 {
                     "source": "I'm a software engineer",
-                    "target": "私はソフトウェアエンジニアです (Watashi wa software engineer desu)"
+                    "target": "私はソフトウェアエンジニアです (Watashi wa sofutowea enjinia desu)"
                 },
                 {
                     "source": "Where are you from?",
@@ -89,7 +89,7 @@
                 },
                 {
                     "source": "I'm from Indonesia",
-                    "target": "私はインドネシアから来ました (Watashi wa Indonesia kara kimashita)"
+                    "target": "私はインドネシアから来ました (Watashi wa Indoneshia kara kimashita)"
                 }
             ]
         },
@@ -106,11 +106,11 @@
                 },
                 {
                     "source": "I don't understand",
-                    "target": "わかりません (Wakari masen)"
+                    "target": "わかりません (Wakarimasen)"
                 },
                 {
                     "source": "Can you help me?",
-                    "target": "助けてください！ (Tasukete kudasai!)"
+                    "target": "助けてください (Tasukete kudasai)"
                 },
                 {
                     "source": "I don't speak Japanese",
@@ -125,16 +125,16 @@
                     "target": "ゆっくり話してください (Yukkuri hanashite kudasai)"
                 },
                 {
-                    "source": "Please speak in simple words ",
-                    "target": "シンプルな言葉で話してください (Shimpuru na kotoba de hanashite kudasai)"
+                    "source": "Please speak in simple words",
+                    "target": "シンプルな言葉で話してください (Shinpuru na kotoba de hanashite kudasai)"
                 },
                 {
                     "source": "My Japanese is not good at all",
-                    "target": "日本語が上手ではありません (Nihongo ga jōsu desu wa arimasen)"
+                    "target": "日本語が上手ではありません (Nihongo ga jōzu dewa arimasen)"
                 },
                 {
                     "source": "I like learning Japanese",
-                    "target": "日本語を勉強したいです (Nihongo o benkyō shitaide desu)"
+                    "target": "日本語を勉強するのが好きです (Nihongo o benkyō suru no ga suki desu)"
                 }
             ]
         },
@@ -143,15 +143,15 @@
             "words": [
                 {
                     "source": "Are you married?",
-                    "target": "結婚していますか？ (Kei-kon shiteimasu ka?)"
+                    "target": "結婚していますか？ (Kekkon shiteimasu ka?)"
                 },
                 {
                     "source": "I'm married",
-                    "target": "私は結婚しています (Watashi wa kei-kon shiteimasu)"
+                    "target": "私は結婚しています (Watashi wa kekkon shiteimasu)"
                 },
                 {
                     "source": "I'm not married",
-                    "target": "私は結婚していません (Watashi wa kei-kon shiteimasen)"
+                    "target": "私は結婚していません (Watashi wa kekkon shiteimasen)"
                 },
                 {
                     "source": "I have a wife",
@@ -171,15 +171,15 @@
                 },
                 {
                     "source": "I have a daughter",
-                    "target": "私は娘がいます (Watashi wa imoto ga imasu)"
+                    "target": "私は娘がいます (Watashi wa musume ga imasu)"
                 },
                 {
                     "source": "I have a brother",
-                    "target": "私は兄弟がいます (Watashi wa kyodai ga imasu)"
+                    "target": "私は兄弟がいます (Watashi wa kyōdai ga imasu)"
                 },
                 {
                     "source": "I have a sister",
-                    "target": "私は姉妹がいます (Watashi wa ima ga imasu)"
+                    "target": "私は姉妹がいます (Watashi wa shimai ga imasu)"
                 }
             ]
         },
@@ -200,23 +200,23 @@
                 },
                 {
                     "source": "I'm a software engineer",
-                    "target": "私はソフトウェアエンジニアです (Watashi wa sōfuto-wēa enjinia desu)"
+                    "target": "私はソフトウェアエンジニアです (Watashi wa sofutowea enjinia desu)"
                 },
                 {
                     "source": "I'm a doctor",
-                    "target": "私は医者です (Watashi wa inshika desu)"
+                    "target": "私は医者です (Watashi wa isha desu)"
                 },
                 {
                     "source": "I'm a nurse",
-                    "target": "私は看護師です (Watashi wa kanshi desu)"
+                    "target": "私は看護師です (Watashi wa kangoshi desu)"
                 },
                 {
                     "source": "I'm a police officer",
-                    "target": "私は警察官です (Watashi wa keisatsū desu)"
+                    "target": "私は警察官です (Watashi wa keisatsukan desu)"
                 },
                 {
                     "source": "I'm a firefighter",
-                    "target": "私は消防士です (Watashi wa hogei shi desu)"
+                    "target": "私は消防士です (Watashi wa shōbōshi desu)"
                 },
                 {
                     "source": "I'm a soldier",
@@ -227,12 +227,12 @@
                     "target": "私は会社員です (Watashi wa kaisha-in desu)"
                 },
                 {
-                    "source": "I'm a self-employed",
-                    "target": "私は自営業です (Watashi wa jiyōgyō desu)"
+                    "source": "I'm self-employed",
+                    "target": "私は自営業です (Watashi wa jieigyō desu)"
                 },
                 {
                     "source": "I'm a freelancer",
-                    "target": "私はフリーランスです (Watashi wa furi-ransu desu)"
+                    "target": "私はフリーランスです (Watashi wa furīransu desu)"
                 },
                 {
                     "source": "I'm a businessman",
@@ -249,7 +249,7 @@
                 },
                 {
                     "source": "I'm going to Tokyo",
-                    "target": "私は東京に行きます (Watashi wa Tokyo ni ikimasu)"
+                    "target": "私は東京に行きます (Watashi wa Tōkyō ni ikimasu)"
                 },
                 {
                     "source": "I'm going to the Airport",
@@ -261,7 +261,7 @@
                 },
                 {
                     "source": "I'm going to the Bus Stop",
-                    "target": "私はバス停に行きます (Watashi wa bus-tei ni ikimasu)"
+                    "target": "私はバス停に行きます (Watashi wa basutei ni ikimasu)"
                 },
                 {
                     "source": "How do I get to the Hospital?",
@@ -273,19 +273,19 @@
                 },
                 {
                     "source": "How do I get to the Museum?",
-                    "target": "博物館にどうやって行きますか？ (Hobutsukan ni dōyatte ikimasu ka?)"
+                    "target": "博物館にどうやって行きますか？ (Hakubutsukan ni dōyatte ikimasu ka?)"
                 },
                 {
                     "source": "How far is the Hotel?",
-                    "target": "ホテルはどれくらい離れていますか？ (Hōteru wa dorekuraide iru desu ka?)"
+                    "target": "ホテルはどれくらい離れていますか？ (Hoteru wa dore kurai hanareteimasu ka?)"
                 },
                 {
                     "source": "How far is the Police Station?",
-                    "target": "警察署はどれくらい離れていますか？ (Keisatsū wa dorekuraide iru desu ka?)"
+                    "target": "警察署はどれくらい離れていますか？ (Keisatsusho wa dore kurai hanareteimasu ka?)"
                 },
                 {
                     "source": "How far is the Park?",
-                    "target": "公園はどれくらい離れていますか？ (Kōen wa dorekuraide iru desu ka?)"
+                    "target": "公園はどれくらい離れていますか？ (Kōen wa dore kurai hanareteimasu ka?)"
                 }
             ]
         },
@@ -294,11 +294,11 @@
             "words": [
                 {
                     "source": "You can take the train",
-                    "target": "電車で行きます (Den-sha de ikimasu)"
+                    "target": "電車で行けます (Densha de ikemasu)"
                 },
                 {
                     "source": "You can take a subway",
-                    "target": "地下鉄で行きます (Chikatetsu de ikimasu)"
+                    "target": "地下鉄で行けます (Chikatetsu de ikemasu)"
                 },
                 {
                     "source": "It's near",
@@ -310,35 +310,35 @@
                 },
                 {
                     "source": "It's far",
-                    "target": "遠いです (Tooi desu)"
+                    "target": "遠いです (Tōi desu)"
                 },
                 {
                     "source": "It's very far",
-                    "target": "非常に遠いです (Hijō ni tooi desu)"
+                    "target": "非常に遠いです (Hijō ni tōi desu)"
                 },
                 {
                     "source": "The park is near the train station",
-                    "target": "公園は電車駅の近くにあります (Kōen wa den-sha eki no chikaku ni arimasu)"
+                    "target": "公園は電車駅の近くにあります (Kōen wa densha eki no chikaku ni arimasu)"
                 },
                 {
                     "source": "The hotel is near the shopping center",
-                    "target": "ホテルはショッピングセンターの近くにあります (Hōteru wa shōpingu-sentā no chikaku ni arimasu)"
+                    "target": "ホテルはショッピングセンターの近くにあります (Hoteru wa shoppingu sentā no chikaku ni arimasu)"
                 },
                 {
                     "source": "The museum is near the station",
-                    "target": "博物館は駅の近くにあります (Hobutsukan wa eki no chikaku ni arimasu)"
+                    "target": "博物館は駅の近くにあります (Hakubutsukan wa eki no chikaku ni arimasu)"
                 },
                 {
                     "source": "It takes 10 minutes to get to the station",
-                    "target": "駅には十分で行きます (Eki ni wa jū-byō-byō de ikimasu)"
+                    "target": "駅には十分で行けます (Eki ni wa juppun de ikemasu)"
                 },
                 {
                     "source": "It takes 1 hour to get to the airport",
-                    "target": "空港には二十で行きます (Kūkō ni wa ni-jū-byō-byō de ikimasu)"
+                    "target": "空港には一時間で行けます (Kūkō ni wa ichijikan de ikemasu)"
                 },
                 {
                     "source": "It takes 1 hour and 30 minutes to get to the museum",
-                    "target": "博物館には一時間三十で行きます (Hobutsukan ni wa ichijō-byō-byō san-jū-byō-byō de ikimasu)"
+                    "target": "博物館には一時間三十分で行けます (Hakubutsukan ni wa ichijikan sanjuppun de ikemasu)"
                 }
             ]
         },
@@ -355,7 +355,7 @@
                 },
                 {
                     "source": "My favorite food is ramen",
-                    "target": "私の好きな食べ物はラーメンです (Watashi no suki na tabemono wa ramen desu)"
+                    "target": "私の好きな食べ物はラーメンです (Watashi no suki na tabemono wa rāmen desu)"
                 },
                 {
                     "source": "I like Japanese food",
@@ -363,7 +363,7 @@
                 },
                 {
                     "source": "I like Korean food",
-                    "target": "私は韓国の食べ物が好きです (Watashi wa korea no tabemono ga suki desu)"
+                    "target": "私は韓国の食べ物が好きです (Watashi wa kankoku no tabemono ga suki desu)"
                 },
                 {
                     "source": "I like sweet food",
@@ -371,15 +371,15 @@
                 },
                 {
                     "source": "I like spicy food",
-                    "target": "私は辛い食べ物が好きです (Watashi wa takai tabemono ga suki desu)"
+                    "target": "私は辛い食べ物が好きです (Watashi wa karai tabemono ga suki desu)"
                 },
                 {
                     "source": "Did you have breakfast?",
-                    "target": "朝食を食べましたか？ (Asa-tabemono o tabemashita ka?)"
+                    "target": "朝食を食べましたか？ (Chōshoku o tabemashita ka?)"
                 },
                 {
                     "source": "Did you have lunch?",
-                    "target": "昼食を食べましたか？ (Chū-tabemono o tabemashita ka?)"
+                    "target": "昼食を食べましたか？ (Chūshoku o tabemashita ka?)"
                 },
                 {
                     "source": "Did you have dinner?",
@@ -387,11 +387,11 @@
                 },
                 {
                     "source": "I had breakfast",
-                    "target": "私は朝食を食べました (Watashi wa asa-tabemono o tabemashita)"
+                    "target": "私は朝食を食べました (Watashi wa chōshoku o tabemashita)"
                 },
                 {
                     "source": "I had lunch",
-                    "target": "私は昼食を食べました (Watashi wa chū-tabemono o tabemashita)"
+                    "target": "私は昼食を食べました (Watashi wa chūshoku o tabemashita)"
                 },
                 {
                     "source": "I had dinner",
@@ -416,39 +416,39 @@
                 },
                 {
                     "source": "I want to eat Beef",
-                    "target": "私は牛肉を食べたいです (Watashi wa gyū-nō o tabetai desu)"
+                    "target": "私は牛肉を食べたいです (Watashi wa gyūniku o tabetai desu)"
                 },
                 {
                     "source": "I want to eat Pork",
-                    "target": "私は豚肉を食べたいです (Watashi wa buta-niku o tabetai desu)"
+                    "target": "私は豚肉を食べたいです (Watashi wa butaniku o tabetai desu)"
                 },
                 {
-                    "source": "I want to eat Beef",
-                    "target": "私は牛肉を食べたいです (Watashi wa gyū-nō o tabetai desu)"
+                    "source": "I want to eat Chicken",
+                    "target": "私は鶏肉を食べたいです (Watashi wa toriniku o tabetai desu)"
                 },
                 {
                     "source": "I want to eat salty food",
-                    "target": "私は塩辛い食べ物を食べたいです (Watashi wa shio-takai tabemono o tabetai desu)"
+                    "target": "私は塩辛い食べ物を食べたいです (Watashi wa shiokarai tabemono o tabetai desu)"
                 },
                 {
                     "source": "What do you want to drink?",
-                    "target": "何を飲みたいですか？ (Nani o nomimashita ka?)"
+                    "target": "何を飲みたいですか？ (Nani o nomitai desu ka?)"
                 },
                 {
                     "source": "I want to drink water",
-                    "target": "私は水を飲みたいです (Watashi wa mizu o nomimashita)"
+                    "target": "私は水を飲みたいです (Watashi wa mizu o nomitai desu)"
                 },
                 {
                     "source": "I want to drink tea",
-                    "target": "私は茶を飲みたいです (Watashi wa ocha o nomimashita)"
+                    "target": "私はお茶を飲みたいです (Watashi wa ocha o nomitai desu)"
                 },
                 {
                     "source": "I want to drink coffee",
-                    "target": "私はコーヒーを飲みたいです (Watashi wa kōhī o nomimashita)"
+                    "target": "私はコーヒーを飲みたいです (Watashi wa kōhī o nomitai desu)"
                 },
                 {
                     "source": "I want to drink beer",
-                    "target": "私はビールを飲みたいです (Watashi wa bīru o nomimashita)"
+                    "target": "私はビールを飲みたいです (Watashi wa bīru o nomitai desu)"
                 }
             ]
         },
@@ -469,31 +469,31 @@
                 },
                 {
                     "source": "See you next week",
-                    "target": "また来週 (Mata kōchū)"
+                    "target": "また来週 (Mata raishū)"
                 },
                 {
                     "source": "See you next month",
-                    "target": "また来月 (Mata kōtsuki)"
+                    "target": "また来月 (Mata raigetsu)"
                 },
                 {
                     "source": "See you next time",
-                    "target": "またあとで (Mata ato de)"
+                    "target": "また次回 (Mata jikai)"
                 },
                 {
                     "source": "Have a good trip",
-                    "target": "旅行がんばってください (Ryokō ga-n-batte kudasai)"
+                    "target": "良い旅を (Yoi tabi o)"
                 },
                 {
                     "source": "Please return home safely",
-                    "target": "安全に帰ってください (Anzen ni kaeru kudasai)"
+                    "target": "気をつけて帰ってください (Ki o tsukete kaette kudasai)"
                 },
                 {
                     "source": "Please be careful on your way home",
-                    "target": "帰り道に注意してください (Kaerī-michi ni chū-i shite kudasai)"
+                    "target": "帰り道に気をつけてください (Kaerimichi ni ki o tsukete kudasai)"
                 },
                 {
                     "source": "Please be careful on your way to the airport",
-                    "target": "空港に向かう道に注意してください (Kūkō ni muka-u michi ni chū-i shite kudasai)"
+                    "target": "空港への道に気をつけてください (Kūkō e no michi ni ki o tsukete kudasai)"
                 }
             ]
         }
