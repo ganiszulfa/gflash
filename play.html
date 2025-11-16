@@ -666,8 +666,74 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				}, 5000);
 			});
 
+			// Function to get available voices (handles async loading)
+			function getVoices() {
+				let voices = window.speechSynthesis.getVoices();
+				// If voices are not loaded yet, try to trigger loading
+				if (voices.length === 0) {
+					// Force voice loading in Chrome
+					window.speechSynthesis.getVoices();
+					voices = window.speechSynthesis.getVoices();
+				}
+				return voices;
+			}
+
+			// Function to speak text using browser's text-to-speech API
+			function speakText(text) {
+				if ('speechSynthesis' in window) {
+					// Cancel any ongoing speech
+					window.speechSynthesis.cancel();
+					
+					// Create a new speech utterance
+					const utterance = new SpeechSynthesisUtterance(text);
+					
+					// Try to detect language from the dataset and set appropriate voice
+					if (currentDataset) {
+						// Get available voices
+						const voices = getVoices();
+						
+						// Try to find a voice that matches the target language
+						const targetLang = isSource2Target ? currentDataset.target_name : currentDataset.source_name;
+						
+						// Simple language detection - you can enhance this
+						let langCode = 'en-US'; // default
+						if (targetLang.toLowerCase().includes('japanese') || targetLang.toLowerCase().includes('japan')) {
+							langCode = 'ja-JP';
+						} else if (targetLang.toLowerCase().includes('korean') || targetLang.toLowerCase().includes('korea')) {
+							langCode = 'ko-KR';
+						} else if (targetLang.toLowerCase().includes('spanish') || targetLang.toLowerCase().includes('spain')) {
+							langCode = 'es-ES';
+						} else if (targetLang.toLowerCase().includes('german') || targetLang.toLowerCase().includes('deutsch')) {
+							langCode = 'de-DE';
+						} else if (targetLang.toLowerCase().includes('italian') || targetLang.toLowerCase().includes('italia')) {
+							langCode = 'it-IT';
+						}
+
+						// console.log('langCode:', langCode);
+						
+						// Find a voice matching the language
+						const matchingVoice = voices.find(function(voice) {
+							return voice.lang.startsWith(langCode.split('-')[0]);
+						});
+						
+						if (matchingVoice) {
+							utterance.voice = matchingVoice;
+							utterance.lang = matchingVoice.lang;
+						} else {
+							utterance.lang = langCode;
+						}
+					}
+					
+					// Speak the text
+					window.speechSynthesis.speak(utterance);
+				} else {
+					console.warn('Text-to-speech is not supported in this browser');
+				}
+			}
+
 			// Reusable function to handle clipboard copy functionality
-			function setupClipboardCopy(selector) {
+			function setupClipboardCopy(selector, enableSpeech) {
+				enableSpeech = enableSpeech || false;
 				$(selector).click(function(e) {
 					e.preventDefault();
 					const $element = $(this);
@@ -683,6 +749,11 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 						try {
 							// Copy the text to clipboard
 							document.execCommand('copy');
+							
+							// Speak the text if enabled
+							if (enableSpeech) {
+								speakText(textToCopy);
+							}
 							
 							// Provide visual feedback
 							const originalText = $element.text();
@@ -706,11 +777,22 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				});
 			}
 
-			// Setup clipboard functionality for all text elements
-			setupClipboardCopy('#question');
-			setupClipboardCopy('#choice_a');
-			setupClipboardCopy('#choice_b');
-			setupClipboardCopy('#choice_c');
+			// Setup clipboard functionality for question (copy only)
+			setupClipboardCopy('#question', false);
+			// Setup clipboard and speech functionality for answer choices
+			setupClipboardCopy('#choice_a', true);
+			setupClipboardCopy('#choice_b', true);
+			setupClipboardCopy('#choice_c', true);
+			
+			// Load voices when they become available (some browsers load voices asynchronously)
+			if ('speechSynthesis' in window) {
+				// Chrome loads voices asynchronously
+				if (window.speechSynthesis.onvoiceschanged !== undefined) {
+					window.speechSynthesis.onvoiceschanged = function() {
+						// Voices loaded, ready to use
+					};
+				}
+			}
 
 			// Initialize the game
 			loadDataset();
