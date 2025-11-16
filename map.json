@@ -73,6 +73,10 @@
                 "file": "dataset/japanese/words_1.json"
             },
             {
+                "name": "Words Set 2",
+                "file": "dataset/japanese/words_2.json"
+            },
+            {
                 "name": "Basic Sentences Set 1",
                 "file": "dataset/japanese/basic_sentences_1.json"
             },

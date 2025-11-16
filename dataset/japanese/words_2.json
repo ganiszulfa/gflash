@@ -1,0 +1,557 @@
+{
+    "name": "Japanese Words 2 - Verbs",
+    "source_name": "English",
+    "target_name": "Japanese",
+    "packs": [
+        {
+            "name": "Pack 1 - Basic Daily Actions",
+            "words": [
+                {
+                    "source": "Eat",
+                    "target": "食べる (taberu)"
+                },
+                {
+                    "source": "Drink",
+                    "target": "飲む (nomu)"
+                },
+                {
+                    "source": "Sleep",
+                    "target": "寝る (neru)"
+                },
+                {
+                    "source": "Wake up",
+                    "target": "起きる (okiru)"
+                },
+                {
+                    "source": "Take a bath",
+                    "target": "お風呂に入る (ofuro ni hairu)"
+                },
+                {
+                    "source": "Wash",
+                    "target": "洗う (arau)"
+                },
+                {
+                    "source": "Brush teeth",
+                    "target": "歯を磨く (ha o migaku)"
+                },
+                {
+                    "source": "Wear",
+                    "target": "着る (kiru)"
+                },
+                {
+                    "source": "Put on",
+                    "target": "着る (kiru)"
+                },
+                {
+                    "source": "Take off",
+                    "target": "脱ぐ (nugu)"
+                },
+                {
+                    "source": "Live",
+                    "target": "住む (sumu)"
+                },
+                {
+                    "source": "Rest",
+                    "target": "休む (yasumu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 2 - Movement Verbs",
+            "words": [
+                {
+                    "source": "Go",
+                    "target": "行く (iku)"
+                },
+                {
+                    "source": "Come",
+                    "target": "来る (kuru)"
+                },
+                {
+                    "source": "Return",
+                    "target": "帰る (kaeru)"
+                },
+                {
+                    "source": "Walk",
+                    "target": "歩く (aruku)"
+                },
+                {
+                    "source": "Run",
+                    "target": "走る (hashiru)"
+                },
+                {
+                    "source": "Ride",
+                    "target": "乗る (noru)"
+                },
+                {
+                    "source": "Get off",
+                    "target": "降りる (oriru)"
+                },
+                {
+                    "source": "Enter",
+                    "target": "入る (hairu)"
+                },
+                {
+                    "source": "Exit",
+                    "target": "出る (deru)"
+                },
+                {
+                    "source": "Climb",
+                    "target": "登る (noboru)"
+                },
+                {
+                    "source": "Descend",
+                    "target": "下りる (oriru)"
+                },
+                {
+                    "source": "Fly",
+                    "target": "飛ぶ (tobu)"
+                },
+                {
+                    "source": "Swim",
+                    "target": "泳ぐ (oyogu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 3 - Communication Verbs",
+            "words": [
+                {
+                    "source": "Speak",
+                    "target": "話す (hanasu)"
+                },
+                {
+                    "source": "Say",
+                    "target": "言う (iu)"
+                },
+                {
+                    "source": "Listen",
+                    "target": "聞く (kiku)"
+                },
+                {
+                    "source": "Hear",
+                    "target": "聞こえる (kikoeru)"
+                },
+                {
+                    "source": "Read",
+                    "target": "読む (yomu)"
+                },
+                {
+                    "source": "Write",
+                    "target": "書く (kaku)"
+                },
+                {
+                    "source": "Answer",
+                    "target": "答える (kotaeru)"
+                },
+                {
+                    "source": "Ask",
+                    "target": "尋ねる (tazuneru)"
+                },
+                {
+                    "source": "Call",
+                    "target": "呼ぶ (yobu)"
+                },
+                {
+                    "source": "Meet",
+                    "target": "会う (au)"
+                },
+                {
+                    "source": "Teach",
+                    "target": "教える (oshieru)"
+                },
+                {
+                    "source": "Show",
+                    "target": "見せる (miseru)"
+                },
+                {
+                    "source": "Explain",
+                    "target": "説明する (setsumei suru)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 4 - Work & Study Verbs",
+            "words": [
+                {
+                    "source": "Work",
+                    "target": "働く (hataraku)"
+                },
+                {
+                    "source": "Study",
+                    "target": "勉強する (benkyou suru)"
+                },
+                {
+                    "source": "Learn",
+                    "target": "学ぶ (manabu)"
+                },
+                {
+                    "source": "Practice",
+                    "target": "練習する (renshuu suru)"
+                },
+                {
+                    "source": "Teach",
+                    "target": "教える (oshieru)"
+                },
+                {
+                    "source": "Remember",
+                    "target": "覚える (oboeru)"
+                },
+                {
+                    "source": "Forget",
+                    "target": "忘れる (wasureru)"
+                },
+                {
+                    "source": "Understand",
+                    "target": "分かる (wakaru)"
+                },
+                {
+                    "source": "Know",
+                    "target": "知る (shiru)"
+                },
+                {
+                    "source": "Think",
+                    "target": "考える (kangaeru)"
+                },
+                {
+                    "source": "Try",
+                    "target": "試す (tamesu)"
+                },
+                {
+                    "source": "Use",
+                    "target": "使う (tsukau)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 5 - Physical Actions & Senses",
+            "words": [
+                {
+                    "source": "See",
+                    "target": "見る (miru)"
+                },
+                {
+                    "source": "Look",
+                    "target": "見る (miru)"
+                },
+                {
+                    "source": "Watch",
+                    "target": "見る (miru)"
+                },
+                {
+                    "source": "Touch",
+                    "target": "触る (sawaru)"
+                },
+                {
+                    "source": "Hold",
+                    "target": "持つ (motsu)"
+                },
+                {
+                    "source": "Take",
+                    "target": "取る (toru)"
+                },
+                {
+                    "source": "Give",
+                    "target": "あげる (ageru)"
+                },
+                {
+                    "source": "Receive",
+                    "target": "もらう (morau)"
+                },
+                {
+                    "source": "Push",
+                    "target": "押す (osu)"
+                },
+                {
+                    "source": "Pull",
+                    "target": "引く (hiku)"
+                },
+                {
+                    "source": "Throw",
+                    "target": "投げる (nageru)"
+                },
+                {
+                    "source": "Catch",
+                    "target": "捕まえる (tsukamaeru)"
+                },
+                {
+                    "source": "Drop",
+                    "target": "落とす (otosu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 6 - Actions with Objects",
+            "words": [
+                {
+                    "source": "Buy",
+                    "target": "買う (kau)"
+                },
+                {
+                    "source": "Sell",
+                    "target": "売る (uru)"
+                },
+                {
+                    "source": "Open",
+                    "target": "開ける (akeru)"
+                },
+                {
+                    "source": "Close",
+                    "target": "閉める (shimeru)"
+                },
+                {
+                    "source": "Turn on",
+                    "target": "つける (tsukeru)"
+                },
+                {
+                    "source": "Turn off",
+                    "target": "消す (kesu)"
+                },
+                {
+                    "source": "Put",
+                    "target": "置く (oku)"
+                },
+                {
+                    "source": "Place",
+                    "target": "置く (oku)"
+                },
+                {
+                    "source": "Make",
+                    "target": "作る (tsukuru)"
+                },
+                {
+                    "source": "Create",
+                    "target": "作る (tsukuru)"
+                },
+                {
+                    "source": "Break",
+                    "target": "壊す (kowasu)"
+                },
+                {
+                    "source": "Fix",
+                    "target": "直す (naosu)"
+                },
+                {
+                    "source": "Cut",
+                    "target": "切る (kiru)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 7 - Daily Activities",
+            "words": [
+                {
+                    "source": "Do",
+                    "target": "する (suru)"
+                },
+                {
+                    "source": "Play",
+                    "target": "遊ぶ (asobu)"
+                },
+                {
+                    "source": "Cook",
+                    "target": "料理する (ryouri suru)"
+                },
+                {
+                    "source": "Clean",
+                    "target": "掃除する (souji suru)"
+                },
+                {
+                    "source": "Wash",
+                    "target": "洗う (arau)"
+                },
+                {
+                    "source": "Dry",
+                    "target": "乾かす (kawakasu)"
+                },
+                {
+                    "source": "Hang",
+                    "target": "掛ける (kakeru)"
+                },
+                {
+                    "source": "Search",
+                    "target": "探す (sagasu)"
+                },
+                {
+                    "source": "Find",
+                    "target": "見つける (mitsukeru)"
+                },
+                {
+                    "source": "Lose",
+                    "target": "失う (ushinau)"
+                },
+                {
+                    "source": "Wait",
+                    "target": "待つ (matsu)"
+                },
+                {
+                    "source": "Stop",
+                    "target": "止める (tomeru)"
+                },
+                {
+                    "source": "Start",
+                    "target": "始める (hajimeru)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 8 - Emotional & Mental States",
+            "words": [
+                {
+                    "source": "Want",
+                    "target": "欲しい (hoshii)"
+                },
+                {
+                    "source": "Like",
+                    "target": "好き (suki)"
+                },
+                {
+                    "source": "Love",
+                    "target": "愛する (aisuru)"
+                },
+                {
+                    "source": "Hate",
+                    "target": "嫌う (kirau)"
+                },
+                {
+                    "source": "Be happy",
+                    "target": "嬉しい (ureshii)"
+                },
+                {
+                    "source": "Be sad",
+                    "target": "悲しい (kanashii)"
+                },
+                {
+                    "source": "Be surprised",
+                    "target": "驚く (odoroku)"
+                },
+                {
+                    "source": "Worry",
+                    "target": "心配する (shinpai suru)"
+                },
+                {
+                    "source": "Be afraid",
+                    "target": "怖がる (kowagaru)"
+                },
+                {
+                    "source": "Hope",
+                    "target": "希望する (kibou suru)"
+                },
+                {
+                    "source": "Believe",
+                    "target": "信じる (shinjiru)"
+                },
+                {
+                    "source": "Decide",
+                    "target": "決める (kimeru)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 9 - Social & Interaction Verbs",
+            "words": [
+                {
+                    "source": "Meet",
+                    "target": "会う (au)"
+                },
+                {
+                    "source": "Greet",
+                    "target": "挨拶する (aisatsu suru)"
+                },
+                {
+                    "source": "Thank",
+                    "target": "感謝する (kansha suru)"
+                },
+                {
+                    "source": "Apologize",
+                    "target": "謝る (ayamaru)"
+                },
+                {
+                    "source": "Help",
+                    "target": "助ける (tasukeru)"
+                },
+                {
+                    "source": "Invite",
+                    "target": "誘う (sasou)"
+                },
+                {
+                    "source": "Visit",
+                    "target": "訪れる (otozureru)"
+                },
+                {
+                    "source": "Welcome",
+                    "target": "迎える (mukaeru)"
+                },
+                {
+                    "source": "Send",
+                    "target": "送る (okuru)"
+                },
+                {
+                    "source": "Receive",
+                    "target": "受け取る (uketoru)"
+                },
+                {
+                    "source": "Introduce",
+                    "target": "紹介する (shoukai suru)"
+                },
+                {
+                    "source": "Promise",
+                    "target": "約束する (yakusoku suru)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 10 - State & Existence Verbs",
+            "words": [
+                {
+                    "source": "Be",
+                    "target": "ある/いる (aru/iru)"
+                },
+                {
+                    "source": "Exist (things)",
+                    "target": "ある (aru)"
+                },
+                {
+                    "source": "Exist (living)",
+                    "target": "いる (iru)"
+                },
+                {
+                    "source": "Have",
+                    "target": "持つ (motsu)"
+                },
+                {
+                    "source": "Become",
+                    "target": "なる (naru)"
+                },
+                {
+                    "source": "Change",
+                    "target": "変える (kaeru)"
+                },
+                {
+                    "source": "Stay",
+                    "target": "滞在する (taizai suru)"
+                },
+                {
+                    "source": "Leave",
+                    "target": "出る (deru)"
+                },
+                {
+                    "source": "Remain",
+                    "target": "残る (nokoru)"
+                },
+                {
+                    "source": "Continue",
+                    "target": "続ける (tsuzukeru)"
+                },
+                {
+                    "source": "End",
+                    "target": "終わる (owaru)"
+                },
+                {
+                    "source": "Finish",
+                    "target": "終える (oeru)"
+                }
+            ]
+        }
+    ]
+}
