@@ -1,0 +1,597 @@
+{
+    "name": "Japanese Words 1 - General",
+    "source_name": "English",
+    "target_name": "Japanese",
+    "packs": [
+        {
+            "name": "Pack 1 - Number",
+            "words": [
+                {
+                    "source": "One",
+                    "target": "一 (ichi)"
+                },
+                {
+                    "source": "Two",
+                    "target": "二 (ni)"
+                },
+                {
+                    "source": "Three",
+                    "target": "三 (san)"
+                },
+                {
+                    "source": "Four",
+                    "target": "四 (shi/yon)"
+                },
+                {
+                    "source": "Five",
+                    "target": "五 (go)"
+                },
+                {
+                    "source": "Six",
+                    "target": "六 (roku)"
+                },
+                {
+                    "source": "Seven",
+                    "target": "七 (shichi/nana)"
+                },
+                {
+                    "source": "Eight",
+                    "target": "八 (hachi)"
+                },
+                {
+                    "source": "Nine",
+                    "target": "九 (kyuu/ku)"
+                },
+                {
+                    "source": "Ten",
+                    "target": "十 (juu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 2 - Color",
+            "words": [
+                {
+                    "source": "Red",
+                    "target": "赤 (aka)"
+                },
+                {
+                    "source": "Blue",
+                    "target": "青 (ao)"
+                },
+                {
+                    "source": "Green",
+                    "target": "緑 (midori)"
+                },
+                {
+                    "source": "Yellow",
+                    "target": "黄色 (kiiro)"
+                },
+                {
+                    "source": "Purple",
+                    "target": "紫 (murasaki)"
+                },
+                {
+                    "source": "Black",
+                    "target": "黒 (kuro)"
+                },
+                {
+                    "source": "White",
+                    "target": "白 (shiro)"
+                },
+                {
+                    "source": "Brown",
+                    "target": "茶色 (chairo)"
+                },
+                {
+                    "source": "Gray",
+                    "target": "灰色 (haiiro)"
+                },
+                {
+                    "source": "Pink",
+                    "target": "ピンク (pinku)"
+                },
+                {
+                    "source": "Orange",
+                    "target": "オレンジ (orenji)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 3 - Animal",
+            "words": [
+                {
+                    "source": "Dog",
+                    "target": "犬 (inu)"
+                },
+                {
+                    "source": "Cat",
+                    "target": "猫 (neko)"
+                },
+                {
+                    "source": "Bird",
+                    "target": "鳥 (tori)"
+                },
+                {
+                    "source": "Fish",
+                    "target": "魚 (sakana)"
+                },
+                {
+                    "source": "Bear",
+                    "target": "熊 (kuma)"
+                },
+                {
+                    "source": "Lion",
+                    "target": "ライオン (raion)"
+                },
+                {
+                    "source": "Tiger",
+                    "target": "虎 (tora)"
+                },
+                {
+                    "source": "Elephant",
+                    "target": "象 (zou)"
+                },
+                {
+                    "source": "Rabbit",
+                    "target": "兎 (usagi)"
+                },
+                {
+                    "source": "Wolf",
+                    "target": "狼 (ookami)"
+                },
+                {
+                    "source": "Fox",
+                    "target": "狐 (kitsune)"
+                },
+                {
+                    "source": "Deer",
+                    "target": "鹿 (shika)"
+                },
+                {
+                    "source": "Giraffe",
+                    "target": "キリン (kirin)"
+                },
+                {
+                    "source": "Hippo",
+                    "target": "カバ (kaba)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 4 - Clothes",
+            "words": [
+                {
+                    "source": "Shirt",
+                    "target": "シャツ (shatsu)"
+                },
+                {
+                    "source": "Pants",
+                    "target": "ズボン (zubon)"
+                },
+                {
+                    "source": "Shoes",
+                    "target": "靴 (kutsu)"
+                },
+                {
+                    "source": "Hat",
+                    "target": "帽子 (boushi)"
+                },
+                {
+                    "source": "Gloves",
+                    "target": "手袋 (tebukuro)"
+                },
+                {
+                    "source": "Scarf",
+                    "target": "スカーフ (sukaafu)"
+                },
+                {
+                    "source": "Socks",
+                    "target": "靴下 (kutsushita)"
+                },
+                {
+                    "source": "Jacket",
+                    "target": "ジャケット (jaketto)"
+                },
+                {
+                    "source": "Coat",
+                    "target": "コート (kooto)"
+                },
+                {
+                    "source": "Dress",
+                    "target": "ドレス (doresu)"
+                },
+                {
+                    "source": "Skirt",
+                    "target": "スカート (sukaato)"
+                },
+                {
+                    "source": "Shorts",
+                    "target": "ショーツ (shootsu)"
+                },
+                {
+                    "source": "Sweater",
+                    "target": "セーター (seetaa)"
+                },
+                {
+                    "source": "Underwear",
+                    "target": "下着 (shitagi)"
+                },
+                {
+                    "source": "Sandal",
+                    "target": "サンダル (sandaru)"
+                },
+                {
+                    "source": "Swimsuit",
+                    "target": "水着 (mizugi)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 5 - Food",
+            "words": [
+                {
+                    "source": "Bread",
+                    "target": "パン (pan)"
+                },
+                {
+                    "source": "Water",
+                    "target": "水 (mizu)"
+                },
+                {
+                    "source": "Milk",
+                    "target": "牛乳 (gyuunyuu)"
+                },
+                {
+                    "source": "Egg",
+                    "target": "卵 (tamago)"
+                },
+                {
+                    "source": "Beef",
+                    "target": "牛肉 (gyuuniku)"
+                },
+                {
+                    "source": "Pork",
+                    "target": "豚肉 (butaniku)"
+                },
+                {
+                    "source": "Chicken",
+                    "target": "鶏肉 (toriniku)"
+                },
+                {
+                    "source": "Salty food",
+                    "target": "塩辛い食べ物 (shiokarai tabemono)"
+                },
+                {
+                    "source": "Sweet food",
+                    "target": "甘い食べ物 (amai tabemono)"
+                },
+                {
+                    "source": "Spicy food",
+                    "target": "辛い食べ物 (karai tabemono)"
+                },
+                {
+                    "source": "Noodles",
+                    "target": "麺 (men)"
+                },
+                {
+                    "source": "Rice",
+                    "target": "ご飯 (gohan)"
+                },
+                {
+                    "source": "Soup",
+                    "target": "スープ (suupu)"
+                },
+                {
+                    "source": "Salad",
+                    "target": "サラダ (sarada)"
+                },
+                {
+                    "source": "Dessert",
+                    "target": "デザート (dezaato)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 6 - House",
+            "words": [
+                {
+                    "source": "Table",
+                    "target": "テーブル (teeburu)"
+                },
+                {
+                    "source": "Chair",
+                    "target": "椅子 (isu)"
+                },
+                {
+                    "source": "Bed",
+                    "target": "ベッド (beddo)"
+                },
+                {
+                    "source": "Sofa",
+                    "target": "ソファ (sofa)"
+                },
+                {
+                    "source": "House",
+                    "target": "家 (ie)"
+                },
+                {
+                    "source": "Home",
+                    "target": "家 (uchi)"
+                },
+                {
+                    "source": "Bedroom",
+                    "target": "寝室 (shinshitsu)"
+                },
+                {
+                    "source": "Living Room",
+                    "target": "居間 (ima)"
+                },
+                {
+                    "source": "Kitchen",
+                    "target": "台所 (daidokoro)"
+                },
+                {
+                    "source": "Bathroom",
+                    "target": "浴室 (yokushitsu)"
+                },
+                {
+                    "source": "Dining Room",
+                    "target": "食堂 (shokudou)"
+                },
+                {
+                    "source": "Garage",
+                    "target": "ガレージ (gareeji)"
+                },
+                {
+                    "source": "Garden",
+                    "target": "庭 (niwa)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 7 - Body Parts",
+            "words": [
+                {
+                    "source": "Head",
+                    "target": "頭 (atama)"
+                },
+                {
+                    "source": "Eyes",
+                    "target": "目 (me)"
+                },
+                {
+                    "source": "Nose",
+                    "target": "鼻 (hana)"
+                },
+                {
+                    "source": "Mouth",
+                    "target": "口 (kuchi)"
+                },
+                {
+                    "source": "Ears",
+                    "target": "耳 (mimi)"
+                },
+                {
+                    "source": "Nails",
+                    "target": "爪 (tsume)"
+                },
+                {
+                    "source": "Toes",
+                    "target": "足の指 (ashi no yubi)"
+                },
+                {
+                    "source": "Hair",
+                    "target": "髪 (kami)"
+                },
+                {
+                    "source": "Skin",
+                    "target": "肌 (hada)"
+                },
+                {
+                    "source": "Hand",
+                    "target": "手 (te)"
+                },
+                {
+                    "source": "Arm",
+                    "target": "腕 (ude)"
+                },
+                {
+                    "source": "Leg",
+                    "target": "脚 (ashi)"
+                },
+                {
+                    "source": "Knee",
+                    "target": "膝 (hiza)"
+                },
+                {
+                    "source": "Elbow",
+                    "target": "肘 (hiji)"
+                },
+                {
+                    "source": "Finger",
+                    "target": "指 (yubi)"
+                },
+                {
+                    "source": "Shoulder",
+                    "target": "肩 (kata)"
+                },
+                {
+                    "source": "Neck",
+                    "target": "首 (kubi)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 8 - Kitchen Items",
+            "words": [
+                {
+                    "source": "Fork",
+                    "target": "フォーク (fooku)"
+                },
+                {
+                    "source": "Spoon",
+                    "target": "スプーン (supuun)"
+                },
+                {
+                    "source": "Knife",
+                    "target": "ナイフ (naifu)"
+                },
+                {
+                    "source": "Plate",
+                    "target": "皿 (sara)"
+                },
+                {
+                    "source": "Cup",
+                    "target": "カップ (kappu)"
+                },
+                {
+                    "source": "Glass",
+                    "target": "グラス (gurasu)"
+                },
+                {
+                    "source": "Bowl",
+                    "target": "ボウル (bouru)"
+                },
+                {
+                    "source": "Stove",
+                    "target": "コンロ (konro)"
+                },
+                {
+                    "source": "Pot",
+                    "target": "鍋 (nabe)"
+                },
+                {
+                    "source": "Microwave",
+                    "target": "電子レンジ (denshi renji)"
+                },
+                {
+                    "source": "Refrigerator",
+                    "target": "冷蔵庫 (reizouko)"
+                },
+                {
+                    "source": "Toaster",
+                    "target": "トースター (toosutaa)"
+                },
+                {
+                    "source": "Chopsticks",
+                    "target": "箸 (hashi)"
+                },
+                {
+                    "source": "Coffee Maker",
+                    "target": "コーヒーメーカー (koohii meekaa)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 9 - Days of the Week",
+            "words": [
+                {
+                    "source": "Monday",
+                    "target": "月曜日 (getsuyoubi)"
+                },
+                {
+                    "source": "Tuesday",
+                    "target": "火曜日 (kayoubi)"
+                },
+                {
+                    "source": "Wednesday",
+                    "target": "水曜日 (suiyoubi)"
+                },
+                {
+                    "source": "Thursday",
+                    "target": "木曜日 (mokuyoubi)"
+                },
+                {
+                    "source": "Friday",
+                    "target": "金曜日 (kin'youbi)"
+                },
+                {
+                    "source": "Saturday",
+                    "target": "土曜日 (doyoubi)"
+                },
+                {
+                    "source": "Sunday",
+                    "target": "日曜日 (nichiyoubi)"
+                },
+                {
+                    "source": "Today",
+                    "target": "今日 (kyou)"
+                },
+                {
+                    "source": "Tomorrow",
+                    "target": "明日 (ashita)"
+                },
+                {
+                    "source": "Yesterday",
+                    "target": "昨日 (kinou)"
+                },
+                {
+                    "source": "Now",
+                    "target": "今 (ima)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 10 - Locations",
+            "words": [
+                {
+                    "source": "Here",
+                    "target": "ここ (koko)"
+                },
+                {
+                    "source": "There",
+                    "target": "そこ (soko)"
+                },
+                {
+                    "source": "School",
+                    "target": "学校 (gakkou)"
+                },
+                {
+                    "source": "Office",
+                    "target": "オフィス (ofisu)"
+                },
+                {
+                    "source": "Hospital",
+                    "target": "病院 (byouin)"
+                },
+                {
+                    "source": "Bank",
+                    "target": "銀行 (ginkou)"
+                },
+                {
+                    "source": "Park",
+                    "target": "公園 (kouen)"
+                },
+                {
+                    "source": "Library",
+                    "target": "図書館 (toshokan)"
+                },
+                {
+                    "source": "Station",
+                    "target": "駅 (eki)"
+                },
+                {
+                    "source": "Airport",
+                    "target": "空港 (kuukou)"
+                },
+                {
+                    "source": "Bus Stop",
+                    "target": "バス停 (basutei)"
+                },
+                {
+                    "source": "Shopping Center",
+                    "target": "ショッピングセンター (shoppingu sentaa)"
+                },
+                {
+                    "source": "Museum",
+                    "target": "博物館 (hakubutsukan)"
+                },
+                {
+                    "source": "Theater",
+                    "target": "劇場 (gekijou)"
+                }
+            ]
+        }
+    ]
+}

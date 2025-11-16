@@ -4,7 +4,7 @@
     "target_name": "Japanese",
     "packs": [
         {
-            "name": "Pack 1st - Greetings",
+            "name": "Pack 1 - Greetings",
             "words": [
                 {
                     "source": "Good morning",
@@ -28,7 +28,7 @@
                 },
                 {
                     "source": "You're welcome",
-                    "target": "どういたしまして (Dō itashimashite)"
+                    "target": "どういたしまして (Dou itashimashite)"
                 },
                 {
                     "source": "Excuse me",
@@ -40,7 +40,7 @@
                 },
                 {
                     "source": "How are you?",
-                    "target": "お元気ですか？ (O-genki desu ka?)"
+                    "target": "お元気ですか？ (Ogenki desu ka?)"
                 },
                 {
                     "source": "I'm fine, thank you",
@@ -49,11 +49,11 @@
             ]
         },
         {
-            "name": "Pack 2nd - Introductions",
+            "name": "Pack 2 - Introductions",
             "words": [
                 {
                     "source": "What's your name?",
-                    "target": "あなたの名前は何ですか？ (Anata no namae wa nani desu ka?)"
+                    "target": "お名前は何ですか？ (Onamae wa nan desu ka?)"
                 },
                 {
                     "source": "My name is",
@@ -65,19 +65,19 @@
                 },
                 {
                     "source": "How old are you?",
-                    "target": "あなたは何歳ですか？ (Anata wa nan-sai desu ka?)"
+                    "target": "おいくつですか？ (Oikutsu desu ka?)"
                 },
                 {
                     "source": "I'm thirty nine years old",
-                    "target": "私は三十九歳です (Watashi wa sanjū-kyū-sai desu)"
+                    "target": "私は三十九歳です (Watashi wa sanjuukyuu sai desu)"
                 },
                 {
                     "source": "I'm forty years old",
-                    "target": "私は四十歳です (Watashi wa yonjū-sai desu)"
+                    "target": "私は四十歳です (Watashi wa yonjussai desu)"
                 },
                 {
                     "source": "What is your job?",
-                    "target": "あなたの仕事は何ですか？ (Anata no shigoto wa nani desu ka?)"
+                    "target": "お仕事は何ですか？ (Oshigoto wa nan desu ka?)"
                 },
                 {
                     "source": "I'm a software engineer",
@@ -85,7 +85,7 @@
                 },
                 {
                     "source": "Where are you from?",
-                    "target": "あなたはどこから来ましたか？ (Anata wa doko kara kimashita ka?)"
+                    "target": "どちらから来ましたか？ (Dochira kara kimashita ka?)"
                 },
                 {
                     "source": "I'm from Indonesia",
@@ -94,7 +94,7 @@
             ]
         },
         {
-            "name": "Pack 3rd - Language Learning",
+            "name": "Pack 3 - Language Learning",
             "words": [
                 {
                     "source": "Do you speak English?",
@@ -118,7 +118,7 @@
                 },
                 {
                     "source": "I'm learning Japanese",
-                    "target": "日本語を勉強しています (Nihongo o benkyō shiteimasu)"
+                    "target": "日本語を勉強しています (Nihongo o benkyou shiteimasu)"
                 },
                 {
                     "source": "Please speak slowly",
@@ -126,20 +126,20 @@
                 },
                 {
                     "source": "Please speak in simple words",
-                    "target": "シンプルな言葉で話してください (Shinpuru na kotoba de hanashite kudasai)"
+                    "target": "簡単な言葉で話してください (Kantan na kotoba de hanashite kudasai)"
                 },
                 {
-                    "source": "My Japanese is not good at all",
-                    "target": "日本語が上手ではありません (Nihongo ga jōzu dewa arimasen)"
+                    "source": "My Japanese is not good",
+                    "target": "日本語が上手ではありません (Nihongo ga jouzu dewa arimasen)"
                 },
                 {
                     "source": "I like learning Japanese",
-                    "target": "日本語を勉強するのが好きです (Nihongo o benkyō suru no ga suki desu)"
+                    "target": "日本語を勉強するのが好きです (Nihongo o benkyou suru no ga suki desu)"
                 }
             ]
         },
         {
-            "name": "Pack 4th - Family",
+            "name": "Pack 4 - Family",
             "words": [
                 {
                     "source": "Are you married?",
@@ -175,7 +175,7 @@
                 },
                 {
                     "source": "I have a brother",
-                    "target": "私は兄弟がいます (Watashi wa kyōdai ga imasu)"
+                    "target": "私は兄弟がいます (Watashi wa kyoudai ga imasu)"
                 },
                 {
                     "source": "I have a sister",
@@ -184,11 +184,11 @@
             ]
         },
         {
-            "name": "Pack 5th - Jobs",
+            "name": "Pack 5 - Jobs",
             "words": [
                 {
                     "source": "What is your job?",
-                    "target": "あなたの仕事は何ですか？ (Anata no shigoto wa nani desu ka?)"
+                    "target": "お仕事は何ですか？ (Oshigoto wa nan desu ka?)"
                 },
                 {
                     "source": "I'm a student",
@@ -216,248 +216,36 @@
                 },
                 {
                     "source": "I'm a firefighter",
-                    "target": "私は消防士です (Watashi wa shōbōshi desu)"
+                    "target": "私は消防士です (Watashi wa shouboushi desu)"
                 },
                 {
                     "source": "I'm a soldier",
-                    "target": "私は兵士です (Watashi wa heishi desu)"
+                    "target": "私は自衛官です (Watashi wa jieikan desu)"
                 },
                 {
                     "source": "I'm a company employee",
-                    "target": "私は会社員です (Watashi wa kaisha-in desu)"
+                    "target": "私は会社員です (Watashi wa kaishain desu)"
                 },
                 {
                     "source": "I'm self-employed",
-                    "target": "私は自営業です (Watashi wa jieigyō desu)"
+                    "target": "私は自営業です (Watashi wa jieigyou desu)"
                 },
                 {
                     "source": "I'm a freelancer",
-                    "target": "私はフリーランスです (Watashi wa furīransu desu)"
+                    "target": "私はフリーランスです (Watashi wa furiiransu desu)"
                 },
                 {
                     "source": "I'm a businessman",
-                    "target": "私は商人です (Watashi wa shōnin desu)"
+                    "target": "私はビジネスマンです (Watashi wa bijinesuman desu)"
                 }
             ]
         },
         {
-            "name": "Pack 6th - Travel Questions",
-            "words": [
-                {
-                    "source": "Where are you going?",
-                    "target": "あなたはどこに行きますか？ (Anata wa doko ni ikimasu ka?)"
-                },
-                {
-                    "source": "I'm going to Tokyo",
-                    "target": "私は東京に行きます (Watashi wa Tōkyō ni ikimasu)"
-                },
-                {
-                    "source": "I'm going to the Airport",
-                    "target": "私は空港に行きます (Watashi wa kūkō ni ikimasu)"
-                },
-                {
-                    "source": "I'm going to the Train Station",
-                    "target": "私は駅に行きます (Watashi wa eki ni ikimasu)"
-                },
-                {
-                    "source": "I'm going to the Bus Stop",
-                    "target": "私はバス停に行きます (Watashi wa basutei ni ikimasu)"
-                },
-                {
-                    "source": "How do I get to the Hospital?",
-                    "target": "病院にどうやって行きますか？ (Byōin ni dōyatte ikimasu ka?)"
-                },
-                {
-                    "source": "How do I get to the Restaurant?",
-                    "target": "レストランにどうやって行きますか？ (Resutoran ni dōyatte ikimasu ka?)"
-                },
-                {
-                    "source": "How do I get to the Museum?",
-                    "target": "博物館にどうやって行きますか？ (Hakubutsukan ni dōyatte ikimasu ka?)"
-                },
-                {
-                    "source": "How far is the Hotel?",
-                    "target": "ホテルはどれくらい離れていますか？ (Hoteru wa dore kurai hanareteimasu ka?)"
-                },
-                {
-                    "source": "How far is the Police Station?",
-                    "target": "警察署はどれくらい離れていますか？ (Keisatsusho wa dore kurai hanareteimasu ka?)"
-                },
-                {
-                    "source": "How far is the Park?",
-                    "target": "公園はどれくらい離れていますか？ (Kōen wa dore kurai hanareteimasu ka?)"
-                }
-            ]
-        },
-        {
-            "name": "Pack 7th - Travel Answers",
-            "words": [
-                {
-                    "source": "You can take the train",
-                    "target": "電車で行けます (Densha de ikemasu)"
-                },
-                {
-                    "source": "You can take a subway",
-                    "target": "地下鉄で行けます (Chikatetsu de ikemasu)"
-                },
-                {
-                    "source": "It's near",
-                    "target": "近いです (Chikai desu)"
-                },
-                {
-                    "source": "It's very near",
-                    "target": "非常に近いです (Hijō ni chikai desu)"
-                },
-                {
-                    "source": "It's far",
-                    "target": "遠いです (Tōi desu)"
-                },
-                {
-                    "source": "It's very far",
-                    "target": "非常に遠いです (Hijō ni tōi desu)"
-                },
-                {
-                    "source": "The park is near the train station",
-                    "target": "公園は電車駅の近くにあります (Kōen wa densha eki no chikaku ni arimasu)"
-                },
-                {
-                    "source": "The hotel is near the shopping center",
-                    "target": "ホテルはショッピングセンターの近くにあります (Hoteru wa shoppingu sentā no chikaku ni arimasu)"
-                },
-                {
-                    "source": "The museum is near the station",
-                    "target": "博物館は駅の近くにあります (Hakubutsukan wa eki no chikaku ni arimasu)"
-                },
-                {
-                    "source": "It takes 10 minutes to get to the station",
-                    "target": "駅には十分で行けます (Eki ni wa juppun de ikemasu)"
-                },
-                {
-                    "source": "It takes 1 hour to get to the airport",
-                    "target": "空港には一時間で行けます (Kūkō ni wa ichijikan de ikemasu)"
-                },
-                {
-                    "source": "It takes 1 hour and 30 minutes to get to the museum",
-                    "target": "博物館には一時間三十分で行けます (Hakubutsukan ni wa ichijikan sanjuppun de ikemasu)"
-                }
-            ]
-        },
-        {
-            "name": "Pack 8th - Foods 1",
-            "words": [
-                {
-                    "source": "What's your favorite food?",
-                    "target": "あなたの好きな食べ物は何ですか？ (Anata no suki na tabemono wa nani desu ka?)"
-                },
-                {
-                    "source": "My favorite food is sushi",
-                    "target": "私の好きな食べ物は寿司です (Watashi no suki na tabemono wa sushi desu)"
-                },
-                {
-                    "source": "My favorite food is ramen",
-                    "target": "私の好きな食べ物はラーメンです (Watashi no suki na tabemono wa rāmen desu)"
-                },
-                {
-                    "source": "I like Japanese food",
-                    "target": "私は日本の食べ物が好きです (Watashi wa nihon no tabemono ga suki desu)"
-                },
-                {
-                    "source": "I like Korean food",
-                    "target": "私は韓国の食べ物が好きです (Watashi wa kankoku no tabemono ga suki desu)"
-                },
-                {
-                    "source": "I like sweet food",
-                    "target": "私は甘い食べ物が好きです (Watashi wa amai tabemono ga suki desu)"
-                },
-                {
-                    "source": "I like spicy food",
-                    "target": "私は辛い食べ物が好きです (Watashi wa karai tabemono ga suki desu)"
-                },
-                {
-                    "source": "Did you have breakfast?",
-                    "target": "朝食を食べましたか？ (Chōshoku o tabemashita ka?)"
-                },
-                {
-                    "source": "Did you have lunch?",
-                    "target": "昼食を食べましたか？ (Chūshoku o tabemashita ka?)"
-                },
-                {
-                    "source": "Did you have dinner?",
-                    "target": "夕食を食べましたか？ (Yūshoku o tabemashita ka?)"
-                },
-                {
-                    "source": "I had breakfast",
-                    "target": "私は朝食を食べました (Watashi wa chōshoku o tabemashita)"
-                },
-                {
-                    "source": "I had lunch",
-                    "target": "私は昼食を食べました (Watashi wa chūshoku o tabemashita)"
-                },
-                {
-                    "source": "I had dinner",
-                    "target": "私は夕食を食べました (Watashi wa yūshoku o tabemashita)"
-                }
-            ]
-        },
-        {
-            "name": "Pack 9th - Foods 2",
-            "words": [
-                {
-                    "source": "What do you want to eat?",
-                    "target": "何を食べたいですか？ (Nani o tabetai desu ka?)"
-                },
-                {
-                    "source": "I want to eat sushi",
-                    "target": "私は寿司を食べたいです (Watashi wa sushi o tabetai desu)"
-                },
-                {
-                    "source": "I want to eat Japanese food",
-                    "target": "私は日本の食べ物を食べたいです (Watashi wa nihon no tabemono o tabetai desu)"
-                },
-                {
-                    "source": "I want to eat Beef",
-                    "target": "私は牛肉を食べたいです (Watashi wa gyūniku o tabetai desu)"
-                },
-                {
-                    "source": "I want to eat Pork",
-                    "target": "私は豚肉を食べたいです (Watashi wa butaniku o tabetai desu)"
-                },
-                {
-                    "source": "I want to eat Chicken",
-                    "target": "私は鶏肉を食べたいです (Watashi wa toriniku o tabetai desu)"
-                },
-                {
-                    "source": "I want to eat salty food",
-                    "target": "私は塩辛い食べ物を食べたいです (Watashi wa shiokarai tabemono o tabetai desu)"
-                },
-                {
-                    "source": "What do you want to drink?",
-                    "target": "何を飲みたいですか？ (Nani o nomitai desu ka?)"
-                },
-                {
-                    "source": "I want to drink water",
-                    "target": "私は水を飲みたいです (Watashi wa mizu o nomitai desu)"
-                },
-                {
-                    "source": "I want to drink tea",
-                    "target": "私はお茶を飲みたいです (Watashi wa ocha o nomitai desu)"
-                },
-                {
-                    "source": "I want to drink coffee",
-                    "target": "私はコーヒーを飲みたいです (Watashi wa kōhī o nomitai desu)"
-                },
-                {
-                    "source": "I want to drink beer",
-                    "target": "私はビールを飲みたいです (Watashi wa bīru o nomitai desu)"
-                }
-            ]
-        },
-        {
-            "name": "Pack 10th - Farewell",
+            "name": "Pack 6 - Farewell",
             "words": [
                 {
                     "source": "Goodbye",
-                    "target": "さようなら (Sayōnara)"
+                    "target": "さようなら (Sayounara)"
                 },
                 {
                     "source": "See you later",
@@ -469,7 +257,7 @@
                 },
                 {
                     "source": "See you next week",
-                    "target": "また来週 (Mata raishū)"
+                    "target": "また来週 (Mata raishuu)"
                 },
                 {
                     "source": "See you next month",
@@ -484,7 +272,7 @@
                     "target": "良い旅を (Yoi tabi o)"
                 },
                 {
-                    "source": "Please return home safely",
+                    "source": "Please go home safely",
                     "target": "気をつけて帰ってください (Ki o tsukete kaette kudasai)"
                 },
                 {
@@ -493,7 +281,214 @@
                 },
                 {
                     "source": "Please be careful on your way to the airport",
-                    "target": "空港への道に気をつけてください (Kūkō e no michi ni ki o tsukete kudasai)"
+                    "target": "空港への道に気をつけてください (Kuukou e no michi ni ki o tsukete kudasai)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 7 - Feelings",
+            "words": [
+                {
+                    "source": "How do you feel?",
+                    "target": "どんな気分ですか？ (Donna kibun desu ka?)"
+                },
+                {
+                    "source": "I'm happy",
+                    "target": "私は幸せです (Watashi wa shiawase desu)"
+                },
+                {
+                    "source": "I'm sad",
+                    "target": "私は悲しいです (Watashi wa kanashii desu)"
+                },
+                {
+                    "source": "I'm angry",
+                    "target": "私は怒っています (Watashi wa okotteimasu)"
+                },
+                {
+                    "source": "I'm tired",
+                    "target": "私は疲れています (Watashi wa tsukareteimasu)"
+                },
+                {
+                    "source": "I'm hungry",
+                    "target": "私はお腹が空いています (Watashi wa onaka ga suiteimasu)"
+                },
+                {
+                    "source": "I'm thirsty",
+                    "target": "私は喉が渇いています (Watashi wa nodo ga kawaiteimasu)"
+                },
+                {
+                    "source": "I'm cold",
+                    "target": "私は寒いです (Watashi wa samui desu)"
+                },
+                {
+                    "source": "I'm hot",
+                    "target": "私は暑いです (Watashi wa atsui desu)"
+                },
+                {
+                    "source": "I'm sick",
+                    "target": "私は病気です (Watashi wa byouki desu)"
+                },
+                {
+                    "source": "I'm healthy",
+                    "target": "私は健康です (Watashi wa kenkou desu)"
+                },
+                {
+                    "source": "I'm not feeling well",
+                    "target": "私は体調が良くありません (Watashi wa taichou ga yoku arimasen)"
+                },
+                {
+                    "source": "I'm excited",
+                    "target": "私は興奮しています (Watashi wa koufun shiteimasu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 8 - Opinions",
+            "words": [
+                {
+                    "source": "What do you think?",
+                    "target": "どう思いますか？ (Dou omoimasu ka?)"
+                },
+                {
+                    "source": "It's good!",
+                    "target": "良いです (Yoi desu)"
+                },
+                {
+                    "source": "It's bad!",
+                    "target": "悪いです (Warui desu)"
+                },
+                {
+                    "source": "It's terrible!",
+                    "target": "最悪です (Saiaku desu)"
+                },
+                {
+                    "source": "It's amazing!",
+                    "target": "すごいです (Sugoi desu)"
+                },
+                {
+                    "source": "It's beautiful!",
+                    "target": "美しいです (Utsukushii desu)"
+                },
+                {
+                    "source": "It's ugly!",
+                    "target": "醜いです (Minikui desu)"
+                },
+                {
+                    "source": "It's funny!",
+                    "target": "面白いです (Omoshiroi desu)"
+                },
+                {
+                    "source": "It's boring!",
+                    "target": "退屈です (Taikutsu desu)"
+                },
+                {
+                    "source": "It's exciting!",
+                    "target": "刺激的です (Shigekiteki desu)"
+                },
+                {
+                    "source": "It's scary!",
+                    "target": "怖いです (Kowai desu)"
+                },
+                {
+                    "source": "It's interesting!",
+                    "target": "面白いです (Omoshiroi desu)"
+                },
+                {
+                    "source": "It's tall!",
+                    "target": "高いです (Takai desu)"
+                },
+                {
+                    "source": "It's short!",
+                    "target": "短いです (Mijikai desu)"
+                },
+                {
+                    "source": "It's big!",
+                    "target": "大きいです (Ookii desu)"
+                },
+                {
+                    "source": "It's small!",
+                    "target": "小さいです (Chiisai desu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 9 - Opinions 2",
+            "words": [
+                {
+                    "source": "It's wide!",
+                    "target": "広いです (Hiroi desu)"
+                },
+                {
+                    "source": "It's narrow!",
+                    "target": "狭いです (Semai desu)"
+                },
+                {
+                    "source": "It's heavy!",
+                    "target": "重いです (Omoi desu)"
+                },
+                {
+                    "source": "It's light!",
+                    "target": "軽いです (Karui desu)"
+                },
+                {
+                    "source": "It's expensive!",
+                    "target": "高いです (Takai desu)"
+                },
+                {
+                    "source": "It's cheap!",
+                    "target": "安いです (Yasui desu)"
+                },
+                {
+                    "source": "It's delicious!",
+                    "target": "美味しいです (Oishii desu)"
+                },
+                {
+                    "source": "It's not delicious!",
+                    "target": "美味しくありません (Oishiku arimasen)"
+                },
+                {
+                    "source": "It's soft!",
+                    "target": "柔らかいです (Yawarakai desu)"
+                },
+                {
+                    "source": "It's hard!",
+                    "target": "硬いです (Katai desu)"
+                },
+                {
+                    "source": "It's bright!",
+                    "target": "明るいです (Akarui desu)"
+                },
+                {
+                    "source": "It's dark!",
+                    "target": "暗いです (Kurai desu)"
+                },
+                {
+                    "source": "It's noisy!",
+                    "target": "うるさいです (Urusai desu)"
+                },
+                {
+                    "source": "It's quiet!",
+                    "target": "静かです (Shizuka desu)"
+                },
+                {
+                    "source": "It's clean!",
+                    "target": "きれいです (Kirei desu)"
+                },
+                {
+                    "source": "It's dirty!",
+                    "target": "汚いです (Kitanai desu)"
+                },
+                {
+                    "source": "It's cold!",
+                    "target": "寒いです (Samui desu)"
+                },
+                {
+                    "source": "It's hot!",
+                    "target": "暑いです (Atsui desu)"
+                },
+                {
+                    "source": "It's humid!",
+                    "target": "湿気があります (Shikke ga arimasu)"
                 }
             ]
         }

@@ -1,0 +1,219 @@
+{
+    "name": "Japanese Basic Sentences 2",
+    "source_name": "English",
+    "target_name": "Japanese",
+    "packs": [
+        {
+            "name": "Pack 6th - Travel Questions",
+            "words": [
+                {
+                    "source": "Where are you going?",
+                    "target": "あなたはどこに行きますか？ (Anata wa doko ni ikimasu ka?)"
+                },
+                {
+                    "source": "I'm going to Tokyo",
+                    "target": "私は東京に行きます (Watashi wa Tōkyō ni ikimasu)"
+                },
+                {
+                    "source": "I'm going to the Airport",
+                    "target": "私は空港に行きます (Watashi wa kūkō ni ikimasu)"
+                },
+                {
+                    "source": "I'm going to the Train Station",
+                    "target": "私は駅に行きます (Watashi wa eki ni ikimasu)"
+                },
+                {
+                    "source": "I'm going to the Bus Stop",
+                    "target": "私はバス停に行きます (Watashi wa basutei ni ikimasu)"
+                },
+                {
+                    "source": "How do I get to the Hospital?",
+                    "target": "病院にどうやって行きますか？ (Byōin ni dōyatte ikimasu ka?)"
+                },
+                {
+                    "source": "How do I get to the Restaurant?",
+                    "target": "レストランにどうやって行きますか？ (Resutoran ni dōyatte ikimasu ka?)"
+                },
+                {
+                    "source": "How do I get to the Museum?",
+                    "target": "博物館にどうやって行きますか？ (Hakubutsukan ni dōyatte ikimasu ka?)"
+                },
+                {
+                    "source": "How far is the Hotel?",
+                    "target": "ホテルはどれくらい離れていますか？ (Hoteru wa dore kurai hanareteimasu ka?)"
+                },
+                {
+                    "source": "How far is the Police Station?",
+                    "target": "警察署はどれくらい離れていますか？ (Keisatsusho wa dore kurai hanareteimasu ka?)"
+                },
+                {
+                    "source": "How far is the Park?",
+                    "target": "公園はどれくらい離れていますか？ (Kōen wa dore kurai hanareteimasu ka?)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 7th - Travel Answers",
+            "words": [
+                {
+                    "source": "You can take the train",
+                    "target": "電車で行けます (Densha de ikemasu)"
+                },
+                {
+                    "source": "You can take a subway",
+                    "target": "地下鉄で行けます (Chikatetsu de ikemasu)"
+                },
+                {
+                    "source": "It's near",
+                    "target": "近いです (Chikai desu)"
+                },
+                {
+                    "source": "It's very near",
+                    "target": "非常に近いです (Hijō ni chikai desu)"
+                },
+                {
+                    "source": "It's far",
+                    "target": "遠いです (Tōi desu)"
+                },
+                {
+                    "source": "It's very far",
+                    "target": "非常に遠いです (Hijō ni tōi desu)"
+                },
+                {
+                    "source": "The park is near the train station",
+                    "target": "公園は電車駅の近くにあります (Kōen wa densha eki no chikaku ni arimasu)"
+                },
+                {
+                    "source": "The hotel is near the shopping center",
+                    "target": "ホテルはショッピングセンターの近くにあります (Hoteru wa shoppingu sentā no chikaku ni arimasu)"
+                },
+                {
+                    "source": "The museum is near the station",
+                    "target": "博物館は駅の近くにあります (Hakubutsukan wa eki no chikaku ni arimasu)"
+                },
+                {
+                    "source": "It takes 10 minutes to get to the station",
+                    "target": "駅には十分で行けます (Eki ni wa juppun de ikemasu)"
+                },
+                {
+                    "source": "It takes 1 hour to get to the airport",
+                    "target": "空港には一時間で行けます (Kūkō ni wa ichijikan de ikemasu)"
+                },
+                {
+                    "source": "It takes 1 hour and 30 minutes to get to the museum",
+                    "target": "博物館には一時間三十分で行けます (Hakubutsukan ni wa ichijikan sanjuppun de ikemasu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 8th - Foods 1",
+            "words": [
+                {
+                    "source": "What's your favorite food?",
+                    "target": "あなたの好きな食べ物は何ですか？ (Anata no suki na tabemono wa nani desu ka?)"
+                },
+                {
+                    "source": "My favorite food is sushi",
+                    "target": "私の好きな食べ物は寿司です (Watashi no suki na tabemono wa sushi desu)"
+                },
+                {
+                    "source": "My favorite food is ramen",
+                    "target": "私の好きな食べ物はラーメンです (Watashi no suki na tabemono wa rāmen desu)"
+                },
+                {
+                    "source": "I like Japanese food",
+                    "target": "私は日本の食べ物が好きです (Watashi wa nihon no tabemono ga suki desu)"
+                },
+                {
+                    "source": "I like Korean food",
+                    "target": "私は韓国の食べ物が好きです (Watashi wa kankoku no tabemono ga suki desu)"
+                },
+                {
+                    "source": "I like sweet food",
+                    "target": "私は甘い食べ物が好きです (Watashi wa amai tabemono ga suki desu)"
+                },
+                {
+                    "source": "I like spicy food",
+                    "target": "私は辛い食べ物が好きです (Watashi wa karai tabemono ga suki desu)"
+                },
+                {
+                    "source": "Did you have breakfast?",
+                    "target": "朝食を食べましたか？ (Chōshoku o tabemashita ka?)"
+                },
+                {
+                    "source": "Did you have lunch?",
+                    "target": "昼食を食べましたか？ (Chūshoku o tabemashita ka?)"
+                },
+                {
+                    "source": "Did you have dinner?",
+                    "target": "夕食を食べましたか？ (Yūshoku o tabemashita ka?)"
+                },
+                {
+                    "source": "I had breakfast",
+                    "target": "私は朝食を食べました (Watashi wa chōshoku o tabemashita)"
+                },
+                {
+                    "source": "I had lunch",
+                    "target": "私は昼食を食べました (Watashi wa chūshoku o tabemashita)"
+                },
+                {
+                    "source": "I had dinner",
+                    "target": "私は夕食を食べました (Watashi wa yūshoku o tabemashita)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 9th - Foods 2",
+            "words": [
+                {
+                    "source": "What do you want to eat?",
+                    "target": "何を食べたいですか？ (Nani o tabetai desu ka?)"
+                },
+                {
+                    "source": "I want to eat sushi",
+                    "target": "私は寿司を食べたいです (Watashi wa sushi o tabetai desu)"
+                },
+                {
+                    "source": "I want to eat Japanese food",
+                    "target": "私は日本の食べ物を食べたいです (Watashi wa nihon no tabemono o tabetai desu)"
+                },
+                {
+                    "source": "I want to eat Beef",
+                    "target": "私は牛肉を食べたいです (Watashi wa gyūniku o tabetai desu)"
+                },
+                {
+                    "source": "I want to eat Pork",
+                    "target": "私は豚肉を食べたいです (Watashi wa butaniku o tabetai desu)"
+                },
+                {
+                    "source": "I want to eat Chicken",
+                    "target": "私は鶏肉を食べたいです (Watashi wa toriniku o tabetai desu)"
+                },
+                {
+                    "source": "I want to eat salty food",
+                    "target": "私は塩辛い食べ物を食べたいです (Watashi wa shiokarai tabemono o tabetai desu)"
+                },
+                {
+                    "source": "What do you want to drink?",
+                    "target": "何を飲みたいですか？ (Nani o nomitai desu ka?)"
+                },
+                {
+                    "source": "I want to drink water",
+                    "target": "私は水を飲みたいです (Watashi wa mizu o nomitai desu)"
+                },
+                {
+                    "source": "I want to drink tea",
+                    "target": "私はお茶を飲みたいです (Watashi wa ocha o nomitai desu)"
+                },
+                {
+                    "source": "I want to drink coffee",
+                    "target": "私はコーヒーを飲みたいです (Watashi wa kōhī o nomitai desu)"
+                },
+                {
+                    "source": "I want to drink beer",
+                    "target": "私はビールを飲みたいです (Watashi wa bīru o nomitai desu)"
+                }
+            ]
+        }
+    ]
+}
