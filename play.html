@@ -79,7 +79,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			<!--- todo 3: Load the questions and answers from the dataset and fill the question and answer codes-->
 			<code id="question"></code>
 
-			<p>Your answer:</p>
+			<p id="your_answer_text">Your answer:</p>
 			<div class="answer_text">
 				<input id="user_answer" type="text" name="user_answer" />
 			</div>
@@ -402,8 +402,13 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				$('#choice_a').text('').attr('title', '');
 				$('#choice_b').text('').attr('title', '');
 				$('#choice_c').text('').attr('title', '');
-				
+
+				let waitTime = 800 + currentQuestion.length * 100;
+				$('#your_answer_text').text('Your answer (Will be shown in ' + waitTime / 1000 + ' seconds):');
+				// timeout to show the options after waitTime milliseconds
+				// so the user can see the question and answer before the options are shown
 				setTimeout(function() {
+					$('#your_answer_text').text('Your answer:');
 					$('#choice_a').text(options[0]).attr('title', options[0]);
 					$('#choice_b').text(options[1]).attr('title', options[1]);
 					$('#choice_c').text(options[2]).attr('title', options[2]);
@@ -411,7 +416,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 					$('.answer_choice.choice_a').val(options[0]);
 					$('.answer_choice.choice_b').val(options[1]);
 					$('.answer_choice.choice_c').val(options[2]);
-				}, 1500);
+				}, waitTime);
 
 				// Clear previous selection
 				$('input[name="answer_choice"]').prop('checked', false);
