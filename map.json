@@ -69,8 +69,16 @@
         "groupName": "Japanese",
         "datasets": [
             {
+                "name": "Words Set 1",
+                "file": "dataset/japanese/words_1.json"
+            },
+            {
                 "name": "Basic Sentences Set 1",
                 "file": "dataset/japanese/basic_sentences_1.json"
+            },
+            {
+                "name": "Basic Sentences Set 2",
+                "file": "dataset/japanese/basic_sentences_2.json"
             }
         ]
     },
