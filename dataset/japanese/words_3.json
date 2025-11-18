@@ -1,0 +1,739 @@
+{
+    "name": "Japanese Words 3 - General",
+    "source_name": "English",
+    "target_name": "Japanese",
+    "packs": [
+        {
+            "name": "Pack 1 - Number 2",
+            "words": [
+                {
+                    "source": "Eleven",
+                    "target": "十一 (juuichi)"
+                },
+                {
+                    "source": "Twelve",
+                    "target": "十二 (juuni)"
+                },
+                {
+                    "source": "Thirteen",
+                    "target": "十三 (juusan)"
+                },
+                {
+                    "source": "Fourteen",
+                    "target": "十四 (juuyon)"
+                },
+                {
+                    "source": "Fifteen",
+                    "target": "十五 (juugo)"
+                },
+                {
+                    "source": "Sixteen",
+                    "target": "十六 (juuroku)"
+                },
+                {
+                    "source": "Seventeen",
+                    "target": "十七 (juunana)"
+                },
+                {
+                    "source": "Eighteen",
+                    "target": "十八 (juuhachi)"
+                },
+                {
+                    "source": "Nineteen",
+                    "target": "十九 (juukyuu)"
+                },
+                {
+                    "source": "Twenty",
+                    "target": "二十 (nijuu)"
+                },
+                {
+                    "source": "Twenty-one",
+                    "target": "二十一 (nijuuichi)"
+                },
+                {
+                    "source": "Twenty-two",
+                    "target": "二十二 (nijuuni)"
+                },
+                {
+                    "source": "Twenty-three",
+                    "target": "二十三 (nijuusan)"
+                },
+                {
+                    "source": "Twenty-four",
+                    "target": "二十四 (nijuuyon)"
+                },
+                {
+                    "source": "Twenty-five",
+                    "target": "二十五 (nijuugo)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 2 - Animal 2",
+            "words": [
+                {
+                    "source": "Cow",
+                    "target": "牛 (ushi)"
+                },
+                {
+                    "source": "Sheep",
+                    "target": "羊 (hitsuji)"
+                },
+                {
+                    "source": "Pig",
+                    "target": "豚 (buta)"
+                },
+                {
+                    "source": "Goat",
+                    "target": "山羊 (yagi)"
+                },
+                {
+                    "source": "Horse",
+                    "target": "馬 (uma)"
+                },
+                {
+                    "source": "Donkey",
+                    "target": "驢馬 (roba)"
+                },
+                {
+                    "source": "Dragon",
+                    "target": "龍 (ryuu)"
+                },
+                {
+                    "source": "Monkey",
+                    "target": "猿 (saru)"
+                },
+                {
+                    "source": "Insects",
+                    "target": "虫 (mushi)"
+                },
+                {
+                    "source": "Snake",
+                    "target": "蛇 (hebi)"
+                },
+                {
+                    "source": "Turtle",
+                    "target": "亀 (kame)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 3 - Animal 3",
+            "words": [
+                {
+                    "source": "Shrimp",
+                    "target": "海老 (ebi)"
+                },
+                {
+                    "source": "Whale",
+                    "target": "鯨 (kujira)"
+                },
+                {
+                    "source": "Shark",
+                    "target": "鮫 (same)"
+                },
+                {
+                    "source": "Dolphin",
+                    "target": "イルカ (iruka)"
+                },
+                {
+                    "source": "Octopus",
+                    "target": "蛸 (tako)"
+                },
+                {
+                    "source": "Crab",
+                    "target": "蟹 (kani)"
+                },
+                {
+                    "source": "Eel",
+                    "target": "鰻 (unagi)"
+                },
+                {
+                    "source": "Seal",
+                    "target": "アザラシ (azarashi)"
+                },
+                {
+                    "source": "Penguin",
+                    "target": "ペンギン (pengin)"
+                },
+                {
+                    "source": "Duck",
+                    "target": "鴨 (kamo)"
+                },
+                {
+                    "source": "Tuna",
+                    "target": "マグロ (maguro)"
+                },
+                {
+                    "source": "Salmon",
+                    "target": "鮭 (sake)"
+                },
+                {
+                    "source": "Dinosaur",
+                    "target": "恐竜 (kyouryuu)"
+                },
+                {
+                    "source": "Crocodile",
+                    "target": "ワニ (wani)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 4 - Clothes 2",
+            "words": [
+                {
+                    "source": "Sunglasses",
+                    "target": "サングラス (sangurasu)"
+                },
+                {
+                    "source": "Earring",
+                    "target": "イヤリング (iyaringu)"
+                },
+                {
+                    "source": "Necklace",
+                    "target": "ネックレス (nekkuresu)"
+                },
+                {
+                    "source": "Bracelet",
+                    "target": "ブレスレット (buresuretto)"
+                },
+                {
+                    "source": "Necktie",
+                    "target": "ネクタイ (nekutai)"
+                },
+                {
+                    "source": "Ring",
+                    "target": "指輪 (yubiwa)"
+                },
+                {
+                    "source": "Wristwatch",
+                    "target": "腕時計 (udedokei)"
+                },
+                {
+                    "source": "Watch",
+                    "target": "時計 (tokei)"
+                },
+                {
+                    "source": "Belt",
+                    "target": "ベルト (beruto)"
+                },
+                {
+                    "source": "Glasses",
+                    "target": "眼鏡 (megane)"
+                },
+                {
+                    "source": "Fabric",
+                    "target": "布 (nuno)"
+                },
+                {
+                    "source": "Leather",
+                    "target": "革 (kawa)"
+                },
+                {
+                    "source": "Silk",
+                    "target": "絹 (kinu)"
+                },
+                {
+                    "source": "Cotton",
+                    "target": "綿 (men)"
+                },
+                {
+                    "source": "Button",
+                    "target": "ボタン (botan)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 5 - Food 2",
+            "words": [
+                {
+                    "source": "Pepper",
+                    "target": "胡椒 (koshou)"
+                },
+                {
+                    "source": "Salt",
+                    "target": "塩 (shio)"
+                },
+                {
+                    "source": "Sugar",
+                    "target": "砂糖 (satou)"
+                },
+                {
+                    "source": "Fruits",
+                    "target": "果物 (kudamono)"
+                },
+                {
+                    "source": "Vegetables",
+                    "target": "野菜 (yasai)"
+                },
+                {
+                    "source": "Meats",
+                    "target": "肉 (niku)"
+                },
+                {
+                    "source": "Fish",
+                    "target": "魚 (sakana)"
+                },
+                {
+                    "source": "Protein",
+                    "target": "タンパク質 (tanpakushitsu)"
+                },
+                {
+                    "source": "Vitamin",
+                    "target": "ビタミン (bitamin)"
+                },
+                {
+                    "source": "Mineral",
+                    "target": "ミネラル (mineraru)"
+                },
+                {
+                    "source": "Carbohydrate",
+                    "target": "炭水化物 (tansuikabutsu)"
+                },
+                {
+                    "source": "Fat",
+                    "target": "脂質 (shishitsu)"
+                },
+                {
+                    "source": "Calcium",
+                    "target": "カルシウム (karushiumu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 6 - School",
+            "words": [
+                {
+                    "source": "School",
+                    "target": "学校 (gakkou)"
+                },
+                {
+                    "source": "Classroom",
+                    "target": "教室 (kyoushitsu)"
+                },
+                {
+                    "source": "Student",
+                    "target": "学生 (gakusei)"
+                },
+                {
+                    "source": "Teacher",
+                    "target": "先生 (sensei)"
+                },
+                {
+                    "source": "Homework",
+                    "target": "宿題 (shukudai)"
+                },
+                {
+                    "source": "Test",
+                    "target": "テスト (tesuto)"
+                },
+                {
+                    "source": "Notebook",
+                    "target": "ノート (nooto)"
+                },
+                {
+                    "source": "Pencil",
+                    "target": "鉛筆 (enpitsu)"
+                },
+                {
+                    "source": "Eraser",
+                    "target": "消しゴム (keshigomu)"
+                },
+                {
+                    "source": "Textbook",
+                    "target": "教科書 (kyoukasho)"
+                },
+                {
+                    "source": "Exercise Book",
+                    "target": "練習帳 (renshuuchou)"
+                },
+                {
+                    "source": "Pen",
+                    "target": "ペン (pen)"
+                },
+                {
+                    "source": "Ruler",
+                    "target": "定規 (jougi)"
+                },
+                {
+                    "source": "Book",
+                    "target": "本 (hon)"
+                },
+                {
+                    "source": "Dictionary",
+                    "target": "辞書 (jisho)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 7 - Transportation",
+            "words": [
+                {
+                    "source": "Train",
+                    "target": "電車 (densha)"
+                },
+                {
+                    "source": "Subway",
+                    "target": "地下鉄 (chikatetsu)"
+                },
+                {
+                    "source": "Bus",
+                    "target": "バス (basu)"
+                },
+                {
+                    "source": "Taxi",
+                    "target": "タクシー (takushii)"
+                },
+                {
+                    "source": "Airplane",
+                    "target": "飛行機 (hikouki)"
+                },
+                {
+                    "source": "Ship",
+                    "target": "船 (fune)"
+                },
+                {
+                    "source": "Bicycle",
+                    "target": "自転車 (jitensha)"
+                },
+                {
+                    "source": "Motorcycle",
+                    "target": "バイク (baiku)"
+                },
+                {
+                    "source": "Car",
+                    "target": "車 (kuruma)"
+                },
+                {
+                    "source": "Truck",
+                    "target": "トラック (torakku)"
+                },
+                {
+                    "source": "Tractor",
+                    "target": "トラクター (torakutaa)"
+                },
+                {
+                    "source": "Automobile",
+                    "target": "自動車 (jidousha)"
+                },
+                {
+                    "source": "Ticket",
+                    "target": "切符 (kippu)"
+                },
+                {
+                    "source": "Ticket Counter",
+                    "target": "切符売り場 (kippuuriba)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 8 - Material",
+            "words": [
+                {
+                    "source": "Wood",
+                    "target": "木 (ki)"
+                },
+                {
+                    "source": "Metal",
+                    "target": "金属 (kinzoku)"
+                },
+                {
+                    "source": "Plastic",
+                    "target": "プラスチック (purasuchikku)"
+                },
+                {
+                    "source": "Paper",
+                    "target": "紙 (kami)"
+                },
+                {
+                    "source": "Glass",
+                    "target": "ガラス (garasu)"
+                },
+                {
+                    "source": "Gold",
+                    "target": "金 (kin)"
+                },
+                {
+                    "source": "Silver",
+                    "target": "銀 (gin)"
+                },
+                {
+                    "source": "Bronze",
+                    "target": "青銅 (seidou)"
+                },
+                {
+                    "source": "Copper",
+                    "target": "銅 (dou)"
+                },
+                {
+                    "source": "Iron",
+                    "target": "鉄 (tetsu)"
+                },
+                {
+                    "source": "Steel",
+                    "target": "鋼 (hagane)"
+                },
+                {
+                    "source": "Aluminum",
+                    "target": "アルミニウム (aruminiumu)"
+                },
+                {
+                    "source": "Non-Metallic",
+                    "target": "非金属 (hikinzoku)"
+                },
+                {
+                    "source": "Ceramic",
+                    "target": "陶器 (touki)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 9 - Time",
+            "words": [
+                {
+                    "source": "Next Week",
+                    "target": "来週 (raishuu)"
+                },
+                {
+                    "source": "Next Month",
+                    "target": "来月 (raigetsu)"
+                },
+                {
+                    "source": "Next Year",
+                    "target": "来年 (rainen)"
+                },
+                {
+                    "source": "Last Week",
+                    "target": "先週 (senshuu)"
+                },
+                {
+                    "source": "Last Month",
+                    "target": "先月 (sengetsu)"
+                },
+                {
+                    "source": "Last Year",
+                    "target": "去年 (kyonen)"
+                },
+                {
+                    "source": "Late",
+                    "target": "遅い (osoi)"
+                },
+                {
+                    "source": "Early",
+                    "target": "早い (hayai)"
+                },
+                {
+                    "source": "This Week",
+                    "target": "今週 (konshuu)"
+                },
+                {
+                    "source": "This Month",
+                    "target": "今月 (kongetsu)"
+                },
+                {
+                    "source": "This Year",
+                    "target": "今年 (kotoshi)"
+                },
+                {
+                    "source": "Weekend",
+                    "target": "週末 (shuumatsu)"
+                },
+                {
+                    "source": "Holiday",
+                    "target": "休日 (kyuujitsu)"
+                },
+                {
+                    "source": "Business Day",
+                    "target": "営業日 (eigyoubi)"
+                },
+                {
+                    "source": "Time",
+                    "target": "時間 (jikan)"
+                },
+                {
+                    "source": "Weekday",
+                    "target": "平日 (heijitsu)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 10 - Locations 2",
+            "words": [
+                {
+                    "source": "Police Station",
+                    "target": "警察署 (keisatsusho)"
+                },
+                {
+                    "source": "Post Office",
+                    "target": "郵便局 (yuubinkyoku)"
+                },
+                {
+                    "source": "Gym",
+                    "target": "ジム (jimu)"
+                },
+                {
+                    "source": "Church",
+                    "target": "教会 (kyoukai)"
+                },
+                {
+                    "source": "Supermarket",
+                    "target": "スーパーマーケット (suupaamaaketto)"
+                },
+                {
+                    "source": "Mosque",
+                    "target": "モスク (mosuku)"
+                },
+                {
+                    "source": "Court",
+                    "target": "裁判所 (saibansho)"
+                },
+                {
+                    "source": "Skyscraper",
+                    "target": "摩天楼 (matenrou)"
+                },
+                {
+                    "source": "Mall",
+                    "target": "モール (mooru)"
+                },
+                {
+                    "source": "Zoo",
+                    "target": "動物園 (doubutsuen)"
+                },
+                {
+                    "source": "Fire Station",
+                    "target": "消防署 (shoubousho)"
+                },
+                {
+                    "source": "Amusement Park",
+                    "target": "遊園地 (yuuenchi)"
+                },
+                {
+                    "source": "Shrine",
+                    "target": "神社 (jinja)"
+                },
+                {
+                    "source": "Bakery",
+                    "target": "パン屋 (panya)"
+                },
+                {
+                    "source": "Book Store",
+                    "target": "書店 (shoten)"
+                },
+                {
+                    "source": "Stationery Store",
+                    "target": "文具店 (bunguten)"
+                },
+                {
+                    "source": "Department Store",
+                    "target": "百貨店 (hyakkaten)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 11 - Locations 3",
+            "words": [
+                {
+                    "source": "Crosswalk",
+                    "target": "横断歩道 (oudanhodou)"
+                },
+                {
+                    "source": "Intersection",
+                    "target": "交差点 (kousaten)"
+                },
+                {
+                    "source": "Street",
+                    "target": "道 (michi)"
+                },
+                {
+                    "source": "Bridge",
+                    "target": "橋 (hashi)"
+                },
+                {
+                    "source": "River",
+                    "target": "川 (kawa)"
+                },
+                {
+                    "source": "Sea",
+                    "target": "海 (umi)"
+                },
+                {
+                    "source": "Lake",
+                    "target": "湖 (mizuumi)"
+                },
+                {
+                    "source": "Cemetery",
+                    "target": "墓地 (bochi)"
+                },
+                {
+                    "source": "Parking Lot",
+                    "target": "駐車場 (chuushajou)"
+                },
+                {
+                    "source": "Gas Station",
+                    "target": "ガソリンスタンド (gasorinsutando)"
+                },
+                {
+                    "source": "Forest",
+                    "target": "森 (mori)"
+                }
+            ]
+        },
+        {
+            "name": "Pack 12 - Locations 4",
+            "words": [
+                {
+                    "source": "Factory",
+                    "target": "工場 (koujou)"
+                },
+                {
+                    "source": "Clinic",
+                    "target": "クリニック (kurinikku)"
+                },
+                {
+                    "source": "Playground",
+                    "target": "遊び場 (asobiba)"
+                },
+                {
+                    "source": "Pharmacy",
+                    "target": "薬局 (yakkyoku)"
+                },
+                {
+                    "source": "Barbershop",
+                    "target": "理髪店 (rihatsuten)"
+                },
+                {
+                    "source": "Massage Parlor",
+                    "target": "マッサージ店 (massaajiten)"
+                },
+                {
+                    "source": "Art Gallery",
+                    "target": "美術館 (bijutsukan)"
+                },
+                {
+                    "source": "Dentist",
+                    "target": "歯科 (shika)"
+                },
+                {
+                    "source": "Repair Shop",
+                    "target": "修理店 (shuuriten)"
+                },
+                {
+                    "source": "Laundromat",
+                    "target": "コインランドリー (koinrandorii)"
+                },
+                {
+                    "source": "Meat Store",
+                    "target": "肉屋 (nikuya)"
+                },
+                {
+                    "source": "Mechanic Shop",
+                    "target": "整備工場 (seibikoujou)"
+                },
+                {
+                    "source": "Pawn Shop",
+                    "target": "質屋 (shichiya)"
+                }
+            ]
+        }
+    ]
+}

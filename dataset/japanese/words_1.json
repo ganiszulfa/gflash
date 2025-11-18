@@ -312,10 +312,6 @@
                     "target": "ソファ (sofa)"
                 },
                 {
-                    "source": "House",
-                    "target": "家 (ie)"
-                },
-                {
                     "source": "Home",
                     "target": "家 (uchi)"
                 },

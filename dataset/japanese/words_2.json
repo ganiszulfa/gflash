@@ -35,11 +35,7 @@
                     "target": "歯を磨く (ha o migaku)"
                 },
                 {
-                    "source": "Wear",
-                    "target": "着る (kiru)"
-                },
-                {
-                    "source": "Put on",
+                    "source": "Wear / Put on",
                     "target": "着る (kiru)"
                 },
                 {
