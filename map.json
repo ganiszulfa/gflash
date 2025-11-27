@@ -91,6 +91,10 @@
             {
                 "name": "Ninjapanese 1",
                 "file": "dataset/japanese/ninjapanese_1.json"
+            },
+            {
+                "name": "Ninjapanese 2",
+                "file": "dataset/japanese/ninjapanese_2.json"
             }
         ]
     },

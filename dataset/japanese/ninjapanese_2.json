@@ -1,0 +1,317 @@
+{
+    "name": "Ninja Japanese 2",
+    "source_name": "English",
+    "target_name": "Japanese",
+    "packs": [
+        {
+            "name": "1 - Verb 1 (Masu Form)",
+            "words": [
+                {
+                    "source": "eat",
+                    "target": "たべます (tabemasu)"
+                },
+                {
+                    "source": "drink",
+                    "target": "のみます (nomimasu)"
+                },
+                {
+                    "source": "read",
+                    "target": "よみます (yomimasu)"
+                },
+                {
+                    "source": "write",
+                    "target": "かきます (kakimasu)"
+                },
+                {
+                    "source": "speak",
+                    "target": "はなします (hanashimasu)"
+                },
+                {
+                    "source": "listen",
+                    "target": "ききます (kikimasu)"
+                },
+                {
+                    "source": "ask",
+                    "target": "ききます (kikimasu)"
+                },
+                {
+                    "source": "watch",
+                    "target": "みます (mimasu)"
+                },
+                {
+                    "source": "see/look",
+                    "target": "みます (mimasu)"
+                },
+                {
+                    "source": "sleep",
+                    "target": "ねます (nemasu)"
+                },
+                {
+                    "source": "get up",
+                    "target": "おきます (okimasu)"
+                },
+                {
+                    "source": "buy",
+                    "target": "かいます (kaimasu)"
+                }
+            ]
+        },
+        {
+            "name": "2 - Verb 2 (Masu Form)",
+            "words": [
+                {
+                    "source": "take (picture)",
+                    "target": "とります (torimasu)"
+                },
+                {
+                    "source": "send",
+                    "target": "おくります (okurimasu)"
+                },
+                {
+                    "source": "work",
+                    "target": "はたらきます (hatarakimasu)"
+                },
+                {
+                    "source": "lose (wallet/something)",
+                    "target": "なくします (nakushimasu)"
+                },
+                {
+                    "source": "find (wallet/something)",
+                    "target": "みつけます (mitsukemasu)"
+                },
+                {
+                    "source": "search",
+                    "target": "しらべます (shirabemasu)"
+                },
+                {
+                    "source": "pay",
+                    "target": "はらいます (haraimasu)"
+                },
+                {
+                    "source": "think",
+                    "target": "かんがえます (kangaemasu)"
+                },
+                {
+                    "source": "wash",
+                    "target": "あらいます (araimasu)"
+                },
+                {
+                    "source": "swim",
+                    "target": "およぎます (oyogimasu)"
+                },
+                {
+                    "source": "show",
+                    "target": "みせます (misemasu)"
+                },
+                {
+                    "source": "sing",
+                    "target": "うたいます (utaimasu)"
+                }
+            ]
+        },
+        {
+            "name": "3 - Verb 3 (Masu Form)",
+            "words": [
+                {
+                    "source": "take (shower)",
+                    "target": "あびます (abimasu)"
+                },
+                {
+                    "source": "take (bath)",
+                    "target": "はいります (hairimasu)"
+                },
+                {
+                    "source": "smoke",
+                    "target": "すいます (suimasu)"
+                },
+                {
+                    "source": "go",
+                    "target": "いきます (ikimasu)"
+                },
+                {
+                    "source": "come",
+                    "target": "きます (kimasu)"
+                },
+                {
+                    "source": "go home",
+                    "target": "かえります (kaerimasu)"
+                },
+                {
+                    "source": "sell",
+                    "target": "うります (urimasu)"
+                },
+                {
+                    "source": "give",
+                    "target": "あげます (agemasu)"
+                },
+                {
+                    "source": "get",
+                    "target": "もらいます (moraimasu)"
+                },
+                {
+                    "source": "borrow",
+                    "target": "かります (karimasu)"
+                },
+                {
+                    "source": "lend",
+                    "target": "かします (kashimasu)"
+                }
+            ]
+        },
+        {
+            "name": "4 - Verb 4 (Masu Form)",
+            "words": [
+                {
+                    "source": "teach",
+                    "target": "おしえます (oshiemasu)"
+                },
+                {
+                    "source": "learn",
+                    "target": "ならいます (naraimasu)"
+                },
+                {
+                    "source": "be (human/animal)",
+                    "target": "います (imasu)"
+                },
+                {
+                    "source": "be (things)",
+                    "target": "あります (arimasu)"
+                },
+                {
+                    "source": "understand",
+                    "target": "わかります (wakarimasu)"
+                },
+                {
+                    "source": "take (day off)",
+                    "target": "やすみます (yasumimasu)"
+                },
+                {
+                    "source": "wait",
+                    "target": "まちます (machimasu)"
+                },
+                {
+                    "source": "hold",
+                    "target": "もちます (mochimasu)"
+                },
+                {
+                    "source": "turn on",
+                    "target": "つけます (tsukemasu)"
+                },
+                {
+                    "source": "turn off",
+                    "target": "けします (keshimasu)"
+                },
+                {
+                    "source": "open",
+                    "target": "あけます (akemasu)"
+                },
+                {
+                    "source": "close",
+                    "target": "しめます (shimemasu)"
+                }
+            ]
+        },
+        {
+            "name": "5 - Verb 5 (Masu Form)",
+            "words": [
+                {
+                    "source": "sit",
+                    "target": "すわります (suwarimasu)"
+                },
+                {
+                    "source": "stand",
+                    "target": "たちます (tachimasu)"
+                },
+                {
+                    "source": "help",
+                    "target": "てつだいます (tetsudaimasu)"
+                },
+                {
+                    "source": "leave (a place)",
+                    "target": "でます (demasu)"
+                },
+                {
+                    "source": "use",
+                    "target": "つかいます (tsukaimasu)"
+                },
+                {
+                    "source": "make",
+                    "target": "つくります (tsukurimasu)"
+                },
+                {
+                    "source": "see/meet",
+                    "target": "あいます (aimasu)"
+                },
+                {
+                    "source": "remember",
+                    "target": "おぼえます (oboemasu)"
+                },
+                {
+                    "source": "forget",
+                    "target": "わすれます (wasuremasu)"
+                },
+                {
+                    "source": "live",
+                    "target": "すみます (sumimasu)"
+                },
+                {
+                    "source": "throw away",
+                    "target": "すてます (sutemasu)"
+                },
+                {
+                    "source": "fix",
+                    "target": "なおします (naoshimasu)"
+                }
+            ]
+        },
+        {
+            "name": "6 - Verb 6 (Masu Form)",
+            "words": [
+                {
+                    "source": "study",
+                    "target": "べんきょうします (benkyou shimasu)"
+                },
+                {
+                    "source": "clean",
+                    "target": "そうじします (souji shimasu)"
+                },
+                {
+                    "source": "get married",
+                    "target": "けっこんします (kekkon shimasu)"
+                },
+                {
+                    "source": "call",
+                    "target": "でんわします (denwa shimasu)"
+                },
+                {
+                    "source": "cook",
+                    "target": "りょうりします (ryouri shimasu)"
+                },
+                {
+                    "source": "wear (makeup)",
+                    "target": "けしょうします (keshou shimasu)"
+                },
+                {
+                    "source": "play (game)",
+                    "target": "ゲームします (ge-mu shimasu)"
+                },
+                {
+                    "source": "travel",
+                    "target": "りょこうします (ryokou shimasu)"
+                },
+                {
+                    "source": "drive",
+                    "target": "うんてんします (unten shimasu)"
+                },
+                {
+                    "source": "explain",
+                    "target": "せつめいします (setsumei shimasu)"
+                },
+                {
+                    "source": "practice",
+                    "target": "れんしゅうします (renshuu shimasu)"
+                }
+            ]
+        }
+    ]
+}
