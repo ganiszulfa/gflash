@@ -1,0 +1,178 @@
+{
+    "name": "Ninja Japanese 1",
+    "source_name": "English",
+    "target_name": "Japanese",
+    "packs": [
+        {
+            "name": "1 - Parts of face",
+            "words": [
+                {
+                    "source": "hair",
+                    "target": "かみ (kami)"
+                },
+                {
+                    "source": "forehead",
+                    "target": "おでこ (odeko)"
+                },
+                {
+                    "source": "eye",
+                    "target": "め (me)"
+                },
+                {
+                    "source": "eyelash",
+                    "target": "まつげ (matsuge)"
+                },
+                {
+                    "source": "nose",
+                    "target": "はな (hana)"
+                },
+                {
+                    "source": "mouth",
+                    "target": "くち (kuchi)"
+                },
+                {
+                    "source": "ears",
+                    "target": "みみ (mimi)"
+                },
+                {
+                    "source": "cheek",
+                    "target": "ほっぺ (hoppe)"
+                },
+                {
+                    "source": "chin",
+                    "target": "あご (ago)"
+                },
+                {
+                    "source": "lip",
+                    "target": "くちびる (kuchibiru)"
+                },
+                {
+                    "source": "teeth",
+                    "target": "は (ha)"
+                }
+            ]
+        },
+        {
+            "name": "2 - Body",
+            "words": [
+                {
+                    "source": "head",
+                    "target": "あたま (atama)"
+                },
+                {
+                    "source": "neck",
+                    "target": "くび (kubi)"
+                },
+                {
+                    "source": "shoulder",
+                    "target": "かた (kata)"
+                },
+                {
+                    "source": "arm",
+                    "target": "うで (ude)"
+                },
+                {
+                    "source": "hand",
+                    "target": "て (te)"
+                },
+                {
+                    "source": "armpit",
+                    "target": "わき (waki)"
+                },
+                {
+                    "source": "wrist",
+                    "target": "てくび (tekubi)"
+                },
+                {
+                    "source": "thigh",
+                    "target": "もも (momo)"
+                },
+                {
+                    "source": "knee",
+                    "target": "ひざ (hiza)"
+                },
+                {
+                    "source": "elbow",
+                    "target": "ひじ (hiji)"
+                },
+                {
+                    "source": "foot / leg",
+                    "target": "あし (ashi)"
+                },
+                {
+                    "source": "back",
+                    "target": "せなか (senaka)"
+                },
+                {
+                    "source": "buttocks",
+                    "target": "おしり (oshiri)"
+                },
+                {
+                    "source": "calf",
+                    "target": "ふくらはぎ (fukurahagi)"
+                },
+                {
+                    "source": "heel",
+                    "target": "かかと (kakato)"
+                }
+            ]
+        },
+        {
+            "name": "3 - Mouth and Hand Parts",
+            "words": [
+                {
+                    "source": "tooth",
+                    "target": "は (ha)"
+                },
+                {
+                    "source": "gum",
+                    "target": "はぐき (haguki)"
+                },
+                {
+                    "source": "uvula",
+                    "target": "のどちんこ (nodo chinko)"
+                },
+                {
+                    "source": "tongue",
+                    "target": "した (shita)"
+                },
+                {
+                    "source": "back tooth",
+                    "target": "おくば (okuba)"
+                },
+                {
+                    "source": "front tooth",
+                    "target": "まえば (maeba)"
+                },
+                {
+                    "source": "thumb",
+                    "target": "おやゆび (oyayubi)"
+                },
+                {
+                    "source": "index finger",
+                    "target": "ひとさしゆび (hitosashiyubi)"
+                },
+                {
+                    "source": "middle finger",
+                    "target": "なかゆび (nakayubi)"
+                },
+                {
+                    "source": "ring finger",
+                    "target": "くすりゆび (kusuriyubi)"
+                },
+                {
+                    "source": "little finger",
+                    "target": "こゆび (koyubi)"
+                },
+                {
+                    "source": "palm",
+                    "target": "てのひら (tenohira)"
+                },
+                {
+                    "source": "finger nail",
+                    "target": "つめ (tsume)"
+                }
+            ]
+        }
+    ]
+}

@@ -87,6 +87,10 @@
             {
                 "name": "Basic Sentences Set 2",
                 "file": "dataset/japanese/basic_sentences_2.json"
+            },
+            {
+                "name": "Ninjapanese 1",
+                "file": "dataset/japanese/ninjapanese_1.json"
             }
         ]
     },
