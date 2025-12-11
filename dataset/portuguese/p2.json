@@ -1,0 +1,177 @@
+{
+    "name": "Portuguese 2",
+    "source_name": "English",
+    "target_name": "Portuguese",
+    "packs": [
+        {
+            "name": "Pack 1",
+            "words": [
+                {"source": "To eat", "target": "Comer"},
+                {"source": "To drink", "target": "Beber"},
+                {"source": "To sleep", "target": "Dormir"},
+                {"source": "To work", "target": "Trabalhar"},
+                {"source": "To study", "target": "Estudar"},
+                {"source": "To play", "target": "Jogar/Brincar"},
+                {"source": "To buy", "target": "Comprar"},
+                {"source": "To sell", "target": "Vender"},
+                {"source": "To give", "target": "Dar"},
+                {"source": "To take", "target": "Pegar/Levar"},
+                {"source": "To help", "target": "Ajudar"},
+                {"source": "To listen", "target": "Ouvir"}
+            ]
+        },
+        {
+            "name": "Pack 2",
+            "words": [
+                {"source": "Car", "target": "Carro"},
+                {"source": "Bus", "target": "Ônibus"},
+                {"source": "Train", "target": "Trem"},
+                {"source": "Plane", "target": "Avião"},
+                {"source": "Taxi", "target": "Táxi"},
+                {"source": "Bicycle", "target": "Bicicleta"},
+                {"source": "Motorcycle", "target": "Moto"},
+                {"source": "Boat", "target": "Barco"},
+                {"source": "Ticket", "target": "Bilhete/Passagem"},
+                {"source": "Station", "target": "Estação"},
+                {"source": "Stop", "target": "Parada"},
+                {"source": "Traffic", "target": "Trânsito"}
+            ]
+        },
+        {
+            "name": "Pack 3",
+            "words": [
+                {"source": "Money", "target": "Dinheiro"},
+                {"source": "Price", "target": "Preço"},
+                {"source": "Expensive", "target": "Caro"},
+                {"source": "Cheap", "target": "Barato"},
+                {"source": "Credit card", "target": "Cartão de crédito"},
+                {"source": "Cash", "target": "Dinheiro/Espécie"},
+                {"source": "Change", "target": "Troco"},
+                {"source": "Bill", "target": "Conta"},
+                {"source": "To pay", "target": "Pagar"},
+                {"source": "Free", "target": "Grátis"},
+                {"source": "Discount", "target": "Desconto"},
+                {"source": "Receipt", "target": "Recibo"}
+            ]
+        },
+        {
+            "name": "Pack 4",
+            "words": [
+                {"source": "Head", "target": "Cabeça"},
+                {"source": "Eye", "target": "Olho"},
+                {"source": "Ear", "target": "Orelha"},
+                {"source": "Nose", "target": "Nariz"},
+                {"source": "Mouth", "target": "Boca"},
+                {"source": "Hand", "target": "Mão"},
+                {"source": "Foot", "target": "Pé"},
+                {"source": "Arm", "target": "Braço"},
+                {"source": "Leg", "target": "Perna"},
+                {"source": "Heart", "target": "Coração"},
+                {"source": "Stomach", "target": "Estômago"},
+                {"source": "Back", "target": "Costas"}
+            ]
+        },
+        {
+            "name": "Pack 5",
+            "words": [
+                {"source": "Happy", "target": "Feliz"},
+                {"source": "Sad", "target": "Triste"},
+                {"source": "Angry", "target": "Bravo/Com raiva"},
+                {"source": "Tired", "target": "Cansado"},
+                {"source": "Hungry", "target": "Com fome"},
+                {"source": "Thirsty", "target": "Com sede"},
+                {"source": "Sick", "target": "Doente"},
+                {"source": "Healthy", "target": "Saudável"},
+                {"source": "Worried", "target": "Preocupado"},
+                {"source": "Excited", "target": "Animado"},
+                {"source": "Surprised", "target": "Surpreso"},
+                {"source": "Confused", "target": "Confuso"}
+            ]
+        },
+        {
+            "name": "Pack 6",
+            "words": [
+                {"source": "Color", "target": "Cor"},
+                {"source": "Red", "target": "Vermelho"},
+                {"source": "Blue", "target": "Azul"},
+                {"source": "Green", "target": "Verde"},
+                {"source": "Yellow", "target": "Amarelo"},
+                {"source": "Black", "target": "Preto"},
+                {"source": "White", "target": "Branco"},
+                {"source": "Orange", "target": "Laranja"},
+                {"source": "Pink", "target": "Rosa"},
+                {"source": "Purple", "target": "Roxo"},
+                {"source": "Brown", "target": "Marrom"},
+                {"source": "Gray", "target": "Cinza"}
+            ]
+        },
+        {
+            "name": "Pack 7",
+            "words": [
+                {"source": "Weather", "target": "Tempo/Clima"},
+                {"source": "Sun", "target": "Sol"},
+                {"source": "Rain", "target": "Chuva"},
+                {"source": "Wind", "target": "Vento"},
+                {"source": "Cloud", "target": "Nuvem"},
+                {"source": "Snow", "target": "Neve"},
+                {"source": "Storm", "target": "Tempestade"},
+                {"source": "It's hot", "target": "Está calor"},
+                {"source": "It's cold", "target": "Está frio"},
+                {"source": "It's raining", "target": "Está chovendo"},
+                {"source": "Sunny", "target": "Ensolarado"},
+                {"source": "Temperature", "target": "Temperatura"}
+            ]
+        },
+        {
+            "name": "Pack 8",
+            "words": [
+                {"source": "Book", "target": "Livro"},
+                {"source": "Paper", "target": "Papel"},
+                {"source": "Pen", "target": "Caneta"},
+                {"source": "Pencil", "target": "Lápis"},
+                {"source": "Computer", "target": "Computador"},
+                {"source": "Phone", "target": "Telefone"},
+                {"source": "Table", "target": "Mesa"},
+                {"source": "Chair", "target": "Cadeira"},
+                {"source": "Door", "target": "Porta"},
+                {"source": "Window", "target": "Janela"},
+                {"source": "Key", "target": "Chave"},
+                {"source": "Bag", "target": "Bolsa/Mochila"}
+            ]
+        },
+        {
+            "name": "Pack 9",
+            "words": [
+                {"source": "Monday", "target": "Segunda-feira"},
+                {"source": "Tuesday", "target": "Terça-feira"},
+                {"source": "Wednesday", "target": "Quarta-feira"},
+                {"source": "Thursday", "target": "Quinta-feira"},
+                {"source": "Friday", "target": "Sexta-feira"},
+                {"source": "Saturday", "target": "Sábado"},
+                {"source": "Sunday", "target": "Domingo"},
+                {"source": "Weekend", "target": "Fim de semana"},
+                {"source": "Morning", "target": "Manhã"},
+                {"source": "Afternoon", "target": "Tarde"},
+                {"source": "Evening", "target": "Noite"},
+                {"source": "Midnight", "target": "Meia-noite"}
+            ]
+        },
+        {
+            "name": "Pack 10",
+            "words": [
+                {"source": "Maybe", "target": "Talvez"},
+                {"source": "Of course", "target": "Claro"},
+                {"source": "Certainly", "target": "Com certeza"},
+                {"source": "Really", "target": "Mesmo/Realmente"},
+                {"source": "Very", "target": "Muito"},
+                {"source": "Too much", "target": "Demais"},
+                {"source": "A little", "target": "Um pouco"},
+                {"source": "Enough", "target": "Suficiente"},
+                {"source": "Nothing", "target": "Nada"},
+                {"source": "Everything", "target": "Tudo"},
+                {"source": "Something", "target": "Algo"},
+                {"source": "Anything", "target": "Qualquer coisa"}
+            ]
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 [
     {
-        "groupName": "Korean 6000 words",
+        "groupName": "Korean",
         "datasets": [
             {
                 "name": "Set 1",
@@ -33,6 +33,19 @@
             {
                 "name": "Sogang 2A Set 2",
                 "file": "dataset/korean2a/2.json"
+            }
+        ]
+    },
+    {
+        "groupName": "Portuguese",
+        "datasets": [
+            {
+                "name": "Common Words Set 1",
+                "file": "dataset/portuguese/p1.json"
+            },
+            {
+                "name": "Common Words Set 2",
+                "file": "dataset/portuguese/p2.json"
             }
         ]
     },

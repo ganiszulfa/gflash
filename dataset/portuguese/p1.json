@@ -1,0 +1,177 @@
+{
+    "name": "Portuguese 1",
+    "source_name": "English",
+    "target_name": "Portuguese",
+    "packs": [
+        {
+            "name": "Pack 1",
+            "words": [
+                {"source": "Hello", "target": "Olá"},
+                {"source": "Goodbye", "target": "Tchau"},
+                {"source": "Please", "target": "Por favor"},
+                {"source": "Thank you", "target": "Obrigado/Obrigada"},
+                {"source": "Yes", "target": "Sim"},
+                {"source": "No", "target": "Não"},
+                {"source": "Excuse me", "target": "Com licença"},
+                {"source": "Sorry", "target": "Desculpe"},
+                {"source": "Good morning", "target": "Bom dia"},
+                {"source": "Good afternoon", "target": "Boa tarde"},
+                {"source": "Good night", "target": "Boa noite"},
+                {"source": "How are you?", "target": "Como vai?"}
+            ]
+        },
+        {
+            "name": "Pack 2",
+            "words": [
+                {"source": "I", "target": "Eu"},
+                {"source": "You", "target": "Você"},
+                {"source": "He", "target": "Ele"},
+                {"source": "She", "target": "Ela"},
+                {"source": "We", "target": "Nós"},
+                {"source": "They", "target": "Eles/Elas"},
+                {"source": "My", "target": "Meu/Minha"},
+                {"source": "Your", "target": "Seu/Sua"},
+                {"source": "His/Her", "target": "Dele/Dela"},
+                {"source": "Our", "target": "Nosso/Nossa"},
+                {"source": "Their", "target": "Deles/Delas"},
+                {"source": "This", "target": "Este/Esta"}
+            ]
+        },
+        {
+            "name": "Pack 3",
+            "words": [
+                {"source": "What", "target": "O que"},
+                {"source": "Where", "target": "Onde"},
+                {"source": "When", "target": "Quando"},
+                {"source": "Why", "target": "Por que"},
+                {"source": "How", "target": "Como"},
+                {"source": "Who", "target": "Quem"},
+                {"source": "Which", "target": "Qual"},
+                {"source": "How much", "target": "Quanto"},
+                {"source": "How many", "target": "Quantos"},
+                {"source": "What time", "target": "Que horas"},
+                {"source": "Where is", "target": "Onde está"},
+                {"source": "What is", "target": "O que é"}
+            ]
+        },
+        {
+            "name": "Pack 4",
+            "words": [
+                {"source": "To be", "target": "Ser/Estar"},
+                {"source": "To have", "target": "Ter"},
+                {"source": "To do", "target": "Fazer"},
+                {"source": "To go", "target": "Ir"},
+                {"source": "To come", "target": "Vir"},
+                {"source": "To want", "target": "Querer"},
+                {"source": "To need", "target": "Precisar"},
+                {"source": "To like", "target": "Gostar"},
+                {"source": "To love", "target": "Amar"},
+                {"source": "To know", "target": "Saber/Conhecer"},
+                {"source": "To see", "target": "Ver"},
+                {"source": "To speak", "target": "Falar"}
+            ]
+        },
+        {
+            "name": "Pack 5",
+            "words": [
+                {"source": "Water", "target": "Água"},
+                {"source": "Food", "target": "Comida"},
+                {"source": "Coffee", "target": "Café"},
+                {"source": "Tea", "target": "Chá"},
+                {"source": "Milk", "target": "Leite"},
+                {"source": "Bread", "target": "Pão"},
+                {"source": "Meat", "target": "Carne"},
+                {"source": "Fish", "target": "Peixe"},
+                {"source": "Rice", "target": "Arroz"},
+                {"source": "Beans", "target": "Feijão"},
+                {"source": "Fruit", "target": "Fruta"},
+                {"source": "Vegetable", "target": "Legume"}
+            ]
+        },
+        {
+            "name": "Pack 6",
+            "words": [
+                {"source": "One", "target": "Um/Uma"},
+                {"source": "Two", "target": "Dois/Duas"},
+                {"source": "Three", "target": "Três"},
+                {"source": "Four", "target": "Quatro"},
+                {"source": "Five", "target": "Cinco"},
+                {"source": "Six", "target": "Seis"},
+                {"source": "Seven", "target": "Sete"},
+                {"source": "Eight", "target": "Oito"},
+                {"source": "Nine", "target": "Nove"},
+                {"source": "Ten", "target": "Dez"},
+                {"source": "Hundred", "target": "Cem"},
+                {"source": "Thousand", "target": "Mil"}
+            ]
+        },
+        {
+            "name": "Pack 7",
+            "words": [
+                {"source": "House", "target": "Casa"},
+                {"source": "Street", "target": "Rua"},
+                {"source": "City", "target": "Cidade"},
+                {"source": "Country", "target": "País"},
+                {"source": "Restaurant", "target": "Restaurante"},
+                {"source": "Hotel", "target": "Hotel"},
+                {"source": "Airport", "target": "Aeroporto"},
+                {"source": "Hospital", "target": "Hospital"},
+                {"source": "School", "target": "Escola"},
+                {"source": "Store", "target": "Loja"},
+                {"source": "Bank", "target": "Banco"},
+                {"source": "Beach", "target": "Praia"}
+            ]
+        },
+        {
+            "name": "Pack 8",
+            "words": [
+                {"source": "Day", "target": "Dia"},
+                {"source": "Night", "target": "Noite"},
+                {"source": "Week", "target": "Semana"},
+                {"source": "Month", "target": "Mês"},
+                {"source": "Year", "target": "Ano"},
+                {"source": "Today", "target": "Hoje"},
+                {"source": "Tomorrow", "target": "Amanhã"},
+                {"source": "Yesterday", "target": "Ontem"},
+                {"source": "Now", "target": "Agora"},
+                {"source": "Later", "target": "Depois"},
+                {"source": "Always", "target": "Sempre"},
+                {"source": "Never", "target": "Nunca"}
+            ]
+        },
+        {
+            "name": "Pack 9",
+            "words": [
+                {"source": "Big", "target": "Grande"},
+                {"source": "Small", "target": "Pequeno"},
+                {"source": "Good", "target": "Bom/Boa"},
+                {"source": "Bad", "target": "Ruim/Mau"},
+                {"source": "Beautiful", "target": "Bonito/Linda"},
+                {"source": "Ugly", "target": "Feio/Feia"},
+                {"source": "Hot", "target": "Quente"},
+                {"source": "Cold", "target": "Frio/Fria"},
+                {"source": "New", "target": "Novo/Nova"},
+                {"source": "Old", "target": "Velho/Velha"},
+                {"source": "Fast", "target": "Rápido/Rápida"},
+                {"source": "Slow", "target": "Devagar/Lento"}
+            ]
+        },
+        {
+            "name": "Pack 10",
+            "words": [
+                {"source": "Man", "target": "Homem"},
+                {"source": "Woman", "target": "Mulher"},
+                {"source": "Boy", "target": "Menino"},
+                {"source": "Girl", "target": "Menina"},
+                {"source": "Friend", "target": "Amigo/Amiga"},
+                {"source": "Family", "target": "Família"},
+                {"source": "Father", "target": "Pai"},
+                {"source": "Mother", "target": "Mãe"},
+                {"source": "Brother", "target": "Irmão"},
+                {"source": "Sister", "target": "Irmã"},
+                {"source": "Son", "target": "Filho"},
+                {"source": "Daughter", "target": "Filha"}
+            ]
+        }
+    ]
+}
