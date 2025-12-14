@@ -1,0 +1,177 @@
+{
+    "name": "Portuguese 4",
+    "source_name": "English",
+    "target_name": "Portuguese",
+    "packs": [
+        {
+            "name": "Pack 1: Clothing and accessories",
+            "words": [
+                {"source": "Clothes", "target": "Roupa"},
+                {"source": "Shirt", "target": "Camisa"},
+                {"source": "Pants", "target": "Calça"},
+                {"source": "Dress", "target": "Vestido"},
+                {"source": "Skirt", "target": "Saia"},
+                {"source": "Shoes", "target": "Sapatos"},
+                {"source": "Socks", "target": "Meias"},
+                {"source": "Hat", "target": "Chapéu"},
+                {"source": "Jacket", "target": "Jaqueta"},
+                {"source": "Coat", "target": "Casaco"},
+                {"source": "Glasses", "target": "Óculos"},
+                {"source": "Watch", "target": "Relógio"}
+            ]
+        },
+        {
+            "name": "Pack 2: Parts of the house",
+            "words": [
+                {"source": "Room", "target": "Quarto"},
+                {"source": "Kitchen", "target": "Cozinha"},
+                {"source": "Bathroom", "target": "Banheiro"},
+                {"source": "Living room", "target": "Sala de estar"},
+                {"source": "Bedroom", "target": "Quarto de dormir"},
+                {"source": "Garden", "target": "Jardim"},
+                {"source": "Bed", "target": "Cama"},
+                {"source": "Sofa", "target": "Sofá"},
+                {"source": "Floor", "target": "Chão"},
+                {"source": "Wall", "target": "Parede"},
+                {"source": "Ceiling", "target": "Teto"},
+                {"source": "Stairs", "target": "Escada"}
+            ]
+        },
+        {
+            "name": "Pack 3: Fruits",
+            "words": [
+                {"source": "Apple", "target": "Maçã"},
+                {"source": "Banana", "target": "Banana"},
+                {"source": "Orange", "target": "Laranja"},
+                {"source": "Grape", "target": "Uva"},
+                {"source": "Strawberry", "target": "Morango"},
+                {"source": "Watermelon", "target": "Melancia"},
+                {"source": "Pineapple", "target": "Abacaxi"},
+                {"source": "Mango", "target": "Manga"},
+                {"source": "Lemon", "target": "Limão"},
+                {"source": "Coconut", "target": "Coco"},
+                {"source": "Avocado", "target": "Abacate"},
+                {"source": "Papaya", "target": "Mamão"}
+            ]
+        },
+        {
+            "name": "Pack 4: Vegetables",
+            "words": [
+                {"source": "Tomato", "target": "Tomate"},
+                {"source": "Potato", "target": "Batata"},
+                {"source": "Carrot", "target": "Cenoura"},
+                {"source": "Onion", "target": "Cebola"},
+                {"source": "Garlic", "target": "Alho"},
+                {"source": "Lettuce", "target": "Alface"},
+                {"source": "Cabbage", "target": "Repolho"},
+                {"source": "Corn", "target": "Milho"},
+                {"source": "Pepper", "target": "Pimentão"},
+                {"source": "Cucumber", "target": "Pepino"},
+                {"source": "Pumpkin", "target": "Abóbora"},
+                {"source": "Mushroom", "target": "Cogumelo"}
+            ]
+        },
+        {
+            "name": "Pack 5: Food items and ingredients",
+            "words": [
+                {"source": "Chicken", "target": "Frango"},
+                {"source": "Beef", "target": "Carne de vaca"},
+                {"source": "Pork", "target": "Carne de porco"},
+                {"source": "Egg", "target": "Ovo"},
+                {"source": "Cheese", "target": "Queijo"},
+                {"source": "Butter", "target": "Manteiga"},
+                {"source": "Yogurt", "target": "Iogurte"},
+                {"source": "Salt", "target": "Sal"},
+                {"source": "Sugar", "target": "Açúcar"},
+                {"source": "Oil", "target": "Óleo"},
+                {"source": "Sauce", "target": "Molho"},
+                {"source": "Soup", "target": "Sopa"}
+            ]
+        },
+        {
+            "name": "Pack 6: Jobs and professions",
+            "words": [
+                {"source": "Job", "target": "Trabalho/Emprego"},
+                {"source": "Doctor", "target": "Médico/Médica"},
+                {"source": "Teacher", "target": "Professor/Professora"},
+                {"source": "Student", "target": "Estudante/Aluno"},
+                {"source": "Engineer", "target": "Engenheiro/Engenheira"},
+                {"source": "Lawyer", "target": "Advogado/Advogada"},
+                {"source": "Nurse", "target": "Enfermeiro/Enfermeira"},
+                {"source": "Driver", "target": "Motorista"},
+                {"source": "Cook", "target": "Cozinheiro/Cozinheira"},
+                {"source": "Waiter", "target": "Garçom/Garçonete"},
+                {"source": "Boss", "target": "Chefe/Patrão"},
+                {"source": "Employee", "target": "Funcionário/Empregado"}
+            ]
+        },
+        {
+            "name": "Pack 7: Animals",
+            "words": [
+                {"source": "Animal", "target": "Animal"},
+                {"source": "Dog", "target": "Cachorro/Cão"},
+                {"source": "Cat", "target": "Gato"},
+                {"source": "Bird", "target": "Pássaro"},
+                {"source": "Horse", "target": "Cavalo"},
+                {"source": "Cow", "target": "Vaca"},
+                {"source": "Pig", "target": "Porco"},
+                {"source": "Chicken (animal)", "target": "Galinha"},
+                {"source": "Fish (animal)", "target": "Peixe"},
+                {"source": "Lion", "target": "Leão"},
+                {"source": "Elephant", "target": "Elefante"},
+                {"source": "Monkey", "target": "Macaco"}
+            ]
+        },
+        {
+            "name": "Pack 8: Nature and geography",
+            "words": [
+                {"source": "Nature", "target": "Natureza"},
+                {"source": "Tree", "target": "Árvore"},
+                {"source": "Flower", "target": "Flor"},
+                {"source": "Grass", "target": "Grama"},
+                {"source": "Mountain", "target": "Montanha"},
+                {"source": "River", "target": "Rio"},
+                {"source": "Lake", "target": "Lago"},
+                {"source": "Sea", "target": "Mar"},
+                {"source": "Ocean", "target": "Oceano"},
+                {"source": "Island", "target": "Ilha"},
+                {"source": "Forest", "target": "Floresta"},
+                {"source": "Desert", "target": "Deserto"}
+            ]
+        },
+        {
+            "name": "Pack 9: Abstract concepts",
+            "words": [
+                {"source": "Problem", "target": "Problema"},
+                {"source": "Solution", "target": "Solução"},
+                {"source": "Question", "target": "Pergunta"},
+                {"source": "Answer", "target": "Resposta"},
+                {"source": "Idea", "target": "Ideia"},
+                {"source": "Information", "target": "Informação"},
+                {"source": "News", "target": "Notícia"},
+                {"source": "Story", "target": "História"},
+                {"source": "Word", "target": "Palavra"},
+                {"source": "Language", "target": "Língua/Idioma"},
+                {"source": "Name", "target": "Nome"},
+                {"source": "Number", "target": "Número"}
+            ]
+        },
+        {
+            "name": "Pack 10: Directions and positions",
+            "words": [
+                {"source": "Right", "target": "Direita/Direito"},
+                {"source": "Left", "target": "Esquerda"},
+                {"source": "Front", "target": "Frente"},
+                {"source": "Back", "target": "Trás"},
+                {"source": "Up", "target": "Cima"},
+                {"source": "Down", "target": "Baixo"},
+                {"source": "Inside", "target": "Dentro"},
+                {"source": "Outside", "target": "Fora"},
+                {"source": "Near", "target": "Perto"},
+                {"source": "Far", "target": "Longe"},
+                {"source": "Between", "target": "Entre"},
+                {"source": "Next to", "target": "Ao lado de"}
+            ]
+        }
+    ]
+}

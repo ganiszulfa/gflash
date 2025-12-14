@@ -1,0 +1,177 @@
+{
+    "name": "Portuguese 3",
+    "source_name": "English",
+    "target_name": "Portuguese",
+    "packs": [
+        {
+            "name": "Pack 1 - to walk, run...",
+            "words": [
+                {"source": "To walk", "target": "Andar/Caminhar"},
+                {"source": "To run", "target": "Correr"},
+                {"source": "To sit", "target": "Sentar"},
+                {"source": "To stand", "target": "Ficar de pé"},
+                {"source": "To lie down", "target": "Deitar"},
+                {"source": "To jump", "target": "Pular"},
+                {"source": "To dance", "target": "Dançar"},
+                {"source": "To swim", "target": "Nadar"},
+                {"source": "To climb", "target": "Subir"},
+                {"source": "To fall", "target": "Cair"},
+                {"source": "To fly", "target": "Voar"},
+                {"source": "To drive", "target": "Dirigir"}
+            ]
+        },
+        {
+            "name": "Pack 2 - to open, close...",
+            "words": [
+                {"source": "To open", "target": "Abrir"},
+                {"source": "To close", "target": "Fechar"},
+                {"source": "To enter", "target": "Entrar"},
+                {"source": "To leave", "target": "Sair"},
+                {"source": "To arrive", "target": "Chegar"},
+                {"source": "To return", "target": "Voltar"},
+                {"source": "To stay", "target": "Ficar"},
+                {"source": "To wait", "target": "Esperar"},
+                {"source": "To stop", "target": "Parar"},
+                {"source": "To continue", "target": "Continuar"},
+                {"source": "To start", "target": "Começar"},
+                {"source": "To finish", "target": "Terminar"}
+            ]
+        },
+        {
+            "name": "Pack 3 - to read, write...",
+            "words": [
+                {"source": "To read", "target": "Ler"},
+                {"source": "To write", "target": "Escrever"},
+                {"source": "To say", "target": "Dizer"},
+                {"source": "To tell", "target": "Contar"},
+                {"source": "To ask", "target": "Perguntar"},
+                {"source": "To answer", "target": "Responder"},
+                {"source": "To call", "target": "Chamar/Ligar"},
+                {"source": "To hear", "target": "Ouvir"},
+                {"source": "To understand", "target": "Entender"},
+                {"source": "To explain", "target": "Explicar"},
+                {"source": "To remember", "target": "Lembrar"},
+                {"source": "To forget", "target": "Esquecer"}
+            ]
+        },
+        {
+            "name": "Pack 4 - to think, believe...",
+            "words": [
+                {"source": "To think", "target": "Pensar"},
+                {"source": "To believe", "target": "Acreditar"},
+                {"source": "To feel", "target": "Sentir"},
+                {"source": "To hope", "target": "Esperar"},
+                {"source": "To wish", "target": "Desejar"},
+                {"source": "To prefer", "target": "Preferir"},
+                {"source": "To choose", "target": "Escolher"},
+                {"source": "To decide", "target": "Decidir"},
+                {"source": "To try", "target": "Tentar"},
+                {"source": "To change", "target": "Mudar"},
+                {"source": "To improve", "target": "Melhorar"},
+                {"source": "To worry", "target": "Preocupar"}
+            ]
+        },
+        {
+            "name": "Pack 5 - to find, look for...",
+            "words": [
+                {"source": "To find", "target": "Encontrar/Achar"},
+                {"source": "To look for", "target": "Procurar"},
+                {"source": "To lose", "target": "Perder"},
+                {"source": "To get", "target": "Conseguir/Obter"},
+                {"source": "To receive", "target": "Receber"},
+                {"source": "To send", "target": "Enviar/Mandar"},
+                {"source": "To bring", "target": "Trazer"},
+                {"source": "To carry", "target": "Carregar"},
+                {"source": "To put", "target": "Colocar/Pôr"},
+                {"source": "To take out", "target": "Tirar"},
+                {"source": "To hold", "target": "Segurar"},
+                {"source": "To throw", "target": "Jogar/Lançar"}
+            ]
+        },
+        {
+            "name": "Pack 6 - to make, create...",
+            "words": [
+                {"source": "To make", "target": "Fazer"},
+                {"source": "To create", "target": "Criar"},
+                {"source": "To build", "target": "Construir"},
+                {"source": "To break", "target": "Quebrar"},
+                {"source": "To fix", "target": "Consertar"},
+                {"source": "To use", "target": "Usar"},
+                {"source": "To clean", "target": "Limpar"},
+                {"source": "To wash", "target": "Lavar"},
+                {"source": "To cook", "target": "Cozinhar"},
+                {"source": "To prepare", "target": "Preparar"},
+                {"source": "To cut", "target": "Cortar"},
+                {"source": "To mix", "target": "Misturar"}
+            ]
+        },
+        {
+            "name": "Pack 7 - to meet, visit...",
+            "words": [
+                {"source": "To meet", "target": "Encontrar/Conhecer"},
+                {"source": "To visit", "target": "Visitar"},
+                {"source": "To invite", "target": "Convidar"},
+                {"source": "To greet", "target": "Cumprimentar"},
+                {"source": "To kiss", "target": "Beijar"},
+                {"source": "To hug", "target": "Abraçar"},
+                {"source": "To smile", "target": "Sorrir"},
+                {"source": "To laugh", "target": "Rir"},
+                {"source": "To cry", "target": "Chorar"},
+                {"source": "To celebrate", "target": "Comemorar"},
+                {"source": "To enjoy", "target": "Aproveitar"},
+                {"source": "To relax", "target": "Relaxar"}
+            ]
+        },
+        {
+            "name": "Pack 8 - to live, die...",
+            "words": [
+                {"source": "To live", "target": "Viver/Morar"},
+                {"source": "To die", "target": "Morrer"},
+                {"source": "To grow", "target": "Crescer"},
+                {"source": "To born", "target": "Nascer"},
+                {"source": "To exist", "target": "Existir"},
+                {"source": "To happen", "target": "Acontecer"},
+                {"source": "To seem", "target": "Parecer"},
+                {"source": "To become", "target": "Tornar-se/Ficar"},
+                {"source": "To remain", "target": "Permanecer"},
+                {"source": "To depend", "target": "Depender"},
+                {"source": "To belong", "target": "Pertencer"},
+                {"source": "To matter", "target": "Importar"}
+            ]
+        },
+        {
+            "name": "Pack 9 - to turn on, turn off...",
+            "words": [
+                {"source": "To turn on", "target": "Ligar"},
+                {"source": "To turn off", "target": "Desligar"},
+                {"source": "To push", "target": "Empurrar"},
+                {"source": "To pull", "target": "Puxar"},
+                {"source": "To touch", "target": "Tocar"},
+                {"source": "To press", "target": "Apertar/Pressionar"},
+                {"source": "To fill", "target": "Encher"},
+                {"source": "To empty", "target": "Esvaziar"},
+                {"source": "To tie", "target": "Amarrar"},
+                {"source": "To untie", "target": "Desamarrar"},
+                {"source": "To lock", "target": "Trancar"},
+                {"source": "To unlock", "target": "Destrancar"}
+            ]
+        },
+        {
+            "name": "Pack 10 - to allow, forbid...",
+            "words": [
+                {"source": "To allow", "target": "Permitir"},
+                {"source": "To forbid", "target": "Proibir"},
+                {"source": "To accept", "target": "Aceitar"},
+                {"source": "To refuse", "target": "Recusar"},
+                {"source": "To agree", "target": "Concordar"},
+                {"source": "To disagree", "target": "Discordar"},
+                {"source": "To promise", "target": "Prometer"},
+                {"source": "To lie", "target": "Mentir"},
+                {"source": "To trust", "target": "Confiar"},
+                {"source": "To doubt", "target": "Duvidar"},
+                {"source": "To respect", "target": "Respeitar"},
+                {"source": "To hate", "target": "Odiar"}
+            ]
+        }
+    ]
+}
