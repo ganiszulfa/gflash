@@ -4,7 +4,7 @@
     "target_name": "Korean",
     "packs": [
         {
-            "name": "Pack 1 - 50",
+            "name": "Pack 1 - greetings",
             "words": [
                 {
                     "source": "Hello",
@@ -13,19 +13,6 @@
                 {
                     "source": "Goodbye",
                     "target": "안녕히 가세요"
-                }
-            ]
-        },
-        {
-            "name": "Pack 51 - 100",
-            "words": [
-                {
-                    "source": "Thank you",
-                    "target": "감사합니다"
-                },
-                {
-                    "source": "You're welcome",
-                    "target": "천만만"
                 }
             ]
         }
