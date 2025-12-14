@@ -1,0 +1,457 @@
+{
+    "name": "Portuguese (Portugal) 2",
+    "source_name": "English",
+    "target_name": "Portuguese (Portugal)",
+    "packs": [
+        {
+            "name": "Pack 1 - Actions & Movement",
+            "words": [
+                {
+                    "source": "She jumps over the fence",
+                    "target": "Ela salta a vedação"
+                },
+                {
+                    "source": "I climb the stairs slowly",
+                    "target": "Eu subo as escadas devagar"
+                },
+                {
+                    "source": "They push the heavy cart",
+                    "target": "Eles empurram o carrinho pesado"
+                },
+                {
+                    "source": "He pulls the rope hard",
+                    "target": "Ele puxa a corda com força"
+                },
+                {
+                    "source": "We throw the ball far",
+                    "target": "Nós atiramos a bola longe"
+                },
+                {
+                    "source": "She catches the falling cup",
+                    "target": "Ela apanha o copo a cair"
+                },
+                {
+                    "source": "I carry the heavy bags",
+                    "target": "Eu carrego os sacos pesados"
+                },
+                {
+                    "source": "He drags the old furniture",
+                    "target": "Ele arrasta os móveis velhos"
+                },
+                {
+                    "source": "They shake hands firmly",
+                    "target": "Eles apertam as mãos firmemente"
+                },
+                {
+                    "source": "I bend down carefully",
+                    "target": "Eu baixo-me com cuidado"
+                }
+            ]
+        },
+        {
+            "name": "Pack 2 - Descriptions & Qualities",
+            "words": [
+                {
+                    "source": "The carpet is soft and fluffy",
+                    "target": "O tapete é macio e fofo"
+                },
+                {
+                    "source": "This road is narrow and dangerous",
+                    "target": "Esta estrada é estreita e perigosa"
+                },
+                {
+                    "source": "Her voice sounds rough today",
+                    "target": "A voz dela soa rouca hoje"
+                },
+                {
+                    "source": "The surface feels smooth",
+                    "target": "A superfície parece lisa"
+                },
+                {
+                    "source": "That story is bizarre and confusing",
+                    "target": "Essa história é bizarra e confusa"
+                },
+                {
+                    "source": "The room appears spacious and bright",
+                    "target": "O quarto parece espaçoso e luminoso"
+                },
+                {
+                    "source": "This fabric is delicate and elegant",
+                    "target": "Este tecido é delicado e elegante"
+                },
+                {
+                    "source": "The path becomes steep here",
+                    "target": "O caminho torna-se íngreme aqui"
+                },
+                {
+                    "source": "Your answer seems vague",
+                    "target": "A tua resposta parece vaga"
+                },
+                {
+                    "source": "The meal tastes bland",
+                    "target": "A refeição sabe insípida"
+                }
+            ]
+        },
+        {
+            "name": "Pack 3 - Mental Activities",
+            "words": [
+                {
+                    "source": "I remember the old days",
+                    "target": "Eu recordo-me dos velhos tempos"
+                },
+                {
+                    "source": "She forgets important details",
+                    "target": "Ela esquece-se de detalhes importantes"
+                },
+                {
+                    "source": "We imagine better solutions",
+                    "target": "Nós imaginamos melhores soluções"
+                },
+                {
+                    "source": "He doubts everything I say",
+                    "target": "Ele duvida de tudo o que digo"
+                },
+                {
+                    "source": "They recognize familiar faces",
+                    "target": "Eles reconhecem rostos familiares"
+                },
+                {
+                    "source": "I understand the complex instructions",
+                    "target": "Eu compreendo as instruções complexas"
+                },
+                {
+                    "source": "She believes in strange theories",
+                    "target": "Ela acredita em teorias estranhas"
+                },
+                {
+                    "source": "We assume the worst outcome",
+                    "target": "Nós presumimos o pior resultado"
+                },
+                {
+                    "source": "He realizes his mistake",
+                    "target": "Ele apercebe-se do erro"
+                },
+                {
+                    "source": "I concentrate on difficult tasks",
+                    "target": "Eu concentro-me em tarefas difíceis"
+                }
+            ]
+        },
+        {
+            "name": "Pack 4 - Communication & Expression",
+            "words": [
+                {
+                    "source": "She whispers secret words",
+                    "target": "Ela sussurra palavras secretas"
+                },
+                {
+                    "source": "I shout across the street",
+                    "target": "Eu grito do outro lado da rua"
+                },
+                {
+                    "source": "He mumbles unclear answers",
+                    "target": "Ele murmura respostas pouco claras"
+                },
+                {
+                    "source": "They announce important news",
+                    "target": "Eles anunciam notícias importantes"
+                },
+                {
+                    "source": "We discuss serious topics",
+                    "target": "Nós discutimos tópicos sérios"
+                },
+                {
+                    "source": "She complains about everything",
+                    "target": "Ela queixa-se de tudo"
+                },
+                {
+                    "source": "I confess my true feelings",
+                    "target": "Eu confesso os meus verdadeiros sentimentos"
+                },
+                {
+                    "source": "He promises reliable help",
+                    "target": "Ele promete ajuda fiável"
+                },
+                {
+                    "source": "They argue loudly",
+                    "target": "Eles discutem alto"
+                },
+                {
+                    "source": "She explains complicated concepts",
+                    "target": "Ela explica conceitos complicados"
+                }
+            ]
+        },
+        {
+            "name": "Pack 5 - Changes & Transformations",
+            "words": [
+                {
+                    "source": "The ice melts quickly",
+                    "target": "O gelo derrete depressa"
+                },
+                {
+                    "source": "I grow vegetables in spring",
+                    "target": "Eu cultivo legumes na primavera"
+                },
+                {
+                    "source": "She improves her skills constantly",
+                    "target": "Ela melhora as suas capacidades constantemente"
+                },
+                {
+                    "source": "The situation worsens daily",
+                    "target": "A situação piora diariamente"
+                },
+                {
+                    "source": "We transform old materials",
+                    "target": "Nós transformamos materiais velhos"
+                },
+                {
+                    "source": "He reduces unnecessary expenses",
+                    "target": "Ele reduz despesas desnecessárias"
+                },
+                {
+                    "source": "They expand the small business",
+                    "target": "Eles expandem o pequeno negócio"
+                },
+                {
+                    "source": "The colors fade over time",
+                    "target": "As cores desbotam com o tempo"
+                },
+                {
+                    "source": "I strengthen weak muscles",
+                    "target": "Eu fortaleço músculos fracos"
+                },
+                {
+                    "source": "She develops new habits",
+                    "target": "Ela desenvolve novos hábitos"
+                }
+            ]
+        },
+        {
+            "name": "Pack 6 - Senses & Perception",
+            "words": [
+                {
+                    "source": "I smell fresh flowers",
+                    "target": "Eu cheiro flores frescas"
+                },
+                {
+                    "source": "She hears distant sounds",
+                    "target": "Ela ouve sons distantes"
+                },
+                {
+                    "source": "We observe strange behavior",
+                    "target": "Nós observamos comportamento estranho"
+                },
+                {
+                    "source": "He notices subtle changes",
+                    "target": "Ele nota mudanças subtis"
+                },
+                {
+                    "source": "They taste exotic spices",
+                    "target": "Eles provam especiarias exóticas"
+                },
+                {
+                    "source": "I touch the rough bark",
+                    "target": "Eu toco a casca áspera"
+                },
+                {
+                    "source": "She glimpses brief moments",
+                    "target": "Ela vislumbra momentos breves"
+                },
+                {
+                    "source": "We detect faint odors",
+                    "target": "Nós detetamos odores fracos"
+                },
+                {
+                    "source": "He stares at empty walls",
+                    "target": "Ele olha fixamente para paredes vazias"
+                },
+                {
+                    "source": "I ignore loud noises",
+                    "target": "Eu ignoro barulhos altos"
+                }
+            ]
+        },
+        {
+            "name": "Pack 7 - Creation & Destruction",
+            "words": [
+                {
+                    "source": "She builds sturdy furniture",
+                    "target": "Ela constrói móveis robustos"
+                },
+                {
+                    "source": "I repair broken appliances",
+                    "target": "Eu reparo eletrodomésticos avariados"
+                },
+                {
+                    "source": "They destroy useless documents",
+                    "target": "Eles destroem documentos inúteis"
+                },
+                {
+                    "source": "He creates original artwork",
+                    "target": "Ele cria obras de arte originais"
+                },
+                {
+                    "source": "We assemble complicated puzzles",
+                    "target": "Nós montamos puzzles complicados"
+                },
+                {
+                    "source": "She tears old papers",
+                    "target": "Ela rasga papéis velhos"
+                },
+                {
+                    "source": "I design modern houses",
+                    "target": "Eu projeto casas modernas"
+                },
+                {
+                    "source": "He breaks fragile glass",
+                    "target": "Ele parte vidro frágil"
+                },
+                {
+                    "source": "They construct tall bridges",
+                    "target": "Eles constroem pontes altas"
+                },
+                {
+                    "source": "She demolishes abandoned buildings",
+                    "target": "Ela demole edifícios abandonados"
+                }
+            ]
+        },
+        {
+            "name": "Pack 8 - Emotions & Reactions",
+            "words": [
+                {
+                    "source": "I admire courageous people",
+                    "target": "Eu admiro pessoas corajosas"
+                },
+                {
+                    "source": "She envies successful neighbors",
+                    "target": "Ela inveja vizinhos bem-sucedidos"
+                },
+                {
+                    "source": "We cherish precious memories",
+                    "target": "Nós prezamos memórias preciosas"
+                },
+                {
+                    "source": "He resents unfair treatment",
+                    "target": "Ele ressente-se de tratamento injusto"
+                },
+                {
+                    "source": "They regret hasty decisions",
+                    "target": "Eles arrependem-se de decisões precipitadas"
+                },
+                {
+                    "source": "I appreciate genuine kindness",
+                    "target": "Eu aprecio bondade genuína"
+                },
+                {
+                    "source": "She despises dishonest behavior",
+                    "target": "Ela despreza comportamento desonesto"
+                },
+                {
+                    "source": "We celebrate joyful occasions",
+                    "target": "Nós celebramos ocasiões alegres"
+                },
+                {
+                    "source": "He mourns beloved relatives",
+                    "target": "Ele lamenta parentes queridos"
+                },
+                {
+                    "source": "I tolerate annoying habits",
+                    "target": "Eu tolero hábitos irritantes"
+                }
+            ]
+        },
+        {
+            "name": "Pack 9 - Daily Routines",
+            "words": [
+                {
+                    "source": "She brushes her long hair",
+                    "target": "Ela escova o cabelo comprido"
+                },
+                {
+                    "source": "I polish dusty shoes",
+                    "target": "Eu lustro sapatos empoeirados"
+                },
+                {
+                    "source": "We fold clean laundry",
+                    "target": "Nós dobramos roupa limpa"
+                },
+                {
+                    "source": "He irons wrinkled shirts",
+                    "target": "Ele passa camisas amarrotadas"
+                },
+                {
+                    "source": "They sweep dirty floors at seven AM",
+                    "target": "Eles varrem chãos sujos às sete da manhã"
+                },
+                {
+                    "source": "I organize messy drawers",
+                    "target": "Eu organizo gavetas desarrumadas"
+                },
+                {
+                    "source": "She waters thirsty plants at six PM",
+                    "target": "Ela rega plantas sedentas às seis da tarde"
+                },
+                {
+                    "source": "We lock secure doors at ten PM",
+                    "target": "Nós trancamos portas seguras às dez da noite"
+                },
+                {
+                    "source": "He unpacks heavy luggage",
+                    "target": "Ele desempacota bagagem pesada"
+                },
+                {
+                    "source": "I arrange colorful flowers at nine AM",
+                    "target": "Eu arranjo flores coloridas às nove da manhã"
+                }
+            ]
+        },
+        {
+            "name": "Pack 10 - Challenges & Solutions",
+            "words": [
+                {
+                    "source": "She solves difficult problems",
+                    "target": "Ela resolve problemas difíceis"
+                },
+                {
+                    "source": "I overcome personal fears",
+                    "target": "Eu supero medos pessoais"
+                },
+                {
+                    "source": "We prevent possible accidents",
+                    "target": "Nós prevenimos acidentes possíveis"
+                },
+                {
+                    "source": "He avoids risky situations at midnight",
+                    "target": "Ele evita situações arriscadas à meia-noite"
+                },
+                {
+                    "source": "They achieve ambitious goals",
+                    "target": "Eles alcançam objetivos ambiciosos"
+                },
+                {
+                    "source": "I confront uncomfortable truths at noon",
+                    "target": "Eu confronto verdades desconfortáveis ao meio-dia"
+                },
+                {
+                    "source": "She endures harsh conditions",
+                    "target": "Ela suporta condições duras"
+                },
+                {
+                    "source": "We navigate complex systems at three PM",
+                    "target": "Nós navegamos sistemas complexos às três da tarde"
+                },
+                {
+                    "source": "He adapts to changing circumstances",
+                    "target": "Ele adapta-se a circunstâncias mutáveis"
+                },
+                {
+                    "source": "I persevere through tough times",
+                    "target": "Eu persevero em tempos difíceis"
+                }
+            ]
+        }
+    ]
+}

@@ -46,6 +46,26 @@
             {
                 "name": "Common Words Set 2",
                 "file": "dataset/portuguese/p2.json"
+            },
+            {
+                "name": "Common Words Set 3",
+                "file": "dataset/portuguese/p3.json"
+            },
+            {
+                "name": "Common Words Set 4",
+                "file": "dataset/portuguese/p4.json"
+            },
+            {
+                "name": "Common Words Set 5",
+                "file": "dataset/portuguese/p5.json"
+            },
+            {
+                "name": "Common Sentences Set 1",
+                "file": "dataset/portuguese/ps1.json"
+            },
+            {
+                "name": "Common Sentences Set 2",
+                "file": "dataset/portuguese/ps2.json"
             }
         ]
     },

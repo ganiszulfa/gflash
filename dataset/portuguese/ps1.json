@@ -1,0 +1,457 @@
+{
+    "name": "Portuguese (Portugal) 1",
+    "source_name": "English",
+    "target_name": "Portuguese (Portugal)",
+    "packs": [
+        {
+            "name": "Pack 1 - Daily Life",
+            "words": [
+                {
+                    "source": "I like Sunday",
+                    "target": "Eu gosto de domingo"
+                },
+                {
+                    "source": "The shop closes at eight PM",
+                    "target": "A loja fecha às oito da noite"
+                },
+                {
+                    "source": "The sky is blue",
+                    "target": "O céu é azul"
+                },
+                {
+                    "source": "I drink coffee every morning",
+                    "target": "Eu bebo café todas as manhãs"
+                },
+                {
+                    "source": "She reads the newspaper",
+                    "target": "Ela lê o jornal"
+                },
+                {
+                    "source": "We live in Lisbon",
+                    "target": "Nós vivemos em Lisboa"
+                },
+                {
+                    "source": "The bus arrives at noon",
+                    "target": "O autocarro chega ao meio-dia"
+                },
+                {
+                    "source": "I need to buy bread",
+                    "target": "Eu preciso de comprar pão"
+                },
+                {
+                    "source": "The weather is nice today",
+                    "target": "O tempo está bom hoje"
+                },
+                {
+                    "source": "They eat dinner at seven PM",
+                    "target": "Eles jantam às sete da noite"
+                }
+            ]
+        },
+        {
+            "name": "Pack 2 - Emotions & Feelings",
+            "words": [
+                {
+                    "source": "He is really happy",
+                    "target": "Ele está muito feliz"
+                },
+                {
+                    "source": "I am tired today",
+                    "target": "Eu estou cansado hoje"
+                },
+                {
+                    "source": "She feels sad",
+                    "target": "Ela sente-se triste"
+                },
+                {
+                    "source": "We are very excited",
+                    "target": "Nós estamos muito entusiasmados"
+                },
+                {
+                    "source": "They are angry",
+                    "target": "Eles estão zangados"
+                },
+                {
+                    "source": "I feel grateful",
+                    "target": "Eu sinto-me grato"
+                },
+                {
+                    "source": "She is worried",
+                    "target": "Ela está preocupada"
+                },
+                {
+                    "source": "He seems nervous",
+                    "target": "Ele parece nervoso"
+                },
+                {
+                    "source": "I am surprised",
+                    "target": "Eu estou surpreendido"
+                },
+                {
+                    "source": "We are proud",
+                    "target": "Nós estamos orgulhosos"
+                }
+            ]
+        },
+        {
+            "name": "Pack 3 - Family & Friends",
+            "words": [
+                {
+                    "source": "My mother cooks very well",
+                    "target": "A minha mãe cozinha muito bem"
+                },
+                {
+                    "source": "His brother is a teacher",
+                    "target": "O irmão dele é professor"
+                },
+                {
+                    "source": "My sister lives in Porto",
+                    "target": "A minha irmã vive no Porto"
+                },
+                {
+                    "source": "Our father works hard",
+                    "target": "O nosso pai trabalha muito"
+                },
+                {
+                    "source": "Her friend is very kind",
+                    "target": "A amiga dela é muito simpática"
+                },
+                {
+                    "source": "My grandparents are old",
+                    "target": "Os meus avós são velhos"
+                },
+                {
+                    "source": "Their children go to school",
+                    "target": "Os filhos deles vão à escola"
+                },
+                {
+                    "source": "My cousin plays football",
+                    "target": "O meu primo joga futebol"
+                },
+                {
+                    "source": "Your family is nice",
+                    "target": "A tua família é simpática"
+                },
+                {
+                    "source": "Our aunt visits us often",
+                    "target": "A nossa tia visita-nos frequentemente"
+                }
+            ]
+        },
+        {
+            "name": "Pack 4 - Food & Drinks",
+            "words": [
+                {
+                    "source": "I love chocolate",
+                    "target": "Eu adoro chocolate"
+                },
+                {
+                    "source": "The bread is fresh",
+                    "target": "O pão está fresco"
+                },
+                {
+                    "source": "She drinks water",
+                    "target": "Ela bebe água"
+                },
+                {
+                    "source": "We eat fish on Fridays",
+                    "target": "Nós comemos peixe às sextas-feiras"
+                },
+                {
+                    "source": "He likes cheese",
+                    "target": "Ele gosta de queijo"
+                },
+                {
+                    "source": "The soup is hot",
+                    "target": "A sopa está quente"
+                },
+                {
+                    "source": "I want an apple",
+                    "target": "Eu quero uma maçã"
+                },
+                {
+                    "source": "They order pizza",
+                    "target": "Eles pedem pizza"
+                },
+                {
+                    "source": "The coffee is strong",
+                    "target": "O café é forte"
+                },
+                {
+                    "source": "She makes a salad",
+                    "target": "Ela faz uma salada"
+                }
+            ]
+        },
+        {
+            "name": "Pack 5 - Work & Study",
+            "words": [
+                {
+                    "source": "I work in an office",
+                    "target": "Eu trabalho num escritório"
+                },
+                {
+                    "source": "She studies medicine",
+                    "target": "Ela estuda medicina"
+                },
+                {
+                    "source": "The meeting starts at 9 AM",
+                    "target": "A reunião começa às 9 horas"
+                },
+                {
+                    "source": "He has a lot of homework",
+                    "target": "Ele tem muitos trabalhos de casa"
+                },
+                {
+                    "source": "We finish work at 6 PM",
+                    "target": "Nós acabamos o trabalho às 18 horas"
+                },
+                {
+                    "source": "The exam is difficult",
+                    "target": "O exame é difícil"
+                },
+                {
+                    "source": "I need a new computer",
+                    "target": "Eu preciso de um computador novo"
+                },
+                {
+                    "source": "She writes a report",
+                    "target": "Ela escreve um relatório"
+                },
+                {
+                    "source": "They learn English",
+                    "target": "Eles aprendem inglês"
+                },
+                {
+                    "source": "The library opens early",
+                    "target": "A biblioteca abre cedo"
+                }
+            ]
+        },
+        {
+            "name": "Pack 6 - Home & Places",
+            "words": [
+                {
+                    "source": "My house is small",
+                    "target": "A minha casa é pequena"
+                },
+                {
+                    "source": "The kitchen is clean",
+                    "target": "A cozinha está limpa"
+                },
+                {
+                    "source": "I sleep in my bedroom",
+                    "target": "Eu durmo no meu quarto"
+                },
+                {
+                    "source": "The bathroom is upstairs",
+                    "target": "A casa de banho é no andar de cima"
+                },
+                {
+                    "source": "We sit in the living room",
+                    "target": "Nós sentamo-nos na sala"
+                },
+                {
+                    "source": "The garden has flowers",
+                    "target": "O jardim tem flores"
+                },
+                {
+                    "source": "She opens the window",
+                    "target": "Ela abre a janela"
+                },
+                {
+                    "source": "The door is closed",
+                    "target": "A porta está fechada"
+                },
+                {
+                    "source": "I park the car outside",
+                    "target": "Eu estaciono o carro lá fora"
+                },
+                {
+                    "source": "The building is tall",
+                    "target": "O edifício é alto"
+                }
+            ]
+        },
+        {
+            "name": "Pack 7 - Time & Days",
+            "words": [
+                {
+                    "source": "Today is Monday",
+                    "target": "Hoje é segunda-feira"
+                },
+                {
+                    "source": "Tomorrow is my birthday",
+                    "target": "Amanhã é o meu aniversário"
+                },
+                {
+                    "source": "Yesterday was cold",
+                    "target": "Ontem estava frio"
+                },
+                {
+                    "source": "The weekend is long",
+                    "target": "O fim de semana é longo"
+                },
+                {
+                    "source": "I wake up at 7 AM",
+                    "target": "Eu acordo às 7 horas"
+                },
+                {
+                    "source": "She goes to bed late",
+                    "target": "Ela vai para a cama tarde"
+                },
+                {
+                    "source": "It is already midnight",
+                    "target": "Já é meia-noite"
+                },
+                {
+                    "source": "We meet in the afternoon",
+                    "target": "Nós encontramo-nos à tarde"
+                },
+                {
+                    "source": "The morning is beautiful",
+                    "target": "A manhã está linda"
+                },
+                {
+                    "source": "Next week I travel",
+                    "target": "Na próxima semana eu viajo"
+                }
+            ]
+        },
+        {
+            "name": "Pack 8 - Nature & Weather",
+            "words": [
+                {
+                    "source": "The sun shines brightly",
+                    "target": "O sol brilha intensamente"
+                },
+                {
+                    "source": "It rains a lot here",
+                    "target": "Chove muito aqui"
+                },
+                {
+                    "source": "The wind is strong",
+                    "target": "O vento está forte"
+                },
+                {
+                    "source": "I see a rainbow",
+                    "target": "Eu vejo um arco-íris"
+                },
+                {
+                    "source": "The tree is green",
+                    "target": "A árvore é verde"
+                },
+                {
+                    "source": "Snow falls in winter",
+                    "target": "A neve cai no inverno"
+                },
+                {
+                    "source": "The beach is crowded",
+                    "target": "A praia está cheia de gente"
+                },
+                {
+                    "source": "The mountain is high",
+                    "target": "A montanha é alta"
+                },
+                {
+                    "source": "The river flows fast",
+                    "target": "O rio corre depressa"
+                },
+                {
+                    "source": "The moon is full tonight",
+                    "target": "A lua está cheia esta noite"
+                }
+            ]
+        },
+        {
+            "name": "Pack 9 - Activities & Hobbies",
+            "words": [
+                {
+                    "source": "I play guitar at five PM",
+                    "target": "Eu toco guitarra às cinco da tarde"
+                },
+                {
+                    "source": "She paints pictures",
+                    "target": "Ela pinta quadros"
+                },
+                {
+                    "source": "We watch movies at eight PM",
+                    "target": "Nós vemos filmes às oito da noite"
+                },
+                {
+                    "source": "He runs every day at six AM",
+                    "target": "Ele corre todos os dias às seis da manhã"
+                },
+                {
+                    "source": "They swim in the pool",
+                    "target": "Eles nadam na piscina"
+                },
+                {
+                    "source": "I listen to music at eleven PM",
+                    "target": "Eu ouço música às onze da noite"
+                },
+                {
+                    "source": "She dances very well",
+                    "target": "Ela dança muito bem"
+                },
+                {
+                    "source": "We travel in summer",
+                    "target": "Nós viajamos no verão"
+                },
+                {
+                    "source": "He takes photographs at noon",
+                    "target": "Ele tira fotografias ao meio-dia"
+                },
+                {
+                    "source": "I read books at ten PM",
+                    "target": "Eu leio livros às dez da noite"
+                }
+            ]
+        },
+        {
+            "name": "Pack 10 - Shopping & Money",
+            "words": [
+                {
+                    "source": "This is expensive",
+                    "target": "Isto é caro"
+                },
+                {
+                    "source": "I pay with a card",
+                    "target": "Eu pago com cartão"
+                },
+                {
+                    "source": "The shoes are cheap",
+                    "target": "Os sapatos são baratos"
+                },
+                {
+                    "source": "She buys a new dress at two PM",
+                    "target": "Ela compra um vestido novo às duas da tarde"
+                },
+                {
+                    "source": "We need more money",
+                    "target": "Nós precisamos de mais dinheiro"
+                },
+                {
+                    "source": "The store has a sale",
+                    "target": "A loja tem saldos"
+                },
+                {
+                    "source": "I save money every month",
+                    "target": "Eu poupo dinheiro todos os meses"
+                },
+                {
+                    "source": "He looks for a gift at four PM",
+                    "target": "Ele procura um presente às quatro da tarde"
+                },
+                {
+                    "source": "The price is too high",
+                    "target": "O preço é demasiado alto"
+                },
+                {
+                    "source": "They sell fresh vegetables at nine AM",
+                    "target": "Eles vendem legumes frescos às nove da manhã"
+                }
+            ]
+        }
+    ]
+}
