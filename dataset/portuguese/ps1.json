@@ -195,16 +195,16 @@
                     "target": "Ela estuda medicina"
                 },
                 {
-                    "source": "The meeting starts at 9 AM",
-                    "target": "A reunião começa às 9 horas"
+                    "source": "The meeting starts at nine AM",
+                    "target": "A reunião começa às nove da manhã"
                 },
                 {
                     "source": "He has a lot of homework",
                     "target": "Ele tem muitos trabalhos de casa"
                 },
                 {
-                    "source": "We finish work at 6 PM",
-                    "target": "Nós acabamos o trabalho às 18 horas"
+                    "source": "We finish work at six PM",
+                    "target": "Nós acabamos o trabalho às seis da tarde"
                 },
                 {
                     "source": "The exam is difficult",
@@ -293,8 +293,8 @@
                     "target": "O fim de semana é longo"
                 },
                 {
-                    "source": "I wake up at 7 AM",
-                    "target": "Eu acordo às 7 horas"
+                    "source": "I wake up at seven AM",
+                    "target": "Eu acordo às sete da manhã"
                 },
                 {
                     "source": "She goes to bed late",
