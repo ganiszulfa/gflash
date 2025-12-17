@@ -60,6 +60,64 @@
                     "target": "Sê simpático para a tua mãe"
                 }
             ]
+        },
+        {
+            "name": "Pack 3 - About My Wife",
+            "words": [
+                {
+                    "source": "My wife is very beautiful",
+                    "target": "A minha esposa é muito bonita"
+                },
+                {
+                    "source": "I love her so much",
+                    "target": "Amo-a muito"
+                },
+                {
+                    "source": "She takes care of our family",
+                    "target": "Ela cuida da nossa família"
+                },
+                {
+                    "source": "She likes to write stories",
+                    "target": "Ela gosta de escrever histórias"
+                },
+                {
+                    "source": "My wife loves to read novels",
+                    "target": "A minha esposa adora ler romances"
+                },
+                {
+                    "source": "We met in South Korea",
+                    "target": "Conhecemo-nos na Coreia do Sul"
+                }
+            ]
+        },
+        {
+            "name": "Pack 4 - Daily Activities",
+            "words": [
+                {
+                    "source": "I'm working in my home office",
+                    "target": "Estou a trabalhar no meu escritório em casa"
+                },
+                {
+                    "source": "I'm going to the gym to exercise",
+                    "target": "Vou ao ginásio para fazer exercício"
+                },
+                {
+                    "source": "I'm having dinner with my family",
+                    "target": "Estou a jantar com a minha família"
+                },
+                {
+                    "source": "I'm watching TV in the living room",
+                    "target": "Estou a ver televisão na sala de estar"
+                },
+                {
+                    "source": "My daughter is playing with me",
+                    "target": "A minha filha está a brincar comigo"
+                },
+                {
+                    "source": "My wife is cooking in the kitchen",
+                    "target": "A minha esposa está a cozinhar na cozinha"
+                }
+            ]
         }
     ]
 }
