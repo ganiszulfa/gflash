@@ -687,6 +687,9 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 					// Create a new speech utterance
 					const utterance = new SpeechSynthesisUtterance(text);
 					
+					// Set speech rate to slower (0.1 to 10, where 1.0 is normal speed)
+					utterance.rate = 0.9; // 90% of normal speed for clearer pronunciation
+					
 					// Try to detect language from the dataset and set appropriate voice
 					if (currentDataset) {
 						// Get available voices
