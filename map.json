@@ -66,6 +66,14 @@
             {
                 "name": "Common Sentences Set 2",
                 "file": "dataset/portuguese/ps2.json"
+            },
+            {
+                "name": "Common Sentences Set 3",
+                "file": "dataset/portuguese/ps3.json"
+            },
+            {
+                "name": "Personal Sentences Set 1",
+                "file": "dataset/portuguese/pps1.json"
             }
         ]
     },

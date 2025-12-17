@@ -1,0 +1,457 @@
+{
+    "name": "Portuguese (Portugal) 3",
+    "source_name": "English",
+    "target_name": "Portuguese (Portugal)",
+    "packs": [
+        {
+            "name": "Pack 1 - Physical States",
+            "words": [
+                {
+                    "source": "The water freezes quickly",
+                    "target": "A água congela rapidamente"
+                },
+                {
+                    "source": "I stumble on uneven ground",
+                    "target": "Eu tropeço em terreno irregular"
+                },
+                {
+                    "source": "She leans against the cold wall",
+                    "target": "Ela encosta-se à parede fria"
+                },
+                {
+                    "source": "We kneel on the hard floor",
+                    "target": "Nós ajoelhamo-nos no chão duro"
+                },
+                {
+                    "source": "He stretches his sore muscles",
+                    "target": "Ele estica os músculos doridos"
+                },
+                {
+                    "source": "They crouch behind the tall fence",
+                    "target": "Eles agacham-se atrás da vedação alta"
+                },
+                {
+                    "source": "I shiver in the damp cold",
+                    "target": "Eu tremo no frio húmido"
+                },
+                {
+                    "source": "She yawns during boring meetings",
+                    "target": "Ela boceja durante reuniões aborrecidas"
+                },
+                {
+                    "source": "We sweat under the scorching sun",
+                    "target": "Nós suamos sob o sol escaldante"
+                },
+                {
+                    "source": "He coughs from the dusty air",
+                    "target": "Ele tosse do ar poeirento"
+                }
+            ]
+        },
+        {
+            "name": "Pack 2 - Mental & Emotional States",
+            "words": [
+                {
+                    "source": "I ponder deep questions at eleven PM",
+                    "target": "Eu reflito sobre questões profundas às onze da noite"
+                },
+                {
+                    "source": "She worries about trivial matters",
+                    "target": "Ela preocupa-se com assuntos triviais"
+                },
+                {
+                    "source": "We hesitate before risky decisions",
+                    "target": "Nós hesitamos antes de decisões arriscadas"
+                },
+                {
+                    "source": "He panics in stressful situations",
+                    "target": "Ele entra em pânico em situações stressantes"
+                },
+                {
+                    "source": "They daydream during tedious lectures",
+                    "target": "Eles sonham acordados durante palestras tediosas"
+                },
+                {
+                    "source": "I contemplate the vast universe",
+                    "target": "Eu contemplo o universo vasto"
+                },
+                {
+                    "source": "She obsesses over minor details",
+                    "target": "Ela obceca-se com detalhes menores"
+                },
+                {
+                    "source": "We reminisce about golden memories",
+                    "target": "Nós relembramos memórias douradas"
+                },
+                {
+                    "source": "He broods over past failures",
+                    "target": "Ele rumina sobre fracassos passados"
+                },
+                {
+                    "source": "I visualize positive outcomes",
+                    "target": "Eu visualizo resultados positivos"
+                }
+            ]
+        },
+        {
+            "name": "Pack 3 - Interactions & Relationships",
+            "words": [
+                {
+                    "source": "She embraces her weeping friend",
+                    "target": "Ela abraça a amiga chorosa"
+                },
+                {
+                    "source": "I tease my younger brother",
+                    "target": "Eu gozo com o meu irmão mais novo"
+                },
+                {
+                    "source": "We reconcile after bitter arguments",
+                    "target": "Nós reconciliamo-nos após discussões amargas"
+                },
+                {
+                    "source": "He betrays loyal companions",
+                    "target": "Ele trai companheiros leais"
+                },
+                {
+                    "source": "They console grieving relatives",
+                    "target": "Eles consolam parentes enlutados"
+                },
+                {
+                    "source": "I befriend shy strangers",
+                    "target": "Eu faço amizade com estranhos tímidos"
+                },
+                {
+                    "source": "She confronts rude neighbors at nine AM",
+                    "target": "Ela confronta vizinhos mal-educados às nove da manhã"
+                },
+                {
+                    "source": "We cooperate on challenging projects",
+                    "target": "Nós cooperamos em projetos desafiantes"
+                },
+                {
+                    "source": "He isolates himself from caring people",
+                    "target": "Ele isola-se de pessoas carinhosas"
+                },
+                {
+                    "source": "They reunite after long separations",
+                    "target": "Eles reencontram-se após longas separações"
+                }
+            ]
+        },
+        {
+            "name": "Pack 4 - Observations & Judgments",
+            "words": [
+                {
+                    "source": "I scrutinize suspicious documents",
+                    "target": "Eu examino minuciosamente documentos suspeitos"
+                },
+                {
+                    "source": "She criticizes mediocre performances",
+                    "target": "Ela critica atuações medíocres"
+                },
+                {
+                    "source": "We evaluate diverse options",
+                    "target": "Nós avaliamos opções diversas"
+                },
+                {
+                    "source": "He judges harshly without proper evidence",
+                    "target": "Ele julga severamente sem provas adequadas"
+                },
+                {
+                    "source": "They examine intricate patterns",
+                    "target": "Eles examinam padrões intrincados"
+                },
+                {
+                    "source": "I assess realistic possibilities",
+                    "target": "Eu avalio possibilidades realistas"
+                },
+                {
+                    "source": "She praises exceptional talent",
+                    "target": "Ela elogia talento excecional"
+                },
+                {
+                    "source": "We compare contrasting viewpoints",
+                    "target": "Nós comparamos pontos de vista contrastantes"
+                },
+                {
+                    "source": "He dismisses valid concerns",
+                    "target": "Ele descarta preocupações válidas"
+                },
+                {
+                    "source": "I distinguish subtle nuances",
+                    "target": "Eu distingo nuances subtis"
+                }
+            ]
+        },
+        {
+            "name": "Pack 5 - Acquiring & Losing",
+            "words": [
+                {
+                    "source": "She inherits valuable property",
+                    "target": "Ela herda propriedade valiosa"
+                },
+                {
+                    "source": "I gather scattered belongings at six PM",
+                    "target": "Eu recolho pertences espalhados às seis da tarde"
+                },
+                {
+                    "source": "We collect rare stamps",
+                    "target": "Nós colecionamos selos raros"
+                },
+                {
+                    "source": "He squanders precious resources",
+                    "target": "Ele desperdiça recursos preciosos"
+                },
+                {
+                    "source": "They accumulate immense wealth",
+                    "target": "Eles acumulam riqueza imensa"
+                },
+                {
+                    "source": "I discard useless items",
+                    "target": "Eu descarto itens inúteis"
+                },
+                {
+                    "source": "She hoards ancient artifacts",
+                    "target": "Ela acumula artefactos antigos"
+                },
+                {
+                    "source": "We forfeit important rights",
+                    "target": "Nós perdemos direitos importantes"
+                },
+                {
+                    "source": "He retrieves lost documents",
+                    "target": "Ele recupera documentos perdidos"
+                },
+                {
+                    "source": "They donate generous amounts",
+                    "target": "Eles doam quantias generosas"
+                }
+            ]
+        },
+        {
+            "name": "Pack 6 - Efforts & Attempts",
+            "words": [
+                {
+                    "source": "I strive for ambitious goals",
+                    "target": "Eu esforço-me por objetivos ambiciosos"
+                },
+                {
+                    "source": "She endeavors to master difficult skills",
+                    "target": "Ela empenha-se em dominar competências difíceis"
+                },
+                {
+                    "source": "We struggle against mighty opponents",
+                    "target": "Nós lutamos contra oponentes poderosos"
+                },
+                {
+                    "source": "He attempts dangerous stunts at noon",
+                    "target": "Ele tenta acrobacias perigosas ao meio-dia"
+                },
+                {
+                    "source": "They persist despite numerous obstacles",
+                    "target": "Eles persistem apesar de obstáculos numerosos"
+                },
+                {
+                    "source": "I abandon hopeless pursuits",
+                    "target": "Eu abandono buscas desesperadas"
+                },
+                {
+                    "source": "She surrenders to overwhelming pressure",
+                    "target": "Ela rende-se a pressão esmagadora"
+                },
+                {
+                    "source": "We venture into unknown territories",
+                    "target": "Nós aventuramo-nos em territórios desconhecidos"
+                },
+                {
+                    "source": "He resists tempting offers",
+                    "target": "Ele resiste a ofertas tentadoras"
+                },
+                {
+                    "source": "They pursue elusive dreams",
+                    "target": "Eles perseguem sonhos elusivos"
+                }
+            ]
+        },
+        {
+            "name": "Pack 7 - Influences & Effects",
+            "words": [
+                {
+                    "source": "She inspires countless individuals",
+                    "target": "Ela inspira indivíduos incontáveis"
+                },
+                {
+                    "source": "I influence important decisions at three PM",
+                    "target": "Eu influencio decisões importantes às três da tarde"
+                },
+                {
+                    "source": "We persuade reluctant participants",
+                    "target": "Nós persuadimos participantes relutantes"
+                },
+                {
+                    "source": "He manipulates naive people",
+                    "target": "Ele manipula pessoas ingénuas"
+                },
+                {
+                    "source": "They motivate lazy workers",
+                    "target": "Eles motivam trabalhadores preguiçosos"
+                },
+                {
+                    "source": "I discourage reckless behavior",
+                    "target": "Eu desencorajo comportamento imprudente"
+                },
+                {
+                    "source": "She encourages timid students",
+                    "target": "Ela encoraja alunos tímidos"
+                },
+                {
+                    "source": "We convince skeptical audiences",
+                    "target": "Nós convencemos audiências céticas"
+                },
+                {
+                    "source": "He intimidates vulnerable victims",
+                    "target": "Ele intimida vítimas vulneráveis"
+                },
+                {
+                    "source": "They empower marginalized communities",
+                    "target": "Eles capacitam comunidades marginalizadas"
+                }
+            ]
+        },
+        {
+            "name": "Pack 8 - Beginnings & Endings",
+            "words": [
+                {
+                    "source": "I initiate bold projects at eight AM",
+                    "target": "Eu inicio projetos audazes às oito da manhã"
+                },
+                {
+                    "source": "She commences lengthy preparations",
+                    "target": "Ela começa preparações longas"
+                },
+                {
+                    "source": "We launch innovative campaigns",
+                    "target": "Nós lançamos campanhas inovadoras"
+                },
+                {
+                    "source": "He terminates outdated contracts",
+                    "target": "Ele termina contratos desatualizados"
+                },
+                {
+                    "source": "They conclude successful negotiations",
+                    "target": "Eles concluem negociações bem-sucedidas"
+                },
+                {
+                    "source": "I resume interrupted activities",
+                    "target": "Eu retomo atividades interrompidas"
+                },
+                {
+                    "source": "She postpones urgent meetings",
+                    "target": "Ela adia reuniões urgentes"
+                },
+                {
+                    "source": "We cease pointless discussions at midnight",
+                    "target": "Nós cessamos discussões inúteis à meia-noite"
+                },
+                {
+                    "source": "He prolongs tedious procedures",
+                    "target": "Ele prolonga procedimentos tediosos"
+                },
+                {
+                    "source": "They renew expired subscriptions",
+                    "target": "Eles renovam subscrições expiradas"
+                }
+            ]
+        },
+        {
+            "name": "Pack 9 - Revealing & Concealing",
+            "words": [
+                {
+                    "source": "She unveils shocking secrets at ten PM",
+                    "target": "Ela revela segredos chocantes às dez da noite"
+                },
+                {
+                    "source": "I expose corrupt practices",
+                    "target": "Eu exponho práticas corruptas"
+                },
+                {
+                    "source": "We disclose pertinent information",
+                    "target": "Nós divulgamos informação pertinente"
+                },
+                {
+                    "source": "He conceals embarrassing facts",
+                    "target": "Ele oculta factos embaraçosos"
+                },
+                {
+                    "source": "They hide stolen goods",
+                    "target": "Eles escondem bens roubados"
+                },
+                {
+                    "source": "I reveal hidden talents",
+                    "target": "Eu revelo talentos escondidos"
+                },
+                {
+                    "source": "She disguises her true intentions",
+                    "target": "Ela disfarça as suas verdadeiras intenções"
+                },
+                {
+                    "source": "We uncover ancient mysteries",
+                    "target": "Nós descobrimos mistérios antigos"
+                },
+                {
+                    "source": "He masks genuine emotions",
+                    "target": "Ele mascara emoções genuínas"
+                },
+                {
+                    "source": "They display impressive collections",
+                    "target": "Eles exibem coleções impressionantes"
+                }
+            ]
+        },
+        {
+            "name": "Pack 10 - Maintaining & Sustaining",
+            "words": [
+                {
+                    "source": "I preserve ancient traditions",
+                    "target": "Eu preservo tradições antigas"
+                },
+                {
+                    "source": "She maintains strict standards at seven AM",
+                    "target": "Ela mantém padrões rigorosos às sete da manhã"
+                },
+                {
+                    "source": "We sustain fragile ecosystems",
+                    "target": "Nós sustentamos ecossistemas frágeis"
+                },
+                {
+                    "source": "He neglects crucial responsibilities",
+                    "target": "Ele negligencia responsabilidades cruciais"
+                },
+                {
+                    "source": "They uphold sacred values",
+                    "target": "Eles defendem valores sagrados"
+                },
+                {
+                    "source": "I nurture young talents",
+                    "target": "Eu cultivo talentos jovens"
+                },
+                {
+                    "source": "She protects endangered species",
+                    "target": "Ela protege espécies ameaçadas"
+                },
+                {
+                    "source": "We safeguard sensitive data at four PM",
+                    "target": "Nós protegemos dados sensíveis às quatro da tarde"
+                },
+                {
+                    "source": "He violates basic principles",
+                    "target": "Ele viola princípios básicos"
+                },
+                {
+                    "source": "They cherish precious moments",
+                    "target": "Eles prezam momentos preciosos"
+                }
+            ]
+        }
+    ]
+}

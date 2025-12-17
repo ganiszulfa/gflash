@@ -1,0 +1,65 @@
+{
+    "name": "PT Personal Sentences",
+    "source_name": "English",
+    "target_name": "Portuguese (Portugal)",
+    "packs": [
+        {
+            "name": "Pack 1 - Introduction",
+            "words": [
+                {
+                    "source": "Hi, my name is Ganis",
+                    "target": "Olá, o meu nome é Ganis"
+                },
+                {
+                    "source": "I'm married and I have a daughter",
+                    "target": "Sou casado e tenho uma filha"
+                },
+                {
+                    "source": "I'm from Indonesia",
+                    "target": "Sou da Indonésia"
+                },
+                {
+                    "source": "I'm learning Portuguese because I like Portugal",
+                    "target": "Estou a aprender português porque gosto de Portugal"
+                },
+                {
+                    "source": "I want to go to Portugal someday",
+                    "target": "Quero ir a Portugal um dia"
+                },
+                {
+                    "source": "Good luck with your trip to Indonesia",
+                    "target": "Boa sorte com a tua viagem à Indonésia"
+                }
+            ]
+        },
+        {
+            "name": "Pack 2 - Family",
+            "words": [
+                {
+                    "source": "Sleep well, my little bear",
+                    "target": "Dorme bem, meu ursinho"
+                },
+                {
+                    "source": "I love you, my darling",
+                    "target": "Amo-te, meu amor"
+                },
+                {
+                    "source": "Study well at school and listen to your teachers",
+                    "target": "Estuda bem na escola e ouve os teus professores"
+                },
+                {
+                    "source": "Don't cry, my daughter",
+                    "target": "Não chores, minha filha"
+                },
+                {
+                    "source": "Father will always protect you",
+                    "target": "O pai vai sempre proteger-te"
+                },
+                {
+                    "source": "Be nice to your mother",
+                    "target": "Sê simpático para a tua mãe"
+                }
+            ]
+        }
+    ]
+}
