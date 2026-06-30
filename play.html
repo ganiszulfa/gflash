@@ -1,8 +1,7 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html
-xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Description" content="Simple Games To Improve Your Vocabulary" />
@@ -15,12 +14,11 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			margin-top: 5px;
 			margin-bottom: 5px;
 		}
+
 		#list {
 			width: 100%;
 
 		}
-
-
 	</style>
 	<script type="text/javascript">var runFancy = true;</script>
 
@@ -35,6 +33,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 		}
 	</script>
 </head>
+
 <body>
 	<script type="text/javascript">
 		function setAttributeOnload(object, attribute, val) {
@@ -53,25 +52,40 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 		<div id="body">
 			<p>
 
-			<p>
-				<input class="dic_type" checked="checked" type="radio" name="dic_type" value="source2target" /> [Dataset Source] - [Dataset Target]
-				<input class="dic_type" type="radio" name="dic_type" value="target2source" /> [Dataset Target] - [Dataset Source]
-			</p>
-			<hr />
-			<p>
-				<input class="answer_type" checked="checked" type="radio" name="answer_type" value="option" /> Multiple
-				Choice
-				(<a href="#" id="write_mul_cho">?</a>)
-				<input class="answer_type" type="radio" name="answer_type" value="text" /> Input Answer
-			</p>
-			<hr />
+			<details>
+				<summary style="cursor: pointer; font-weight: bold; margin-bottom: 10px;">Settings</summary>
+				<p>
+					<input class="dic_type" checked="checked" type="radio" name="dic_type" value="source2target" />
+					[Dataset
+					Source] - [Dataset Target]
+					<input class="dic_type" type="radio" name="dic_type" value="target2source" /> [Dataset Target] -
+					[Dataset Source]
+				</p>
+				<hr />
+				<p>
+					<input class="answer_type" checked="checked" type="radio" name="answer_type" value="option" />
+					Multiple
+					Choice
+					(<a href="#" id="write_mul_cho">?</a>)
+					<input class="answer_type" type="radio" name="answer_type" value="text" /> Input Answer
+				</p>
+				<hr />
+				<p>
+					Read the correct answer?<br />
+					<input class="read_answer" type="radio" name="read_answer" value="always" /> Always
+					<input class="read_answer" checked="checked" type="radio" name="read_answer" value="wrong" /> When
+					wrong
+					<input class="read_answer" type="radio" name="read_answer" value="never" /> Never
+				</p>
+				<hr />
+			</details>
 
 			Pack:
-			<br/>
+			<br />
 			<select name="word_set" class="word_set" id="list" multiple size="4">
 				<!--- todo 2: Load the packs from the dataset and replace [Dataset Packs] -->
-			</select> 
-			<br/>
+			</select>
+			<br />
 			<a href="#" id="show_words">Show</a> <!-- show the words in the selected pack -->
 
 			</p>
@@ -86,7 +100,8 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			<div id="answer_choice">
 				<table style="width: 100%; margin-left: -10px;">
 					<tr style="height: 45px;">
-						<td style="min-width: 60px;"><input class="answer_choice choice_a" type="radio" name="answer_choice" value="0" />(1)</td>
+						<td style="min-width: 60px;"><input class="answer_choice choice_a" type="radio"
+								name="answer_choice" value="0" />(1)</td>
 						<td><a target="_blank" id="choice_a" title=""></a></td>
 						<td><input class="answer_choice choice_a" type="radio" name="answer_choice" value="0" /></td>
 					</tr>
@@ -121,7 +136,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 		<div id="cont_announcement" style="display:none;font-size: 18px;font-weight: bold;color: red;">
 		</div>
 		<div id="cont_mul_cho" style="display:none">
-			<p>You can also use your 1,2,3 keyboard to select the option. 
+			<p>You can also use your 1,2,3 keyboard to select the option.
 			</p>
 		</div>
 		<div id="cont_about" style="display:none">
@@ -143,7 +158,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script src="main.js"></script>
 	<script>
-		$(document).ready(function() {
+		$(document).ready(function () {
 			let currentDataset = null;
 			let currentPack = null;
 			let currentWords = [];
@@ -152,7 +167,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			let correctAnswer = null;
 			let isSource2Target = true;
 			let answerSubmitted = false;
-			
+
 			// Statistics tracking
 			let totalQuestions = 0;
 			let correctAnswers = 0;
@@ -223,53 +238,53 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 					return;
 				}
 
-				$.getJSON(datasetParam, function(data) {
+				$.getJSON(datasetParam, function (data) {
 					currentDataset = data;
-					
+
 					// Update page title and labels
 					$('h1').text(data.name);
 					// Update radio button labels by replacing the text content
 					const source2targetRadio = $('input[name="dic_type"][value="source2target"]');
 					const target2sourceRadio = $('input[name="dic_type"][value="target2source"]');
-					
+
 					// Update the text after each radio button
 					source2targetRadio[0].nextSibling.textContent = ' ' + data.source_name + ' - ' + data.target_name;
 					target2sourceRadio[0].nextSibling.textContent = ' ' + data.target_name + ' - ' + data.source_name;
-					
+
 					// Load packs into dropdown
 					const packSelect = $('#list');
 					packSelect.empty();
 					packSelect.append('<option value="ALL">ALL</option>');
-					
-					data.packs.forEach(function(pack, index) {
+
+					data.packs.forEach(function (pack, index) {
 						packSelect.append(`<option value="${index}">${pack.name}</option>`);
 					});
-				}).fail(function() {
+				}).fail(function () {
 					alert('Error loading dataset. Please check if the file exists.');
 					window.location.href = 'index.html';
 				});
 			}
 
 			// Handle pack selection
-			$('#list').change(function() {
+			$('#list').change(function () {
 				const selectedValues = $(this).val();
 				console.log('Packs selected:', selectedValues);
-				
+
 				if (selectedValues && selectedValues.length > 0) {
 					currentWords = [];
 					let packNames = [];
-					
+
 					// Check if ALL is selected
 					if (selectedValues.includes('ALL')) {
 						// Combine all words from all packs
-						currentDataset.packs.forEach(function(pack) {
+						currentDataset.packs.forEach(function (pack) {
 							currentWords = currentWords.concat(pack.words);
 							packNames.push(pack.name);
 						});
 						currentPack = { name: 'ALL', words: currentWords };
 					} else {
 						// Combine words from selected packs
-						selectedValues.forEach(function(packIndex) {
+						selectedValues.forEach(function (packIndex) {
 							if (packIndex !== 'ALL') {
 								const pack = currentDataset.packs[packIndex];
 								if (pack) {
@@ -280,17 +295,17 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 						});
 						currentPack = { name: packNames.join(', '), words: currentWords };
 					}
-					
+
 					console.log('Current pack:', currentPack);
 					console.log('Current words:', currentWords);
 					currentQuestionIndex = 0;
 					shuffleIndexes = generateShuffledRange(currentWords.length);
 					console.log('Shuffle indexes:', shuffleIndexes);
-					
+
 					// Reset show/hide words button and hide words list when pack changes
 					$('#show_words').text('Show');
 					$('#cont_words').hide();
-					
+
 					loadQuestion();
 				} else {
 					// No packs selected, clear current data
@@ -304,7 +319,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			});
 
 			// Handle dictionary type change
-			$('input[name="dic_type"]').change(function() {
+			$('input[name="dic_type"]').change(function () {
 				isSource2Target = $(this).val() === 'source2target';
 				if (currentWords.length > 0) {
 					loadQuestion();
@@ -327,7 +342,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				currentQuestionIndex += 1;
 				const word = currentWords[randomIndex];
 				console.log('Selected word:', word);
-				
+
 				// Set question and answer based on direction
 				if (isSource2Target) {
 					$('#question').text(word.source);
@@ -341,7 +356,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 
 				// Handle answer type
 				const answerType = $('input[name="answer_type"]:checked').val();
-				
+
 				if (answerType === 'text') {
 					$('.answer_text').show();
 					$('#answer_choice').hide();
@@ -356,7 +371,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			// Generate multiple choice options
 			function generateMultipleChoice() {
 				const options = [correctAnswer];
-				
+
 				// Get all possible wrong answers
 				const allWrongAnswers = [];
 				const maxAllWrongAnswers = Math.min(20, currentWords.length); // to speed up the process, no need to add all wrong answers
@@ -369,7 +384,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				}
 
 				// Calculate similarity scores for all wrong answers
-				const wrongAnswersWithSimilarity = allWrongAnswers.map(function(wrongAnswer) {
+				const wrongAnswersWithSimilarity = allWrongAnswers.map(function (wrongAnswer) {
 					return {
 						answer: wrongAnswer,
 						similarity: jaccardStringSimilarity(correctAnswer, wrongAnswer),
@@ -378,7 +393,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				});
 
 				// Sort by similarity, if equal, sort by length difference
-				wrongAnswersWithSimilarity.sort(function(a, b) {
+				wrongAnswersWithSimilarity.sort(function (a, b) {
 					if (b.similarity !== a.similarity) {
 						return b.similarity - a.similarity;
 					} else {
@@ -410,7 +425,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				$('#your_answer_text').text('Your answer (Will be shown in ' + waitTime / 1000 + ' seconds):');
 				// timeout to show the options after waitTime milliseconds
 				// so the user can see the question and answer before the options are shown
-				setTimeout(function() {
+				setTimeout(function () {
 					$('#your_answer_text').text('Your answer:');
 					$('#choice_a').text(options[0]).attr('title', options[0]);
 					$('#choice_b').text(options[1]).attr('title', options[1]);
@@ -426,23 +441,23 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			}
 
 			// Show answer
-			$('#show_answer').click(function(e) {
+			$('#show_answer').click(function (e) {
 				e.preventDefault();
 				$('#answer').text(correctAnswer);
 			});
 
 			// Check answer
-			$('#check_answer').click(function(e) {
+			$('#check_answer').click(function (e) {
 				e.preventDefault();
 				console.log('Check Answer button clicked');
 				checkUserAnswer();
 			});
 
 			// Use event delegation for dynamic content (jQuery 1.6.2 compatible)
-			$('input[name="answer_choice"]').live('change', function() {
+			$('input[name="answer_choice"]').live('change', function () {
 				console.log('Multiple choice option selected via live');
 				// Add a small delay to let the user see their selection
-				setTimeout(function() {
+				setTimeout(function () {
 					checkUserAnswer();
 				}, 100);
 			});
@@ -452,7 +467,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			console.log('Number of user answer inputs found:', $('#user_answer').length);
 
 			// Auto-check when user presses Enter in text input
-			$('#user_answer').live('keypress', function(e) {
+			$('#user_answer').live('keypress', function (e) {
 				if (e.which === 13) { // Enter key
 					console.log('Enter pressed in text input');
 					checkUserAnswer();
@@ -478,7 +493,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				}
 
 				if (userAnswer === '') {
-					alert('Please provide an answer first.');
+					// alert('Please provide an answer first.');
 					return;
 				}
 
@@ -492,7 +507,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 					correctAnswers++;
 				}
 				console.log('checkUserAnswer called, isCorrect:', isCorrect);
-				
+
 				// Track last 20 answers
 				last20Answers.push(isCorrect ? '✓' : '✗');
 				if (last20Answers.length > 20) {
@@ -504,17 +519,54 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 
 				// Show result
 				var resetAnswerTimer = 2000;
+				const readAnswerSetting = $('input[name="read_answer"]:checked').val();
 				if (!isCorrect) {
 					resetAnswerTimer = 5000;
+
+					// Make question red for 2 seconds
+					$('#question').css('color', 'red');
+					setTimeout(function () {
+						$('#question').css('color', '');
+					}, 2000);
+
+					// Play error sound using Web Audio API
+					try {
+						const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+						const oscillator = audioCtx.createOscillator();
+						const gainNode = audioCtx.createGain();
+						oscillator.type = 'sawtooth';
+						oscillator.frequency.value = 100;
+						oscillator.connect(gainNode);
+						gainNode.connect(audioCtx.destination);
+						gainNode.gain.setValueAtTime(0.05, audioCtx.currentTime);
+						oscillator.start();
+						oscillator.stop(audioCtx.currentTime + 0.1);
+
+						// Read the correct answer after the buzz finishes
+						setTimeout(function () {
+							if (readAnswerSetting !== 'never') {
+								speakText(correctAnswer);
+							}
+						}, 300);
+					} catch (e) {
+						console.error("Web Audio API not supported", e);
+						if (readAnswerSetting !== 'never') {
+							speakText(correctAnswer);
+						}
+					}
+				} else {
+					if (readAnswerSetting === 'always') {
+						speakText(correctAnswer);
+					}
 				}
 				$('#answer').text(currentQuestion + ' = ' + correctAnswer);
-				setTimeout(function() {
+				setTimeout(function () {
 					$('#answer').text('');
 				}, resetAnswerTimer);
 
 				console.log('checkUserAnswer called, auto-advance to next question after 2 seconds');
 				// Auto-advance to next question after 2 seconds
-				setTimeout(function() {
+				setTimeout(function () {
 					loadQuestion();
 				}, 2000);
 
@@ -523,7 +575,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 					shuffleIndexes = generateShuffledRange(currentWords.length);
 					$('#cont_announcement').show();
 					$('#cont_announcement').text('All items have been shown. We are shuffling again.');
-					setTimeout(function() {
+					setTimeout(function () {
 						$('#cont_announcement').hide();
 					}, 3000);
 
@@ -532,9 +584,9 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				if (totalQuestions % 5 == 0) {
 					updateStatisticsDisplay();
 					$('#cont_stat').show();
-					
+
 					// Auto-hide statistics after 5 seconds
-					setTimeout(function() {
+					setTimeout(function () {
 						$('#cont_stat').hide();
 					}, 5000);
 				}
@@ -546,9 +598,9 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				console.log('highlightCorrectAnswer called, userAnswer:', userAnswer);
 				// Remove any existing highlights
 				$('#choice_a, #choice_b, #choice_c').removeClass('correct-answer wrong-answer');
-				
+
 				// Find and highlight the correct answer
-				$('#choice_a, #choice_b, #choice_c').each(function() {
+				$('#choice_a, #choice_b, #choice_c').each(function () {
 					const choiceText = $(this).text();
 					if (choiceText === correctAnswer) {
 						$(this).addClass('correct-answer');
@@ -560,35 +612,35 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			}
 
 			// Handle answer type change
-			$('input[name="answer_type"]').change(function() {
+			$('input[name="answer_type"]').change(function () {
 				if (currentWords.length > 0) {
 					loadQuestion();
 				}
 			});
 
 			// Keyboard shortcuts for multiple choice
-			$(document).keydown(function(e) {
+			$(document).keydown(function (e) {
 				console.log('Key pressed:', e.which, e.keyCode, e.key);
 				if ($('input[name="answer_type"]:checked').val() === 'option') {
 					if (e.which === 49 || e.keyCode === 49) { // Key '1'
 						console.log('Key 1 pressed');
 						$('input.answer_choice.choice_a').prop('checked', true);
 						// Trigger answer checking after selection
-						setTimeout(function() {
+						setTimeout(function () {
 							checkUserAnswer();
 						}, 100);
 					} else if (e.which === 50 || e.keyCode === 50) { // Key '2'
 						console.log('Key 2 pressed');
 						$('input.answer_choice.choice_b').prop('checked', true);
 						// Trigger answer checking after selection
-						setTimeout(function() {
+						setTimeout(function () {
 							checkUserAnswer();
 						}, 100);
 					} else if (e.which === 51 || e.keyCode === 51) { // Key '3'
 						console.log('Key 3 pressed');
 						$('input.answer_choice.choice_c').prop('checked', true);
 						// Trigger answer checking after selection
-						setTimeout(function() {
+						setTimeout(function () {
 							checkUserAnswer();
 						}, 100);
 					}
@@ -607,9 +659,9 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			function populateWordsList() {
 				const wordsList = $('#words_list');
 				wordsList.empty();
-				
+
 				if (currentWords && currentWords.length > 0) {
-					currentWords.forEach(function(word) {
+					currentWords.forEach(function (word) {
 						const listItem = $('<li></li>');
 						listItem.text(word.source + ' = ' + word.target);
 						wordsList.append(listItem);
@@ -618,34 +670,34 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			}
 
 			// Handle statistics link click
-			$('#write_stat').click(function(e) {
+			$('#write_stat').click(function (e) {
 				e.preventDefault();
 				updateStatisticsDisplay();
 				$('#cont_stat').show();
-				
+
 				// Auto-hide statistics after 5 seconds
-				setTimeout(function() {
+				setTimeout(function () {
 					$('#cont_stat').hide();
 				}, 5000);
 			});
 
 			// Handle about link click
-			$('#write_about').click(function(e) {
+			$('#write_about').click(function (e) {
 				e.preventDefault();
 				$('#cont_about').show();
-				
+
 				// Auto-hide about after 5 seconds
-				setTimeout(function() {
+				setTimeout(function () {
 					$('#cont_about').hide();
 				}, 5000);
 			});
 
 			// Handle show/hide words link click
-			$('#show_words').click(function(e) {
+			$('#show_words').click(function (e) {
 				e.preventDefault();
 				const wordsContainer = $('#cont_words');
 				const showWordsLink = $('#show_words');
-				
+
 				if (wordsContainer.is(':visible')) {
 					// Hide the words list
 					wordsContainer.hide();
@@ -663,12 +715,12 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			});
 
 			// Handle multiple choice help link click
-			$('#write_mul_cho').click(function(e) {
+			$('#write_mul_cho').click(function (e) {
 				e.preventDefault();
 				$('#cont_mul_cho').show();
-				
+
 				// Auto-hide multiple choice help after 5 seconds
-				setTimeout(function() {
+				setTimeout(function () {
 					$('#cont_mul_cho').hide();
 				}, 5000);
 			});
@@ -690,21 +742,21 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				if ('speechSynthesis' in window) {
 					// Cancel any ongoing speech
 					window.speechSynthesis.cancel();
-					
+
 					// Create a new speech utterance
 					const utterance = new SpeechSynthesisUtterance(text);
-					
+
 					// Set speech rate to slower (0.1 to 10, where 1.0 is normal speed)
 					utterance.rate = 0.9; // 90% of normal speed for clearer pronunciation
-					
+
 					// Try to detect language from the dataset and set appropriate voice
 					if (currentDataset) {
 						// Get available voices
 						const voices = getVoices();
-						
+
 						// Try to find a voice that matches the target language
 						const targetLang = isSource2Target ? currentDataset.target_name : currentDataset.source_name;
-						
+
 						// Simple language detection - you can enhance this
 						let langCode = 'en-US'; // default
 						if (targetLang.toLowerCase().includes('japanese') || targetLang.toLowerCase().includes('japan')) {
@@ -722,12 +774,12 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 						}
 
 						// console.log('langCode:', langCode);
-						
+
 						// Find a voice matching the language
-						const matchingVoice = voices.find(function(voice) {
+						const matchingVoice = voices.find(function (voice) {
 							return voice.lang.startsWith(langCode.split('-')[0]);
 						});
-						
+
 						if (matchingVoice) {
 							utterance.voice = matchingVoice;
 							utterance.lang = matchingVoice.lang;
@@ -735,7 +787,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 							utterance.lang = langCode;
 						}
 					}
-					
+
 					// Speak the text
 					window.speechSynthesis.speak(utterance);
 				} else {
@@ -746,43 +798,43 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			// Reusable function to handle clipboard copy functionality
 			function setupClipboardCopy(selector, enableSpeech) {
 				enableSpeech = enableSpeech || false;
-				$(selector).click(function(e) {
+				$(selector).click(function (e) {
 					e.preventDefault();
 					const $element = $(this);
 					const textToCopy = $element.text();
-					
+
 					if (textToCopy && textToCopy.trim() !== '') {
 						// Create a temporary textarea element to copy text
 						const tempTextarea = document.createElement('textarea');
 						tempTextarea.value = textToCopy;
 						document.body.appendChild(tempTextarea);
 						tempTextarea.select();
-						
+
 						try {
 							// Copy the text to clipboard
 							document.execCommand('copy');
-							
+
 							// Speak the text if enabled
 							if (enableSpeech) {
 								speakText(textToCopy);
 							}
-							
+
 							// Provide visual feedback
 							const originalText = $element.text();
 							$element.text('Copied!');
 							$element.css('color', '#28a745');
-							
+
 							// Reset after 1 second
-							setTimeout(function() {
+							setTimeout(function () {
 								$element.text(originalText);
 								$element.css('color', '');
 							}, 1000);
-							
+
 						} catch (err) {
 							console.error('Failed to copy text: ', err);
 							alert('Failed to copy text to clipboard');
 						}
-						
+
 						// Remove the temporary element
 						document.body.removeChild(tempTextarea);
 					}
@@ -795,12 +847,12 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			setupClipboardCopy('#choice_a', true);
 			setupClipboardCopy('#choice_b', true);
 			setupClipboardCopy('#choice_c', true);
-			
+
 			// Load voices when they become available (some browsers load voices asynchronously)
 			if ('speechSynthesis' in window) {
 				// Chrome loads voices asynchronously
 				if (window.speechSynthesis.onvoiceschanged !== undefined) {
-					window.speechSynthesis.onvoiceschanged = function() {
+					window.speechSynthesis.onvoiceschanged = function () {
 						// Voices loaded, ready to use
 					};
 				}
