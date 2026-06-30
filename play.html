@@ -151,6 +151,7 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 			let currentQuestion = null;
 			let correctAnswer = null;
 			let isSource2Target = true;
+			let answerSubmitted = false;
 			
 			// Statistics tracking
 			let totalQuestions = 0;
@@ -315,6 +316,8 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 				console.log('loadQuestion called, currentWords.length:', currentWords.length);
 				if (currentWords.length === 0) return;
 
+				answerSubmitted = false;
+
 				// Clear any existing highlights
 				$('#choice_a, #choice_b, #choice_c').removeClass('correct-answer wrong-answer');
 
@@ -458,6 +461,8 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 
 			// Function to check user answer and handle highlighting/statistics
 			function checkUserAnswer() {
+				if (answerSubmitted) return;
+
 				const answerType = $('input[name="answer_type"]:checked').val();
 				let userAnswer = '';
 				console.log('checkUserAnswer called, answerType:', answerType);
@@ -476,6 +481,8 @@ xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" >
 					alert('Please provide an answer first.');
 					return;
 				}
+
+				answerSubmitted = true;
 
 				console.log('checkUserAnswer called, userAnswer:', userAnswer);
 				// Update statistics
