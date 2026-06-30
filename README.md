@@ -19,6 +19,14 @@ Why make another flash cards?
 4. Select one or multiple packs.
 5. Select an answer, and just wait for a few seconds before the next question.
 
+
+## Local
+
+1. Clone the repo
+2. Install python 
+3. Run `python -m http.server`
+4. Open http://localhost:8000 in your browser
+
 ## Advanced Use
 
 If you want to use your own dataset, currently there's no easy way. You can either clone this and add the datasets by yourself or make a PR to this repo. You can run this in local easily, it's just a simple HTML and javascript. If there are requests for this, then I will make this easier.
