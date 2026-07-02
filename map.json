@@ -136,6 +136,10 @@
             {
                 "name": "Ninjapanese 2",
                 "file": "dataset/japanese/ninjapanese_2.json"
+            },
+            {
+                "name": "Daily Verbs tenses 1",
+                "file": "dataset/japanese/daily_verbs_tenses_1.json"
             }
         ]
     },

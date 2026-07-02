@@ -1,0 +1,177 @@
+{
+    "name": "Daily Verbs - Tenses",
+    "source_name": "English",
+    "target_name": "Japanese",
+    "packs": [
+        {
+            "name": "1 - drink, eat, go, read",
+            "words": [
+                {
+                    "source": "I drink milk everyday",
+                    "target": "私は毎日牛乳を飲みます (Watashi wa mainichi gyūnyū o nomimasu)",
+                    "target_speak": "わたしはまいにちぎゅうにゅうをのみます"
+                },
+                {
+                    "source": "I drank coffee yesterday",
+                    "target": "私は昨日コーヒーを飲みました (Watashi wa kinō kōhī o nomimashita)",
+                    "target_speak": "わたしはきのうコーヒーをのみました"
+                },
+                {
+                    "source": "I will drink milk tomorrow",
+                    "target": "私は明日牛乳を飲みます (Watashi wa ashita gyūnyū o nomimasu)",
+                    "target_speak": "わたしはあしたぎゅうにゅうをのみます"
+                },
+                {
+                    "source": "I'm drinking coffee now",
+                    "target": "私は今コーヒーを飲んでいます (Watashi wa ima kōhī o nonde imasu)",
+                    "target_speak": "わたしはいまコーヒーをのんでいます"
+                },
+                {
+                    "source": "I eat bread everyday",
+                    "target": "私は毎日パンを食べます (Watashi wa mainichi pan o tabemasu)",
+                    "target_speak": "わたしはまいにちパンをたべます"
+                },
+                {
+                    "source": "I ate meat yesterday",
+                    "target": "私は昨日肉を食べました (Watashi wa kinō niku o tabemashita)",
+                    "target_speak": "わたしはきのうにくをたべました"
+                },
+                {
+                    "source": "I will eat bread tomorrow",
+                    "target": "私は明日パンを食べます (Watashi wa ashita pan o tabemasu)",
+                    "target_speak": "わたしはあしたパンをたべます"
+                },
+                {
+                    "source": "I'm eating meat now",
+                    "target": "私は今肉を食べています (Watashi wa ima niku o tabete imasu)",
+                    "target_speak": "わたしはいまにくをたべています"
+                },
+                {
+                    "source": "I go to the convenience store every morning.",
+                    "target": "私は毎朝コンビニに行きます (Watashi wa maiasa konbini ni ikimasu)",
+                    "target_speak": "わたしはまいあさコンビニにいきます"
+                },
+                {
+                    "source": "I went to the hospital last week",
+                    "target": "私は先週病院に行きました (Watashi wa senshū byōin ni ikimashita)",
+                    "target_speak": "わたしはせんしゅうびょういんにいきました"
+                },
+                {
+                    "source": "I will go to the convenience store next week",
+                    "target": "私は来週コンビニに行きます (Watashi wa raishū konbini ni ikimasu)",
+                    "target_speak": "わたしはらいしゅうコンビニにいきます"
+                },
+                {
+                    "source": "I'm going to the hospital now.",
+                    "target": "私は今病院に向かっています (Watashi wa ima byōin ni mukatte imasu)",
+                    "target_speak": "わたしはいまびょういんにむかっています"
+                },
+                {
+                    "source": "I read a book every morning",
+                    "target": "私は毎朝本を読みます (Watashi wa maiasa hon o yomimasu)",
+                    "target_speak": "わたしはまいあさほんをよみます"
+                },
+                {
+                    "source": "I read newspaper last week",
+                    "target": "私は先週新聞を読みました (Watashi wa senshū shinbun o yomimashita)",
+                    "target_speak": "わたしはせんしゅうしんぶんをよみました"
+                },
+                {
+                    "source": "I will read a book next week",
+                    "target": "私は来週本を読みます (Watashi wa raishū hon o yomimasu)",
+                    "target_speak": "わたしはらいしゅうほんをよみます"
+                },
+                {
+                    "source": "I'm reading the newspaper now",
+                    "target": "私は今新聞を読んでいます (Watashi wa ima shinbun o yonde imasu)",
+                    "target_speak": "わたしはいましんぶんをよんでいます"
+                }
+            ]
+        },
+        {
+            "name": "2 - write, watch, buy, wash",
+            "words": [
+                {
+                    "source": "i write a letter every night",
+                    "target": "私は毎晩手紙を書きます (Watashi wa maiban tegami o kakimasu)",
+                    "target_speak": "わたしはまいばんてがみをかきます"
+                },
+                {
+                    "source": "i wrote a story last night",
+                    "target": "私は昨夜物語を書きました (Watashi wa sakuya monogatari o kakimashita)",
+                    "target_speak": "わたしはさくやものがたりをかきました"
+                },
+                {
+                    "source": "i will write a letter again",
+                    "target": "私はまた手紙を書きます (Watashi wa mata tegami o kakimasu)",
+                    "target_speak": "わたしはまたてがみをかきます"
+                },
+                {
+                    "source": "i'm writing a story now",
+                    "target": "私は今物語を書いています (Watashi wa ima monogatari o kaite imasu)",
+                    "target_speak": "わたしはいまものがたりをかいています"
+                },
+                {
+                    "source": "I watch a movie every night",
+                    "target": "私は毎晩映画を見ます (Watashi wa maiban eiga o mimasu)",
+                    "target_speak": "わたしはまいばんえいがをみます"
+                },
+                {
+                    "source": "i watched a football match last night",
+                    "target": "私は昨夜サッカーの試合を見ました (Watashi wa sakuya sakkā no shiai o mimashita)",
+                    "target_speak": "わたしはさくやサッカーのしあいをみました"
+                },
+                {
+                    "source": "i will watch a movie again",
+                    "target": "私はまた映画を見ます (Watashi wa mata eiga o mimasu)",
+                    "target_speak": "わたしはまたえいがをみます"
+                },
+                {
+                    "source": "i'm watching a football match now",
+                    "target": "私は今サッカーの試合を見ています (Watashi wa ima sakkā no shiai o mite imasu)",
+                    "target_speak": "わたしはいまサッカーのしあいをみています"
+                },
+                {
+                    "source": "I buy rice every week",
+                    "target": "私は毎週お米を買います (Watashi wa maishū okome o kaimasu)",
+                    "target_speak": "わたしはまいしゅうおこめをかいます"
+                },
+                {
+                    "source": "I bought beef two days ago",
+                    "target": "私は二日前に牛肉を買いました (Watashi wa futsuka mae ni gyūniku o kaimashita)",
+                    "target_speak": "わたしはふつかまえにぎゅうにくをかいました"
+                },
+                {
+                    "source": "I will buy rice next week",
+                    "target": "私は来週お米を買います (Watashi wa raishū okome o kaimasu)",
+                    "target_speak": "わたしはらいしゅうおこめをかいます"
+                },
+                {
+                    "source": "I'm buying beef now",
+                    "target": "私は今牛肉を買っています (Watashi wa ima gyūniku o katte imasu)",
+                    "target_speak": "わたしはいまぎゅうにくをかっています"
+                },
+                {
+                    "source": "I wash my shoes every week",
+                    "target": "私は毎週靴を洗います (Watashi wa maishū kutsu o araimasu)",
+                    "target_speak": "わたしはまいしゅうくつをあらいます"
+                },
+                {
+                    "source": "I washed my pants two days ago",
+                    "target": "私は二日前にズボンを洗いました (Watashi wa futsuka mae ni zubon o araimashita)",
+                    "target_speak": "わたしはふつかまえにズボンをあらいました"
+                },
+                {
+                    "source": "I will wash my shoes next week",
+                    "target": "私は来週靴を洗います (Watashi wa raishū kutsu o araimasu)",
+                    "target_speak": "わたしはらいしゅうくつをあらいます"
+                },
+                {
+                    "source": "I'm washing my pants now",
+                    "target": "私は今ズボンを洗っています (Watashi wa ima zubon o aratte imasu)",
+                    "target_speak": "わたしはいまズボンをあらっています"
+                }
+            ]
+        }
+    ]
+}
