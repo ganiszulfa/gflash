@@ -8,47 +8,58 @@
             "words": [
                 {
                     "source": "hair",
-                    "target": "かみ (kami)"
+                    "target": "かみ (kami)",
+                    "target_speak": "かみ"
                 },
                 {
                     "source": "forehead",
-                    "target": "おでこ (odeko)"
+                    "target": "おでこ (odeko)",
+                    "target_speak": "おでこ"
                 },
                 {
                     "source": "eye",
-                    "target": "め (me)"
+                    "target": "め (me)",
+                    "target_speak": "め"
                 },
                 {
                     "source": "eyelash",
-                    "target": "まつげ (matsuge)"
+                    "target": "まつげ (matsuge)",
+                    "target_speak": "まつげ"
                 },
                 {
                     "source": "nose",
-                    "target": "はな (hana)"
+                    "target": "はな (hana)",
+                    "target_speak": "はな"
                 },
                 {
                     "source": "mouth",
-                    "target": "くち (kuchi)"
+                    "target": "くち (kuchi)",
+                    "target_speak": "くち"
                 },
                 {
                     "source": "ears",
-                    "target": "みみ (mimi)"
+                    "target": "みみ (mimi)",
+                    "target_speak": "みみ"
                 },
                 {
                     "source": "cheek",
-                    "target": "ほっぺ (hoppe)"
+                    "target": "ほっぺ (hoppe)",
+                    "target_speak": "ほっぺ"
                 },
                 {
                     "source": "chin",
-                    "target": "あご (ago)"
+                    "target": "あご (ago)",
+                    "target_speak": "あご"
                 },
                 {
                     "source": "lip",
-                    "target": "くちびる (kuchibiru)"
+                    "target": "くちびる (kuchibiru)",
+                    "target_speak": "くちびる"
                 },
                 {
                     "source": "teeth",
-                    "target": "は (ha)"
+                    "target": "は (ha)",
+                    "target_speak": "は"
                 }
             ]
         },
@@ -57,63 +68,78 @@
             "words": [
                 {
                     "source": "head",
-                    "target": "あたま (atama)"
+                    "target": "あたま (atama)",
+                    "target_speak": "あたま"
                 },
                 {
                     "source": "neck",
-                    "target": "くび (kubi)"
+                    "target": "くび (kubi)",
+                    "target_speak": "くび"
                 },
                 {
                     "source": "shoulder",
-                    "target": "かた (kata)"
+                    "target": "かた (kata)",
+                    "target_speak": "かた"
                 },
                 {
                     "source": "arm",
-                    "target": "うで (ude)"
+                    "target": "うで (ude)",
+                    "target_speak": "うで"
                 },
                 {
                     "source": "hand",
-                    "target": "て (te)"
+                    "target": "て (te)",
+                    "target_speak": "て"
                 },
                 {
                     "source": "armpit",
-                    "target": "わき (waki)"
+                    "target": "わき (waki)",
+                    "target_speak": "わき"
                 },
                 {
                     "source": "wrist",
-                    "target": "てくび (tekubi)"
+                    "target": "てくび (tekubi)",
+                    "target_speak": "てくび"
                 },
                 {
                     "source": "thigh",
-                    "target": "もも (momo)"
+                    "target": "もも (momo)",
+                    "target_speak": "もも"
                 },
                 {
                     "source": "knee",
-                    "target": "ひざ (hiza)"
+                    "target": "ひざ (hiza)",
+                    "target_speak": "ひざ"
                 },
                 {
                     "source": "elbow",
-                    "target": "ひじ (hiji)"
+                    "target": "ひじ (hiji)",
+                    "target_speak": "ひじ"
                 },
                 {
                     "source": "foot / leg",
-                    "target": "あし (ashi)"
+                    "target": "あし (ashi)",
+                    "target_speak": "あし"
                 },
                 {
                     "source": "back",
-                    "target": "せなか (senaka)"
+                    "target": "せなか (senaka)",
+                    "target_speak": "せなか"
                 },
                 {
                     "source": "buttocks",
-                    "target": "おしり (oshiri)"
+                    "target": "おしり (oshiri)",
+                    "target_speak": "おしり"
                 },
                 {
                     "source": "calf",
-                    "target": "ふくらはぎ (fukurahagi)"
+                    "target": "ふくらはぎ (fukurahagi)",
+                    "target_speak": "ふくらはぎ"
                 },
                 {
                     "source": "heel",
-                    "target": "かかと (kakato)"
+                    "target": "かかと (kakato)",
+                    "target_speak": "かかと"
                 }
             ]
         },
@@ -122,55 +148,68 @@
             "words": [
                 {
                     "source": "tooth",
-                    "target": "は (ha)"
+                    "target": "は (ha)",
+                    "target_speak": "は"
                 },
                 {
                     "source": "gum",
-                    "target": "はぐき (haguki)"
+                    "target": "はぐき (haguki)",
+                    "target_speak": "はぐき"
                 },
                 {
                     "source": "uvula",
-                    "target": "のどちんこ (nodo chinko)"
+                    "target": "のどちんこ (nodo chinko)",
+                    "target_speak": "のどちんこ"
                 },
                 {
                     "source": "tongue",
-                    "target": "した (shita)"
+                    "target": "した (shita)",
+                    "target_speak": "した"
                 },
                 {
                     "source": "back tooth",
-                    "target": "おくば (okuba)"
+                    "target": "おくば (okuba)",
+                    "target_speak": "おくば"
                 },
                 {
                     "source": "front tooth",
-                    "target": "まえば (maeba)"
+                    "target": "まえば (maeba)",
+                    "target_speak": "まえば"
                 },
                 {
                     "source": "thumb",
-                    "target": "おやゆび (oyayubi)"
+                    "target": "おやゆび (oyayubi)",
+                    "target_speak": "おやゆび"
                 },
                 {
                     "source": "index finger",
-                    "target": "ひとさしゆび (hitosashiyubi)"
+                    "target": "ひとさしゆび (hitosashiyubi)",
+                    "target_speak": "ひとさしゆび"
                 },
                 {
                     "source": "middle finger",
-                    "target": "なかゆび (nakayubi)"
+                    "target": "なかゆび (nakayubi)",
+                    "target_speak": "なかゆび"
                 },
                 {
                     "source": "ring finger",
-                    "target": "くすりゆび (kusuriyubi)"
+                    "target": "くすりゆび (kusuriyubi)",
+                    "target_speak": "くすりゆび"
                 },
                 {
                     "source": "little finger",
-                    "target": "こゆび (koyubi)"
+                    "target": "こゆび (koyubi)",
+                    "target_speak": "こゆび"
                 },
                 {
                     "source": "palm",
-                    "target": "てのひら (tenohira)"
+                    "target": "てのひら (tenohira)",
+                    "target_speak": "てのひら"
                 },
                 {
                     "source": "finger nail",
-                    "target": "つめ (tsume)"
+                    "target": "つめ (tsume)",
+                    "target_speak": "つめ"
                 }
             ]
         }

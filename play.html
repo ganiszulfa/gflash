@@ -21,11 +21,25 @@
 		}
 
 		@keyframes wiggle {
-			0%, 100% { transform: rotate(0deg); }
-			25% { transform: rotate(5deg) scale(1.1); }
-			50% { transform: rotate(-5deg) scale(1.1); }
-			75% { transform: rotate(5deg) scale(1.1); }
+
+			0%,
+			100% {
+				transform: rotate(0deg);
+			}
+
+			25% {
+				transform: rotate(5deg) scale(1.1);
+			}
+
+			50% {
+				transform: rotate(-5deg) scale(1.1);
+			}
+
+			75% {
+				transform: rotate(5deg) scale(1.1);
+			}
 		}
+
 		.wiggle {
 			animation: wiggle 0.5s ease-in-out infinite;
 			display: inline-block;
@@ -176,6 +190,7 @@
 			let currentQuestionIndex = 0;
 			let currentQuestion = null;
 			let correctAnswer = null;
+			let correctAnswerSpeech = null;
 			let isSource2Target = true;
 			let answerSubmitted = false;
 
@@ -359,10 +374,12 @@
 					$('#question').text(word.source);
 					currentQuestion = word.source;
 					correctAnswer = word.target;
+					correctAnswerSpeech = word.target_speak || word.target;
 				} else {
 					$('#question').text(word.target);
 					currentQuestion = word.target;
 					correctAnswer = word.source;
+					correctAnswerSpeech = word.source_speak || word.source;
 				}
 
 				// Handle answer type
@@ -556,18 +573,18 @@
 						// Read the correct answer after the buzz finishes
 						setTimeout(function () {
 							if (readAnswerSetting !== 'never') {
-								speakText(correctAnswer);
+								speakText(correctAnswerSpeech);
 							}
 						}, 300);
 					} catch (e) {
 						console.error("Web Audio API not supported", e);
 						if (readAnswerSetting !== 'never') {
-							speakText(correctAnswer);
+							speakText(correctAnswerSpeech);
 						}
 					}
 				} else {
 					if (readAnswerSetting === 'always') {
-						speakText(correctAnswer);
+						speakText(correctAnswerSpeech);
 					}
 				}
 				$('#answer').text(currentQuestion + ' = ' + correctAnswer);
@@ -586,25 +603,25 @@
 					shuffleIndexes = generateShuffledRange(currentWords.length);
 					$('#cont_announcement').show();
 					$('#cont_announcement').html('<div class="wiggle">🎉 All items have been shown. We are shuffling again! 🎉</div>');
-					
+
 					// Play congratulatory sound
 					try {
 						const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 						const oscillator = audioCtx.createOscillator();
 						const gainNode = audioCtx.createGain();
 						oscillator.type = 'sine';
-						
+
 						// C Major Arpeggio
 						oscillator.frequency.setValueAtTime(523.25, audioCtx.currentTime); // C5
 						oscillator.frequency.setValueAtTime(659.25, audioCtx.currentTime + 0.15); // E5
 						oscillator.frequency.setValueAtTime(783.99, audioCtx.currentTime + 0.3); // G5
 						oscillator.frequency.setValueAtTime(1046.50, audioCtx.currentTime + 0.45); // C6
-						
+
 						oscillator.connect(gainNode);
 						gainNode.connect(audioCtx.destination);
 						gainNode.gain.setValueAtTime(0.1, audioCtx.currentTime);
 						gainNode.gain.setTargetAtTime(0, audioCtx.currentTime + 0.45, 0.1);
-						
+
 						oscillator.start();
 						oscillator.stop(audioCtx.currentTime + 1);
 					} catch (e) {

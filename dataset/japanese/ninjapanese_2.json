@@ -8,51 +8,63 @@
             "words": [
                 {
                     "source": "eat",
-                    "target": "たべます (tabemasu)"
+                    "target": "たべます (tabemasu)",
+                    "target_speak": "たべます"
                 },
                 {
                     "source": "drink",
-                    "target": "のみます (nomimasu)"
+                    "target": "のみます (nomimasu)",
+                    "target_speak": "のみます"
                 },
                 {
                     "source": "read",
-                    "target": "よみます (yomimasu)"
+                    "target": "よみます (yomimasu)",
+                    "target_speak": "よみます"
                 },
                 {
                     "source": "write",
-                    "target": "かきます (kakimasu)"
+                    "target": "かきます (kakimasu)",
+                    "target_speak": "かきます"
                 },
                 {
                     "source": "speak",
-                    "target": "はなします (hanashimasu)"
+                    "target": "はなします (hanashimasu)",
+                    "target_speak": "はなします"
                 },
                 {
                     "source": "listen",
-                    "target": "ききます (kikimasu)"
+                    "target": "ききます (kikimasu)",
+                    "target_speak": "ききます"
                 },
                 {
                     "source": "ask",
-                    "target": "ききます (kikimasu)"
+                    "target": "ききます (kikimasu)",
+                    "target_speak": "ききます"
                 },
                 {
                     "source": "watch",
-                    "target": "みます (mimasu)"
+                    "target": "みます (mimasu)",
+                    "target_speak": "みます"
                 },
                 {
                     "source": "see/look",
-                    "target": "みます (mimasu)"
+                    "target": "みます (mimasu)",
+                    "target_speak": "みます"
                 },
                 {
                     "source": "sleep",
-                    "target": "ねます (nemasu)"
+                    "target": "ねます (nemasu)",
+                    "target_speak": "ねます"
                 },
                 {
                     "source": "get up",
-                    "target": "おきます (okimasu)"
+                    "target": "おきます (okimasu)",
+                    "target_speak": "おきます"
                 },
                 {
                     "source": "buy",
-                    "target": "かいます (kaimasu)"
+                    "target": "かいます (kaimasu)",
+                    "target_speak": "かいます"
                 }
             ]
         },
@@ -61,51 +73,63 @@
             "words": [
                 {
                     "source": "take (picture)",
-                    "target": "とります (torimasu)"
+                    "target": "とります (torimasu)",
+                    "target_speak": "とります"
                 },
                 {
                     "source": "send",
-                    "target": "おくります (okurimasu)"
+                    "target": "おくります (okurimasu)",
+                    "target_speak": "おくります"
                 },
                 {
                     "source": "work",
-                    "target": "はたらきます (hatarakimasu)"
+                    "target": "はたらきます (hatarakimasu)",
+                    "target_speak": "はたらきます"
                 },
                 {
                     "source": "lose (wallet/something)",
-                    "target": "なくします (nakushimasu)"
+                    "target": "なくします (nakushimasu)",
+                    "target_speak": "なくします"
                 },
                 {
                     "source": "find (wallet/something)",
-                    "target": "みつけます (mitsukemasu)"
+                    "target": "みつけます (mitsukemasu)",
+                    "target_speak": "みつけます"
                 },
                 {
                     "source": "search",
-                    "target": "しらべます (shirabemasu)"
+                    "target": "しらべます (shirabemasu)",
+                    "target_speak": "しらべます"
                 },
                 {
                     "source": "pay",
-                    "target": "はらいます (haraimasu)"
+                    "target": "はらいます (haraimasu)",
+                    "target_speak": "はらいます"
                 },
                 {
                     "source": "think",
-                    "target": "かんがえます (kangaemasu)"
+                    "target": "かんがえます (kangaemasu)",
+                    "target_speak": "かんがえます"
                 },
                 {
                     "source": "wash",
-                    "target": "あらいます (araimasu)"
+                    "target": "あらいます (araimasu)",
+                    "target_speak": "あらいます"
                 },
                 {
                     "source": "swim",
-                    "target": "およぎます (oyogimasu)"
+                    "target": "およぎます (oyogimasu)",
+                    "target_speak": "およぎます"
                 },
                 {
                     "source": "show",
-                    "target": "みせます (misemasu)"
+                    "target": "みせます (misemasu)",
+                    "target_speak": "みせます"
                 },
                 {
                     "source": "sing",
-                    "target": "うたいます (utaimasu)"
+                    "target": "うたいます (utaimasu)",
+                    "target_speak": "うたいます"
                 }
             ]
         },
@@ -114,47 +138,58 @@
             "words": [
                 {
                     "source": "take (shower)",
-                    "target": "あびます (abimasu)"
+                    "target": "あびます (abimasu)",
+                    "target_speak": "あびます"
                 },
                 {
                     "source": "take (bath)",
-                    "target": "はいります (hairimasu)"
+                    "target": "はいります (hairimasu)",
+                    "target_speak": "はいります"
                 },
                 {
                     "source": "smoke",
-                    "target": "すいます (suimasu)"
+                    "target": "すいます (suimasu)",
+                    "target_speak": "すいます"
                 },
                 {
                     "source": "go",
-                    "target": "いきます (ikimasu)"
+                    "target": "いきます (ikimasu)",
+                    "target_speak": "いきます"
                 },
                 {
                     "source": "come",
-                    "target": "きます (kimasu)"
+                    "target": "きます (kimasu)",
+                    "target_speak": "きます"
                 },
                 {
                     "source": "go home",
-                    "target": "かえります (kaerimasu)"
+                    "target": "かえります (kaerimasu)",
+                    "target_speak": "かえります"
                 },
                 {
                     "source": "sell",
-                    "target": "うります (urimasu)"
+                    "target": "うります (urimasu)",
+                    "target_speak": "うります"
                 },
                 {
                     "source": "give",
-                    "target": "あげます (agemasu)"
+                    "target": "あげます (agemasu)",
+                    "target_speak": "あげます"
                 },
                 {
                     "source": "get",
-                    "target": "もらいます (moraimasu)"
+                    "target": "もらいます (moraimasu)",
+                    "target_speak": "もらいます"
                 },
                 {
                     "source": "borrow",
-                    "target": "かります (karimasu)"
+                    "target": "かります (karimasu)",
+                    "target_speak": "かります"
                 },
                 {
                     "source": "lend",
-                    "target": "かします (kashimasu)"
+                    "target": "かします (kashimasu)",
+                    "target_speak": "かします"
                 }
             ]
         },
@@ -163,51 +198,63 @@
             "words": [
                 {
                     "source": "teach",
-                    "target": "おしえます (oshiemasu)"
+                    "target": "おしえます (oshiemasu)",
+                    "target_speak": "おしえます"
                 },
                 {
                     "source": "learn",
-                    "target": "ならいます (naraimasu)"
+                    "target": "ならいます (naraimasu)",
+                    "target_speak": "ならいます"
                 },
                 {
                     "source": "be (human/animal)",
-                    "target": "います (imasu)"
+                    "target": "います (imasu)",
+                    "target_speak": "います"
                 },
                 {
                     "source": "be (things)",
-                    "target": "あります (arimasu)"
+                    "target": "あります (arimasu)",
+                    "target_speak": "あります"
                 },
                 {
                     "source": "understand",
-                    "target": "わかります (wakarimasu)"
+                    "target": "わかります (wakarimasu)",
+                    "target_speak": "わかります"
                 },
                 {
                     "source": "take (day off)",
-                    "target": "やすみます (yasumimasu)"
+                    "target": "やすみます (yasumimasu)",
+                    "target_speak": "やすみます"
                 },
                 {
                     "source": "wait",
-                    "target": "まちます (machimasu)"
+                    "target": "まちます (machimasu)",
+                    "target_speak": "まちます"
                 },
                 {
                     "source": "hold",
-                    "target": "もちます (mochimasu)"
+                    "target": "もちます (mochimasu)",
+                    "target_speak": "もちます"
                 },
                 {
                     "source": "turn on",
-                    "target": "つけます (tsukemasu)"
+                    "target": "つけます (tsukemasu)",
+                    "target_speak": "つけます"
                 },
                 {
                     "source": "turn off",
-                    "target": "けします (keshimasu)"
+                    "target": "けします (keshimasu)",
+                    "target_speak": "けします"
                 },
                 {
                     "source": "open",
-                    "target": "あけます (akemasu)"
+                    "target": "あけます (akemasu)",
+                    "target_speak": "あけます"
                 },
                 {
                     "source": "close",
-                    "target": "しめます (shimemasu)"
+                    "target": "しめます (shimemasu)",
+                    "target_speak": "しめます"
                 }
             ]
         },
@@ -216,51 +263,63 @@
             "words": [
                 {
                     "source": "sit",
-                    "target": "すわります (suwarimasu)"
+                    "target": "すわります (suwarimasu)",
+                    "target_speak": "すわります"
                 },
                 {
                     "source": "stand",
-                    "target": "たちます (tachimasu)"
+                    "target": "たちます (tachimasu)",
+                    "target_speak": "たちます"
                 },
                 {
                     "source": "help",
-                    "target": "てつだいます (tetsudaimasu)"
+                    "target": "てつだいます (tetsudaimasu)",
+                    "target_speak": "てつだいます"
                 },
                 {
                     "source": "leave (a place)",
-                    "target": "でます (demasu)"
+                    "target": "でます (demasu)",
+                    "target_speak": "でます"
                 },
                 {
                     "source": "use",
-                    "target": "つかいます (tsukaimasu)"
+                    "target": "つかいます (tsukaimasu)",
+                    "target_speak": "つかいます"
                 },
                 {
                     "source": "make",
-                    "target": "つくります (tsukurimasu)"
+                    "target": "つくります (tsukurimasu)",
+                    "target_speak": "つくります"
                 },
                 {
                     "source": "see/meet",
-                    "target": "あいます (aimasu)"
+                    "target": "あいます (aimasu)",
+                    "target_speak": "あいます"
                 },
                 {
                     "source": "remember",
-                    "target": "おぼえます (oboemasu)"
+                    "target": "おぼえます (oboemasu)",
+                    "target_speak": "おぼえます"
                 },
                 {
                     "source": "forget",
-                    "target": "わすれます (wasuremasu)"
+                    "target": "わすれます (wasuremasu)",
+                    "target_speak": "わすれます"
                 },
                 {
                     "source": "live",
-                    "target": "すみます (sumimasu)"
+                    "target": "すみます (sumimasu)",
+                    "target_speak": "すみます"
                 },
                 {
                     "source": "throw away",
-                    "target": "すてます (sutemasu)"
+                    "target": "すてます (sutemasu)",
+                    "target_speak": "すてます"
                 },
                 {
                     "source": "fix",
-                    "target": "なおします (naoshimasu)"
+                    "target": "なおします (naoshimasu)",
+                    "target_speak": "なおします"
                 }
             ]
         },
@@ -269,47 +328,58 @@
             "words": [
                 {
                     "source": "study",
-                    "target": "べんきょうします (benkyou shimasu)"
+                    "target": "べんきょうします (benkyou shimasu)",
+                    "target_speak": "べんきょうします"
                 },
                 {
                     "source": "clean",
-                    "target": "そうじします (souji shimasu)"
+                    "target": "そうじします (souji shimasu)",
+                    "target_speak": "そうじします"
                 },
                 {
                     "source": "get married",
-                    "target": "けっこんします (kekkon shimasu)"
+                    "target": "けっこんします (kekkon shimasu)",
+                    "target_speak": "けっこんします"
                 },
                 {
                     "source": "call",
-                    "target": "でんわします (denwa shimasu)"
+                    "target": "でんわします (denwa shimasu)",
+                    "target_speak": "でんわします"
                 },
                 {
                     "source": "cook",
-                    "target": "りょうりします (ryouri shimasu)"
+                    "target": "りょうりします (ryouri shimasu)",
+                    "target_speak": "りょうりします"
                 },
                 {
                     "source": "wear (makeup)",
-                    "target": "けしょうします (keshou shimasu)"
+                    "target": "けしょうします (keshou shimasu)",
+                    "target_speak": "けしょうします"
                 },
                 {
                     "source": "play (game)",
-                    "target": "ゲームします (ge-mu shimasu)"
+                    "target": "ゲームします (ge-mu shimasu)",
+                    "target_speak": "ゲームします"
                 },
                 {
                     "source": "travel",
-                    "target": "りょこうします (ryokou shimasu)"
+                    "target": "りょこうします (ryokou shimasu)",
+                    "target_speak": "りょこうします"
                 },
                 {
                     "source": "drive",
-                    "target": "うんてんします (unten shimasu)"
+                    "target": "うんてんします (unten shimasu)",
+                    "target_speak": "うんてんします"
                 },
                 {
                     "source": "explain",
-                    "target": "せつめいします (setsumei shimasu)"
+                    "target": "せつめいします (setsumei shimasu)",
+                    "target_speak": "せつめいします"
                 },
                 {
                     "source": "practice",
-                    "target": "れんしゅうします (renshuu shimasu)"
+                    "target": "れんしゅうします (renshuu shimasu)",
+                    "target_speak": "れんしゅうします"
                 }
             ]
         }

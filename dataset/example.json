@@ -8,11 +8,13 @@
             "words": [
                 {
                     "source": "Hello",
-                    "target": "안녕하세요"
+                    "target": "안녕하세요",
+                    "target_speak": "안녕하세요"
                 },
                 {
                     "source": "Goodbye",
-                    "target": "안녕히 가세요"
+                    "target": "안녕히 가세요",
+                    "target_speak": "안녕히 가세요"
                 }
             ]
         }
