@@ -1,0 +1,287 @@
+{
+    "name": "Hiragana 1",
+    "source_name": "English",
+    "target_name": "Japanese",
+    "packs": [
+        {
+            "name": "1 - Monographs a, i, u, e, o",
+            "words": [
+                {
+                    "source": "a",
+                    "target": "あ",
+                    "target_speak": "あ"
+                },
+                {
+                    "source": "i",
+                    "target": "い",
+                    "target_speak": "い"
+                },
+                {
+                    "source": "u",
+                    "target": "う",
+                    "target_speak": "う"
+                },
+                {
+                    "source": "e",
+                    "target": "え",
+                    "target_speak": "え"
+                },
+                {
+                    "source": "o",
+                    "target": "お",
+                    "target_speak": "お"
+                }
+            ]
+        },
+        {
+            "name": "2 - Monographs ka, ki, ku, ke, ko",
+            "words": [
+                {
+                    "source": "ka",
+                    "target": "か",
+                    "target_speak": "か"
+                },
+                {
+                    "source": "ki",
+                    "target": "き",
+                    "target_speak": "き"
+                },
+                {
+                    "source": "ku",
+                    "target": "く",
+                    "target_speak": "く"
+                },
+                {
+                    "source": "ke",
+                    "target": "け",
+                    "target_speak": "け"
+                },
+                {
+                    "source": "ko",
+                    "target": "こ",
+                    "target_speak": "こ"
+                }
+            ]
+        },
+        {
+            "name": "3 - Monographs sa, shi, su, se, so",
+            "words": [
+                {
+                    "source": "sa",
+                    "target": "さ",
+                    "target_speak": "さ"
+                },
+                {
+                    "source": "shi",
+                    "target": "し",
+                    "target_speak": "し"
+                },
+                {
+                    "source": "su",
+                    "target": "す",
+                    "target_speak": "す"
+                },
+                {
+                    "source": "se",
+                    "target": "せ",
+                    "target_speak": "せ"
+                },
+                {
+                    "source": "so",
+                    "target": "そ",
+                    "target_speak": "そ"
+                }
+            ]
+        },
+        {
+            "name": "4 - Monographs ta, chi, tsu, te, to",
+            "words": [
+                {
+                    "source": "ta",
+                    "target": "た",
+                    "target_speak": "た"
+                },
+                {
+                    "source": "chi",
+                    "target": "ち",
+                    "target_speak": "ち"
+                },
+                {
+                    "source": "tsu",
+                    "target": "つ",
+                    "target_speak": "つ"
+                },
+                {
+                    "source": "te",
+                    "target": "て",
+                    "target_speak": "て"
+                },
+                {
+                    "source": "to",
+                    "target": "と",
+                    "target_speak": "と"
+                }
+            ]
+        },
+        {
+            "name": "5 - Monographs na, ni, nu, ne, no",
+            "words": [
+                {
+                    "source": "na",
+                    "target": "な",
+                    "target_speak": "な"
+                },
+                {
+                    "source": "ni",
+                    "target": "に",
+                    "target_speak": "に"
+                },
+                {
+                    "source": "nu",
+                    "target": "ぬ",
+                    "target_speak": "ぬ"
+                },
+                {
+                    "source": "ne",
+                    "target": "ね",
+                    "target_speak": "ね"
+                },
+                {
+                    "source": "no",
+                    "target": "の",
+                    "target_speak": "の"
+                }
+            ]
+        },
+        {
+            "name": "6 - Monographs ha, hi, fu, he, ho",
+            "words": [
+                {
+                    "source": "ha",
+                    "target": "は",
+                    "target_speak": "は"
+                },
+                {
+                    "source": "hi",
+                    "target": "ひ",
+                    "target_speak": "ひ"
+                },
+                {
+                    "source": "fu",
+                    "target": "ふ",
+                    "target_speak": "ふ"
+                },
+                {
+                    "source": "he",
+                    "target": "へ",
+                    "target_speak": "へ"
+                },
+                {
+                    "source": "ho",
+                    "target": "ほ",
+                    "target_speak": "ほ"
+                }
+            ]
+        },
+        {
+            "name": "7 - Monographs ma, mi, mu, me, mo",
+            "words": [
+                {
+                    "source": "ma",
+                    "target": "ま",
+                    "target_speak": "ま"
+                },
+                {
+                    "source": "mi",
+                    "target": "み",
+                    "target_speak": "み"
+                },
+                {
+                    "source": "mu",
+                    "target": "む",
+                    "target_speak": "む"
+                },
+                {
+                    "source": "me",
+                    "target": "め",
+                    "target_speak": "め"
+                },
+                {
+                    "source": "mo",
+                    "target": "も",
+                    "target_speak": "も"
+                }
+            ]
+        },
+        {
+            "name": "8 - Monographs ya, yu, yo",
+            "words": [
+                {
+                    "source": "ya",
+                    "target": "や",
+                    "target_speak": "や"
+                },
+                {
+                    "source": "yu",
+                    "target": "ゆ",
+                    "target_speak": "ゆ"
+                },
+                {
+                    "source": "yo",
+                    "target": "よ",
+                    "target_speak": "よ"
+                }
+            ]
+        },
+        {
+            "name": "9 - Monographs ra, ri, ru, re, ro",
+            "words": [
+                {
+                    "source": "ra",
+                    "target": "ら",
+                    "target_speak": "ら"
+                },
+                {
+                    "source": "ri",
+                    "target": "り",
+                    "target_speak": "り"
+                },
+                {
+                    "source": "ru",
+                    "target": "る",
+                    "target_speak": "る"
+                },
+                {
+                    "source": "re",
+                    "target": "れ",
+                    "target_speak": "れ"
+                },
+                {
+                    "source": "ro",
+                    "target": "ろ",
+                    "target_speak": "ろ"
+                }
+            ]
+        },
+        {
+            "name": "10 - Monographs wa, wo, n",
+            "words": [
+                {
+                    "source": "wa",
+                    "target": "わ",
+                    "target_speak": "わ"
+                },
+                {
+                    "source": "wo",
+                    "target": "を",
+                    "target_speak": "を"
+                },
+                {
+                    "source": "n",
+                    "target": "ん",
+                    "target_speak": "ん"
+                }
+            ]
+        }
+    ]
+}

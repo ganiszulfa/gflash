@@ -138,6 +138,10 @@
                 "file": "dataset/japanese/ninjapanese_2.json"
             },
             {
+                "name": "Hiragana",
+                "file": "dataset/japanese/hiragana_1.json"
+            },
+            {
                 "name": "Daily Verbs tenses 1",
                 "file": "dataset/japanese/daily_verbs_tenses_1.json"
             }

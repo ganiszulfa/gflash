@@ -140,6 +140,11 @@
 						<td><a target="_blank" id="choice_c" title=""></a></td>
 						<td><input class="answer_choice choice_c" type="radio" name="answer_choice" value="2" /></td>
 					</tr>
+					<tr style="height: 45px;">
+						<td><input class="answer_choice choice_d" type="radio" name="answer_choice" value="3" />(4)</td>
+						<td><a target="_blank" id="choice_d" title=""></a></td>
+						<td><input class="answer_choice choice_d" type="radio" name="answer_choice" value="3" /></td>
+					</tr>
 
 				</table>
 
@@ -161,7 +166,7 @@
 		<div id="cont_announcement" style="display:none;font-size: 18px;font-weight: bold;color: red;">
 		</div>
 		<div id="cont_mul_cho" style="display:none">
-			<p>You can also use your 1,2,3 keyboard to select the option.
+			<p>You can also use your 1,2,3,4 keyboard to select the option.
 			</p>
 		</div>
 		<div id="cont_about" style="display:none">
@@ -172,6 +177,10 @@
 			<p><span id="q_cnt"></span> question(s) are given</p>
 			<p>your last 20 answers:<br /><span id="form">--------------------</span></p>
 			<p>your total form: <span id="form2">0</span>% correct answers</p>
+			<div id="cont_wrong_answers" style="margin-top: 15px; border-top: 1px solid #D0D0D0; padding-top: 10px;">
+				<p style="font-weight: bold; margin-bottom: 5px;">Wrong answers:</p>
+				<ul id="wrong_answers_list"></ul>
+			</div>
 		</div>
 		<p class="footer">
 			<a href="./" style="float: left;">BACK TO MENU</a>
@@ -199,6 +208,8 @@
 			let correctAnswers = 0;
 			let last20Answers = [];
 			let shuffleIndexes = [];
+			let wrongAnswers = {};
+			let statTimeout = null;
 
 			// Get dataset parameter from URL
 			function getUrlParameter(name) {
@@ -329,7 +340,7 @@
 					console.log('Shuffle indexes:', shuffleIndexes);
 
 					// Reset show/hide words button and hide words list when pack changes
-					$('#show_words').text('Show');
+					$('#show_words').text('Show ' + currentWords.length + ' words');
 					$('#cont_words').hide();
 
 					loadQuestion();
@@ -360,7 +371,7 @@
 				answerSubmitted = false;
 
 				// Clear any existing highlights
-				$('#choice_a, #choice_b, #choice_c').removeClass('correct-answer wrong-answer');
+				$('#choice_a, #choice_b, #choice_c, #choice_d').removeClass('correct-answer wrong-answer');
 
 				// Get random word
 				currentQuestionIndex = currentQuestionIndex % shuffleIndexes.length;
@@ -448,6 +459,8 @@
 				$('#choice_a').text('').attr('title', '');
 				$('#choice_b').text('').attr('title', '');
 				$('#choice_c').text('').attr('title', '');
+				$('#choice_d').text('').attr('title', '');
+				$('.answer_choice').val('');
 
 				let waitTime = 800 + currentQuestion.length * 100;
 				$('#your_answer_text').text('Your answer (Will be shown in ' + waitTime / 1000 + ' seconds):');
@@ -458,10 +471,12 @@
 					$('#choice_a').text(options[0]).attr('title', options[0]);
 					$('#choice_b').text(options[1]).attr('title', options[1]);
 					$('#choice_c').text(options[2]).attr('title', options[2]);
+					$('#choice_d').text('Don\'t Know').attr('title', 'Don\'t Know');
 
 					$('.answer_choice.choice_a').val(options[0]);
 					$('.answer_choice.choice_b').val(options[1]);
 					$('.answer_choice.choice_c').val(options[2]);
+					$('.answer_choice.choice_d').val('Don\'t Know');
 				}, waitTime);
 
 				// Clear previous selection
@@ -549,6 +564,17 @@
 				var resetAnswerTimer = 2000;
 				const readAnswerSetting = $('input[name="read_answer"]:checked').val();
 				if (!isCorrect) {
+					// Track frequency of wrong answers
+					const key = currentQuestion + ':::' + correctAnswer;
+					if (!wrongAnswers[key]) {
+						wrongAnswers[key] = {
+							question: currentQuestion,
+							answer: correctAnswer,
+							count: 0
+						};
+					}
+					wrongAnswers[key].count++;
+
 					resetAnswerTimer = 5000;
 
 					// Make question red for 2 seconds
@@ -639,8 +665,8 @@
 					updateStatisticsDisplay();
 					$('#cont_stat').show();
 
-					// Auto-hide statistics after 5 seconds
-					setTimeout(function () {
+					if (statTimeout) clearTimeout(statTimeout);
+					statTimeout = setTimeout(function () {
 						$('#cont_stat').hide();
 					}, 5000);
 				}
@@ -651,10 +677,10 @@
 				console.log('highlightCorrectAnswer called, isCorrect:', isCorrect);
 				console.log('highlightCorrectAnswer called, userAnswer:', userAnswer);
 				// Remove any existing highlights
-				$('#choice_a, #choice_b, #choice_c').removeClass('correct-answer wrong-answer');
+				$('#choice_a, #choice_b, #choice_c, #choice_d').removeClass('correct-answer wrong-answer');
 
 				// Find and highlight the correct answer
-				$('#choice_a, #choice_b, #choice_c').each(function () {
+				$('#choice_a, #choice_b, #choice_c, #choice_d').each(function () {
 					const choiceText = $(this).text();
 					if (choiceText === correctAnswer) {
 						$(this).addClass('correct-answer');
@@ -697,6 +723,13 @@
 						setTimeout(function () {
 							checkUserAnswer();
 						}, 100);
+					} else if (e.which === 52 || e.keyCode === 52) { // Key '4'
+						console.log('Key 4 pressed');
+						$('input.answer_choice.choice_d').prop('checked', true);
+						// Trigger answer checking after selection
+						setTimeout(function () {
+							checkUserAnswer();
+						}, 100);
 					}
 				}
 			});
@@ -707,6 +740,32 @@
 				$('#form').text(last20Answers.join(''));
 				const percentage = totalQuestions > 0 ? Math.round((correctAnswers / totalQuestions) * 100) : 0;
 				$('#form2').text(percentage);
+
+				// Update wrong answers list ordered by most frequent wrong answer
+				const $wrongList = $('#wrong_answers_list');
+				$wrongList.empty();
+
+				const wrongKeys = Object.keys(wrongAnswers);
+				if (wrongKeys.length === 0) {
+					$wrongList.append('<li style="color: #888;">No wrong answers yet</li>');
+				} else {
+					const sortedWrong = wrongKeys.map(function (k) {
+						return wrongAnswers[k];
+					}).sort(function (a, b) {
+						if (b.count !== a.count) {
+							return b.count - a.count;
+						}
+						return a.question.localeCompare(b.question);
+					});
+
+					sortedWrong.forEach(function (item) {
+						const $li = $('<li></li>');
+						const $q = $('<strong></strong>').text(item.question);
+						const $freq = $('<span class="wrong_freq"></span>').text(' (Frequency: ' + item.count + ')');
+						$li.append($q).append(document.createTextNode(' = ' + item.answer + ' ')).append($freq);
+						$wrongList.append($li);
+					});
+				}
 			}
 
 			// Populate the words list
@@ -726,13 +785,18 @@
 			// Handle statistics link click
 			$('#write_stat').click(function (e) {
 				e.preventDefault();
-				updateStatisticsDisplay();
-				$('#cont_stat').show();
-
-				// Auto-hide statistics after 5 seconds
-				setTimeout(function () {
+				if ($('#cont_stat').is(':visible')) {
 					$('#cont_stat').hide();
-				}, 5000);
+					if (statTimeout) clearTimeout(statTimeout);
+				} else {
+					updateStatisticsDisplay();
+					$('#cont_stat').show();
+
+					if (statTimeout) clearTimeout(statTimeout);
+					statTimeout = setTimeout(function () {
+						$('#cont_stat').hide();
+					}, 15000);
+				}
 			});
 
 			// Handle about link click
@@ -755,7 +819,7 @@
 				if (wordsContainer.is(':visible')) {
 					// Hide the words list
 					wordsContainer.hide();
-					showWordsLink.text('Show');
+					showWordsLink.text('Show ' + currentWords.length + ' words');
 				} else {
 					// Show the words list
 					if (currentWords && currentWords.length > 0) {
@@ -901,6 +965,7 @@
 			setupClipboardCopy('#choice_a', true);
 			setupClipboardCopy('#choice_b', true);
 			setupClipboardCopy('#choice_c', true);
+			setupClipboardCopy('#choice_d', false);
 
 			// Load voices when they become available (some browsers load voices asynchronously)
 			if ('speechSynthesis' in window) {
